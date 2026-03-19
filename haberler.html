@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hukuki Haberler | Av. Levent Mutlu - İstanbul Hukuk Bürosu</title>
+  <meta name="description" content="Güncel hukuki haberler, yeni yargı kararları ve hukuk dünyasındaki gelişmeler. Av. Levent Mutlu Hukuk Bürosu.">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bordo: #6B1A1A; --bordo-koyu: #4A1010; --bordo-acik: #8B2A2A;
+      --krem: #F5EFE0; --krem-koyu: #E8DCC8;
+      --altin: #B8943F; --altin-acik: #D4AF60;
+      --metin: #2C1810; --metin-acik: #5C3D2E; --beyaz: #FDFAF5;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Montserrat', sans-serif; background: var(--beyaz); color: var(--metin); }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: var(--bordo-koyu); border-bottom: 1px solid var(--altin);
+      padding: 0 5%; display: flex; align-items: center;
+      justify-content: space-between; height: 68px;
+    }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 500; color: var(--krem); letter-spacing: 0.08em; text-decoration: none; }
+    .nav-logo span { color: var(--altin-acik); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { font-size: 0.68rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--krem-koyu); text-decoration: none; transition: color 0.3s; }
+    .nav-links a:hover, .nav-links a.aktif { color: var(--altin-acik); }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 5px; background: none; border: none; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--krem); }
+    .mobil-menu { display: none; position: fixed; top: 68px; left: 0; right: 0; background: var(--bordo-koyu); border-bottom: 1px solid var(--altin); z-index: 99; padding: 0.5rem 5%; flex-direction: column; }
+    .mobil-menu.acik { display: flex; }
+    .mobil-menu a { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--krem-koyu); text-decoration: none; padding: 1rem 0; border-bottom: 1px solid rgba(184,148,63,0.15); transition: color 0.3s; }
+    .mobil-menu a:last-child { border-bottom: none; }
+    .mobil-menu a:hover { color: var(--altin-acik); }
+
+    .sayfa-baslik {
+      padding: 10rem 5% 5rem; background: var(--bordo-koyu);
+      text-align: center; position: relative; overflow: hidden;
+    }
+    .sayfa-baslik::after {
+      content: '§'; position: absolute; right: 3%; bottom: -10%;
+      font-family: 'Cormorant Garamond', serif; font-size: 18rem;
+      color: rgba(184,148,63,0.05); pointer-events: none;
+    }
+    .sayfa-baslik p { font-size: 0.62rem; font-weight: 500; letter-spacing: 0.3em; text-transform: uppercase; color: var(--altin); margin-bottom: 1rem; }
+    .sayfa-baslik h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 300; color: var(--krem); }
+    .sayfa-baslik h1 em { font-style: italic; color: var(--altin-acik); }
+
+    .haberler-wrapper { max-width: 1100px; margin: 0 auto; padding: 4rem 5%; display: grid; grid-template-columns: 1fr 340px; gap: 4rem; align-items: start; }
+
+    /* Sol - Haberler */
+    .haber-listesi { display: flex; flex-direction: column; gap: 0; }
+    .haber-kart {
+      display: grid; grid-template-columns: 100px 1fr;
+      gap: 1.5rem; padding: 2rem 0;
+      border-bottom: 1px solid var(--krem-koyu);
+      text-decoration: none; transition: all 0.3s;
+    }
+    .haber-kart:first-child { border-top: 1px solid var(--krem-koyu); }
+    .haber-kart:hover { padding-left: 0.8rem; }
+    .haber-tarih-col {
+      display: flex; flex-direction: column; align-items: center;
+      justify-content: flex-start; padding-top: 0.2rem; gap: 0.3rem;
+    }
+    .haber-gun { font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; font-weight: 300; color: var(--bordo); line-height: 1; }
+    .haber-ay { font-size: 0.6rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--altin); }
+    .haber-icerik {}
+    .haber-kategori { font-size: 0.6rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--bordo-acik); margin-bottom: 0.5rem; display: block; }
+    .haber-baslik { font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; font-weight: 400; color: var(--bordo-koyu); line-height: 1.3; margin-bottom: 0.5rem; transition: color 0.3s; }
+    .haber-kart:hover .haber-baslik { color: var(--bordo-acik); }
+    .haber-ozet { font-size: 0.8rem; font-weight: 300; color: var(--metin-acik); line-height: 1.7; margin-bottom: 0.5rem; }
+    .haber-kaynak { font-size: 0.65rem; color: rgba(92,61,46,0.5); letter-spacing: 0.05em; }
+
+    /* RSS Haberler */
+    .rss-bolum { margin-top: 3rem; }
+    .rss-baslik { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 400; color: var(--bordo-koyu); margin-bottom: 1.5rem; padding-bottom: 0.8rem; border-bottom: 2px solid var(--bordo); }
+    .rss-haber {
+      padding: 1rem 0; border-bottom: 1px solid var(--krem-koyu);
+      text-decoration: none; display: block; transition: padding-left 0.3s;
+    }
+    .rss-haber:hover { padding-left: 0.5rem; }
+    .rss-haber-baslik { font-size: 0.85rem; font-weight: 500; color: var(--bordo-koyu); line-height: 1.4; margin-bottom: 0.3rem; transition: color 0.3s; }
+    .rss-haber:hover .rss-haber-baslik { color: var(--bordo-acik); }
+    .rss-haber-tarih { font-size: 0.65rem; color: var(--altin); }
+    .rss-yukleniyor { font-size: 0.82rem; color: var(--metin-acik); font-style: italic; padding: 1rem 0; }
+
+    /* Sağ - Sidebar */
+    .sidebar {}
+    .sidebar-widget { margin-bottom: 2.5rem; }
+    .sidebar-baslik {
+      font-family: 'Cormorant Garamond', serif; font-size: 1.2rem;
+      font-weight: 500; color: var(--bordo-koyu);
+      border-bottom: 2px solid var(--bordo); padding-bottom: 0.6rem;
+      margin-bottom: 1.2rem;
+    }
+    .kategori-btn {
+      display: block; padding: 0.6rem 1rem; margin-bottom: 0.4rem;
+      border: 1px solid var(--krem-koyu); background: transparent;
+      color: var(--metin-acik); font-size: 0.75rem; font-family: 'Montserrat', sans-serif;
+      cursor: pointer; text-align: left; transition: all 0.3s; width: 100%;
+    }
+    .kategori-btn:hover, .kategori-btn.aktif { background: var(--bordo); color: var(--krem); border-color: var(--bordo); }
+    .iletisim-kutu {
+      background: var(--bordo-koyu); padding: 1.5rem;
+      border: 1px solid rgba(184,148,63,0.3);
+    }
+    .iletisim-kutu p { font-family: 'Cormorant Garamond', serif; font-size: 1rem; font-style: italic; color: var(--krem); margin-bottom: 1rem; line-height: 1.5; }
+    .iletisim-kutu a { display: block; padding: 0.7rem 1rem; background: var(--altin); color: var(--bordo-koyu); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; text-align: center; transition: background 0.3s; }
+    .iletisim-kutu a:hover { background: var(--altin-acik); }
+
+    footer {
+      background: var(--bordo-koyu); border-top: 1px solid rgba(184,148,63,0.2);
+      padding: 2rem 5%; display: flex; align-items: center; justify-content: space-between;
+    }
+    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: rgba(245,239,224,0.5); }
+    .footer-hukuk { font-size: 0.65rem; color: rgba(245,239,224,0.3); }
+
+    .whatsapp-btn {
+      position: fixed; bottom: 28px; right: 28px;
+      width: 58px; height: 58px; background: #25D366;
+      border-radius: 50%; display: flex; align-items: center;
+      justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      z-index: 999; text-decoration: none; font-size: 28px; transition: transform 0.3s;
+    }
+    .whatsapp-btn:hover { transform: scale(1.1); }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .haberler-wrapper { grid-template-columns: 1fr; }
+      .haber-kart { grid-template-columns: 70px 1fr; gap: 1rem; }
+      footer { flex-direction: column; gap: 1rem; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Av. <span>Levent Mutlu</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html#hakkimda">Hakkımda</a></li>
+      <li><a href="index.html#uzmanlik">Uzmanlık</a></li>
+      <li><a href="makaleler.html">Makaleler</a></li>
+      <li><a href="dilekce.html">Dilekçeler</a></li>
+      <li><a href="haberler.html" class="aktif">Haberler</a></li>
+      <li><a href="index.html#iletisim">İletişim</a></li>
+    </ul>
+    <button class="hamburger" onclick="menuAc()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobil-menu" id="mobilMenu">
+    <a href="index.html#hakkimda" onclick="menuKapat()">Hakkımda</a>
+    <a href="index.html#uzmanlik" onclick="menuKapat()">Uzmanlık</a>
+    <a href="makaleler.html" onclick="menuKapat()">Makaleler</a>
+    <a href="dilekce.html" onclick="menuKapat()">Dilekçeler</a>
+    <a href="haberler.html" onclick="menuKapat()">Haberler</a>
+    <a href="index.html#iletisim" onclick="menuKapat()">İletişim</a>
+  </div>
+
+  <div class="sayfa-baslik">
+    <p>Güncel Gelişmeler</p>
+    <h1>Hukuki <em>Haberler</em></h1>
+  </div>
+
+  <div class="haberler-wrapper">
+    <!-- Sol: Haberler -->
+    <div>
+      <div class="haber-listesi" id="haberListesi">
+        <p style="color:var(--metin-acik);font-style:italic">Yükleniyor...</p>
+      </div>
+
+      <!-- RSS Haberler -->
+      <div class="rss-bolum">
+        <div class="rss-baslik">Güncel Haber Akışı</div>
+        <div id="rssHaberler">
+          <p class="rss-yukleniyor">Haberler yükleniyor...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sağ: Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-widget">
+        <div class="sidebar-baslik">Kategoriler</div>
+        <button class="kategori-btn aktif" onclick="filtrele('tumu', this)">Tümü</button>
+        <button class="kategori-btn" onclick="filtrele('Ceza Hukuku', this)">Ceza Hukuku</button>
+        <button class="kategori-btn" onclick="filtrele('Aile Hukuku', this)">Aile Hukuku</button>
+        <button class="kategori-btn" onclick="filtrele('İş Hukuku', this)">İş Hukuku</button>
+        <button class="kategori-btn" onclick="filtrele('Miras Hukuku', this)">Miras Hukuku</button>
+      </div>
+
+      <div class="sidebar-widget">
+        <div class="iletisim-kutu">
+          <p>Hukuki bir sorunuz mu var? İlk görüşme ücretsiz.</p>
+          <a href="tel:+905459594845">📞 Hemen Arayın</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo">Av. Levent Mutlu</div>
+    <div class="footer-hukuk">© 2026 · Tüm hakları saklıdır · İstanbul</div>
+  </footer>
+
+  <a class="whatsapp-btn" href="https://wa.me/905459594845" target="_blank">💬</a>
+
+  <script>
+    function menuAc() { document.getElementById('mobilMenu').classList.toggle('acik'); }
+    function menuKapat() { document.getElementById('mobilMenu').classList.remove('acik'); }
+
+    var tumHaberler = [];
+
+    function tarihParcala(tarih) {
+      var parcalar = tarih.split(' ');
+      return { gun: parcalar[0], ay: parcalar[1] + ' ' + parcalar[2] };
+    }
+
+    function goster(haberler) {
+      var liste = document.getElementById('haberListesi');
+      if (!haberler.length) {
+        liste.innerHTML = '<p style="color:var(--metin-acik);font-style:italic">Bu kategoride haber bulunmuyor.</p>';
+        return;
+      }
+      liste.innerHTML = haberler.map(function(h) {
+        var t = tarihParcala(h.tarih);
+        var link = h.link ? 'href="' + h.link + '" target="_blank"' : 'href="#"';
+        return '<a ' + link + ' class="haber-kart">' +
+          '<div class="haber-tarih-col">' +
+            '<span class="haber-gun">' + t.gun + '</span>' +
+            '<span class="haber-ay">' + t.ay + '</span>' +
+          '</div>' +
+          '<div class="haber-icerik">' +
+            '<span class="haber-kategori">' + h.kategori + '</span>' +
+            '<div class="haber-baslik">' + h.baslik + '</div>' +
+            '<p class="haber-ozet">' + h.ozet + '</p>' +
+            '<span class="haber-kaynak">Kaynak: ' + h.kaynak + '</span>' +
+          '</div>' +
+        '</a>';
+      }).join('');
+    }
+
+    function filtrele(kategori, btn) {
+      document.querySelectorAll('.kategori-btn').forEach(function(b) { b.classList.remove('aktif'); });
+      btn.classList.add('aktif');
+      if (kategori === 'tumu') goster(tumHaberler);
+      else goster(tumHaberler.filter(function(h) { return h.kategori === kategori; }));
+    }
+
+    async function yukle() {
+      try {
+        var res = await fetch('haberler.json?t=' + Date.now());
+        tumHaberler = await res.json();
+        goster(tumHaberler);
+      } catch(e) {
+        document.getElementById('haberListesi').innerHTML = '<p style="color:var(--metin-acik)">Haberler yüklenemedi.</p>';
+      }
+    }
+
+    // Google News RSS - hukuk haberleri
+    async function rssYukle() {
+      var rssDiv = document.getElementById('rssHaberler');
+      try {
+        var rssUrl = 'https://news.google.com/rss/search?q=turkiye+hukuk+yargitay&hl=tr&gl=TR&ceid=TR:tr';
+        var apiUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rssUrl) + '&count=8';
+        var res = await fetch(apiUrl);
+        var data = await res.json();
+        if (data.items && data.items.length) {
+          rssDiv.innerHTML = data.items.map(function(item) {
+            var tarih = new Date(item.pubDate).toLocaleDateString('tr-TR');
+            return '<a href="' + item.link + '" target="_blank" class="rss-haber">' +
+              '<div class="rss-haber-baslik">' + item.title + '</div>' +
+              '<div class="rss-haber-tarih">' + tarih + ' · ' + (item.author || 'Google Haberler') + '</div>' +
+            '</a>';
+          }).join('');
+        } else {
+          rssDiv.innerHTML = '<p class="rss-yukleniyor">Haberler şu an yüklenemiyor.</p>';
+        }
+      } catch(e) {
+        rssDiv.innerHTML = '<p class="rss-yukleniyor">Güncel haberler yüklenemedi.</p>';
+      }
+    }
+
+    yukle();
+    rssYukle();
+  </script>
+</body>
+</html>
