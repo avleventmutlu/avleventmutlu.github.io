@@ -437,6 +437,112 @@
     }
     .whatsapp-btn:hover { transform: scale(1.1); }
 
+
+    .chat-btn {
+      position: fixed;
+      bottom: 96px;
+      right: 28px;
+      width: 58px;
+      height: 58px;
+      background: var(--bordo);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      z-index: 999;
+      cursor: pointer;
+      border: none;
+      font-size: 24px;
+      transition: transform 0.3s;
+    }
+    .chat-btn:hover { transform: scale(1.1); }
+    .chat-pencere {
+      position: fixed;
+      bottom: 170px;
+      right: 28px;
+      width: 320px;
+      max-height: 480px;
+      background: var(--beyaz);
+      border: 1px solid var(--altin);
+      border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+      z-index: 998;
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .chat-pencere.acik { display: flex; }
+    .chat-header {
+      background: var(--bordo-koyu);
+      padding: 1rem 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .chat-header span {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      color: var(--krem);
+      font-weight: 500;
+    }
+    .chat-kapat {
+      background: none;
+      border: none;
+      color: var(--altin);
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+    .chat-mesajlar {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+    .chat-mesaj {
+      padding: 0.7rem 1rem;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      line-height: 1.6;
+      max-width: 90%;
+    }
+    .chat-mesaj.bot {
+      background: var(--krem);
+      color: var(--metin);
+      align-self: flex-start;
+      border-left: 3px solid var(--altin);
+    }
+    .chat-mesaj.kullanici {
+      background: var(--bordo);
+      color: var(--krem);
+      align-self: flex-end;
+    }
+    .chat-sorular {
+      padding: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      border-top: 1px solid var(--krem-koyu);
+    }
+    .chat-soru-btn {
+      background: transparent;
+      border: 1px solid var(--bordo);
+      color: var(--bordo);
+      padding: 0.5rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      cursor: pointer;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      transition: all 0.2s;
+    }
+    .chat-soru-btn:hover {
+      background: var(--bordo);
+      color: var(--krem);
+    }
+
     footer {
       background: var(--bordo-koyu);
       border-top: 1px solid rgba(184,148,63,0.2);
@@ -562,6 +668,112 @@
       transition: transform 0.3s;
     }
     .whatsapp-btn:hover { transform: scale(1.1); }
+
+
+    .chat-btn {
+      position: fixed;
+      bottom: 96px;
+      right: 28px;
+      width: 58px;
+      height: 58px;
+      background: var(--bordo);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      z-index: 999;
+      cursor: pointer;
+      border: none;
+      font-size: 24px;
+      transition: transform 0.3s;
+    }
+    .chat-btn:hover { transform: scale(1.1); }
+    .chat-pencere {
+      position: fixed;
+      bottom: 170px;
+      right: 28px;
+      width: 320px;
+      max-height: 480px;
+      background: var(--beyaz);
+      border: 1px solid var(--altin);
+      border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+      z-index: 998;
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .chat-pencere.acik { display: flex; }
+    .chat-header {
+      background: var(--bordo-koyu);
+      padding: 1rem 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .chat-header span {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      color: var(--krem);
+      font-weight: 500;
+    }
+    .chat-kapat {
+      background: none;
+      border: none;
+      color: var(--altin);
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+    .chat-mesajlar {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+    .chat-mesaj {
+      padding: 0.7rem 1rem;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      line-height: 1.6;
+      max-width: 90%;
+    }
+    .chat-mesaj.bot {
+      background: var(--krem);
+      color: var(--metin);
+      align-self: flex-start;
+      border-left: 3px solid var(--altin);
+    }
+    .chat-mesaj.kullanici {
+      background: var(--bordo);
+      color: var(--krem);
+      align-self: flex-end;
+    }
+    .chat-sorular {
+      padding: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      border-top: 1px solid var(--krem-koyu);
+    }
+    .chat-soru-btn {
+      background: transparent;
+      border: 1px solid var(--bordo);
+      color: var(--bordo);
+      padding: 0.5rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      cursor: pointer;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      transition: all 0.2s;
+    }
+    .chat-soru-btn:hover {
+      background: var(--bordo);
+      color: var(--krem);
+    }
 
     footer { flex-direction: column; gap: 1rem; text-align: center; }
     }
@@ -701,5 +913,74 @@
 
 
   <a class="whatsapp-btn" href="https://wa.me/905459594845" target="_blank" aria-label="WhatsApp">💬</a>
+
+  <!-- CHATBOT -->
+  <button class="chat-btn" onclick="chatAc()" aria-label="Sohbet">⚖️</button>
+  <div class="chat-pencere" id="chatPencere">
+    <div class="chat-header">
+      <span>⚖️ Hukuki Asistan</span>
+      <button class="chat-kapat" onclick="chatKapat()">✕</button>
+    </div>
+    <div class="chat-mesajlar" id="chatMesajlar">
+      <div class="chat-mesaj bot">Merhaba! Ben Av. Levent Mutlu Hukuk Bürosu'nun dijital asistanıyım. Size nasıl yardımcı olabilirim?</div>
+    </div>
+    <div class="chat-sorular" id="chatSorular">
+      <button class="chat-soru-btn" onclick="soruSor(this)">Boşanma davası ne kadar sürer?</button>
+      <button class="chat-soru-btn" onclick="soruSor(this)">Ceza davalarında avukat zorunlu mu?</button>
+      <button class="chat-soru-btn" onclick="soruSor(this)">İşten çıkarıldım, haklarım neler?</button>
+      <button class="chat-soru-btn" onclick="soruSor(this)">Miras davası nasıl açılır?</button>
+      <button class="chat-soru-btn" onclick="soruSor(this)">Tazminat davası açabilir miyim?</button>
+      <button class="chat-soru-btn" onclick="soruSor(this)">Ücret ve danışmanlık hakkında bilgi</button>
+      <button class="chat-soru-btn" onclick="soruSor(this)">Ofisiniz nerede?</button>
+    </div>
+  </div>
+
+  <script>
+    const cevaplar = {
+      "Boşanma davası ne kadar sürer?": "Boşanma davası türüne göre değişir. Anlaşmalı boşanma genellikle 1-3 ay içinde sonuçlanır. Çekişmeli boşanma ise tarafların anlaşmazlığına bağlı olarak 1-3 yıl sürebilir. Büromuz her iki süreçte de yanınızda olarak en hızlı ve avantajlı sonucu almanız için çalışır.",
+      "Ceza davalarında avukat zorunlu mu?": "Bazı suçlarda zorunlu müdafilik söz konusudur; ancak tüm ceza davalarında bir avukatla çalışmanızı şiddetle tavsiye ederiz. Ceza yargılaması teknik bir süreçtir ve hukuki destek olmadan haklarınızı tam olarak kullanmanız güçleşir.",
+      "İşten çıkarıldım, haklarım neler?": "İşten çıkarılmanız durumunda kıdem tazminatı, ihbar tazminatı, kullanılmayan izin ücreti ve fazla mesai alacakları gibi haklarınız olabilir. Bu hakların doğup doğmadığı işten çıkarılma şekline ve çalışma sürenize bağlıdır. Detaylı değerlendirme için randevu almanızı öneririz.",
+      "Miras davası nasıl açılır?": "Miras davaları; mirasçılık belgesi alınması, vasiyetnamenin iptali veya terekenin taksimi gibi farklı şekillerde açılabilir. Sulh hukuk mahkemesinde açılan bu davalarda süreç ve belgeler duruma göre farklılık gösterir. Büromuz miras hukuku konusunda kapsamlı destek sunmaktadır.",
+      "Tazminat davası açabilir miyim?": "Trafik kazası, iş kazası, haksız fiil veya sözleşmeye aykırılık gibi pek çok durumda tazminat davası açılabilir. Davanın başarıya ulaşması için delillerin doğru toplanması ve sürelere uyulması büyük önem taşır. Durumunuzu değerlendirmek için büromuzla iletişime geçebilirsiniz.",
+      "Ücret ve danışmanlık hakkında bilgi": "Ücretlerimiz dava türüne ve kapsamına göre belirlenmektedir. İlk görüşmemizde davanızı değerlendirerek size net bir bilgi sunarız. Randevu almak için 0545 959 48 45 numaralı hattı arayabilir ya da WhatsApp'tan ulaşabilirsiniz.",
+      "Ofisiniz nerede?": "Ofisimiz İstanbul Beylikdüzü Ekinoks Plaza'da bulunmaktadır. Randevu için 0545 959 48 45 numaralı hattı arayabilir ya da WhatsApp'tan ulaşabilirsiniz."
+    };
+
+    function chatAc() {
+      document.getElementById('chatPencere').classList.add('acik');
+    }
+    function chatKapat() {
+      document.getElementById('chatPencere').classList.remove('acik');
+    }
+    function soruSor(btn) {
+      const soru = btn.textContent;
+      const mesajlar = document.getElementById('chatMesajlar');
+
+      const kullaniciMesaj = document.createElement('div');
+      kullaniciMesaj.className = 'chat-mesaj kullanici';
+      kullaniciMesaj.textContent = soru;
+      mesajlar.appendChild(kullaniciMesaj);
+
+      document.getElementById('chatSorular').style.display = 'none';
+
+      setTimeout(() => {
+        const botMesaj = document.createElement('div');
+        botMesaj.className = 'chat-mesaj bot';
+        botMesaj.textContent = cevaplar[soru] || 'Bu konuda size yardımcı olmak için lütfen büromuzu arayın: 0545 959 48 45';
+        mesajlar.appendChild(botMesaj);
+
+        setTimeout(() => {
+          const yeniSoru = document.createElement('div');
+          yeniSoru.className = 'chat-mesaj bot';
+          yeniSoru.textContent = 'Başka bir konuda yardımcı olabilir miyim?';
+          mesajlar.appendChild(yeniSoru);
+          document.getElementById('chatSorular').style.display = 'flex';
+          mesajlar.scrollTop = mesajlar.scrollHeight;
+        }, 600);
+
+        mesajlar.scrollTop = mesajlar.scrollHeight;
+      }, 500);
+    }
+  </script>
 </body>
 </html>
