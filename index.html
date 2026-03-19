@@ -446,24 +446,7 @@
     .whatsapp-btn:hover { transform: scale(1.1); }
 
 
-    .chat-btn {
-      position: fixed;
-      bottom: 96px;
-      right: 28px;
-      width: 58px;
-      height: 58px;
-      background: var(--bordo);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
-      z-index: 999;
-      cursor: pointer;
-      border: none;
-      font-size: 24px;
-      transition: transform 0.3s;
-    }
+    
     .chat-btn:hover { transform: scale(1.1); }
     .chat-pencere {
       position: fixed;
@@ -550,6 +533,100 @@
       background: var(--bordo);
       color: var(--krem);
     }
+
+
+    
+
+
+    .chat-btn {
+      position: fixed; bottom: 96px; right: 28px;
+      width: 58px; height: 58px;
+      background: var(--bordo); border: 1px solid var(--altin);
+      border-radius: 50%; display: flex; align-items: center;
+      justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      z-index: 999; cursor: pointer; font-size: 22px;
+      transition: transform 0.3s;
+    }
+    .chat-btn:hover { transform: scale(1.1); }
+    .chat-pencere {
+      position: fixed; bottom: 170px; right: 28px;
+      width: 340px; max-height: 520px;
+      background: var(--beyaz); border: 1px solid var(--altin);
+      border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+      z-index: 998; display: none; flex-direction: column; overflow: hidden;
+    }
+    .chat-pencere.acik { display: flex; }
+    .chat-header {
+      background: var(--bordo-koyu); padding: 1rem 1.2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid rgba(184,148,63,0.3);
+    }
+    .chat-header-bilgi { display: flex; align-items: center; gap: 0.7rem; }
+    .chat-header-avatar {
+      width: 38px; height: 38px; background: var(--altin);
+      border-radius: 50%; display: flex; align-items: center;
+      justify-content: center; font-size: 18px;
+    }
+    .chat-header-isim { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--krem); font-weight: 500; }
+    .chat-header-durum { font-size: 0.62rem; color: var(--altin); letter-spacing: 0.08em; margin-top: 1px; }
+    .chat-kapat { background: none; border: none; color: rgba(245,239,224,0.4); font-size: 1.1rem; cursor: pointer; transition: color 0.2s; }
+    .chat-kapat:hover { color: var(--krem); }
+    .chat-mesajlar {
+      flex: 1; overflow-y: auto; padding: 1rem;
+      display: flex; flex-direction: column; gap: 0.8rem;
+    }
+    .chat-mesaj {
+      padding: 0.75rem 1rem; border-radius: 10px;
+      font-size: 0.82rem; line-height: 1.7; max-width: 90%;
+    }
+    .chat-mesaj.bot {
+      background: var(--krem); color: var(--metin);
+      align-self: flex-start; border-left: 3px solid var(--altin);
+    }
+    .chat-mesaj.kullanici {
+      background: var(--bordo); color: var(--krem);
+      align-self: flex-end; border-radius: 10px 10px 2px 10px;
+    }
+    .chat-yazıyor {
+      display: flex; gap: 5px; align-items: center;
+      padding: 0.75rem 1rem; background: var(--krem);
+      border-left: 3px solid var(--altin); border-radius: 10px;
+      align-self: flex-start;
+    }
+    .chat-yazıyor span {
+      width: 7px; height: 7px; background: var(--altin);
+      border-radius: 50%; animation: yazıyor 1.2s infinite;
+    }
+    .chat-yazıyor span:nth-child(2) { animation-delay: 0.2s; }
+    .chat-yazıyor span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes yazıyor { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-6px)} }
+    .chat-input-alani {
+      padding: 0.8rem; border-top: 1px solid var(--krem-koyu);
+      display: flex; gap: 0.5rem; background: var(--beyaz);
+    }
+    .chat-input {
+      flex: 1; padding: 0.6rem 0.9rem;
+      border: 1px solid var(--krem-koyu); border-radius: 20px;
+      font-family: 'Montserrat', sans-serif; font-size: 0.8rem;
+      background: var(--beyaz); color: var(--metin); outline: none;
+      transition: border-color 0.2s;
+    }
+    .chat-input:focus { border-color: var(--altin); }
+    .chat-gonder {
+      width: 36px; height: 36px; background: var(--bordo);
+      border: none; border-radius: 50%; cursor: pointer;
+      color: var(--krem); font-size: 14px; transition: background 0.2s;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .chat-gonder:hover { background: var(--bordo-acik); }
+    .chat-randevu {
+      display: inline-block; margin-top: 0.5rem;
+      padding: 0.4rem 0.9rem; background: var(--bordo);
+      color: var(--krem); font-size: 0.72rem; font-weight: 500;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      text-decoration: none; border-radius: 4px; transition: background 0.2s;
+    }
+    .chat-randevu:hover { background: var(--bordo-acik); }
 
     footer {
       background: var(--bordo-koyu);
@@ -678,24 +755,7 @@
     .whatsapp-btn:hover { transform: scale(1.1); }
 
 
-    .chat-btn {
-      position: fixed;
-      bottom: 96px;
-      right: 28px;
-      width: 58px;
-      height: 58px;
-      background: var(--bordo);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
-      z-index: 999;
-      cursor: pointer;
-      border: none;
-      font-size: 24px;
-      transition: transform 0.3s;
-    }
+    
     .chat-btn:hover { transform: scale(1.1); }
     .chat-pencere {
       position: fixed;
@@ -782,6 +842,100 @@
       background: var(--bordo);
       color: var(--krem);
     }
+
+
+    
+
+
+    .chat-btn {
+      position: fixed; bottom: 96px; right: 28px;
+      width: 58px; height: 58px;
+      background: var(--bordo); border: 1px solid var(--altin);
+      border-radius: 50%; display: flex; align-items: center;
+      justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      z-index: 999; cursor: pointer; font-size: 22px;
+      transition: transform 0.3s;
+    }
+    .chat-btn:hover { transform: scale(1.1); }
+    .chat-pencere {
+      position: fixed; bottom: 170px; right: 28px;
+      width: 340px; max-height: 520px;
+      background: var(--beyaz); border: 1px solid var(--altin);
+      border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+      z-index: 998; display: none; flex-direction: column; overflow: hidden;
+    }
+    .chat-pencere.acik { display: flex; }
+    .chat-header {
+      background: var(--bordo-koyu); padding: 1rem 1.2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid rgba(184,148,63,0.3);
+    }
+    .chat-header-bilgi { display: flex; align-items: center; gap: 0.7rem; }
+    .chat-header-avatar {
+      width: 38px; height: 38px; background: var(--altin);
+      border-radius: 50%; display: flex; align-items: center;
+      justify-content: center; font-size: 18px;
+    }
+    .chat-header-isim { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--krem); font-weight: 500; }
+    .chat-header-durum { font-size: 0.62rem; color: var(--altin); letter-spacing: 0.08em; margin-top: 1px; }
+    .chat-kapat { background: none; border: none; color: rgba(245,239,224,0.4); font-size: 1.1rem; cursor: pointer; transition: color 0.2s; }
+    .chat-kapat:hover { color: var(--krem); }
+    .chat-mesajlar {
+      flex: 1; overflow-y: auto; padding: 1rem;
+      display: flex; flex-direction: column; gap: 0.8rem;
+    }
+    .chat-mesaj {
+      padding: 0.75rem 1rem; border-radius: 10px;
+      font-size: 0.82rem; line-height: 1.7; max-width: 90%;
+    }
+    .chat-mesaj.bot {
+      background: var(--krem); color: var(--metin);
+      align-self: flex-start; border-left: 3px solid var(--altin);
+    }
+    .chat-mesaj.kullanici {
+      background: var(--bordo); color: var(--krem);
+      align-self: flex-end; border-radius: 10px 10px 2px 10px;
+    }
+    .chat-yazıyor {
+      display: flex; gap: 5px; align-items: center;
+      padding: 0.75rem 1rem; background: var(--krem);
+      border-left: 3px solid var(--altin); border-radius: 10px;
+      align-self: flex-start;
+    }
+    .chat-yazıyor span {
+      width: 7px; height: 7px; background: var(--altin);
+      border-radius: 50%; animation: yazıyor 1.2s infinite;
+    }
+    .chat-yazıyor span:nth-child(2) { animation-delay: 0.2s; }
+    .chat-yazıyor span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes yazıyor { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-6px)} }
+    .chat-input-alani {
+      padding: 0.8rem; border-top: 1px solid var(--krem-koyu);
+      display: flex; gap: 0.5rem; background: var(--beyaz);
+    }
+    .chat-input {
+      flex: 1; padding: 0.6rem 0.9rem;
+      border: 1px solid var(--krem-koyu); border-radius: 20px;
+      font-family: 'Montserrat', sans-serif; font-size: 0.8rem;
+      background: var(--beyaz); color: var(--metin); outline: none;
+      transition: border-color 0.2s;
+    }
+    .chat-input:focus { border-color: var(--altin); }
+    .chat-gonder {
+      width: 36px; height: 36px; background: var(--bordo);
+      border: none; border-radius: 50%; cursor: pointer;
+      color: var(--krem); font-size: 14px; transition: background 0.2s;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .chat-gonder:hover { background: var(--bordo-acik); }
+    .chat-randevu {
+      display: inline-block; margin-top: 0.5rem;
+      padding: 0.4rem 0.9rem; background: var(--bordo);
+      color: var(--krem); font-size: 0.72rem; font-weight: 500;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      text-decoration: none; border-radius: 4px; transition: background 0.2s;
+    }
+    .chat-randevu:hover { background: var(--bordo-acik); }
 
     footer { flex-direction: column; gap: 1rem; text-align: center; }
     }
@@ -922,16 +1076,7 @@
 
   <a class="whatsapp-btn" href="https://wa.me/905459594845" target="_blank" aria-label="WhatsApp">💬</a>
 
-  <!-- CHATBOT -->
-  <button class="chat-btn" onclick="chatAc()" aria-label="Sohbet">⚖️</button>
-  <div class="chat-pencere" id="chatPencere">
-    <div class="chat-header">
-      <span>⚖️ Hukuki Asistan</span>
-      <button class="chat-kapat" onclick="chatKapat()">✕</button>
-    </div>
-    <div class="chat-mesajlar" id="chatMesajlar">
-      <div class="chat-mesaj bot">Merhaba! Ben Av. Levent Mutlu Hukuk Bürosu'nun dijital asistanıyım. Size nasıl yardımcı olabilirim?</div>
-    </div>
+  
     <div class="chat-sorular" id="chatSorular">
       <button class="chat-soru-btn" onclick="soruSor(this)">Boşanma davası ne kadar sürer?</button>
       <button class="chat-soru-btn" onclick="soruSor(this)">Ceza davalarında avukat zorunlu mu?</button>
@@ -943,51 +1088,94 @@
     </div>
   </div>
 
-  <script>
-    const cevaplar = {
-      "Boşanma davası ne kadar sürer?": "Boşanma davası türüne göre değişir. Anlaşmalı boşanma genellikle 1-3 ay içinde sonuçlanır. Çekişmeli boşanma ise tarafların anlaşmazlığına bağlı olarak 1-3 yıl sürebilir. Büromuz her iki süreçte de yanınızda olarak en hızlı ve avantajlı sonucu almanız için çalışır.",
-      "Ceza davalarında avukat zorunlu mu?": "Bazı suçlarda zorunlu müdafilik söz konusudur; ancak tüm ceza davalarında bir avukatla çalışmanızı şiddetle tavsiye ederiz. Ceza yargılaması teknik bir süreçtir ve hukuki destek olmadan haklarınızı tam olarak kullanmanız güçleşir.",
-      "İşten çıkarıldım, haklarım neler?": "İşten çıkarılmanız durumunda kıdem tazminatı, ihbar tazminatı, kullanılmayan izin ücreti ve fazla mesai alacakları gibi haklarınız olabilir. Bu hakların doğup doğmadığı işten çıkarılma şekline ve çalışma sürenize bağlıdır. Detaylı değerlendirme için randevu almanızı öneririz.",
-      "Miras davası nasıl açılır?": "Miras davaları; mirasçılık belgesi alınması, vasiyetnamenin iptali veya terekenin taksimi gibi farklı şekillerde açılabilir. Sulh hukuk mahkemesinde açılan bu davalarda süreç ve belgeler duruma göre farklılık gösterir. Büromuz miras hukuku konusunda kapsamlı destek sunmaktadır.",
-      "Tazminat davası açabilir miyim?": "Trafik kazası, iş kazası, haksız fiil veya sözleşmeye aykırılık gibi pek çok durumda tazminat davası açılabilir. Davanın başarıya ulaşması için delillerin doğru toplanması ve sürelere uyulması büyük önem taşır. Durumunuzu değerlendirmek için büromuzla iletişime geçebilirsiniz.",
-      "Ücret ve danışmanlık hakkında bilgi": "Ücretlerimiz dava türüne ve kapsamına göre belirlenmektedir. İlk görüşmemizde davanızı değerlendirerek size net bir bilgi sunarız. Randevu almak için 0545 959 48 45 numaralı hattı arayabilir ya da WhatsApp'tan ulaşabilirsiniz.",
-      "Ofisiniz nerede?": "Ofisimiz İstanbul Beylikdüzü Ekinoks Plaza'da bulunmaktadır. Randevu için 0545 959 48 45 numaralı hattı arayabilir ya da WhatsApp'tan ulaşabilirsiniz."
-    };
+  
 
-    function chatAc() {
-      document.getElementById('chatPencere').classList.add('acik');
+
+  <!-- CHATBOT -->
+  <button class="chat-btn" onclick="chatAc()" aria-label="Hukuki Asistan">⚖️</button>
+  <div class="chat-pencere" id="chatPencere">
+    <div class="chat-header">
+      <div class="chat-header-bilgi">
+        <div class="chat-header-avatar">⚖️</div>
+        <div>
+          <div class="chat-header-isim">Hukuki Asistan</div>
+          <div class="chat-header-durum">Av. Levent Mutlu Hukuk Bürosu</div>
+        </div>
+      </div>
+      <button class="chat-kapat" onclick="chatKapat()">✕</button>
+    </div>
+    <div class="chat-mesajlar" id="chatMesajlar">
+      <div class="chat-mesaj bot">Merhaba! Ben Av. Levent Mutlu Hukuk Bürosu'nun dijital asistanıyım. Hukuki sorularınızı yanıtlamaya hazırım. Aşağıya yazabilir ya da örnek sorulardan birini seçebilirsiniz.</div>
+    </div>
+    <div class="chat-input-alani">
+      <input class="chat-input" id="chatInput" type="text" placeholder="Sorunuzu yazın..." onkeydown="if(event.key==='Enter') mesajGonder()">
+      <button class="chat-gonder" onclick="mesajGonder()">➤</button>
+    </div>
+  </div>
+
+  <script>
+    const bilgiBankasi = [
+      { anahtar: ['boşanma', 'bosanma', 'boşan', 'evlilik', 'anlaşmalı', 'çekişmeli'], cevap: 'Boşanma davası türüne göre değişir. Anlaşmalı boşanma genellikle 1-3 ay içinde sonuçlanırken çekişmeli boşanma 1-3 yıl sürebilir. Velayet, nafaka ve mal paylaşımı gibi konularda da hukuki destek sunuyoruz.', randevu: true },
+      { anahtar: ['velayet', 'çocuk', 'nafaka'], cevap: 'Velayet kararlarında mahkeme çocuğun üstün yararını esas alır. Ebeveynlerin ekonomik durumu, çocukla duygusal bağı ve yaşam koşulları değerlendirilir. Bu konuda detaylı bilgi için büromuzu aramanızı öneririz.', randevu: true },
+      { anahtar: ['ceza', 'suç', 'dava', 'savcı', 'mahkeme', 'tutukluluk', 'gözaltı'], cevap: 'Ceza davalarında soruşturma aşamasından temyize kadar yanınızdayız. Bilişim suçları başta olmak üzere tüm ceza davalarında deneyimli ekibimizle hizmet veriyoruz.', randevu: true },
+      { anahtar: ['işten', 'işçi', 'kıdem', 'ihbar', 'tazminat', 'iş hukuku', 'işveren', 'maaş'], cevap: 'İşten çıkarılma durumunda kıdem tazminatı, ihbar tazminatı ve kullanılmayan izin ücreti gibi haklarınız olabilir. Bu hakların doğması çalışma sürenize ve işten çıkarılma şekline bağlıdır.', randevu: true },
+      { anahtar: ['miras', 'vasiyet', 'vasiyetname', 'mirasçı', 'tereke'], cevap: 'Miras paylaşımı, vasiyetname düzenlenmesi ve iptali ile mirasçılık belgesi alınması konularında hizmet veriyoruz. Sulh hukuk mahkemesinde açılan miras davalarında yanınızdayız.', randevu: true },
+      { anahtar: ['trafik', 'kaza', 'tazminat', 'hasar', 'yaralanma'], cevap: 'Trafik kazası, iş kazası ve haksız fiilden doğan maddi ve manevi tazminat davalarında haklarınızı koruyoruz. Delillerin doğru toplanması ve yasal sürelere uyulması kritik önem taşır.', randevu: true },
+      { anahtar: ['adres', 'nerede', 'ofis', 'konum', 'beylikdüzü', 'ekinoks'], cevap: 'Ofisimiz İstanbul Beylikdüzü Ekinoks Plaza'da bulunmaktadır. Randevu için 0545 959 48 45 numaralı hattı arayabilir ya da WhatsApp'tan ulaşabilirsiniz.', randevu: false },
+      { anahtar: ['telefon', 'iletişim', 'ulaş', 'ara', 'numara', 'whatsapp'], cevap: 'Bize 0545 959 48 45 numaralı hattan ulaşabilirsiniz. WhatsApp üzerinden de iletişim kurabilirsiniz. Ofisimiz İstanbul Beylikdüzü Ekinoks Plaza'da bulunmaktadır.', randevu: false },
+      { anahtar: ['ücret', 'fiyat', 'para', 'maliyet', 'ne kadar', 'vekalet'], cevap: 'Ücretlerimiz dava türüne ve kapsamına göre belirlenmektedir. İlk görüşmemizde davanızı değerlendirerek size net bir bilgi sunarız. Şeffaf ve adil bir ücret politikası izliyoruz.', randevu: true },
+      { anahtar: ['avukat', 'levent', 'ismet', 'büro', 'hakkında', 'kimsiniz'], cevap: 'Av. Levent Mutlu ve ortağı Av. İsmet Mutlu olarak İstanbul Beylikdüzü'nde hizmet veriyoruz. Ceza hukuku, aile hukuku, iş hukuku, miras hukuku ve tazminat davalarında uzmanlaşmış ekibimizle yanınızdayız.', randevu: true },
+    ];
+
+    function chatAc() { document.getElementById('chatPencere').classList.add('acik'); }
+    function chatKapat() { document.getElementById('chatPencere').classList.remove('acik'); }
+
+    function cevapBul(soru) {
+      const soruKucuk = soru.toLowerCase();
+      for (const item of bilgiBankasi) {
+        if (item.anahtar.some(k => soruKucuk.includes(k))) {
+          return item;
+        }
+      }
+      return { cevap: 'Bu konuda size daha iyi yardımcı olabilmek için büromuzu aramanızı öneririm. Hukuki detaylar her dava için farklılık gösterebilir.', randevu: true };
     }
-    function chatKapat() {
-      document.getElementById('chatPencere').classList.remove('acik');
-    }
-    function soruSor(btn) {
-      const soru = btn.textContent;
+
+    function mesajGonder() {
+      const input = document.getElementById('chatInput');
+      const mesaj = input.value.trim();
+      if (!mesaj) return;
+      input.value = '';
+
       const mesajlar = document.getElementById('chatMesajlar');
 
-      const kullaniciMesaj = document.createElement('div');
-      kullaniciMesaj.className = 'chat-mesaj kullanici';
-      kullaniciMesaj.textContent = soru;
-      mesajlar.appendChild(kullaniciMesaj);
+      const kullaniciDiv = document.createElement('div');
+      kullaniciDiv.className = 'chat-mesaj kullanici';
+      kullaniciDiv.textContent = mesaj;
+      mesajlar.appendChild(kullaniciDiv);
 
-      document.getElementById('chatSorular').style.display = 'none';
+      const yazıyorDiv = document.createElement('div');
+      yazıyorDiv.className = 'chat-yazıyor';
+      yazıyorDiv.innerHTML = '<span></span><span></span><span></span>';
+      mesajlar.appendChild(yazıyorDiv);
+      mesajlar.scrollTop = mesajlar.scrollHeight;
 
       setTimeout(() => {
-        const botMesaj = document.createElement('div');
-        botMesaj.className = 'chat-mesaj bot';
-        botMesaj.textContent = cevaplar[soru] || 'Bu konuda size yardımcı olmak için lütfen büromuzu arayın: 0545 959 48 45';
-        mesajlar.appendChild(botMesaj);
-
-        setTimeout(() => {
-          const yeniSoru = document.createElement('div');
-          yeniSoru.className = 'chat-mesaj bot';
-          yeniSoru.textContent = 'Başka bir konuda yardımcı olabilir miyim?';
-          mesajlar.appendChild(yeniSoru);
-          document.getElementById('chatSorular').style.display = 'flex';
-          mesajlar.scrollTop = mesajlar.scrollHeight;
-        }, 600);
-
+        yazıyorDiv.remove();
+        const sonuc = cevapBul(mesaj);
+        const botDiv = document.createElement('div');
+        botDiv.className = 'chat-mesaj bot';
+        botDiv.textContent = sonuc.cevap;
+        if (sonuc.randevu) {
+          const link = document.createElement('a');
+          link.href = 'tel:+905459594845';
+          link.className = 'chat-randevu';
+          link.textContent = '📞 Randevu Al';
+          botDiv.appendChild(document.createElement('br'));
+          botDiv.appendChild(link);
+        }
+        mesajlar.appendChild(botDiv);
         mesajlar.scrollTop = mesajlar.scrollHeight;
-      }, 500);
+      }, 900);
     }
   </script>
 </body>
