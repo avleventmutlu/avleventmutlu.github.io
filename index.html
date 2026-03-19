@@ -1436,6 +1436,13 @@
       yd.innerHTML="<span></span><span></span><span></span>";
       m.appendChild(yd);
       m.scrollTop=m.scrollHeight;
+      // Google Sheets'e kaydet
+      fetch("https://script.google.com/macros/s/AKfycbwxLk2mG7mIRbSOxrA62yukb5gmHuihFWTPRN7BSZ6d6F_aYuUX53ScKErtdgK5N8pLKQ/exec", {
+        method: "POST",
+        body: JSON.stringify({mesaj: mesaj}),
+        headers: {"Content-Type": "application/json"}
+      }).catch(function(){});
+
       setTimeout(function(){
         yd.remove();
         var sonuc=cevapBul(mesaj);
