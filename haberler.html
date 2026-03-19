@@ -57,13 +57,33 @@
     /* Sol - Haberler */
     .haber-listesi { display: flex; flex-direction: column; gap: 0; }
     .haber-kart {
-      display: grid; grid-template-columns: 100px 1fr;
-      gap: 1.5rem; padding: 2rem 0;
       border-bottom: 1px solid var(--krem-koyu);
-      text-decoration: none; transition: all 0.3s;
+      transition: all 0.3s;
     }
     .haber-kart:first-child { border-top: 1px solid var(--krem-koyu); }
-    .haber-kart:hover { padding-left: 0.8rem; }
+    .haber-kart-ust {
+      display: grid; grid-template-columns: 100px 1fr auto;
+      gap: 1.5rem; padding: 2rem 0;
+      cursor: pointer; transition: all 0.3s;
+    }
+    .haber-kart-ust:hover { padding-left: 0.8rem; }
+    .haber-toggle { font-size: 1.3rem; color: var(--altin); transition: transform 0.3s; align-self: center; }
+    .haber-kart.acik .haber-toggle { transform: rotate(45deg); }
+    .haber-detay {
+      display: none; padding: 0 0 2rem 115px;
+      font-size: 0.85rem; font-weight: 300;
+      line-height: 1.9; color: var(--metin-acik);
+      border-top: 1px solid var(--krem-koyu);
+      padding-top: 1.5rem;
+    }
+    .haber-kart.acik .haber-detay { display: block; }
+    .haber-detay-link {
+      display: inline-block; margin-top: 1rem;
+      font-size: 0.68rem; font-weight: 500;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--bordo); text-decoration: none;
+      border-bottom: 1px solid var(--bordo); padding-bottom: 2px;
+    }
     .haber-tarih-col {
       display: flex; flex-direction: column; align-items: center;
       justify-content: flex-start; padding-top: 0.2rem; gap: 0.3rem;
@@ -214,6 +234,13 @@
   <a class="whatsapp-btn" href="https://wa.me/905459594845" target="_blank">💬</a>
 
   <script>
+    function haberAc(el) {
+      var kart = el.parentElement;
+      var acikMi = kart.classList.contains('acik');
+      document.querySelectorAll('.haber-kart').forEach(function(k){ k.classList.remove('acik'); });
+      if (!acikMi) kart.classList.add('acik');
+    }
+
     function menuAc() { document.getElementById('mobilMenu').classList.toggle('acik'); }
     function menuKapat() { document.getElementById('mobilMenu').classList.remove('acik'); }
 
