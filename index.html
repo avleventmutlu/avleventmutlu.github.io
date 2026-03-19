@@ -587,19 +587,19 @@
       background: var(--bordo); color: var(--krem);
       align-self: flex-end; border-radius: 10px 10px 2px 10px;
     }
-    .chat-yazıyor {
+    .chat-yaziyor {
       display: flex; gap: 5px; align-items: center;
       padding: 0.75rem 1rem; background: var(--krem);
       border-left: 3px solid var(--altin); border-radius: 10px;
       align-self: flex-start;
     }
-    .chat-yazıyor span {
+    .chat-yaziyor span {
       width: 7px; height: 7px; background: var(--altin);
-      border-radius: 50%; animation: yazıyor 1.2s infinite;
+      border-radius: 50%; animation: yaziyor 1.2s infinite;
     }
-    .chat-yazıyor span:nth-child(2) { animation-delay: 0.2s; }
-    .chat-yazıyor span:nth-child(3) { animation-delay: 0.4s; }
-    @keyframes yazıyor { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-6px)} }
+    .chat-yaziyor span:nth-child(2) { animation-delay: 0.2s; }
+    .chat-yaziyor span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes yaziyor { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-6px)} }
     .chat-input-alani {
       padding: 0.8rem; border-top: 1px solid var(--krem-koyu);
       display: flex; gap: 0.5rem; background: var(--beyaz);
@@ -896,19 +896,19 @@
       background: var(--bordo); color: var(--krem);
       align-self: flex-end; border-radius: 10px 10px 2px 10px;
     }
-    .chat-yazıyor {
+    .chat-yaziyor {
       display: flex; gap: 5px; align-items: center;
       padding: 0.75rem 1rem; background: var(--krem);
       border-left: 3px solid var(--altin); border-radius: 10px;
       align-self: flex-start;
     }
-    .chat-yazıyor span {
+    .chat-yaziyor span {
       width: 7px; height: 7px; background: var(--altin);
-      border-radius: 50%; animation: yazıyor 1.2s infinite;
+      border-radius: 50%; animation: yaziyor 1.2s infinite;
     }
-    .chat-yazıyor span:nth-child(2) { animation-delay: 0.2s; }
-    .chat-yazıyor span:nth-child(3) { animation-delay: 0.4s; }
-    @keyframes yazıyor { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-6px)} }
+    .chat-yaziyor span:nth-child(2) { animation-delay: 0.2s; }
+    .chat-yaziyor span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes yaziyor { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-6px)} }
     .chat-input-alani {
       padding: 0.8rem; border-top: 1px solid var(--krem-koyu);
       display: flex; gap: 0.5rem; background: var(--beyaz);
@@ -1113,67 +1113,67 @@
     </div>
   </div>
 
-  <script>
+  
+<script>
     const bilgiBankasi = [
-      { anahtar: ['boşanma', 'bosanma', 'boşan', 'evlilik', 'anlaşmalı', 'çekişmeli'], cevap: 'Boşanma davası türüne göre değişir. Anlaşmalı boşanma genellikle 1-3 ay içinde sonuçlanırken çekişmeli boşanma 1-3 yıl sürebilir. Velayet, nafaka ve mal paylaşımı gibi konularda da hukuki destek sunuyoruz.', randevu: true },
-      { anahtar: ['velayet', 'çocuk', 'nafaka'], cevap: 'Velayet kararlarında mahkeme çocuğun üstün yararını esas alır. Ebeveynlerin ekonomik durumu, çocukla duygusal bağı ve yaşam koşulları değerlendirilir. Bu konuda detaylı bilgi için büromuzu aramanızı öneririz.', randevu: true },
-      { anahtar: ['ceza', 'suç', 'dava', 'savcı', 'mahkeme', 'tutukluluk', 'gözaltı'], cevap: 'Ceza davalarında soruşturma aşamasından temyize kadar yanınızdayız. Bilişim suçları başta olmak üzere tüm ceza davalarında deneyimli ekibimizle hizmet veriyoruz.', randevu: true },
-      { anahtar: ['işten', 'işçi', 'kıdem', 'ihbar', 'tazminat', 'iş hukuku', 'işveren', 'maaş'], cevap: 'İşten çıkarılma durumunda kıdem tazminatı, ihbar tazminatı ve kullanılmayan izin ücreti gibi haklarınız olabilir. Bu hakların doğması çalışma sürenize ve işten çıkarılma şekline bağlıdır.', randevu: true },
-      { anahtar: ['miras', 'vasiyet', 'vasiyetname', 'mirasçı', 'tereke'], cevap: 'Miras paylaşımı, vasiyetname düzenlenmesi ve iptali ile mirasçılık belgesi alınması konularında hizmet veriyoruz. Sulh hukuk mahkemesinde açılan miras davalarında yanınızdayız.', randevu: true },
-      { anahtar: ['trafik', 'kaza', 'tazminat', 'hasar', 'yaralanma'], cevap: 'Trafik kazası, iş kazası ve haksız fiilden doğan maddi ve manevi tazminat davalarında haklarınızı koruyoruz. Delillerin doğru toplanması ve yasal sürelere uyulması kritik önem taşır.', randevu: true },
-      { anahtar: ['adres', 'nerede', 'ofis', 'konum', 'beylikdüzü', 'ekinoks'], cevap: 'Ofisimiz İstanbul Beylikdüzü Ekinoks Plaza'da bulunmaktadır. Randevu için 0545 959 48 45 numaralı hattı arayabilir ya da WhatsApp'tan ulaşabilirsiniz.', randevu: false },
-      { anahtar: ['telefon', 'iletişim', 'ulaş', 'ara', 'numara', 'whatsapp'], cevap: 'Bize 0545 959 48 45 numaralı hattan ulaşabilirsiniz. WhatsApp üzerinden de iletişim kurabilirsiniz. Ofisimiz İstanbul Beylikdüzü Ekinoks Plaza'da bulunmaktadır.', randevu: false },
-      { anahtar: ['ücret', 'fiyat', 'para', 'maliyet', 'ne kadar', 'vekalet'], cevap: 'Ücretlerimiz dava türüne ve kapsamına göre belirlenmektedir. İlk görüşmemizde davanızı değerlendirerek size net bir bilgi sunarız. Şeffaf ve adil bir ücret politikası izliyoruz.', randevu: true },
-      { anahtar: ['avukat', 'levent', 'ismet', 'büro', 'hakkında', 'kimsiniz'], cevap: 'Av. Levent Mutlu ve ortağı Av. İsmet Mutlu olarak İstanbul Beylikdüzü'nde hizmet veriyoruz. Ceza hukuku, aile hukuku, iş hukuku, miras hukuku ve tazminat davalarında uzmanlaşmış ekibimizle yanınızdayız.', randevu: true },
+      { anahtar: ["bosanma","boşanma","evlilik","anlasmali","cekismeli"], cevap: "Bosanma davasi turune gore degisir. Anlasmali bosanma 1-3 ayda, cekismeli bosanma 1-3 yilda sonuclanir. Velayet, nafaka ve mal paylasimi konularinda da destek sunuyoruz.", randevu: true },
+      { anahtar: ["velayet","nafaka","cocuk"], cevap: "Velayet kararlarinda mahkeme cocugun ustun yararini esas alir. Ebeveynlerin ekonomik durumu, yasam kosullari ve cocukla duygusal bagi degerlendirilir. Detayli bilgi icin buromuzla iletisime gececebilirsiniz.", randevu: true },
+      { anahtar: ["ceza","suc","dava","savci","mahkeme","tutukluluk","gozalti","bilisim"], cevap: "Ceza davalarinda sorusturma asamasindan temyize kadar yaninizdayiz. Bilisim suclari basta olmak uzere tum ceza davalarinda deneyimli ekibimizle hizmet veriyoruz.", randevu: true },
+      { anahtar: ["isten","isci","kidem","ihbar","is hukuku","isveren","maas","fazla mesai"], cevap: "Isten cikarilma durumunda kidem tazminati, ihbar tazminati ve kullanilmayan izin ucreti haklariniz olabilir. Bu haklarin dogmasi calisma surenize ve isten cikarilma seklinize baglidir.", randevu: true },
+      { anahtar: ["miras","vasiyet","vasiyetname","mirasci","tereke"], cevap: "Miras paylasimi, vasiyetname duzenlenmesi ve iptali ile mirascilik belgesi alinmasi konularinda hizmet veriyoruz. Sulh hukuk mahkemesinde acilan miras davalarinda yaninizdayiz.", randevu: true },
+      { anahtar: ["trafik","kaza","tazminat","hasar","yaralanma","haksiz fiil"], cevap: "Trafik kazasi, is kazasi ve haksiz fiilden dogan maddi ve manevi tazminat davalarinda haklarinizi koruyoruz. Delillerin dogru toplanmasi ve yasal surelere uyulmasi kritik onem tasir.", randevu: true },
+      { anahtar: ["adres","nerede","ofis","konum","beylikduzu","ekinoks","beylikdüzü"], cevap: "Ofisimiz Istanbul Beylikduzu Ekinoks Plaza'da bulunmaktadir. Randevu icin 0545 959 48 45 numarali hatti arayabilir ya da WhatsApp uzerinden ulasabilirsiniz.", randevu: false },
+      { anahtar: ["telefon","iletisim","ulas","ara","numara","whatsapp"], cevap: "Bize 0545 959 48 45 numarali hattan ulasabilirsiniz. WhatsApp uzerinden de iletisim kurabilirsiniz. Ofisimiz Istanbul Beylikduzu Ekinoks Plaza'da bulunmaktadir.", randevu: false },
+      { anahtar: ["ucret","fiyat","para","maliyet","ne kadar","vekalet"], cevap: "Ucretlerimiz dava turune ve kapsamina gore belirlenmektedir. Ilk gorusmemizde davanizi degerlendirerek size net bir bilgi sunariz. Seffaf ve adil bir ucret politikasi izliyoruz.", randevu: true },
+      { anahtar: ["avukat","levent","ismet","buro","hakkinda","kimsiniz"], cevap: "Av. Levent Mutlu ve ortagi Av. Ismet Mutlu olarak Istanbul Beylikduzu'nde hizmet veriyoruz. Ceza, aile, is, miras hukuku ve tazminat davalarinda uzmanlasmis ekibimizle yaninizdayiz.", randevu: true },
     ];
 
-    function chatAc() { document.getElementById('chatPencere').classList.add('acik'); }
-    function chatKapat() { document.getElementById('chatPencere').classList.remove('acik'); }
+    function chatAc() { document.getElementById("chatPencere").classList.add("acik"); }
+    function chatKapat() { document.getElementById("chatPencere").classList.remove("acik"); }
 
     function cevapBul(soru) {
-      const soruKucuk = soru.toLowerCase();
+      const s = soru.toLowerCase();
       for (const item of bilgiBankasi) {
-        if (item.anahtar.some(k => soruKucuk.includes(k))) {
-          return item;
-        }
+        if (item.anahtar.some(k => s.includes(k))) return item;
       }
-      return { cevap: 'Bu konuda size daha iyi yardımcı olabilmek için büromuzu aramanızı öneririm. Hukuki detaylar her dava için farklılık gösterebilir.', randevu: true };
+      return { cevap: "Bu konuda size daha iyi yardimci olabilmek icin buromuzu aramanizi oneririm. Hukuki detaylar her dava icin farklilik gosterebilir.", randevu: true };
     }
 
     function mesajGonder() {
-      const input = document.getElementById('chatInput');
+      const input = document.getElementById("chatInput");
       const mesaj = input.value.trim();
       if (!mesaj) return;
-      input.value = '';
+      input.value = "";
 
-      const mesajlar = document.getElementById('chatMesajlar');
+      const mesajlar = document.getElementById("chatMesajlar");
 
-      const kullaniciDiv = document.createElement('div');
-      kullaniciDiv.className = 'chat-mesaj kullanici';
-      kullaniciDiv.textContent = mesaj;
-      mesajlar.appendChild(kullaniciDiv);
+      const kDiv = document.createElement("div");
+      kDiv.className = "chat-mesaj kullanici";
+      kDiv.textContent = mesaj;
+      mesajlar.appendChild(kDiv);
 
-      const yazıyorDiv = document.createElement('div');
-      yazıyorDiv.className = 'chat-yazıyor';
-      yazıyorDiv.innerHTML = '<span></span><span></span><span></span>';
-      mesajlar.appendChild(yazıyorDiv);
+      const yDiv = document.createElement("div");
+      yDiv.className = "chat-yaziyor";
+      yDiv.innerHTML = "<span></span><span></span><span></span>";
+      mesajlar.appendChild(yDiv);
       mesajlar.scrollTop = mesajlar.scrollHeight;
 
-      setTimeout(() => {
-        yazıyorDiv.remove();
+      setTimeout(function() {
+        yDiv.remove();
         const sonuc = cevapBul(mesaj);
-        const botDiv = document.createElement('div');
-        botDiv.className = 'chat-mesaj bot';
-        botDiv.textContent = sonuc.cevap;
+        const bDiv = document.createElement("div");
+        bDiv.className = "chat-mesaj bot";
+        bDiv.textContent = sonuc.cevap;
         if (sonuc.randevu) {
-          const link = document.createElement('a');
-          link.href = 'tel:+905459594845';
-          link.className = 'chat-randevu';
-          link.textContent = '📞 Randevu Al';
-          botDiv.appendChild(document.createElement('br'));
-          botDiv.appendChild(link);
+          const br = document.createElement("br");
+          const link = document.createElement("a");
+          link.href = "tel:+905459594845";
+          link.className = "chat-randevu";
+          link.textContent = "Randevu Al";
+          bDiv.appendChild(br);
+          bDiv.appendChild(link);
         }
-        mesajlar.appendChild(botDiv);
+        mesajlar.appendChild(bDiv);
         mesajlar.scrollTop = mesajlar.scrollHeight;
       }, 900);
     }
