@@ -2092,11 +2092,11 @@
 
       // Sheets'e kaydet
       var img = new Image();
-      img.src = "https://script.google.com/macros/s/AKfycbwxLk2mG7mIRbSOxrA62yukb5gmHuihFWTPRN7BSZ6d6F_aYuUX53ScKErtdgK5N8pLKQ/exec?mesaj=" + encodeURIComponent("ARAMA: " + kelime);
+      img.src = "https://script.google.com/macros/s/AKfycbwxLk2mG7mIRbSOxrA62yukb5gmHuihFWTPRN7BSZ6d6F_aYuUX53ScKErtdgK5N8pLKQ/exec?mesaj=" + encodeURIComponent("SITE GENELI ARAMA: " + kelime);
 
-      // Kayıt tamamlansin diye kisa bekleme sonra yonlendir
+      // Arama sonuclari sayfasina yonlendir
       setTimeout(function() {
-        window.location.href = "makaleler.html?ara=" + encodeURIComponent(kelime);
+        window.location.href = "arama.html?q=" + encodeURIComponent(kelime);
       }, 400);
     }
   </script>
