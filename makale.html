@@ -234,6 +234,45 @@
     }
     .chat-randevu:hover { background: var(--bordo-acik); }
 
+
+    .soru-form-alani {
+      max-width: 760px; margin: 0 auto;
+      padding: 0 5% 5rem;
+    }
+    .soru-form-baslik {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem; font-weight: 400;
+      color: var(--bordo-koyu); margin-bottom: 0.5rem;
+    }
+    .soru-form-altyazi {
+      font-size: 0.82rem; color: var(--metin-acik);
+      margin-bottom: 1.5rem; font-weight: 300;
+    }
+    .soru-form { display: flex; flex-direction: column; gap: 0.8rem; }
+    .soru-form input, .soru-form textarea {
+      padding: 0.8rem 1rem;
+      border: 1px solid var(--krem-koyu);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.82rem; color: var(--metin);
+      background: var(--beyaz); outline: none;
+      transition: border-color 0.3s;
+    }
+    .soru-form input:focus, .soru-form textarea:focus { border-color: var(--altin); }
+    .soru-gonder {
+      padding: 0.9rem 2rem; background: var(--bordo);
+      color: var(--krem); border: none;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.72rem; font-weight: 500;
+      letter-spacing: 0.15em; text-transform: uppercase;
+      cursor: pointer; transition: background 0.3s; align-self: flex-start;
+    }
+    .soru-gonder:hover { background: var(--bordo-acik); }
+    .soru-basari {
+      display: none; padding: 0.8rem 1.2rem;
+      background: var(--krem); border-left: 3px solid var(--altin);
+      font-size: 0.82rem; color: var(--metin);
+    }
+
     footer {
       background: var(--bordo-koyu); border-top: 1px solid rgba(184,148,63,0.2);
       padding: 2rem 5%; display: flex; align-items: center; justify-content: space-between;
@@ -401,6 +440,45 @@
     }
     .chat-randevu:hover { background: var(--bordo-acik); }
 
+
+    .soru-form-alani {
+      max-width: 760px; margin: 0 auto;
+      padding: 0 5% 5rem;
+    }
+    .soru-form-baslik {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem; font-weight: 400;
+      color: var(--bordo-koyu); margin-bottom: 0.5rem;
+    }
+    .soru-form-altyazi {
+      font-size: 0.82rem; color: var(--metin-acik);
+      margin-bottom: 1.5rem; font-weight: 300;
+    }
+    .soru-form { display: flex; flex-direction: column; gap: 0.8rem; }
+    .soru-form input, .soru-form textarea {
+      padding: 0.8rem 1rem;
+      border: 1px solid var(--krem-koyu);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.82rem; color: var(--metin);
+      background: var(--beyaz); outline: none;
+      transition: border-color 0.3s;
+    }
+    .soru-form input:focus, .soru-form textarea:focus { border-color: var(--altin); }
+    .soru-gonder {
+      padding: 0.9rem 2rem; background: var(--bordo);
+      color: var(--krem); border: none;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.72rem; font-weight: 500;
+      letter-spacing: 0.15em; text-transform: uppercase;
+      cursor: pointer; transition: background 0.3s; align-self: flex-start;
+    }
+    .soru-gonder:hover { background: var(--bordo-acik); }
+    .soru-basari {
+      display: none; padding: 0.8rem 1.2rem;
+      background: var(--krem); border-left: 3px solid var(--altin);
+      font-size: 0.82rem; color: var(--metin);
+    }
+
     footer { flex-direction: column; gap: 1rem; text-align: center; }
     }
   </style>
@@ -437,6 +515,20 @@
   </div>
 
   <div class="makale-govde" id="makale-govde"></div>
+
+  
+  <div class="soru-form-alani">
+    <div style="height:1px;background:var(--krem-koyu);margin-bottom:3rem;"></div>
+    <h3 class="soru-form-baslik">Bu makaleyle ilgili sorunuz mu var?</h3>
+    <p class="soru-form-altyazi">Sorunuzu bırakın, avukatlarımız en kısa sürede yanıtlasın. Ücretsiz ön bilgi alın.</p>
+    <form class="soru-form" onsubmit="soruGonder(event)">
+      <input type="text" id="soruAd" placeholder="Adınız Soyadınız" required>
+      <input type="tel" id="soruTel" placeholder="Telefon Numaranız" required>
+      <textarea id="soruMetin" rows="4" placeholder="Sorunuzu yazın..." required></textarea>
+      <button type="submit" class="soru-gonder">Soruyu Gönder →</button>
+      <div class="soru-basari" id="soruBasari">✓ Sorunuz alındı! En kısa sürede sizi arayacağız.</div>
+    </form>
+  </div>
 
   <footer>
     <div class="footer-logo">Av. Levent Mutlu</div>
@@ -581,6 +673,24 @@
 
         m.scrollTop=m.scrollHeight;
       },900);
+    }
+  </script>
+
+  <script>
+    function soruGonder(e) {
+      e.preventDefault();
+      var ad = document.getElementById('soruAd').value;
+      var tel = document.getElementById('soruTel').value;
+      var soru = document.getElementById('soruMetin').value;
+      var sayfa = window.location.href;
+
+      var veri = "MAKALE SORUSU | AD: " + ad + " | TEL: " + tel + " | SORU: " + soru + " | SAYFA: " + sayfa;
+
+      var img = new Image();
+      img.src = "https://script.google.com/macros/s/AKfycbwxLk2mG7mIRbSOxrA62yukb5gmHuihFWTPRN7BSZ6d6F_aYuUX53ScKErtdgK5N8pLKQ/exec?mesaj=" + encodeURIComponent(veri);
+
+      document.getElementById('soruBasari').style.display = 'block';
+      e.target.reset();
     }
   </script>
 </body>
