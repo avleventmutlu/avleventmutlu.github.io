@@ -132,6 +132,22 @@
      50% { box-shadow: 0 0 0 12px rgba(107,26,26,0); } }
 
 
+
+    .haber-arama-bar {
+      display: flex; align-items: center;
+      border: 1px solid var(--bordo);
+      background: transparent; margin-bottom: 1.5rem;
+    }
+    .haber-arama-input {
+      flex: 1; border: none; background: transparent;
+      padding: 0.7rem 1rem;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.78rem; color: var(--metin);
+      outline: none;
+    }
+    .haber-arama-input::placeholder { color: rgba(44,24,16,0.35); }
+    .haber-arama-ikon { padding: 0.7rem 1rem; color: var(--bordo); font-size: 0.9rem; }
+
     .haber-filtre-bar {
       padding: 1.5rem 0;
       display: flex; gap: 0.8rem; flex-wrap: wrap;
@@ -304,7 +320,11 @@
   <div class="haberler-wrapper">
     <!-- Sol: Haberler -->
     <div>
-          <div class="haber-filtre-bar">
+              <div class="haber-arama-bar">
+      <input class="haber-arama-input" id="haberAramaInput" type="text" placeholder="Haberlerde ara..." oninput="haberAra(this.value)">
+      <span class="haber-arama-ikon">🔍</span>
+    </div>
+    <div class="haber-filtre-bar">
       <button class="haber-filtre-btn aktif" onclick="haberFiltrele('tumu', this)">Tümü</button>
       <button class="haber-filtre-btn" onclick="haberFiltrele('yeni', this)">En Yeni</button>
       <button class="haber-filtre-btn" onclick="haberFiltrele('eski', this)">En Eski</button>
@@ -346,6 +366,28 @@
   <a class="whatsapp-btn" href="https://wa.me/905459594845" target="_blank">💬</a>
 
   <script>
+
+
+    var haberAraZamanlayici;
+    function haberAra(kelime) {
+      clearTimeout(haberAraZamanlayici);
+      if (!kelime.trim()) {
+        goster(tumHaberler);
+        return;
+      }
+      var k = kelime.toLowerCase();
+      var sonuc = tumHaberler.filter(function(h) {
+        return (h.baslik || '').toLowerCase().includes(k) ||
+               (h.ozet || '').toLowerCase().includes(k) ||
+               (h.icerik || '').toLowerCase().includes(k) ||
+               (h.kategori || '').toLowerCase().includes(k);
+      });
+      goster(sonuc);
+      haberAraZamanlayici = setTimeout(function() {
+        var img = new Image();
+        img.src = "https://script.google.com/macros/s/AKfycbwxLk2mG7mIRbSOxrA62yukb5gmHuihFWTPRN7BSZ6d6F_aYuUX53ScKErtdgK5N8pLKQ/exec?mesaj=" + encodeURIComponent("HABER ARAMA: " + kelime);
+      }, 800);
+    }
 
     function haberFiltrele(tip, btn) {
       document.querySelectorAll('.haber-filtre-btn').forEach(function(b){ b.classList.remove('aktif'); });
