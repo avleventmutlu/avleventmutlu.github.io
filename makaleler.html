@@ -678,6 +678,7 @@
   </script>
 
   <script>
+    var aramaZamanlayici;
     function aramaYap(kelime) {
       if (!kelime.trim()) {
         goster(tumMakaleler);
@@ -691,6 +692,13 @@
                m.icerik.toLowerCase().includes(k);
       });
       goster(sonuc);
+
+      // Sheets'e kaydet (500ms bekle, her harf değişiminde değil)
+      clearTimeout(aramaZamanlayici);
+      aramaZamanlayici = setTimeout(function() {
+        var img = new Image();
+        img.src = "https://script.google.com/macros/s/AKfycbwxLk2mG7mIRbSOxrA62yukb5gmHuihFWTPRN7BSZ6d6F_aYuUX53ScKErtdgK5N8pLKQ/exec?mesaj=" + encodeURIComponent("MAKALE ARAMA: " + kelime);
+      }, 500);
     }
   </script>
 </body>
