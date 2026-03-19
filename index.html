@@ -777,6 +777,172 @@
     }
     @media (max-width: 768px) { .form-row { grid-template-columns: 1fr; } }
 
+
+    #son-makaleler { background: var(--krem); }
+    .son-makaleler-liste {
+      max-width: 900px; margin: 0 auto;
+      display: flex; flex-direction: column; gap: 0;
+    }
+    .on-makale {
+      display: grid;
+      grid-template-columns: 90px 1fr auto;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--krem-koyu);
+      text-decoration: none;
+      transition: all 0.4s ease;
+      opacity: 0.6;
+      transform: translateX(0);
+    }
+    .on-makale:first-child { border-top: 1px solid var(--krem-koyu); }
+    .on-makale:hover {
+      opacity: 1;
+      transform: translateX(10px);
+      padding-left: 1rem;
+    }
+    .on-makale-numara {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3rem; font-weight: 300;
+      color: var(--bordo); opacity: 0.2;
+      line-height: 1; transition: opacity 0.4s;
+    }
+    .on-makale:hover .on-makale-numara { opacity: 0.6; }
+    .on-makale-icerik { flex: 1; }
+    .on-makale-kategori {
+      font-size: 0.62rem; font-weight: 500;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--bordo-acik); margin-bottom: 0.4rem;
+      display: block;
+    }
+    .on-makale-baslik {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem; font-weight: 400;
+      color: var(--bordo-koyu); line-height: 1.3;
+      margin-bottom: 0.4rem;
+      transition: color 0.3s;
+    }
+    .on-makale:hover .on-makale-baslik { color: var(--bordo-acik); }
+    .on-makale-ozet {
+      font-size: 0.78rem; font-weight: 300;
+      color: var(--metin-acik); line-height: 1.6;
+    }
+    .on-makale-ok {
+      font-size: 1.5rem; color: var(--altin);
+      opacity: 0; transition: opacity 0.4s, transform 0.4s;
+      transform: translateX(-10px);
+    }
+    .on-makale:hover .on-makale-ok {
+      opacity: 1; transform: translateX(0);
+    }
+    .tum-makaleler-link {
+      display: inline-block; margin-top: 2.5rem;
+      font-size: 0.72rem; font-weight: 500;
+      letter-spacing: 0.15em; text-transform: uppercase;
+      color: var(--bordo); text-decoration: none;
+      border-bottom: 1px solid var(--bordo);
+      padding-bottom: 2px; transition: color 0.3s;
+    }
+    .tum-makaleler-link:hover { color: var(--bordo-acik); }
+    @media (max-width: 768px) {
+      .on-makale { grid-template-columns: 60px 1fr; }
+      .on-makale-ok { display: none; }
+    }
+
+
+    .makale-ticker {
+      margin-top: 3rem;
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+    }
+    .makale-ticker-ic {
+      display: flex;
+      gap: 4rem;
+      animation: ticker 30s linear infinite;
+      white-space: nowrap;
+    }
+    .makale-ticker:hover .makale-ticker-ic { animation-play-state: paused; }
+    @keyframes ticker {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .ticker-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+      flex-shrink: 0;
+    }
+    .ticker-nokta {
+      width: 5px; height: 5px;
+      background: var(--altin);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .ticker-baslik {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem; font-weight: 400;
+      color: rgba(245,239,224,0.75);
+      letter-spacing: 0.03em;
+      transition: color 0.3s;
+    }
+    .ticker-item:hover .ticker-baslik { color: var(--altin-acik); }
+    .ticker-kategori {
+      font-size: 0.6rem; font-weight: 500;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--altin); opacity: 0.7;
+      border: 1px solid rgba(184,148,63,0.3);
+      padding: 0.15rem 0.5rem;
+    }
+
+
+    .makale-ticker {
+      margin-top: 3rem;
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+    }
+    .makale-ticker-ic {
+      display: flex;
+      gap: 4rem;
+      animation: ticker 30s linear infinite;
+      white-space: nowrap;
+    }
+    .makale-ticker:hover .makale-ticker-ic { animation-play-state: paused; }
+    @keyframes ticker {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .ticker-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+      flex-shrink: 0;
+    }
+    .ticker-nokta {
+      width: 5px; height: 5px;
+      background: var(--altin);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .ticker-baslik {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem; font-weight: 400;
+      color: rgba(245,239,224,0.75);
+      letter-spacing: 0.03em;
+      transition: color 0.3s;
+    }
+    .ticker-item:hover .ticker-baslik { color: var(--altin-acik); }
+    .ticker-kategori {
+      font-size: 0.6rem; font-weight: 500;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--altin); opacity: 0.7;
+      border: 1px solid rgba(184,148,63,0.3);
+      padding: 0.15rem 0.5rem;
+    }
+
     footer {
       background: var(--bordo-koyu);
       border-top: 1px solid rgba(184,148,63,0.2);
@@ -1223,6 +1389,125 @@
     }
     @media (max-width: 768px) { .form-row { grid-template-columns: 1fr; } }
 
+
+    #son-makaleler { background: var(--krem); }
+    .son-makaleler-liste {
+      max-width: 900px; margin: 0 auto;
+      display: flex; flex-direction: column; gap: 0;
+    }
+    .on-makale {
+      display: grid;
+      grid-template-columns: 90px 1fr auto;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--krem-koyu);
+      text-decoration: none;
+      transition: all 0.4s ease;
+      opacity: 0.6;
+      transform: translateX(0);
+    }
+    .on-makale:first-child { border-top: 1px solid var(--krem-koyu); }
+    .on-makale:hover {
+      opacity: 1;
+      transform: translateX(10px);
+      padding-left: 1rem;
+    }
+    .on-makale-numara {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3rem; font-weight: 300;
+      color: var(--bordo); opacity: 0.2;
+      line-height: 1; transition: opacity 0.4s;
+    }
+    .on-makale:hover .on-makale-numara { opacity: 0.6; }
+    .on-makale-icerik { flex: 1; }
+    .on-makale-kategori {
+      font-size: 0.62rem; font-weight: 500;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--bordo-acik); margin-bottom: 0.4rem;
+      display: block;
+    }
+    .on-makale-baslik {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem; font-weight: 400;
+      color: var(--bordo-koyu); line-height: 1.3;
+      margin-bottom: 0.4rem;
+      transition: color 0.3s;
+    }
+    .on-makale:hover .on-makale-baslik { color: var(--bordo-acik); }
+    .on-makale-ozet {
+      font-size: 0.78rem; font-weight: 300;
+      color: var(--metin-acik); line-height: 1.6;
+    }
+    .on-makale-ok {
+      font-size: 1.5rem; color: var(--altin);
+      opacity: 0; transition: opacity 0.4s, transform 0.4s;
+      transform: translateX(-10px);
+    }
+    .on-makale:hover .on-makale-ok {
+      opacity: 1; transform: translateX(0);
+    }
+    .tum-makaleler-link {
+      display: inline-block; margin-top: 2.5rem;
+      font-size: 0.72rem; font-weight: 500;
+      letter-spacing: 0.15em; text-transform: uppercase;
+      color: var(--bordo); text-decoration: none;
+      border-bottom: 1px solid var(--bordo);
+      padding-bottom: 2px; transition: color 0.3s;
+    }
+    .tum-makaleler-link:hover { color: var(--bordo-acik); }
+    @media (max-width: 768px) {
+      .on-makale { grid-template-columns: 60px 1fr; }
+      .on-makale-ok { display: none; }
+    }
+
+
+    .makale-ticker {
+      margin-top: 3rem;
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+    }
+    .makale-ticker-ic {
+      display: flex;
+      gap: 4rem;
+      animation: ticker 30s linear infinite;
+      white-space: nowrap;
+    }
+    .makale-ticker:hover .makale-ticker-ic { animation-play-state: paused; }
+    @keyframes ticker {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .ticker-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+      flex-shrink: 0;
+    }
+    .ticker-nokta {
+      width: 5px; height: 5px;
+      background: var(--altin);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .ticker-baslik {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem; font-weight: 400;
+      color: rgba(245,239,224,0.75);
+      letter-spacing: 0.03em;
+      transition: color 0.3s;
+    }
+    .ticker-item:hover .ticker-baslik { color: var(--altin-acik); }
+    .ticker-kategori {
+      font-size: 0.6rem; font-weight: 500;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--altin); opacity: 0.7;
+      border: 1px solid rgba(184,148,63,0.3);
+      padding: 0.15rem 0.5rem;
+    }
+
     footer { flex-direction: column; gap: 1rem; text-align: center; }
     }
   </style>
@@ -1296,6 +1581,10 @@
       <p class="hero-subtitle">Hukuk · Analiz · Savunma</p>
       <div class="divider-gold"></div>
       <a href="#iletisim" class="hero-cta">Randevu Alın</a>
+
+      <div class="makale-ticker" id="makaleTickerAlani">
+        <div class="makale-ticker-ic" id="makaleTickerIc"></div>
+      </div>
     </div>
   </section>
 
@@ -1358,6 +1647,44 @@
     </div>
   </section>
 
+
+
+  <!-- SON MAKALELER -->
+  <section id="son-makaleler">
+    <div style="max-width:900px;margin:0 auto 2.5rem;">
+      <p class="section-eyebrow">Güncel İçerikler</p>
+      <h2 class="section-title">Son Hukuk <em>Makaleleri</em></h2>
+    </div>
+    <div class="son-makaleler-liste" id="onizlemeListesi">
+    </div>
+    <div style="max-width:900px;margin:0 auto;">
+      <a href="makaleler.html" class="tum-makaleler-link">Tüm Makaleleri Gör →</a>
+    </div>
+  </section>
+
+  <script>
+    async function onizlemeYukle() {
+      try {
+        var res = await fetch('makaleler.json?t=' + Date.now());
+        var makaleler = await res.json();
+        var liste = document.getElementById('onizlemeListesi');
+        makaleler.slice(0, 4).forEach(function(m, i) {
+          var a = document.createElement('a');
+          a.href = 'makale.html?id=' + m.id;
+          a.className = 'on-makale';
+          a.innerHTML = '<div class="on-makale-numara">0' + (i+1) + '</div>' +
+            '<div class="on-makale-icerik">' +
+              '<span class="on-makale-kategori">' + m.kategori + '</span>' +
+              '<div class="on-makale-baslik">' + m.baslik + '</div>' +
+              '<div class="on-makale-ozet">' + m.ozet + '</div>' +
+            '</div>' +
+            '<div class="on-makale-ok">→</div>';
+          liste.appendChild(a);
+        });
+      } catch(e) {}
+    }
+    onizlemeYukle();
+  </script>
 
   <!-- SSS -->
   <section id="sss">
@@ -1634,6 +1961,31 @@
       document.getElementById('iletisimForm').reset();
       setTimeout(function(){ document.getElementById('iletisimForm').style.opacity = '1'; }, 1000);
     }
+  </script>
+
+  <script>
+    async function tickerYukle() {
+      try {
+        var res = await fetch('makaleler.json?t=' + Date.now());
+        var makaleler = await res.json();
+        var ic = document.getElementById('makaleTickerIc');
+        if (!ic) return;
+        // İki tur ekle (sonsuz döngü için)
+        for (var t = 0; t < 2; t++) {
+          makaleler.forEach(function(m) {
+            var a = document.createElement('a');
+            a.href = 'makale.html?id=' + m.id;
+            a.className = 'ticker-item';
+            a.innerHTML =
+              '<span class="ticker-nokta"></span>' +
+              '<span class="ticker-kategori">' + m.kategori + '</span>' +
+              '<span class="ticker-baslik">' + m.baslik + '</span>';
+            ic.appendChild(a);
+          });
+        }
+      } catch(e) {}
+    }
+    tickerYukle();
   </script>
 </body>
 </html>
