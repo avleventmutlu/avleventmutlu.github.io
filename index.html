@@ -855,6 +855,8 @@
       overflow: hidden;
       width: 100%;
       position: relative;
+      mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
     }
     .makale-ticker-ic {
       display: flex;
@@ -866,6 +868,12 @@
     @keyframes ticker {
       0% { transform: translateX(0); }
       100% { transform: translateX(-50%); }
+    }
+    @media (max-width: 768px) {
+      .makale-ticker { margin-top: 2rem; }
+      .makale-ticker-ic { animation-duration: 35s; gap: 2.5rem; }
+      .ticker-baslik { font-size: 0.9rem; }
+      .ticker-kategori { font-size: 0.55rem; }
     }
     .ticker-item {
       display: inline-flex;
@@ -902,6 +910,8 @@
       overflow: hidden;
       width: 100%;
       position: relative;
+      mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
     }
     .makale-ticker-ic {
       display: flex;
@@ -913,6 +923,12 @@
     @keyframes ticker {
       0% { transform: translateX(0); }
       100% { transform: translateX(-50%); }
+    }
+    @media (max-width: 768px) {
+      .makale-ticker { margin-top: 2rem; }
+      .makale-ticker-ic { animation-duration: 35s; gap: 2.5rem; }
+      .ticker-baslik { font-size: 0.9rem; }
+      .ticker-kategori { font-size: 0.55rem; }
     }
     .ticker-item {
       display: inline-flex;
@@ -1467,6 +1483,8 @@
       overflow: hidden;
       width: 100%;
       position: relative;
+      mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
     }
     .makale-ticker-ic {
       display: flex;
@@ -1478,6 +1496,12 @@
     @keyframes ticker {
       0% { transform: translateX(0); }
       100% { transform: translateX(-50%); }
+    }
+    @media (max-width: 768px) {
+      .makale-ticker { margin-top: 2rem; }
+      .makale-ticker-ic { animation-duration: 35s; gap: 2.5rem; }
+      .ticker-baslik { font-size: 0.9rem; }
+      .ticker-kategori { font-size: 0.55rem; }
     }
     .ticker-item {
       display: inline-flex;
