@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Örnek Dilekçeler | Av. Levent Mutlu - İstanbul Hukuk Bürosu</title>
+  <meta name="description" content="Boşanma, işe iade, nafaka artırım, tazminat, suç duyurusu ve itiraz dilekçesi örnekleri. Av. Levent Mutlu Hukuk Bürosu.">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bordo: #6B1A1A; --bordo-koyu: #4A1010; --bordo-acik: #8B2A2A;
+      --krem: #F5EFE0; --krem-koyu: #E8DCC8;
+      --altin: #B8943F; --altin-acik: #D4AF60;
+      --metin: #2C1810; --metin-acik: #5C3D2E; --beyaz: #FDFAF5;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Montserrat', sans-serif; background: var(--beyaz); color: var(--metin); }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: var(--bordo-koyu); border-bottom: 1px solid var(--altin);
+      padding: 0 5%; display: flex; align-items: center;
+      justify-content: space-between; height: 68px;
+    }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 500; color: var(--krem); letter-spacing: 0.08em; text-decoration: none; }
+    .nav-logo span { color: var(--altin-acik); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--krem-koyu); text-decoration: none; transition: color 0.3s; }
+    .nav-links a:hover, .nav-links a.aktif { color: var(--altin-acik); }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 5px; background: none; border: none; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--krem); transition: all 0.3s; }
+    .mobil-menu { display: none; position: fixed; top: 68px; left: 0; right: 0; background: var(--bordo-koyu); border-bottom: 1px solid var(--altin); z-index: 99; padding: 0.5rem 5%; flex-direction: column; }
+    .mobil-menu.acik { display: flex; }
+    .mobil-menu a { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--krem-koyu); text-decoration: none; padding: 1rem 0; border-bottom: 1px solid rgba(184,148,63,0.15); transition: color 0.3s; }
+    .mobil-menu a:last-child { border-bottom: none; }
+    .mobil-menu a:hover { color: var(--altin-acik); }
+
+    .sayfa-baslik {
+      padding: 10rem 5% 5rem; background: var(--bordo-koyu);
+      text-align: center; position: relative; overflow: hidden;
+    }
+    .sayfa-baslik::after {
+      content: '§'; position: absolute; right: 3%; bottom: -10%;
+      font-family: 'Cormorant Garamond', serif; font-size: 18rem;
+      color: rgba(184,148,63,0.05); pointer-events: none;
+    }
+    .sayfa-baslik p { font-size: 0.62rem; font-weight: 500; letter-spacing: 0.3em; text-transform: uppercase; color: var(--altin); margin-bottom: 1rem; }
+    .sayfa-baslik h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 300; color: var(--krem); }
+    .sayfa-baslik h1 em { font-style: italic; color: var(--altin-acik); }
+    .sayfa-baslik .uyari {
+      margin-top: 1.5rem; display: inline-block;
+      padding: 0.6rem 1.5rem; background: rgba(184,148,63,0.15);
+      border: 1px solid rgba(184,148,63,0.3);
+      font-size: 0.72rem; color: var(--altin); letter-spacing: 0.05em;
+    }
+
+    .dilekce-listesi { max-width: 900px; margin: 0 auto; padding: 4rem 5%; }
+
+    .dilekce-kart {
+      border: 1px solid var(--krem-koyu);
+      border-left: 4px solid var(--bordo);
+      margin-bottom: 1.5rem;
+      transition: box-shadow 0.3s;
+    }
+    .dilekce-kart:hover { box-shadow: 0 4px 20px rgba(107,26,26,0.1); }
+    .dilekce-baslik-row {
+      padding: 1.5rem 2rem; display: flex; align-items: center;
+      justify-content: space-between; cursor: pointer; gap: 1rem;
+    }
+    .dilekce-baslik-sol { flex: 1; }
+    .dilekce-kategori { font-size: 0.62rem; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--bordo-acik); margin-bottom: 0.4rem; display: block; }
+    .dilekce-baslik { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 500; color: var(--bordo-koyu); }
+    .dilekce-aciklama { font-size: 0.78rem; font-weight: 300; color: var(--metin-acik); margin-top: 0.3rem; }
+    .dilekce-toggle { font-size: 1.3rem; color: var(--altin); transition: transform 0.3s; flex-shrink: 0; }
+    .dilekce-kart.acik .dilekce-toggle { transform: rotate(45deg); }
+
+    .dilekce-icerik {
+      display: none; padding: 0 2rem 2rem;
+      border-top: 1px solid var(--krem-koyu);
+    }
+    .dilekce-kart.acik .dilekce-icerik { display: block; }
+    .dilekce-metin {
+      background: var(--krem); padding: 2rem;
+      font-family: 'Courier New', monospace;
+      font-size: 0.8rem; line-height: 1.8;
+      color: var(--metin); white-space: pre-wrap;
+      margin-top: 1.5rem; border-left: 3px solid var(--altin);
+      user-select: none;
+    }
+    .dilekce-alt {
+      margin-top: 1.5rem; padding: 1rem 1.5rem;
+      background: rgba(107,26,26,0.05);
+      border-left: 3px solid var(--bordo);
+      font-size: 0.78rem; color: var(--metin-acik); line-height: 1.7;
+    }
+    .dilekce-alt strong { color: var(--bordo); }
+    .dilekce-ara-btn {
+      display: inline-block; margin-top: 1rem;
+      padding: 0.7rem 1.8rem; background: var(--bordo);
+      color: var(--krem); font-size: 0.72rem; font-weight: 500;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      text-decoration: none; transition: background 0.3s; border: none; cursor: pointer;
+    }
+    .dilekce-ara-btn:hover { background: var(--bordo-acik); }
+
+    footer {
+      background: var(--bordo-koyu); border-top: 1px solid rgba(184,148,63,0.2);
+      padding: 2rem 5%; display: flex; align-items: center; justify-content: space-between;
+    }
+    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: rgba(245,239,224,0.5); }
+    .footer-hukuk { font-size: 0.65rem; color: rgba(245,239,224,0.3); }
+
+    .whatsapp-btn {
+      position: fixed; bottom: 28px; right: 28px;
+      width: 58px; height: 58px; background: #25D366;
+      border-radius: 50%; display: flex; align-items: center;
+      justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      z-index: 999; text-decoration: none; font-size: 28px; transition: transform 0.3s;
+    }
+    .whatsapp-btn:hover { transform: scale(1.1); }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .dilekce-baslik-row { padding: 1.2rem; }
+      .dilekce-icerik { padding: 0 1rem 1.5rem; }
+      footer { flex-direction: column; gap: 1rem; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Av. <span>Levent Mutlu</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html#hakkimda">Hakkımda</a></li>
+      <li><a href="index.html#uzmanlik">Uzmanlık</a></li>
+      <li><a href="makaleler.html">Makaleler</a></li>
+      <li><a href="dilekce.html" class="aktif">Dilekçeler</a></li>
+      <li><a href="index.html#iletisim">İletişim</a></li>
+    </ul>
+    <button class="hamburger" onclick="menuAc()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobil-menu" id="mobilMenu">
+    <a href="index.html#hakkimda" onclick="menuKapat()">Hakkımda</a>
+    <a href="index.html#uzmanlik" onclick="menuKapat()">Uzmanlık</a>
+    <a href="makaleler.html" onclick="menuKapat()">Makaleler</a>
+    <a href="dilekce.html" onclick="menuKapat()">Dilekçeler</a>
+    <a href="index.html#iletisim" onclick="menuKapat()">İletişim</a>
+  </div>
+
+  <div class="sayfa-baslik">
+    <p>Hukuki Belgeler</p>
+    <h1>Örnek <em>Dilekçeler</em></h1>
+    <div class="uyari">⚠️ Bu dilekçeler yalnızca bilgi amaçlıdır. Hukuki süreçlerinizde mutlaka uzman avukat desteği alınız.</div>
+  </div>
+
+  <div class="dilekce-listesi" id="dilekceListesi">
+    <p style="text-align:center;font-style:italic;color:var(--metin-acik)">Yükleniyor...</p>
+  </div>
+
+  <footer>
+    <div class="footer-logo">Av. Levent Mutlu</div>
+    <div class="footer-hukuk">© 2026 · Tüm hakları saklıdır · İstanbul</div>
+  </footer>
+
+  <a class="whatsapp-btn" href="https://wa.me/905459594845" target="_blank">💬</a>
+
+  <script>
+    function menuAc() { document.getElementById('mobilMenu').classList.toggle('acik'); }
+    function menuKapat() { document.getElementById('mobilMenu').classList.remove('acik'); }
+
+    function dilkecAc(el) {
+      var kart = el.parentElement;
+      var acikMi = kart.classList.contains('acik');
+      document.querySelectorAll('.dilekce-kart').forEach(function(k){ k.classList.remove('acik'); });
+      if (!acikMi) kart.classList.add('acik');
+    }
+
+    async function yukle() {
+      try {
+        var res = await fetch('dilekce.json?t=' + Date.now());
+        var data = await res.json();
+        var liste = document.getElementById('dilekceListesi');
+        liste.innerHTML = data.map(function(d, i) {
+          return '<div class="dilekce-kart">' +
+            '<div class="dilekce-baslik-row" onclick="dilkecAc(this)">' +
+              '<div class="dilekce-baslik-sol">' +
+                '<span class="dilekce-kategori">' + d.kategori + '</span>' +
+                '<div class="dilekce-baslik">' + d.baslik + '</div>' +
+                '<div class="dilekce-aciklama">' + d.aciklama + '</div>' +
+              '</div>' +
+              '<span class="dilekce-toggle">+</span>' +
+            '</div>' +
+            '<div class="dilekce-icerik">' +
+              '<div class="dilekce-metin">' + d.icerik + '</div>' +
+              '<div class="dilekce-alt">' +
+                '<strong>⚠️ Önemli Uyarı:</strong> Bu dilekçe taslak niteliğinde olup yalnızca genel bilgi amaçlıdır. ' +
+                'Her davanın kendine özgü koşulları bulunmakta olup dilekçenizin hukuka uygun şekilde hazırlanması için ' +
+                'mutlaka bir avukattan destek almanızı tavsiye ederiz.<br><br>' +
+                '<a href="tel:+905459594845" class="dilekce-ara-btn">📞 Ücretsiz Danışmanlık İçin Arayın</a>' +
+              '</div>' +
+            '</div>' +
+          '</div>';
+        }).join('');
+      } catch(e) {
+        document.getElementById('dilekceListesi').innerHTML = '<p style="text-align:center;color:var(--metin-acik)">Yüklenemedi.</p>';
+      }
+    }
+    yukle();
+  </script>
+</body>
+</html>
