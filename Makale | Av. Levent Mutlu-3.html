@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.13/html-to-image.min.js" integrity="sha512-iZ2ORl595Wx6miw+GuadDet4WQbdSWS3JLMoNfY8cRGoEFy6oT3G9IbcrBeL6AfkgpA51ETt/faX6yLV+/gFJg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      (function() {
+        const originalConsole = window.console;
+        window.console = {
+          log: (...args) => {
+            originalConsole.log(...args);
+            window.parent.postMessage({ type: 'console', message: args.join(' ') }, '*');
+          },
+          error: (...args) => {
+            originalConsole.error(...args);
+            window.parent.postMessage({ type: 'console', message: 'Error: ' + args.join(' ') }, '*');
+          },
+          warn: (...args) => {
+            originalConsole.warn(...args);
+            window.parent.postMessage({ type: 'console', message: 'Warning: ' + args.join(' ') }, '*');
+          }
+        };
+
+        let requestId = 0;
+        let callbacksMap = new Map();
+        let streamControllers = new Map();
+        
+        window.claude = {
+          complete: (prompt) => {
+            return new Promise((resolve, reject) => {
+              const id = requestId++;
+              callbacksMap.set(id, { resolve, reject });
+              window.parent.postMessage({ type: 'claudeComplete', id, prompt }, '*');
+            });
+          }
+        };
+
+        window.storage = {
+          get: (key, shared = false) => {
+            return new Promise((resolve, reject) => {
+              const id = requestId++;
+              callbacksMap.set(id, { resolve, reject });
+              window.parent.postMessage({ type: 'storageGet', id, key, shared }, '*');
+            });
+          },
+          set: (key, value, shared = false) => {
+            return new Promise((resolve, reject) => {
+              const id = requestId++;
+              callbacksMap.set(id, { resolve, reject });
+              window.parent.postMessage({ type: 'storageSet', id, key, value, shared }, '*');
+            });
+          },
+          delete: (key, shared = false) => {
+            return new Promise((resolve, reject) => {
+              const id = requestId++;
+              callbacksMap.set(id, { resolve, reject });
+              window.parent.postMessage({ type: 'storageDelete', id, key, shared }, '*');
+            });
+          },
+          list: (prefix, shared = false) => {
+            return new Promise((resolve, reject) => {
+              const id = requestId++;
+              callbacksMap.set(id, { resolve, reject });
+              window.parent.postMessage({ type: 'storageList', id, prefix, shared }, '*');
+            });
+          }
+        };
+
+        let pendingBlobs = new Map();
+        URL.createObjectURL = (blob) => {
+          // Store the blob and create an ID and URL for it
+          const blobId = `blob-${Date.now()}-${Math.random()}`;
+          pendingBlobs.set(blobId, blob);
+          return `blob-request://${blobId}`;
+        };
+
+        URL.revokeObjectURL = (url) => {
+          // Remove the blob from our store
+          const blobId = url.replace("blob-request://", "");
+          pendingBlobs.delete(blobId);
+        };
+
+        const getBlobFromURL = (url) => {
+          const blobId = url.replace("blob-request://", "");
+          return pendingBlobs.get(blobId);
+        };
+
+        // Override global fetch with streaming support
+        window.fetch = (url, init = {}) => {
+          return new Promise((resolve, reject) => {
+            const id = requestId++;
+            const channelId = `fetch-${id}-${Date.now()}`;
+            
+            callbacksMap.set(id, { 
+              resolve: (response) => {
+                // Create a ReadableStream for the response body
+                const stream = new ReadableStream({
+                  start(controller) {
+                    streamControllers.set(channelId, controller);
+                  },
+                  cancel() {
+                    streamControllers.delete(channelId);
+                  }
+                });
+                
+                // Create and return the Response with the stream
+                resolve(new Response(stream, {
+                  status: response.status,
+                  statusText: response.statusText,
+                  headers: response.headers
+                }));
+              },
+              reject,
+              channelId
+            });
+            
+            window.parent.postMessage({
+              type: 'proxyFetch',
+              id,
+              url,
+              init,
+              channelId
+            }, '*');
+          });
+        };
+
+        window.addEventListener('message', async (event) => {
+          if (event.data.type === 'takeScreenshot') {
+            const rootElement = document.getElementById('artifacts-component-root-html');
+            if (!rootElement) {
+              window.parent.postMessage({
+                type: 'screenshotError',
+                error: new Error('Root element not found'),
+              }, '*');
+            }
+            const screenshot = await htmlToImage.toPng(rootElement, {
+              imagePlaceholder:
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdjePDgwX8ACOQDoNsk0PMAAAAASUVORK5CYII=",
+            });
+            window.parent.postMessage({
+              type: 'screenshotData',
+              data: screenshot,
+            }, '*');
+          } else if (event.data.type === 'claudeComplete') {
+            const callback = callbacksMap.get(event.data.id);
+            if (event.data.error) {
+              callback.reject(new Error(event.data.error));
+            } else {
+              callback.resolve(event.data.completion);
+            }
+            callbacksMap.delete(event.data.id);
+          } else if (event.data.type === 'proxyFetchResponse') {
+            const callback = callbacksMap.get(event.data.id);
+            if (event.data.error) {
+              callback.reject(new Error(event.data.error));
+              callbacksMap.delete(event.data.id);
+            } else {
+              // Initial response with headers, status, etc.
+              callback.resolve({
+                status: event.data.status,
+                statusText: event.data.statusText,
+                headers: event.data.headers
+              });
+              // Don't delete the callback yet if streaming
+              if (!event.data.body) {
+                callbacksMap.delete(event.data.id);
+              }
+            }
+          } else if (event.data.type === 'proxyFetchStream') {
+            // Handle streaming data chunks
+            const controller = streamControllers.get(event.data.channelId);
+            if (controller) {
+              if (event.data.error) {
+                controller.error(new Error(event.data.error));
+                streamControllers.delete(event.data.channelId);
+              } else if (event.data.done) {
+                controller.close();
+                streamControllers.delete(event.data.channelId);
+                // Clean up the callback
+                const callback = Array.from(callbacksMap.entries()).find(
+                  ([_, value]) => value.channelId === event.data.channelId
+                );
+                if (callback) {
+                  callbacksMap.delete(callback[0]);
+                }
+              } else if (event.data.chunk) {
+                controller.enqueue(new Uint8Array(event.data.chunk));
+              }
+            }
+          } else if (event.data.type === 'storageGet') {
+            const callback = callbacksMap.get(event.data.id);
+            if (event.data.error) {
+              callback.reject(new Error(event.data.error));
+            } else {
+              callback.resolve(event.data.result);
+            }
+            callbacksMap.delete(event.data.id);
+          } else if (event.data.type === 'storageSet') {
+            const callback = callbacksMap.get(event.data.id);
+            if (event.data.error) {
+              callback.reject(new Error(event.data.error));
+            } else {
+              callback.resolve(event.data.result);
+            }
+            callbacksMap.delete(event.data.id);
+          } else if (event.data.type === 'storageDelete') {
+            const callback = callbacksMap.get(event.data.id);
+            if (event.data.error) {
+              callback.reject(new Error(event.data.error));
+            } else {
+              callback.resolve(event.data.result);
+            }
+            callbacksMap.delete(event.data.id);
+          } else if (event.data.type === 'storageList') {
+            const callback = callbacksMap.get(event.data.id);
+            if (event.data.error) {
+              callback.reject(new Error(event.data.error));
+            } else {
+              callback.resolve(event.data.result);
+            }
+            callbacksMap.delete(event.data.id);
+          }
+        });
+
+        window.addEventListener('click', (event) => {
+          const isEl = event.target instanceof HTMLElement;
+          if (!isEl) return;
+    
+          // find ancestor links
+          const linkEl = event.target.closest("a");
+          if (!linkEl || !linkEl.href) return;
+    
+          event.preventDefault();
+          event.stopImmediatePropagation();
+    
+          if (linkEl.href.startsWith("blob-request:")) {
+            const blob = getBlobFromURL(linkEl.href);
+            if (!blob) return;
+            void blob.arrayBuffer().then((data) => {
+              window.parent.postMessage({
+                type: "downloadFile",
+                filename: linkEl.download,
+                data,
+                mimeType: blob.type || "application/octet-stream",
+              });
+            });
+          } else if (linkEl.href.startsWith("data:")) {
+            const [header, base64Data] = linkEl.href.split(",");
+            const mimeMatch = header.match(/data:([^;]+)/);
+            const mimeType = mimeMatch ? mimeMatch[1] : "application/octet-stream";
+            const binaryString = atob(base64Data);
+            const data = Uint8Array.from(binaryString, (c) =>
+              c.charCodeAt(0),
+            ).buffer;
+            window.parent.postMessage({
+              type: "downloadFile",
+              filename: linkEl.download,
+              data,
+              mimeType,
+            });
+          } else {
+            let linkUrl;
+            try {
+              linkUrl = new URL(linkEl.href);
+            } catch (error) {
+              return;
+            }
+    
+            if (linkUrl.hostname === window.location.hostname) return;
+      
+            window.parent.postMessage({
+              type: 'openExternal',
+              href: linkEl.href,
+            }, '*');
+          }
+      });
+
+        const originalOpen = window.open;
+        window.open = function (url) {
+          window.parent.postMessage({
+            type: "openExternal",
+            href: url,
+          }, "*");
+        };
+
+        window.addEventListener('error', (event) => {
+          window.parent.postMessage({ type: 'console', message: 'Uncaught Error: ' + event.message }, '*');
+        });
+      })();
+    </script>
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Makale | Av. Levent Mutlu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bordo: #6B1A1A; --bordo-koyu: #4A1010; --bordo-acik: #8B2A2A;
+      --krem: #F5EFE0; --krem-koyu: #E8DCC8;
+      --altin: #B8943F; --altin-acik: #D4AF60;
+      --metin: #2C1810; --metin-acik: #5C3D2E; --beyaz: #FDFAF5;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Montserrat', sans-serif; background: var(--beyaz); color: var(--metin); }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: var(--bordo-koyu); border-bottom: 1px solid var(--altin);
+      padding: 0 5%; display: flex; align-items: center;
+      justify-content: space-between; height: 68px;
+    }
+    .nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 500; color: var(--krem); letter-spacing: 0.08em; text-decoration: none; }
+    .nav-logo span { color: var(--altin-acik); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--krem-koyu); text-decoration: none; transition: color 0.3s; }
+    .nav-links a:hover { color: var(--altin-acik); }
+
+    .makale-hero {
+      padding: 10rem 5% 5rem;
+      background: var(--bordo-koyu);
+      max-width: 100%;
+    }
+    .makale-hero-inner { max-width: 760px; margin: 0 auto; }
+    .geri-link {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      font-size: 0.68rem; font-weight: 500; letter-spacing: 0.15em;
+      text-transform: uppercase; color: var(--altin);
+      text-decoration: none; margin-bottom: 2rem;
+      transition: gap 0.3s;
+    }
+    .geri-link:hover { gap: 0.8rem; }
+    .makale-kategori-tag {
+      display: inline-block;
+      font-size: 0.62rem; font-weight: 500; letter-spacing: 0.2em;
+      text-transform: uppercase; color: var(--altin);
+      border: 1px solid var(--altin); padding: 0.3rem 0.8rem;
+      margin-bottom: 1.5rem;
+    }
+    .makale-baslik-buyuk {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 4vw, 3rem); font-weight: 400;
+      color: var(--krem); line-height: 1.2; margin-bottom: 1.5rem;
+    }
+    .makale-meta {
+      font-size: 0.72rem; color: rgba(245,239,224,0.4);
+      letter-spacing: 0.1em;
+    }
+
+    .makale-govde {
+      max-width: 760px; margin: 0 auto;
+      padding: 5rem 5%;
+    }
+    .makale-govde .ozet {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem; font-style: italic; font-weight: 300;
+      color: var(--bordo-acik); line-height: 1.7;
+      border-left: 3px solid var(--altin);
+      padding-left: 1.5rem; margin-bottom: 3rem;
+    }
+    .makale-govde .icerik {
+      font-size: 0.95rem; font-weight: 300;
+      line-height: 2; color: var(--metin-acik);
+    }
+    .makale-govde .icerik p { margin-bottom: 1.5rem; }
+
+    .iletisim-kutu {
+      margin-top: 4rem; padding: 3rem;
+      background: var(--krem); border-left: 4px solid var(--bordo);
+      text-align: center;
+    }
+    .iletisim-kutu p {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem; font-style: italic;
+      color: var(--bordo-koyu); margin-bottom: 1.5rem;
+    }
+    .iletisim-kutu a {
+      display: inline-block; padding: 0.9rem 2.5rem;
+      background: var(--bordo); color: var(--krem);
+      font-size: 0.72rem; font-weight: 500;
+      letter-spacing: 0.15em; text-transform: uppercase;
+      text-decoration: none; transition: background 0.3s;
+    }
+    .iletisim-kutu a:hover { background: var(--bordo-acik); }
+
+    footer {
+      background: var(--bordo-koyu); border-top: 1px solid rgba(184,148,63,0.2);
+      padding: 2rem 5%; display: flex; align-items: center; justify-content: space-between;
+    }
+    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: rgba(245,239,224,0.5); }
+    .footer-hukuk { font-size: 0.65rem; color: rgba(245,239,224,0.3); }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      footer { flex-direction: column; gap: 1rem; text-align: center; }
+    }
+  </style>
+</head>
+<body id="artifacts-component-root-html">
+
+  <nav>
+    <a href="index.html" class="nav-logo">Av. <span>Levent Mutlu</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html#hakkimda">Hakkımda</a></li>
+      <li><a href="index.html#uzmanlik">Uzmanlık</a></li>
+      <li><a href="makaleler.html">Makaleler</a></li>
+      <li><a href="index.html#iletisim">İletişim</a></li>
+    </ul>
+  </nav>
+
+  <div class="makale-hero">
+    <div class="makale-hero-inner">
+      <a href="makaleler.html" class="geri-link">← Tüm Makaleler</a>
+      <div id="hero-icerik">
+        <p style="color:rgba(245,239,224,0.4); font-style:italic;">Yükleniyor...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="makale-govde" id="makale-govde"></div>
+
+  <footer>
+    <div class="footer-logo">Av. Levent Mutlu</div>
+    <div class="footer-hukuk">© 2026 · Tüm hakları saklıdır · İstanbul</div>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+
+    async function yukle() {
+      const res = await fetch('makaleler.json?t=' + Date.now());
+      const makaleler = await res.json();
+      const m = makaleler.find(x => x.id === id);
+      if (!m) {
+        document.getElementById('hero-icerik').innerHTML = '<p style="color:var(--krem)">Makale bulunamadı.</p>';
+        return;
+      }
+      document.title = m.baslik + ' | Av. Levent Mutlu';
+      document.getElementById('hero-icerik').innerHTML = `
+        <div class="makale-kategori-tag">${m.kategori}</div>
+        <h1 class="makale-baslik-buyuk">${m.baslik}</h1>
+        <p class="makale-meta">${m.tarih}</p>
+      `;
+      const paragraflar = m.icerik.split('\n\n').map(p => `<p>${p}</p>`).join('');
+      document.getElementById('makale-govde').innerHTML = `
+        <div class="ozet">${m.ozet}</div>
+        <div class="icerik">${paragraflar}</div>
+        <div class="iletisim-kutu">
+          <p>Bu konuda hukuki danışmanlık almak ister misiniz?</p>
+          <a href="tel:+905459594845">📞 Randevu Alın</a>
+        </div>
+      `;
+    }
+    yukle();
+  </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "bilisim-suclari-delil",
+    "baslik": "Bilişim Suçlarında Dijital Delil ve Hukuki Süreç",
+    "tarih": "19 Mart 2026",
+    "kategori": "Ceza Hukuku",
+    "ozet": "Dijital delillerin hukuki geçerliliği, elde edilme yöntemleri ve mahkemede nasıl değerlendirildiği üzerine kapsamlı bir analiz.",
+    "icerik": "Bilişim suçlarında en kritik unsurlardan biri dijital delillerdir. Türk Ceza Kanunu ve Ceza Muhakemesi Kanunu çerçevesinde dijital delillerin toplanması, muhafazası ve mahkemeye sunulması belirli usul kurallarına tabidir.\n\nDijital delil; elektronik posta yazışmaları, sosyal medya paylaşımları, log kayıtları, IP adresi bilgileri ve cihaz içeriklerinden oluşabilir. Bu delillerin hukuki geçerlilik kazanabilmesi için usule uygun biçimde elde edilmesi şarttır.\n\nYargıtay kararları incelendiğinde, usulsüz yollarla elde edilen dijital delillerin mahkemece kabul edilmediği görülmektedir. Bu nedenle soruşturma aşamasından itibaren uzman bir avukat desteği son derece önemlidir."
+  },
+  {
+    "id": "bosanma-velayet",
+    "baslik": "Boşanma Davalarında Velayet Hakkı: Bilinmesi Gerekenler",
+    "tarih": "10 Mart 2026",
+    "kategori": "Aile Hukuku",
+    "ozet": "Boşanma sürecinde velayet kararını etkileyen faktörler, ortak velayet uygulaması ve çocuğun üstün yararı ilkesi.",
+    "icerik": "Türk Medeni Kanunu'na göre velayet kararlarında temel ölçüt çocuğun üstün yararıdır. Mahkemeler velayet kararı verirken ebeveynlerin ekonomik durumu, çocukla duygusal bağı, yaşam koşulları ve çocuğun tercihi gibi pek çok faktörü değerlendirmektedir.\n\nOrtak velayet uygulaması Türk hukukunda giderek yaygınlaşmakta olup tarafların anlaşmalı boşanma yoluyla bu düzenlemeye kavuşması mümkündür.\n\nBoşanma sürecinde çocuğun psikolojik sağlığını korumak ve hukuki süreci sağlıklı yönetmek için uzman bir aile hukukçusundan destek almanızı tavsiye ederim."
+  }
+]
