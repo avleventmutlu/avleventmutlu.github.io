@@ -11,25 +11,18 @@
 </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Makaleler | Av. Levent Mutlu</title>
+  <title>Makale | Av. Levent Mutlu</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bordo: #6B1A1A;
-      --bordo-koyu: #4A1010;
-      --bordo-acik: #8B2A2A;
-      --krem: #F5EFE0;
-      --krem-koyu: #E8DCC8;
-      --altin: #B8943F;
-      --altin-acik: #D4AF60;
-      --metin: #2C1810;
-      --metin-acik: #5C3D2E;
-      --beyaz: #FDFAF5;
+      --bordo: #6B1A1A; --bordo-koyu: #4A1010; --bordo-acik: #8B2A2A;
+      --krem: #F5EFE0; --krem-koyu: #E8DCC8;
+      --altin: #B8943F; --altin-acik: #D4AF60;
+      --metin: #2C1810; --metin-acik: #5C3D2E; --beyaz: #FDFAF5;
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
     body { font-family: 'Montserrat', sans-serif; background: var(--beyaz); color: var(--metin); }
 
     nav {
@@ -42,7 +35,120 @@
     .nav-logo span { color: var(--altin-acik); }
     .nav-links { display: flex; gap: 2.5rem; list-style: none; }
     .nav-links a { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--krem-koyu); text-decoration: none; transition: color 0.3s; }
-    .nav-links a:hover, .nav-links a.aktif { color: var(--altin-acik); }
+    .nav-links a:hover { color: var(--altin-acik); }
+
+    .makale-hero {
+      padding: 10rem 5% 5rem;
+      background: var(--bordo-koyu);
+      max-width: 100%;
+    }
+    .makale-hero-inner { max-width: 760px; margin: 0 auto; }
+    .geri-link {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      font-size: 0.68rem; font-weight: 500; letter-spacing: 0.15em;
+      text-transform: uppercase; color: var(--altin);
+      text-decoration: none; margin-bottom: 2rem;
+      transition: gap 0.3s;
+    }
+    .geri-link:hover { gap: 0.8rem; }
+    .makale-kategori-tag {
+      display: inline-block;
+      font-size: 0.62rem; font-weight: 500; letter-spacing: 0.2em;
+      text-transform: uppercase; color: var(--altin);
+      border: 1px solid var(--altin); padding: 0.3rem 0.8rem;
+      margin-bottom: 1.5rem;
+    }
+    .makale-baslik-buyuk {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 4vw, 3rem); font-weight: 400;
+      color: var(--krem); line-height: 1.2; margin-bottom: 1.5rem;
+    }
+    .makale-meta {
+      font-size: 0.72rem; color: rgba(245,239,224,0.4);
+      letter-spacing: 0.1em;
+    }
+
+    .makale-govde {
+      max-width: 760px; margin: 0 auto;
+      padding: 5rem 5%;
+    }
+    .makale-govde .ozet {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem; font-style: italic; font-weight: 300;
+      color: var(--bordo-acik); line-height: 1.7;
+      border-left: 3px solid var(--altin);
+      padding-left: 1.5rem; margin-bottom: 3rem;
+    }
+    .makale-govde .icerik {
+      font-size: 0.95rem; font-weight: 300;
+      line-height: 2; color: var(--metin-acik);
+    }
+    .makale-govde .icerik p { margin-bottom: 1.5rem; }
+    .emsal-kutu {
+      margin-top: 3rem;
+      padding: 1.5rem 2rem;
+      background: var(--bordo-koyu);
+      border-left: 4px solid var(--altin);
+      color: var(--krem);
+      font-size: 0.95rem;
+      font-weight: 600;
+      line-height: 1.8;
+      letter-spacing: 0.02em;
+    }
+
+    .iletisim-kutu {
+      margin-top: 4rem; padding: 3rem;
+      background: var(--krem); border-left: 4px solid var(--bordo);
+      text-align: center;
+    }
+    .iletisim-kutu p {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem; font-style: italic;
+      color: var(--bordo-koyu); margin-bottom: 1.5rem;
+    }
+    .iletisim-kutu a {
+      display: inline-block; padding: 0.9rem 2.5rem;
+      background: var(--bordo); color: var(--krem);
+      font-size: 0.72rem; font-weight: 500;
+      letter-spacing: 0.15em; text-transform: uppercase;
+      text-decoration: none; transition: background 0.3s;
+    }
+    .iletisim-kutu a:hover { background: var(--bordo-acik); }
+
+
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      width: 56px;
+      height: 56px;
+      background: #25D366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+      z-index: 999;
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-decoration: none;
+    }
+    .whatsapp-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 24px rgba(0,0,0,0.35);
+    }
+    .whatsapp-btn svg {
+      width: 30px;
+      height: 30px;
+      fill: #fff;
+    }
+
+    footer {
+      background: var(--bordo-koyu); border-top: 1px solid rgba(184,148,63,0.2);
+      padding: 2rem 5%; display: flex; align-items: center; justify-content: space-between;
+    }
+    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: rgba(245,239,224,0.5); }
+    .footer-hukuk { font-size: 0.65rem; color: rgba(245,239,224,0.3); }
+
 
     .hamburger {
       display: none;
@@ -80,156 +186,12 @@
       transition: color 0.3s;
     }
     .mobil-menu a:last-child { border-bottom: none; }
-    .mobil-menu a:hover, .mobil-menu a.aktif { color: var(--altin-acik); }
+    .mobil-menu a:hover { color: var(--altin-acik); }
 
-    .sayfa-baslik {
-      padding: 10rem 5% 5rem;
-      background: var(--bordo-koyu);
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-    .sayfa-baslik::after {
-      content: 'S';
-      position: absolute; right: 3%; bottom: -10%;
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 18rem; color: rgba(184,148,63,0.05);
-      pointer-events: none;
-    }
-    .sayfa-baslik p { font-size: 0.62rem; font-weight: 500; letter-spacing: 0.3em; text-transform: uppercase; color: var(--altin); margin-bottom: 1rem; }
-    .sayfa-baslik h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 300; color: var(--krem); }
-    .sayfa-baslik h1 em { font-style: italic; color: var(--altin-acik); }
-
-    .filtre-bar {
-      padding: 2rem 5%;
-      background: var(--krem);
-      display: flex; gap: 1rem; flex-wrap: wrap;
-      border-bottom: 1px solid var(--krem-koyu);
-    }
-    .filtre-btn {
-      padding: 0.5rem 1.2rem;
-      border: 1px solid var(--bordo);
-      background: transparent;
-      color: var(--bordo);
-      font-family: 'Montserrat', sans-serif;
-      font-size: 0.68rem; font-weight: 500;
-      letter-spacing: 0.1em; text-transform: uppercase;
-      cursor: pointer; transition: all 0.3s;
-    }
-    .filtre-btn:hover, .filtre-btn.aktif {
-      background: var(--bordo); color: var(--krem);
-    }
-
-    .makaleler-listesi {
-      max-width: 860px; margin: 0 auto;
-      padding: 4rem 5%;
-    }
-
-    .yukluyor {
-      text-align: center; padding: 4rem;
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.5rem; color: var(--bordo-acik);
-      font-style: italic;
-    }
-
-    .makale-kart {
-      border-bottom: 1px solid var(--krem-koyu);
-      padding: 2.5rem 0;
-      display: grid;
-      grid-template-columns: auto 1fr;
-      gap: 2rem;
-      cursor: pointer;
-      transition: all 0.3s;
-    }
-    .makale-kart:hover { transform: translateX(8px); }
-    .makale-kart:first-child { border-top: 1px solid var(--krem-koyu); }
-
-    .makale-tarih-col {
-      writing-mode: vertical-rl;
-      text-orientation: mixed;
-      font-size: 0.62rem; font-weight: 500;
-      letter-spacing: 0.15em; text-transform: uppercase;
-      color: var(--altin);
-      padding-top: 0.3rem;
-    }
-
-    .makale-icerik { flex: 1; }
-    .makale-kategori {
-      display: inline-block;
-      font-size: 0.62rem; font-weight: 500;
-      letter-spacing: 0.15em; text-transform: uppercase;
-      color: var(--bordo-acik);
-      margin-bottom: 0.7rem;
-    }
-    .makale-baslik {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.7rem; font-weight: 400;
-      color: var(--bordo-koyu); line-height: 1.25;
-      margin-bottom: 0.8rem;
-      text-decoration: none; display: block;
-    }
-    .makale-baslik:hover { color: var(--bordo-acik); }
-    .makale-ozet {
-      font-size: 0.85rem; font-weight: 300;
-      line-height: 1.8; color: var(--metin-acik);
-      margin-bottom: 1rem;
-    }
-    .makale-devam {
-      font-size: 0.68rem; font-weight: 500;
-      letter-spacing: 0.15em; text-transform: uppercase;
-      color: var(--altin); text-decoration: none;
-      border-bottom: 1px solid var(--altin);
-      padding-bottom: 2px;
-      transition: color 0.3s;
-    }
-    .makale-devam:hover { color: var(--bordo); border-color: var(--bordo); }
-
-    .bos-mesaj {
-      text-align: center; padding: 4rem;
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.3rem; font-style: italic;
-      color: var(--metin-acik);
-    }
-
-
-    .whatsapp-btn {
-      position: fixed;
-      bottom: 28px;
-      right: 28px;
-      width: 56px;
-      height: 56px;
-      background: #25D366;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
-      z-index: 999;
-      transition: transform 0.3s, box-shadow 0.3s;
-      text-decoration: none;
-    }
-    .whatsapp-btn:hover {
-      transform: scale(1.1);
-      box-shadow: 0 6px 24px rgba(0,0,0,0.35);
-    }
-    .whatsapp-btn svg {
-      width: 30px;
-      height: 30px;
-      fill: #fff;
-    }
-
-    footer {
-      background: var(--bordo-koyu); border-top: 1px solid rgba(184,148,63,0.2);
-      padding: 2rem 5%; display: flex; align-items: center; justify-content: space-between;
-    }
-    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: rgba(245,239,224,0.5); }
-    .footer-hukuk { font-size: 0.65rem; color: rgba(245,239,224,0.3); letter-spacing: 0.05em; }
 
     @media (max-width: 768px) {
       .nav-links { display: none; }
       .hamburger { display: flex; }
-      .makale-kart { grid-template-columns: 1fr; }
-      .makale-tarih-col { writing-mode: horizontal-tb; }
   
     .whatsapp-btn {
       position: fixed;
@@ -268,7 +230,7 @@
     <ul class="nav-links">
       <li><a href="index.html#hakkimda">Hakkımda</a></li>
       <li><a href="index.html#uzmanlik">Uzmanlık</a></li>
-      <li><a href="makaleler.html" class="aktif">Makaleler</a></li>
+      <li><a href="makaleler.html">Makaleler</a></li>
       <li><a href="index.html#iletisim">İletişim</a></li>
     </ul>
     <button class="hamburger" onclick="menuAc()" aria-label="Menü">
@@ -279,25 +241,20 @@
   <div class="mobil-menu" id="mobilMenu">
     <a href="index.html#hakkimda" onclick="menuKapat()">Hakkımda</a>
     <a href="index.html#uzmanlik" onclick="menuKapat()">Uzmanlık</a>
-    <a href="makaleler.html" class="aktif" onclick="menuKapat()">Makaleler</a>
+    <a href="makaleler.html" onclick="menuKapat()">Makaleler</a>
     <a href="index.html#iletisim" onclick="menuKapat()">İletişim</a>
   </div>
 
-  <div class="sayfa-baslik">
-    <p>Hukuki Perspektifler</p>
-    <h1>Hukuk <em>Makaleleri</em></h1>
+  <div class="makale-hero">
+    <div class="makale-hero-inner">
+      <a href="makaleler.html" class="geri-link">← Tüm Makaleler</a>
+      <div id="hero-icerik">
+        <p style="color:rgba(245,239,224,0.4); font-style:italic;">Yükleniyor...</p>
+      </div>
+    </div>
   </div>
 
-  <div class="filtre-bar">
-    <button class="filtre-btn aktif" onclick="filtrele('tumu', this)">Tümü</button>
-    <button class="filtre-btn" onclick="filtrele('Ceza Hukuku', this)">Ceza Hukuku</button>
-    <button class="filtre-btn" onclick="filtrele('Aile Hukuku', this)">Aile Hukuku</button>
-    <button class="filtre-btn" onclick="filtrele('İş Hukuku', this)">İş Hukuku</button>
-  </div>
-
-  <div class="makaleler-listesi">
-    <div class="yukluyor">Yükleniyor...</div>
-  </div>
+  <div class="makale-govde" id="makale-govde"></div>
 
   <footer>
     <div class="footer-logo">Av. Levent Mutlu</div>
@@ -305,7 +262,42 @@
   </footer>
 
   <script>
-    let tumMakaleler = [];
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+
+    async function yukle() {
+      try {
+        const res = await fetch('makaleler.json?t=' + Date.now());
+        const makaleler = await res.json();
+        const m = makaleler.find(x => x.id === id);
+        if (!m) {
+          document.getElementById('hero-icerik').innerHTML = '<p style="color:var(--krem)">Makale bulunamadı.</p>';
+          return;
+        }
+        document.title = m.baslik + ' | Av. Levent Mutlu';
+        document.getElementById('hero-icerik').innerHTML = `
+          <div class="makale-kategori-tag">${m.kategori}</div>
+          <h1 class="makale-baslik-buyuk">${m.baslik}</h1>
+          <p class="makale-meta">${m.tarih}</p>
+        `;
+        const satirlar = m.icerik.split('\n\n');
+        const sonSatir = m.id === 'tck-158-banka-hesabi-kullandirma' ? satirlar.pop() : null;
+        const paragraflar = satirlar.map(p => `<p>${p}</p>`).join('');
+        const emsal = sonSatir ? `<div class="emsal-kutu">${sonSatir}</div>` : '';
+        const tumIcerik = paragraflar + emsal;
+        document.getElementById('makale-govde').innerHTML = `
+          <div class="ozet">${m.ozet}</div>
+          <div class="icerik">${tumIcerik}</div>
+          <div class="iletisim-kutu">
+            <p>Bu konuda hukuki danışmanlık almak ister misiniz?</p>
+            <a href="tel:+905459594845">📞 Randevu Alın</a>
+          </div>
+        `;
+      } catch(e) {
+        document.getElementById('hero-icerik').innerHTML = '<p style="color:var(--krem)">Makale yüklenemedi.</p>';
+      }
+    }
+    yukle();
 
     function menuAc() {
       document.getElementById('mobilMenu').classList.toggle('acik');
@@ -313,44 +305,6 @@
     function menuKapat() {
       document.getElementById('mobilMenu').classList.remove('acik');
     }
-
-    async function makaleleriYukle() {
-      try {
-        const res = await fetch('makaleler.json?t=' + Date.now());
-        tumMakaleler = await res.json();
-        goster(tumMakaleler);
-      } catch(e) {
-        document.querySelector('.makaleler-listesi').innerHTML = '<p class="bos-mesaj">Makaleler yüklenemedi.</p>';
-      }
-    }
-
-    function goster(makaleler) {
-      const liste = document.querySelector('.makaleler-listesi');
-      if (!makaleler.length) {
-        liste.innerHTML = '<p class="bos-mesaj">Bu kategoride henüz makale bulunmuyor.</p>';
-        return;
-      }
-      liste.innerHTML = makaleler.map(m => `
-        <div class="makale-kart" onclick="window.location='makale.html?id=${m.id}'">
-          <div class="makale-tarih-col">${m.tarih}</div>
-          <div class="makale-icerik">
-            <span class="makale-kategori">${m.kategori}</span>
-            <a class="makale-baslik" href="makale.html?id=${m.id}">${m.baslik}</a>
-            <p class="makale-ozet">${m.ozet}</p>
-            <a class="makale-devam" href="makale.html?id=${m.id}">Devamını Oku →</a>
-          </div>
-        </div>
-      `).join('');
-    }
-
-    function filtrele(kategori, btn) {
-      document.querySelectorAll('.filtre-btn').forEach(b => b.classList.remove('aktif'));
-      btn.classList.add('aktif');
-      if (kategori === 'tumu') goster(tumMakaleler);
-      else goster(tumMakaleler.filter(m => m.kategori === kategori));
-    }
-
-    makaleleriYukle();
   </script>
 </body>
 </html>
