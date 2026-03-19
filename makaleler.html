@@ -311,6 +311,23 @@
     }
     .chat-randevu:hover { background: var(--bordo-acik); }
 
+
+    .arama-kutu {
+      display: flex; align-items: center;
+      border: 1px solid var(--bordo);
+      background: transparent;
+      padding: 0.3rem 0.8rem;
+      margin-left: auto;
+    }
+    .arama-input {
+      border: none; background: transparent;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.72rem; color: var(--bordo);
+      outline: none; width: 160px;
+    }
+    .arama-input::placeholder { color: rgba(107,26,26,0.4); }
+    .arama-ikon { color: var(--bordo); font-size: 0.85rem; cursor: pointer; }
+
     footer {
       background: var(--bordo-koyu); border-top: 1px solid rgba(184,148,63,0.2);
       padding: 2rem 5%; display: flex; align-items: center; justify-content: space-between;
@@ -440,6 +457,23 @@
     }
     .chat-randevu:hover { background: var(--bordo-acik); }
 
+
+    .arama-kutu {
+      display: flex; align-items: center;
+      border: 1px solid var(--bordo);
+      background: transparent;
+      padding: 0.3rem 0.8rem;
+      margin-left: auto;
+    }
+    .arama-input {
+      border: none; background: transparent;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.72rem; color: var(--bordo);
+      outline: none; width: 160px;
+    }
+    .arama-input::placeholder { color: rgba(107,26,26,0.4); }
+    .arama-ikon { color: var(--bordo); font-size: 0.85rem; cursor: pointer; }
+
     footer { flex-direction: column; gap: 1rem; text-align: center; }
     }
   </style>
@@ -476,6 +510,10 @@
     <button class="filtre-btn" onclick="filtrele('Ceza Hukuku', this)">Ceza Hukuku</button>
     <button class="filtre-btn" onclick="filtrele('Aile Hukuku', this)">Aile Hukuku</button>
     <button class="filtre-btn" onclick="filtrele('İş Hukuku', this)">İş Hukuku</button>
+    <div class="arama-kutu">
+      <input class="arama-input" id="aramaInput" type="text" placeholder="Makale ara..." oninput="aramaYap(this.value)">
+      <span class="arama-ikon">🔍</span>
+    </div>
   </div>
 
   <div class="makaleler-listesi">
@@ -501,7 +539,15 @@
       try {
         const res = await fetch('makaleler.json?t=' + Date.now());
         tumMakaleler = await res.json();
-        goster(tumMakaleler);
+        // URL'den arama parametresi varsa uygula
+        var urlParams = new URLSearchParams(window.location.search);
+        var araParam = urlParams.get('ara');
+        if (araParam) {
+          document.getElementById('aramaInput').value = araParam;
+          aramaYap(araParam);
+        } else {
+          goster(tumMakaleler);
+        }
       } catch(e) {
         document.querySelector('.makaleler-listesi').innerHTML = '<p class="bos-mesaj">Makaleler yüklenemedi.</p>';
       }
@@ -628,6 +674,23 @@
 
         m.scrollTop=m.scrollHeight;
       },900);
+    }
+  </script>
+
+  <script>
+    function aramaYap(kelime) {
+      if (!kelime.trim()) {
+        goster(tumMakaleler);
+        return;
+      }
+      var k = kelime.toLowerCase();
+      var sonuc = tumMakaleler.filter(function(m) {
+        return m.baslik.toLowerCase().includes(k) ||
+               m.ozet.toLowerCase().includes(k) ||
+               m.kategori.toLowerCase().includes(k) ||
+               m.icerik.toLowerCase().includes(k);
+      });
+      goster(sonuc);
     }
   </script>
 </body>
