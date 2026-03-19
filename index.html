@@ -681,6 +681,41 @@
     .chat-randevu { display: inline-block; margin-top: 0.5rem; padding: 0.4rem 0.9rem; background: var(--bordo); color: var(--krem); font-size: 0.72rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 4px; }
     .chat-randevu:hover { background: var(--bordo-acik); }
 
+
+    #sss { background: var(--beyaz); }
+    .sss-grid { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem; }
+    .sss-kart {
+      border: 1px solid var(--krem-koyu);
+      border-left: 4px solid var(--bordo);
+      padding: 0;
+      transition: box-shadow 0.3s;
+    }
+    .sss-kart:hover { box-shadow: 0 4px 20px rgba(107,26,26,0.08); }
+    .sss-soru {
+      width: 100%; background: none; border: none;
+      padding: 1.4rem 1.8rem; display: flex;
+      align-items: center; justify-content: space-between;
+      cursor: pointer; text-align: left; gap: 1rem;
+    }
+    .sss-soru-metin {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem; font-weight: 500;
+      color: var(--bordo-koyu); line-height: 1.3;
+    }
+    .sss-ikon {
+      font-size: 1.2rem; color: var(--altin);
+      transition: transform 0.3s; flex-shrink: 0;
+    }
+    .sss-kart.acik .sss-ikon { transform: rotate(45deg); }
+    .sss-cevap {
+      display: none; padding: 0 1.8rem 1.4rem;
+      font-size: 0.88rem; font-weight: 300;
+      line-height: 1.9; color: var(--metin-acik);
+      border-top: 1px solid var(--krem-koyu);
+      padding-top: 1.2rem;
+    }
+    .sss-kart.acik .sss-cevap { display: block; }
+
     footer {
       background: var(--bordo-koyu);
       border-top: 1px solid rgba(184,148,63,0.2);
@@ -1043,6 +1078,41 @@
     .chat-randevu { display: inline-block; margin-top: 0.5rem; padding: 0.4rem 0.9rem; background: var(--bordo); color: var(--krem); font-size: 0.72rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 4px; }
     .chat-randevu:hover { background: var(--bordo-acik); }
 
+
+    #sss { background: var(--beyaz); }
+    .sss-grid { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem; }
+    .sss-kart {
+      border: 1px solid var(--krem-koyu);
+      border-left: 4px solid var(--bordo);
+      padding: 0;
+      transition: box-shadow 0.3s;
+    }
+    .sss-kart:hover { box-shadow: 0 4px 20px rgba(107,26,26,0.08); }
+    .sss-soru {
+      width: 100%; background: none; border: none;
+      padding: 1.4rem 1.8rem; display: flex;
+      align-items: center; justify-content: space-between;
+      cursor: pointer; text-align: left; gap: 1rem;
+    }
+    .sss-soru-metin {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem; font-weight: 500;
+      color: var(--bordo-koyu); line-height: 1.3;
+    }
+    .sss-ikon {
+      font-size: 1.2rem; color: var(--altin);
+      transition: transform 0.3s; flex-shrink: 0;
+    }
+    .sss-kart.acik .sss-ikon { transform: rotate(45deg); }
+    .sss-cevap {
+      display: none; padding: 0 1.8rem 1.4rem;
+      font-size: 0.88rem; font-weight: 300;
+      line-height: 1.9; color: var(--metin-acik);
+      border-top: 1px solid var(--krem-koyu);
+      padding-top: 1.2rem;
+    }
+    .sss-kart.acik .sss-cevap { display: block; }
+
     footer { flex-direction: column; gap: 1rem; text-align: center; }
     }
   </style>
@@ -1056,6 +1126,7 @@
       <li><a href="#hakkimda">Hakkımda</a></li>
       <li><a href="#uzmanlik">Uzmanlık</a></li>
       <li><a href="makaleler.html">Makaleler</a></li>
+      <li><a href="#sss">S.S.S.</a></li>
       <li><a href="#iletisim">İletişim</a></li>
     </ul>
     <button class="hamburger" onclick="menuAc()" aria-label="Menü">
@@ -1136,6 +1207,59 @@
         <h3 class="kart-baslik">Tazminat Davaları</h3>
         <p class="kart-alt">Maddi · Manevi · Destekten Yoksun</p>
         <p class="kart-metin">Trafik kazaları, iş kazaları ve haksız fiilden doğan maddi ve manevi tazminat davalarında haklarınızın etkin biçimde takibi.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SSS -->
+  <section id="sss">
+    <div style="max-width:900px;margin:0 auto 3rem;">
+      <p class="section-eyebrow">Merak Edilenler</p>
+      <h2 class="section-title">Sık Sorulan <em>Sorular</em></h2>
+    </div>
+    <div class="sss-grid">
+      <div class="sss-kart">
+        <button class="sss-soru" onclick="sssAc(this)">
+          <span class="sss-soru-metin">Avukat tutmak zorunlu mu?</span>
+          <span class="sss-ikon">+</span>
+        </button>
+        <div class="sss-cevap">Bu karar tamamen size aittir. Ancak avukat tutmama kararını iyice düşünmenizi önemle belirtmek isteriz. Hukuki süreçler teknik ve karmaşık bir yapıya sahiptir; doğru adımlar atmak, süreleri takip etmek ve savunmayı doğru kurgulamak deneyim gerektirir. Yanlış bir adım, telafi edilemez hak kayıplarına yol açabilir.</div>
+      </div>
+      <div class="sss-kart">
+        <button class="sss-soru" onclick="sssAc(this)">
+          <span class="sss-soru-metin">İlk görüşme ücretli mi?</span>
+          <span class="sss-ikon">+</span>
+        </button>
+        <div class="sss-cevap">Hayır, ilk görüşmemiz tamamen ücretsizdir. Sizi ve davanızı tanımak, size en doğru yönlendirmeyi yapabilmek için ilk görüşmeyi herhangi bir ücret talep etmeden gerçekleştiriyoruz. Randevu almak için bizi arayabilirsiniz.</div>
+      </div>
+      <div class="sss-kart">
+        <button class="sss-soru" onclick="sssAc(this)">
+          <span class="sss-soru-metin">Davam ne kadar sürer?</span>
+          <span class="sss-ikon">+</span>
+        </button>
+        <div class="sss-cevap">Dava süresi olay ve dava türüne göre değişmekle birlikte, çoğu dava ortalama 1-3 yıl arasında sonuçlanmaktadır. Bu süre mahkemelerin yoğunluğuna, tarafların tutumuna ve delil durumuna göre kısalabilir ya da uzayabilir. Büromuz süreci sizin için yakından takip eder.</div>
+      </div>
+      <div class="sss-kart">
+        <button class="sss-soru" onclick="sssAc(this)">
+          <span class="sss-soru-metin">Hangi belgelerle gelmeliyim?</span>
+          <span class="sss-ikon">+</span>
+        </button>
+        <div class="sss-cevap">Hukuki sorununuzla ilgili elinizde bulunan tüm bilgi ve belgeleri yanınızda getirmenizi öneririz. Sözleşmeler, yazışmalar, faturalar, fotoğraflar veya diğer belgeler davanızın seyrini doğrudan etkileyebilir. Eksik belge olsa dahi görüşmeye gelebilirsiniz, birlikte değerlendiririz.</div>
+      </div>
+      <div class="sss-kart">
+        <button class="sss-soru" onclick="sssAc(this)">
+          <span class="sss-soru-metin">Uzaktan danışmanlık veriyor musunuz?</span>
+          <span class="sss-ikon">+</span>
+        </button>
+        <div class="sss-cevap">Evet, uzaktan danışmanlık hizmeti vermekteyiz. Vekalet işlemleri için lütfen bizimle iletişime geçin, süreci size kolayca anlatalım. Telefon veya video görüşmesi yoluyla da danışmanlık yapılabilmektedir.</div>
+      </div>
+      <div class="sss-kart">
+        <button class="sss-soru" onclick="sssAc(this)">
+          <span class="sss-soru-metin">Avukatlık ücreti nasıl belirlenir?</span>
+          <span class="sss-ikon">+</span>
+        </button>
+        <div class="sss-cevap">Avukatlık ücreti her dosya ve olaya göre farklılık göstermektedir. Davanın türü, karmaşıklığı ve süresi belirleyici unsurlardandır. Bu konudaki sorularınız için mutlaka büromuzla iletişime geçin; şeffaf ve adil bir ücret politikasıyla hizmet veriyoruz.</div>
       </div>
     </div>
   </section>
@@ -1281,6 +1405,15 @@
         m.appendChild(bd);
         m.scrollTop=m.scrollHeight;
       },900);
+    }
+  </script>
+
+  <script>
+    function sssAc(btn) {
+      var kart = btn.parentElement;
+      var acikMi = kart.classList.contains('acik');
+      document.querySelectorAll('.sss-kart').forEach(function(k){ k.classList.remove('acik'); });
+      if (!acikMi) kart.classList.add('acik');
     }
   </script>
 </body>
