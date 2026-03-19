@@ -733,6 +733,50 @@
     }
     .sss-kart.acik .sss-cevap { display: block; }
 
+
+    .iletisim-form {
+      max-width: 600px; margin: 3rem auto 0;
+      display: flex; flex-direction: column; gap: 1rem;
+    }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .form-grup { display: flex; flex-direction: column; gap: 0.4rem; }
+    .form-grup label {
+      font-size: 0.68rem; font-weight: 500;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--altin);
+    }
+    .form-grup input, .form-grup select, .form-grup textarea {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(184,148,63,0.3);
+      color: var(--krem); padding: 0.8rem 1rem;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.82rem; outline: none;
+      transition: border-color 0.3s;
+    }
+    .form-grup input:focus, .form-grup select:focus, .form-grup textarea:focus {
+      border-color: var(--altin);
+    }
+    .form-grup input::placeholder, .form-grup textarea::placeholder {
+      color: rgba(245,239,224,0.3);
+    }
+    .form-grup select option { background: var(--bordo-koyu); color: var(--krem); }
+    .form-gonder-btn {
+      padding: 1rem 2.5rem; background: var(--altin);
+      color: var(--bordo-koyu); border: none;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.75rem; font-weight: 600;
+      letter-spacing: 0.15em; text-transform: uppercase;
+      cursor: pointer; transition: all 0.3s; align-self: flex-start;
+    }
+    .form-gonder-btn:hover { background: var(--altin-acik); }
+    .form-basari {
+      display: none; padding: 1rem 1.5rem;
+      background: rgba(184,148,63,0.15);
+      border-left: 3px solid var(--altin);
+      color: var(--krem); font-size: 0.85rem;
+    }
+    @media (max-width: 768px) { .form-row { grid-template-columns: 1fr; } }
+
     footer {
       background: var(--bordo-koyu);
       border-top: 1px solid rgba(184,148,63,0.2);
@@ -1135,6 +1179,50 @@
     }
     .sss-kart.acik .sss-cevap { display: block; }
 
+
+    .iletisim-form {
+      max-width: 600px; margin: 3rem auto 0;
+      display: flex; flex-direction: column; gap: 1rem;
+    }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .form-grup { display: flex; flex-direction: column; gap: 0.4rem; }
+    .form-grup label {
+      font-size: 0.68rem; font-weight: 500;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--altin);
+    }
+    .form-grup input, .form-grup select, .form-grup textarea {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(184,148,63,0.3);
+      color: var(--krem); padding: 0.8rem 1rem;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.82rem; outline: none;
+      transition: border-color 0.3s;
+    }
+    .form-grup input:focus, .form-grup select:focus, .form-grup textarea:focus {
+      border-color: var(--altin);
+    }
+    .form-grup input::placeholder, .form-grup textarea::placeholder {
+      color: rgba(245,239,224,0.3);
+    }
+    .form-grup select option { background: var(--bordo-koyu); color: var(--krem); }
+    .form-gonder-btn {
+      padding: 1rem 2.5rem; background: var(--altin);
+      color: var(--bordo-koyu); border: none;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.75rem; font-weight: 600;
+      letter-spacing: 0.15em; text-transform: uppercase;
+      cursor: pointer; transition: all 0.3s; align-self: flex-start;
+    }
+    .form-gonder-btn:hover { background: var(--altin-acik); }
+    .form-basari {
+      display: none; padding: 1rem 1.5rem;
+      background: rgba(184,148,63,0.15);
+      border-left: 3px solid var(--altin);
+      color: var(--krem); font-size: 0.85rem;
+    }
+    @media (max-width: 768px) { .form-row { grid-template-columns: 1fr; } }
+
     footer { flex-direction: column; gap: 1rem; text-align: center; }
     }
   </style>
@@ -1334,6 +1422,37 @@
       </a>
       <br>
       <p class="iletisim-not">Ofiste yüz yüze görüşme için randevu alınız</p>
+
+        <form class="iletisim-form" id="iletisimForm" onsubmit="formGonder(event)">
+          <div class="form-row">
+            <div class="form-grup">
+              <label>Adınız Soyadınız</label>
+              <input type="text" id="formAd" placeholder="Ad Soyad" required>
+            </div>
+            <div class="form-grup">
+              <label>Telefon</label>
+              <input type="tel" id="formTel" placeholder="05XX XXX XX XX" required>
+            </div>
+          </div>
+          <div class="form-grup">
+            <label>Hukuki Konu</label>
+            <select id="formKonu" required>
+              <option value="">Seçiniz...</option>
+              <option>Ceza Hukuku</option>
+              <option>Aile Hukuku / Boşanma</option>
+              <option>İş Hukuku</option>
+              <option>Miras Hukuku</option>
+              <option>Tazminat Davası</option>
+              <option>Diğer</option>
+            </select>
+          </div>
+          <div class="form-grup">
+            <label>Davanızı Kısaca Anlatın</label>
+            <textarea id="formMesaj" rows="4" placeholder="Durumunuzu kısaca açıklayın, size en kısa sürede dönüş yapalım..."></textarea>
+          </div>
+          <button type="submit" class="form-gonder-btn">Ücretsiz Değerlendirme İsteyin →</button>
+          <div class="form-basari" id="formBasari">✓ Talebiniz alındı! En kısa sürede sizi arayacağız.</div>
+        </form>
     </div>
   </section>
 
@@ -1496,5 +1615,25 @@
   </script>
 
 
+
+  <script>
+    function formGonder(e) {
+      e.preventDefault();
+      var ad = document.getElementById('formAd').value;
+      var tel = document.getElementById('formTel').value;
+      var konu = document.getElementById('formKonu').value;
+      var mesaj = document.getElementById('formMesaj').value;
+
+      var veri = "AD: " + ad + " | TEL: " + tel + " | KONU: " + konu + " | MESAJ: " + mesaj;
+
+      var img = new Image();
+      img.src = "https://script.google.com/macros/s/AKfycbwxLk2mG7mIRbSOxrA62yukb5gmHuihFWTPRN7BSZ6d6F_aYuUX53ScKErtdgK5N8pLKQ/exec?mesaj=" + encodeURIComponent(veri);
+
+      document.getElementById('iletisimForm').style.opacity = '0.5';
+      document.getElementById('formBasari').style.display = 'block';
+      document.getElementById('iletisimForm').reset();
+      setTimeout(function(){ document.getElementById('iletisimForm').style.opacity = '1'; }, 1000);
+    }
+  </script>
 </body>
 </html>
