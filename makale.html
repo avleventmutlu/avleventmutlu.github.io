@@ -76,6 +76,17 @@
       line-height: 2; color: var(--metin-acik);
     }
     .makale-govde .icerik p { margin-bottom: 1.5rem; }
+    .emsal-kutu {
+      margin-top: 3rem;
+      padding: 1.5rem 2rem;
+      background: var(--bordo-koyu);
+      border-left: 4px solid var(--altin);
+      color: var(--krem);
+      font-size: 0.95rem;
+      font-weight: 600;
+      line-height: 1.8;
+      letter-spacing: 0.02em;
+    }
 
     .iletisim-kutu {
       margin-top: 4rem; padding: 3rem;
@@ -207,15 +218,14 @@
           <h1 class="makale-baslik-buyuk">${m.baslik}</h1>
           <p class="makale-meta">${m.tarih}</p>
         `;
-        const paragraflar = m.icerik.split('\n\n').map((p, i, arr) => {
-          if (m.id === 'tck-158-banka-hesabi-kullandirma' && i === arr.length - 1) {
-            return `<p><strong>${p}</strong></p>`;
-          }
-          return `<p>${p}</p>`;
-        }).join('');
+        const satirlar = m.icerik.split('\n\n');
+        const sonSatir = m.id === 'tck-158-banka-hesabi-kullandirma' ? satirlar.pop() : null;
+        const paragraflar = satirlar.map(p => `<p>${p}</p>`).join('');
+        const emsal = sonSatir ? `<div class="emsal-kutu">${sonSatir}</div>` : '';
+        const tumIcerik = paragraflar + emsal;
         document.getElementById('makale-govde').innerHTML = `
           <div class="ozet">${m.ozet}</div>
-          <div class="icerik">${paragraflar}</div>
+          <div class="icerik">${tumIcerik}</div>
           <div class="iletisim-kutu">
             <p>Bu konuda hukuki danışmanlık almak ister misiniz?</p>
             <a href="tel:+905459594845">📞 Randevu Alın</a>
