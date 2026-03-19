@@ -861,8 +861,9 @@
     .makale-ticker-ic {
       display: flex;
       gap: 4rem;
-      animation: ticker 50s linear infinite;
+      animation: ticker 60s linear infinite;
       white-space: nowrap;
+      will-change: transform;
     }
     .makale-ticker:hover .makale-ticker-ic { animation-play-state: paused; }
     @keyframes ticker {
@@ -916,8 +917,9 @@
     .makale-ticker-ic {
       display: flex;
       gap: 4rem;
-      animation: ticker 50s linear infinite;
+      animation: ticker 60s linear infinite;
       white-space: nowrap;
+      will-change: transform;
     }
     .makale-ticker:hover .makale-ticker-ic { animation-play-state: paused; }
     @keyframes ticker {
@@ -1518,8 +1520,9 @@
     .makale-ticker-ic {
       display: flex;
       gap: 4rem;
-      animation: ticker 50s linear infinite;
+      animation: ticker 60s linear infinite;
       white-space: nowrap;
+      will-change: transform;
     }
     .makale-ticker:hover .makale-ticker-ic { animation-play-state: paused; }
     @keyframes ticker {
@@ -2052,8 +2055,8 @@
         var makaleler = await res.json();
         var ic = document.getElementById('makaleTickerIc');
         if (!ic) return;
-        // İki tur ekle (sonsuz döngü için)
-        for (var t = 0; t < 2; t++) {
+        // 3 kopya ekle - sonsuz döngü için yeterli
+        for (var t = 0; t < 3; t++) {
           makaleler.forEach(function(m) {
             var a = document.createElement('a');
             a.href = 'makale.html?id=' + m.id;
@@ -2065,6 +2068,10 @@
             ic.appendChild(a);
           });
         }
+        // Animasyon süresini içerik uzunluğuna göre ayarla
+        var toplamGenislik = ic.scrollWidth;
+        var sure = Math.max(60, toplamGenislik / 80);
+        ic.style.animationDuration = sure + 's';
       } catch(e) {}
     }
     tickerYukle();
