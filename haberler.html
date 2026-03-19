@@ -127,7 +127,31 @@
     .iletisim-kutu a { display: block; padding: 0.7rem 1rem; background: var(--altin); color: var(--bordo-koyu); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; text-align: center; transition: background 0.3s; }
     .iletisim-kutu a:hover { background: var(--altin-acik); }
 
-.chat-btn {
+
+
+     50% { box-shadow: 0 0 0 12px rgba(107,26,26,0); } }
+
+
+    .haber-filtre-bar {
+      padding: 1.5rem 0;
+      display: flex; gap: 0.8rem; flex-wrap: wrap;
+      border-bottom: 1px solid var(--krem-koyu);
+      margin-bottom: 1rem;
+    }
+    .haber-filtre-btn {
+      padding: 0.4rem 1rem;
+      border: 1px solid var(--bordo);
+      background: transparent; color: var(--bordo);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.65rem; font-weight: 500;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      cursor: pointer; transition: all 0.3s;
+    }
+    .haber-filtre-btn:hover, .haber-filtre-btn.aktif {
+      background: var(--bordo); color: var(--krem);
+    }
+
+    .chat-btn {
       position: fixed; bottom: 96px; right: 28px;
       width: 58px; height: 58px;
       background: var(--bordo); border: 1px solid var(--altin);
@@ -217,27 +241,8 @@
     }
     .chat-randevu:hover { background: var(--bordo-acik); }
 
-    @keyframes nabiz { 0%,100% { box-shadow: 0 0 0 0 rgba(107,26,26,0.4); } 50% { box-shadow: 0 0 0 12px rgba(107,26,26,0); } }
-
-
-    .haber-filtre-bar {
-      padding: 1.5rem 0;
-      display: flex; gap: 0.8rem; flex-wrap: wrap;
-      border-bottom: 1px solid var(--krem-koyu);
-      margin-bottom: 1rem;
-    }
-    .haber-filtre-btn {
-      padding: 0.4rem 1rem;
-      border: 1px solid var(--bordo);
-      background: transparent; color: var(--bordo);
-      font-family: 'Montserrat', sans-serif;
-      font-size: 0.65rem; font-weight: 500;
-      letter-spacing: 0.1em; text-transform: uppercase;
-      cursor: pointer; transition: all 0.3s;
-    }
-    .haber-filtre-btn:hover, .haber-filtre-btn.aktif {
-      background: var(--bordo); color: var(--krem);
-    }
+    @keyframes nabiz {
+      0%,100% { box-shadow: 0 0 0 0 rgba(107,26,26,0.4); }
 
     footer {
       background: var(--bordo-koyu); border-top: 1px solid rgba(184,148,63,0.2);
@@ -422,7 +427,9 @@
   </script>
 
 
-<div style="position:fixed;bottom:162px;right:20px;background:var(--bordo-koyu);color:var(--krem);font-size:0.7rem;padding:0.4rem 0.8rem;border-radius:20px;border:1px solid var(--altin);z-index:999;white-space:nowrap;animation:nabiz 2s infinite;" onclick="chatAc()" id="chatBalon">💬 Hukuki soru sor!</div>
+
+
+  <div style="position:fixed;bottom:162px;right:20px;background:var(--bordo-koyu);color:var(--krem);font-size:0.7rem;padding:0.4rem 0.8rem;border-radius:20px;border:1px solid var(--altin);z-index:999;white-space:nowrap;animation:nabiz 2s infinite;" onclick="chatAc()" id="chatBalon">💬 Hukuki soru sor!</div>
   <button class="chat-btn" onclick="chatAc();document.getElementById('chatBalon').style.display='none'">&#9878;</button>
   <div class="chat-pencere" id="chatPencere">
     <div class="chat-header">
@@ -432,6 +439,22 @@
           <div class="chat-header-isim">Hukuki Asistan</div>
           <div class="chat-header-durum">Av. Levent Mutlu Hukuk Burosu</div>
         </div>
+      </div>
+      <button class="chat-kapat" onclick="chatKapat()">&#10005;</button>
+    </div>
+    <div class="chat-mesajlar" id="chatMesajlar">
+      <div class="chat-mesaj bot">👋 Merhaba! Hukuki sorununuzu buraya yazın, size ücretsiz ön bilgi verelim. Merak ettiklerinizi çekinmeden paylaşabilirsiniz — her soru gizli tutulmaktadır.</div>
+      <div class="chat-mesaj bot">Örneğin şunları sorabilirsiniz:<br><br>
+        <span style="color:var(--bordo);cursor:pointer;text-decoration:underline;" onclick="document.getElementById('chatInput').value='Boşanma davası ne kadar sürer?';mesajGonder()">→ Boşanma davası ne kadar sürer?</span><br>
+        <span style="color:var(--bordo);cursor:pointer;text-decoration:underline;" onclick="document.getElementById('chatInput').value='İşten çıkarıldım haklarım neler?';mesajGonder()">→ İşten çıkarıldım, haklarım neler?</span><br>
+        <span style="color:var(--bordo);cursor:pointer;text-decoration:underline;" onclick="document.getElementById('chatInput').value='Dolandırıcılığa uğradım ne yapmalıyım?';mesajGonder()">→ Dolandırıcılığa uğradım, ne yapmalıyım?</span>
+      </div>
+    </div>
+    <div class="chat-input-alani">
+      <input class="chat-input" id="chatInput" type="text" placeholder="Sorunuzu yazin..." onkeydown="if(event.key==='Enter')mesajGonder()">
+      <button class="chat-gonder" onclick="mesajGonder()">&#10148;</button>
+    </div>
+  </div>
 <script>
     var db = [
       {k:["istinaf","bam","bolge adliye"],c:"Istinaf, ilk derece mahkemesi kararlarinin Bolge Adliye Mahkemesinde yeniden incelenmesidir. Karara 2 hafta icinde itiraz edilebilir. Davayi lehte sonuclandirmak icin istinaf dilekccesinin dogru hazirlanmasi kritik onem tasir.",r:true},
