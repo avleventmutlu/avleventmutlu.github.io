@@ -98,17 +98,6 @@
     .haber-kaynak { font-size: 0.65rem; color: rgba(92,61,46,0.5); letter-spacing: 0.05em; }
 
     /* RSS Haberler */
-    .rss-bolum { margin-top: 3rem; }
-    .rss-baslik { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 400; color: var(--bordo-koyu); margin-bottom: 1.5rem; padding-bottom: 0.8rem; border-bottom: 2px solid var(--bordo); }
-    .rss-haber {
-      padding: 1rem 0; border-bottom: 1px solid var(--krem-koyu);
-      text-decoration: none; display: block; transition: padding-left 0.3s;
-    }
-    .rss-haber:hover { padding-left: 0.5rem; }
-    .rss-haber-baslik { font-size: 0.85rem; font-weight: 500; color: var(--bordo-koyu); line-height: 1.4; margin-bottom: 0.3rem; transition: color 0.3s; }
-    .rss-haber:hover .rss-haber-baslik { color: var(--bordo-acik); }
-    .rss-haber-tarih { font-size: 0.65rem; color: var(--altin); }
-    .rss-yukleniyor { font-size: 0.82rem; color: var(--metin-acik); font-style: italic; padding: 1rem 0; }
 
     /* Sağ - Sidebar */
     .sidebar {}
@@ -196,13 +185,6 @@
       <div class="haber-listesi" id="haberListesi">
         <p style="color:var(--metin-acik);font-style:italic">Yükleniyor...</p>
       </div>
-
-      <!-- RSS Haberler -->
-      <div class="rss-bolum">
-        <div class="rss-baslik">Güncel Haber Akışı</div>
-        <div id="rssHaberler">
-          <p class="rss-yukleniyor">Haberler yükleniyor...</p>
-        </div>
       </div>
     </div>
 
@@ -293,31 +275,6 @@
     }
 
     // Google News RSS - hukuk haberleri
-    async function rssYukle() {
-      var rssDiv = document.getElementById('rssHaberler');
-      try {
-        var rssUrl = 'https://news.google.com/rss/search?q=turkiye+hukuk+yargitay&hl=tr&gl=TR&ceid=TR:tr';
-        var apiUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rssUrl) + '&count=8';
-        var res = await fetch(apiUrl);
-        var data = await res.json();
-        if (data.items && data.items.length) {
-          rssDiv.innerHTML = data.items.map(function(item) {
-            var tarih = new Date(item.pubDate).toLocaleDateString('tr-TR');
-            return '<a href="' + item.link + '" target="_blank" class="rss-haber">' +
-              '<div class="rss-haber-baslik">' + item.title + '</div>' +
-              '<div class="rss-haber-tarih">' + tarih + ' · ' + (item.author || 'Google Haberler') + '</div>' +
-            '</a>';
-          }).join('');
-        } else {
-          rssDiv.innerHTML = '<p class="rss-yukleniyor">Haberler şu an yüklenemiyor.</p>';
-        }
-      } catch(e) {
-        rssDiv.innerHTML = '<p class="rss-yukleniyor">Güncel haberler yüklenemedi.</p>';
-      }
-    }
-
-    yukle();
-    rssYukle();
   </script>
 </body>
 </html>
