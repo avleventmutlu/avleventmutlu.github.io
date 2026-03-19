@@ -207,7 +207,12 @@
           <h1 class="makale-baslik-buyuk">${m.baslik}</h1>
           <p class="makale-meta">${m.tarih}</p>
         `;
-        const paragraflar = m.icerik.split('\n\n').map(p => `<p>${p}</p>`).join('');
+        const paragraflar = m.icerik.split('\n\n').map((p, i, arr) => {
+          if (m.id === 'tck-158-banka-hesabi-kullandirma' && i === arr.length - 1) {
+            return `<p><strong>${p}</strong></p>`;
+          }
+          return `<p>${p}</p>`;
+        }).join('');
         document.getElementById('makale-govde').innerHTML = `
           <div class="ozet">${m.ozet}</div>
           <div class="icerik">${paragraflar}</div>
