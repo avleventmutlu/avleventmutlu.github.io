@@ -1667,6 +1667,11 @@
       <div class="divider-gold"></div>
       <a href="#iletisim" class="hero-cta">Randevu Alın</a>
 
+      <div class="hero-arama">
+        <input class="hero-arama-input" id="heroArama" type="text" placeholder="Hukuki konu arayın... (boşanma, tazminat, ceza...)" onkeydown="if(event.key==='Enter')heroAramaYap()">
+        <button class="hero-arama-btn" onclick="heroAramaYap()">🔍</button>
+      </div>
+
       <div class="makale-ticker" id="makaleTickerAlani">
         <div class="makale-ticker-ic" id="makaleTickerIc"></div>
       </div>
@@ -2086,8 +2091,10 @@
       var img = new Image();
       img.src = "https://script.google.com/macros/s/AKfycbwxLk2mG7mIRbSOxrA62yukb5gmHuihFWTPRN7BSZ6d6F_aYuUX53ScKErtdgK5N8pLKQ/exec?mesaj=" + encodeURIComponent("ARAMA: " + kelime);
 
-      // Makaleler sayfasına yönlendir
-      window.location.href = "makaleler.html?ara=" + encodeURIComponent(kelime);
+      // Kayıt tamamlansin diye kisa bekleme sonra yonlendir
+      setTimeout(function() {
+        window.location.href = "makaleler.html?ara=" + encodeURIComponent(kelime);
+      }, 400);
     }
   </script>
 </body>
