@@ -205,6 +205,7 @@
     }
     .chat-yaziyor span:nth-child(2) { animation-delay: 0.2s; }
     .chat-yaziyor span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes nabiz { 0%,100% { box-shadow: 0 0 0 0 rgba(107,26,26,0.4); } 50% { box-shadow: 0 0 0 12px rgba(107,26,26,0); } }
     @keyframes yaziyor { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-6px)} }
     .chat-input-alani {
       padding: 0.8rem; border-top: 1px solid var(--krem-koyu);
@@ -411,6 +412,7 @@
     }
     .chat-yaziyor span:nth-child(2) { animation-delay: 0.2s; }
     .chat-yaziyor span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes nabiz { 0%,100% { box-shadow: 0 0 0 0 rgba(107,26,26,0.4); } 50% { box-shadow: 0 0 0 12px rgba(107,26,26,0); } }
     @keyframes yaziyor { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-6px)} }
     .chat-input-alani {
       padding: 0.8rem; border-top: 1px solid var(--krem-koyu);
@@ -480,6 +482,9 @@
     }
 
     footer { flex-direction: column; gap: 1rem; text-align: center; }
+      .chat-btn { width: 50px; height: 50px; bottom: 80px; right: 16px; }
+      .whatsapp-btn { width: 50px; height: 50px; bottom: 20px; right: 16px; }
+      .chat-pencere { width: calc(100vw - 32px); right: 16px; }
     }
   </style>
 </head>
