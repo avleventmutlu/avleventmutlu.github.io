@@ -64,6 +64,22 @@
     .haberler-wrapper { max-width: 860px; margin: 0 auto; padding: 4rem 5%; }
 
     /* Sol - Haberler */
+
+    .haber-gorsel {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      filter: grayscale(20%);
+      transition: filter 0.3s;
+    }
+    .haber-kart:hover .haber-gorsel { filter: grayscale(0%); }
+    .haber-gorsel-wrap {
+      overflow: hidden;
+      border-left: 4px solid var(--bordo);
+      margin-bottom: 0;
+    }
+
     .haber-listesi { display: flex; flex-direction: column; gap: 0; }
     .haber-kart {
       border-bottom: 1px solid var(--krem-koyu);
@@ -438,7 +454,9 @@
       liste.innerHTML = haberler.map(function(h) {
         var t = tarihParcala(h.tarih);
         var linkHtml = h.link ? '<a href="' + h.link + '" target="_blank" style="font-size:0.68rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--bordo);border-bottom:1px solid var(--bordo);padding-bottom:2px;display:inline-block;margin-top:1rem;">Haberin Kaynağına Git →</a>' : '';
+        var gorselHtml = h.gorsel ? '<div class="haber-gorsel-wrap"><img class="haber-gorsel" src="' + h.gorsel + '" alt="' + h.baslik + '" loading="lazy"></div>' : '';
         return '<div class="haber-kart">' +
+          gorselHtml +
           '<div class="haber-kart-ust" onclick="haberAc(this)">' +
             '<div class="haber-tarih-col">' + h.tarih + '</div>' +
             '<div class="haber-icerik">' +
