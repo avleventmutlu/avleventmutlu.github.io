@@ -1,5 +1,26 @@
 [
   {
+    "id": "kidem-tazminati-ihtarname",
+    "baslik": "Kıdem ve İhbar Tazminatı Talep İhtarnamesi",
+    "kategori": "İş Hukuku",
+    "aciklama": "İşten çıkarılma sonrasında kıdem ve ihbar tazminatı talebini işverene bildirmek için kullanılan ihtarname taslağı.",
+    "icerik": "İHTARNAME\n\nİHTAR EDEN: [Ad Soyad] - [TC Kimlik No] - [Adres]\nMUHATAP: [İşveren Adı / Şirket Adı] - [Adres]\nKONU: Kıdem tazminatı ve ihbar tazminatı talebimizden ibarettir.\n\nACIKLAMALAR:\n\n1. Muhatap işveren bünyesinde [Başlangıç Tarihi] tarihinden [Ayrılış Tarihi] tarihine kadar [görev] olarak çalışmış bulunmaktayım. Toplam çalışma sürem [süre] olup bu süre kıdem tazminatına hak kazanmak için gerekli asgari süreyi karşılamaktadır.\n\n2. [Tarih] tarihinde iş sözleşmem [gerekçe yazın: haklı neden gösterilmeksizin / yasal süreye uyulmaksızın] feshedilmiştir.\n\n3. İş Kanunu'nun ilgili maddeleri uyarınca tarafıma ödenmesi gereken:\n   - Kıdem tazminatı: [Tahmini Tutar] TL\n   - İhbar tazminatı: [Tahmini Tutar] TL\n   toplamda [Toplam Tutar] TL alacağım bulunmaktadır.\n\n4. Bu ihtarnamenin tarafınıza tebliğinden itibaren 7 (yedi) iş günü içinde söz konusu alacakların tarafıma ödenmesini, aksi halde yasal faizi ile birlikte tahsil etmek üzere iş mahkemesinde dava açmak zorunda kalacağımı ihtar ederim.\n\nTarih: [Tarih]\nİhtar Eden: [İmza]\n\n⚠️ Bu ihtarname örnek amaçlıdır. Tutarların doğru hesaplanması ve hukuki sürecin doğru yönetilmesi için bir avukattan destek almanızı öneririz."
+  },
+  {
+    "id": "kiracinin-tahliye-ihtarname",
+    "baslik": "Kiracıya Tahliye İhtarnamesi (Ev Sahibi İçin)",
+    "kategori": "Aile Hukuku",
+    "aciklama": "Kira borcunu ödemeyen veya sözleşme koşullarını ihlal eden kiracıya gönderilecek tahliye ihtarnamesi taslağı.",
+    "icerik": "İHTARNAME\n\nİHTAR EDEN: [Ev Sahibi Ad Soyad] - [TC Kimlik No] - [Adres]\nMUHATAP KİRACININ ADI SOYADI: [Ad Soyad] - [Adres]\nKONU: Kira borcunun ödenmesi ve tahliye talebimizden ibarettir.\n\nACIKLAMALAR:\n\n1. Muhatap kiracı, mülkiyetim altındaki [Adres]'te bulunan taşınmazı [Kira Başlangıç Tarihi] tarihinden itibaren aylık [Kira Bedeli] TL kira bedeli karşılığında kullanmaktadır.\n\n2. Kiracı, [Ay/Yıl] tarihinden itibaren kira bedellerini ödememekte olup toplam [Tutar] TL kira alacağım bulunmaktadır.\n\n3. Türk Borçlar Kanunu'nun 315. maddesi uyarınca bu ihtarnamenin tebliğinden itibaren konut kiralarında 30 (otuz) gün içinde söz konusu kira borçlarının ödenmesini, aksi halde kira sözleşmesini feshederek taşınmazın tahliyesi için yasal yollara başvuracağımı ihtar ederim.\n\nHUKUKİ SEBEPLER: TBK md. 315, 316, 352\n\nTarih: [Tarih]\nEv Sahibi: [İmza]\n\n⚠️ Bu ihtarname örnek amaçlıdır. Mutlaka noter aracılığıyla gönderilmesi önerilir. Hukuki destek için büromuzla iletişime geçiniz."
+  },
+  {
+    "id": "is-kazasi-bildirim-dilekce",
+    "baslik": "İş Kazası Bildirimi ve Tazminat Talep Dilekçesi",
+    "kategori": "İş Hukuku",
+    "aciklama": "İş kazası geçiren işçinin SGK'ya bildirim ve işverenden tazminat talebinde kullanabileceği dilekçe taslağı.",
+    "icerik": "... ASLİYE HUKUK MAHKEMESİ HAKİMLİĞİ'NE\n\nDAVACI: [Ad Soyad] - [TC Kimlik No] - [Adres]\nDAVALI: [İşveren Adı / Şirket] - [Adres]\nKONU: İş kazasından kaynaklanan maddi ve manevi tazminat talebimizden ibarettir.\n\nACIKLAMALAR:\n\n1. Davacı, davalı işveren bünyesinde [Başlangıç Tarihi] tarihinden itibaren [görev] olarak çalışmakta iken [Kaza Tarihi] tarihinde [iş yeri / kaza yeri] adresinde iş kazası geçirmiştir.\n\n2. Söz konusu kazada [yaralanma türü ve derecesi] meydana gelmiş; davacı [süre] süresince iş göremez hale gelmiştir.\n\n3. Kaza, işverenin gerekli iş güvenliği tedbirlerini almamasından kaynaklanmıştır. İşverenin bu kusuru [kanıt/tespit] ile sabittir.\n\n4. Davacı bu kaza nedeniyle [maddi zarar miktarı] TL maddi zarara uğramış olup yaşanan ağır yaralanma nedeniyle manevi tazminat talep etme hakkı da doğmuştur.\n\nHUKUKİ SEBEPLER: İş Kanunu md. 77, TBK md. 49, 56\n\nDELİLLER: Kaza tespit tutanağı, SGK bildirimi, hastane raporu, tanık beyanları, bilirkişi incelemesi.\n\nSONUÇ VE İSTEM: [Maddi zarar] TL maddi, [Manevi tazminat] TL manevi tazminatın kaza tarihinden itibaren yasal faiziyle birlikte davalıdan tahsiline karar verilmesini saygıyla talep ederiz.\n\nTarih: [Tarih]\nDavacı / Vekili: [İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. İş kazası davalarında tutarların aktüer hesabıyla belirlenmesi ve uzman avukat desteği alınması büyük önem taşımaktadır."
+  },
+  {
     "id": "bosanma-dava-dilekce",
     "baslik": "Boşanma Dava Dilekçesi",
     "kategori": "Aile Hukuku",
