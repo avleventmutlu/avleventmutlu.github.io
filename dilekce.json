@@ -1,5 +1,26 @@
 [
   {
+    "id": "nafaka-arttirim-dava-dilekce",
+    "baslik": "Nafaka Artırım Davası Dilekçesi",
+    "kategori": "Aile Hukuku",
+    "aciklama": "Boşanma sonrası belirlenen nafakanın enflasyon ve değişen koşullar nedeniyle yetersiz kaldığı durumlarda artırım davası açmak için kullanılan dilekçe taslağı.",
+    "icerik": "... AİLE MAHKEMESİ HAKİMLİĞİ'NE\n\nDAVACI: [Ad Soyad] - [TC Kimlik No] - [Adres]\nDAVALI: [Ad Soyad] - [TC Kimlik No] - [Adres]\nKONU: Nafaka artırımı talebimizden ibarettir.\nDEĞER: [Talep edilen artış miktarı] TL\n\nACIKLAMALAR:\n\n1. Taraflar arasında [...] Aile Mahkemesi'nin [...] tarih ve [...] E., [...] K. sayılı kararıyla boşanmaya karar verilmiş; müşterek çocuk / davacı için aylık [eski miktar] TL nafakaya hükmedilmiştir.\n\n2. Söz konusu karar üzerinden [süre] geçmiş olup bu süre zarfında;\n   - Asgari ücret [eski asgari ücret] TL'den [yeni asgari ücret] TL'ye yükselmiştir.\n   - TÜİK'in açıkladığı enflasyon oranı [oran]'dir.\n   - Çocuğun/davacının yaşı, eğitim ve bakım giderleri artmıştır.\n\n3. Türk Medeni Kanunu'nun 176/4. maddesi uyarınca tarafların mali durumlarının değişmesi halinde nafakanın artırılmasını talep etme hakkı mevcuttur.\n\n4. Mevcut nafaka miktarının yaşanan ekonomik değişiklikler ve artan ihtiyaçlar karşısında yetersiz kaldığı açıktır.\n\nHUKUKİ SEBEPLER: TMK m. 176/4, m. 182, m. 330\n\nDELİLLER: Boşanma kararı, TÜİK enflasyon verileri, asgari ücret artış tablosu, çocuğun/davacının gider belgeleri, taraf gelir belgeleri, tanık beyanları.\n\nSONUÇ VE İSTEM: Aylık nafakanın [talep edilen yeni miktar] TL'ye yükseltilmesine karar verilmesini saygıyla talep ederim.\n\nTarih: [Tarih]\nDavacı / Vekili: [İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Nafaka artırım davalarında tutarın doğru hesaplanması ve dayanakların güçlü biçimde ortaya konması için uzman aile hukuku avukatından destek almanızı öneririz."
+  },
+  {
+    "id": "hakaret-sucu-sikayet-dilekce",
+    "baslik": "Hakaret Suçu Şikayet Dilekçesi (Sosyal Medya)",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Sosyal medyada veya başka kanallardan yapılan hakaret nedeniyle savcılığa şikayet başvurusu için kullanılacak dilekçe taslağı.",
+    "icerik": "CUMHURİYET BAŞSAVCILIĞI'NA\n\nŞİKAYETÇİ: [Ad Soyad] - [TC Kimlik No] - [Adres] - [Telefon]\nŞÜPHELİ: [Ad Soyad / Kullanıcı Adı] - [Bilinen adres veya profil linki]\nKONU: TCK m. 125 kapsamında hakaret suçu şikayetimizden ibarettir.\n\nACIKLAMALAR:\n\n1. Şüpheli, [tarih] tarihinde [platform: Instagram / X / WhatsApp / vb.] üzerinde şikayetçiye yönelik hakaret içerikli paylaşım yapmıştır.\n\n2. Söz konusu paylaşımda [hakaretin özeti yazılır] ifadeleri kullanılarak şikayetçinin onur ve saygınlığı rencide edilmiştir.\n\n3. Delil olarak sunulan ekran görüntüleri noter onaylı / e-Devlet üzerinden tespit edilmiş olup [tarih] itibarıyla erişilebilir durumdadır.\n\n4. Türk Ceza Kanunu'nun 125. maddesi uyarınca şüphelinin hakaret suçundan yargılanmasını talep ediyoruz.\n\nHUKUKİ SEBEPLER: TCK m. 125, 126, 131\n\nDELİLLER: Ekran görüntüleri (noter onaylı / e-Devlet tespitli), platform kayıtları, tanık beyanları.\n\nSONUÇ VE İSTEM: Şüpheli hakkında soruşturma başlatılarak gerekli yasal işlemlerin yapılmasını saygıyla talep ederim.\n\nTarih: [Tarih]\nŞikayetçi: [İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Şikayet süresi fiilin öğrenilmesinden itibaren 6 aydır. Hak kaybı yaşamamak için bir ceza avukatından destek almanızı öneririz."
+  },
+  {
+    "id": "ise-iade-davasi-dilekce",
+    "baslik": "İşe İade Davası Dilekçesi",
+    "kategori": "İş Hukuku",
+    "aciklama": "Haksız işten çıkarma sonrası işe iade davası açmak için kullanılan dilekçe taslağı. 30 iş günlük dava açma süresi kritik önem taşır.",
+    "icerik": "... İŞ MAHKEMESİ HAKİMLİĞİ'NE\n\nDAVACI: [Ad Soyad] - [TC Kimlik No] - [Adres]\nDAVALI (İşveren): [Şirket Adı] - [Adres] - [Vergi No]\nKONU: Feshin geçersizliği ve işe iade talebimizden ibarettir.\n\nACIKLAMALAR:\n\n1. Davacı, davalı işveren bünyesinde [başlangıç tarihi] tarihinden itibaren [pozisyon] olarak çalışmakta iken [fesih tarihi] tarihinde iş sözleşmesi feshedilmiştir.\n\n2. Fesih bildiriminde [gerekçe belirtilmişse yazın / gerekçe bildirilmemiştir]. Ancak söz konusu fesih İş Kanunu'nun 18. maddesi kapsamında geçerli bir nedene dayanmamaktadır.\n\n3. Davacı;\n   - 30'dan fazla işçi çalıştıran işyerinde\n   - En az 6 ay kıdeme sahip olarak çalışmış\n   - Belirsiz süreli iş sözleşmesiyle istihdam edilmiştir.\n   Bu nedenle iş güvencesi hükümlerinden yararlanma hakkı mevcuttur.\n\n4. Feshin geçersiz sayılması ve davacının işe iadesine karar verilmesi talep olunmaktadır.\n\nHUKUKİ SEBEPLER: İş K. m. 18, 19, 20, 21\n\nDELİLLER: İş sözleşmesi, fesih bildirimi, SGK hizmet dökümü, tanık beyanları, bordro kayıtları.\n\nSONUÇ VE İSTEM: Feshin geçersizliğine, davacının işe iadesine, boşta geçen süre için 4 aya kadar ücret ve haklarının ödenmesine, işe başlatılmaması halinde 4-8 aylık tazminata hükmedilmesine karar verilmesini saygıyla talep ederim.\n\nTarih: [Tarih]\nDavacı / Vekili: [İmza]\n\n⚠️ ÖNEMLİ: İşe iade davası, fesih bildiriminin tebliğinden itibaren 30 iş günü içinde açılmalıdır. Bu süre hak düşürücüdür. Vakit kaybetmeden bir iş hukuku avukatına başvurun."
+  },
+  {
     "id": "kidem-tazminati-ihtarname",
     "baslik": "Kıdem ve İhbar Tazminatı Talep İhtarnamesi",
     "kategori": "İş Hukuku",
