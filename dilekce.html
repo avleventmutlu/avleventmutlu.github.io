@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="tr-TR">
 <head>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HM0Z2WGG3M"></script>
@@ -14,6 +14,27 @@
   <title>Örnek Dilekçeler | Av. Levent Mutlu - İstanbul Hukuk Bürosu</title>
   <meta name="description" content="Boşanma, işe iade, nafaka artırım, tazminat, suç duyurusu ve itiraz dilekçesi örnekleri. Av. Levent Mutlu Hukuk Bürosu.">
   <meta name="robots" content="index, follow">
+
+  <!-- TÜRKİYE COĞRAFİ HEDEFLEME -->
+  <meta name="language" content="Turkish">
+  <meta http-equiv="content-language" content="tr-TR">
+  <meta name="geo.region" content="TR-34">
+  <meta name="geo.placename" content="Beylikdüzü, İstanbul, Türkiye">
+  <meta name="geo.position" content="41.0030;28.6430">
+  <meta name="ICBM" content="41.0030, 28.6430">
+
+  <!-- HREFLANG -->
+  <link rel="alternate" hreflang="tr-TR" href="https://avleventmutlu.com.tr/dilekce.html">
+  <link rel="alternate" hreflang="x-default" href="https://avleventmutlu.com.tr/dilekce.html">
+  <link rel="canonical" href="https://avleventmutlu.com.tr/dilekce.html">
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:title" content="Örnek Dilekçeler | Av. Levent Mutlu">
+  <meta property="og:description" content="Boşanma, işe iade, nafaka artırım, tazminat, suç duyurusu ve itiraz dilekçesi örnekleri.">
+  <meta property="og:url" content="https://avleventmutlu.com.tr/dilekce.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="tr_TR">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -114,9 +135,6 @@
       text-decoration: none; transition: background 0.3s; border: none; cursor: pointer;
     }
     .dilekce-ara-btn:hover { background: var(--bordo-acik); }
-
-
-
 
     .chat-btn {
       position: fixed; bottom: 96px; right: 28px;
@@ -221,7 +239,7 @@
     .footer-hukuk { font-size: 0.65rem; color: rgba(245,239,224,0.3); }
 
     .whatsapp-btn {
-      position: fixed; bottom: 28px; left: 28px;
+      position: fixed; bottom: 28px; right: 28px;
       width: 58px; height: 58px; background: #25D366;
       border-radius: 50%; display: flex; align-items: center;
       justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3);
@@ -254,7 +272,7 @@
       <li><a href="haberler.html">Haberler</a></li>
       <li><a href="index.html#iletisim">İletişim</a></li>
     </ul>
-    <button class="hamburger" onclick="menuAc()">
+    <button class="hamburger" onclick="menuAc()" aria-label="Menü">
       <span></span><span></span><span></span>
     </button>
   </nav>
@@ -296,7 +314,8 @@
 
     async function yukle() {
       try {
-        var res = await fetch('dilekce.json?t=' + Date.now());
+        var res = await fetch('dilekceler.json?t=' + Date.now());
+        if (!res.ok) throw new Error('HTTP ' + res.status);
         var data = await res.json();
         var liste = document.getElementById('dilekceListesi');
         liste.innerHTML = data.map(function(d, i) {
@@ -321,27 +340,25 @@
           '</div>';
         }).join('');
       } catch(e) {
-        document.getElementById('dilekceListesi').innerHTML = '<p style="text-align:center;color:var(--metin-acik)">Yüklenemedi.</p>';
+        console.error('Dilekçeler yüklenemedi:', e);
+        document.getElementById('dilekceListesi').innerHTML = '<p style="text-align:center;color:var(--metin-acik)">Dilekçeler şu an yüklenemiyor. Lütfen sayfayı yenileyin.</p>';
       }
     }
     yukle();
   </script>
 
-
-
-
   <div style="position:fixed;bottom:162px;right:20px;background:var(--bordo-koyu);color:var(--krem);font-size:0.7rem;padding:0.4rem 0.8rem;border-radius:20px;border:1px solid var(--altin);z-index:999;white-space:nowrap;animation:nabiz 2s infinite;" onclick="chatAc()" id="chatBalon">💬 Hukuki soru sor!</div>
-  <button class="chat-btn" onclick="chatAc();document.getElementById('chatBalon').style.display='none'">&#9878;</button>
+  <button class="chat-btn" onclick="chatAc();document.getElementById('chatBalon').style.display='none'" aria-label="Chat">&#9878;</button>
   <div class="chat-pencere" id="chatPencere">
     <div class="chat-header">
       <div class="chat-header-bilgi">
         <div class="chat-header-avatar">&#9878;</div>
         <div>
           <div class="chat-header-isim">Hukuki Asistan</div>
-          <div class="chat-header-durum">Av. Levent Mutlu Hukuk Burosu</div>
+          <div class="chat-header-durum">Av. Levent Mutlu Hukuk Bürosu</div>
         </div>
       </div>
-      <button class="chat-kapat" onclick="chatKapat()">&#10005;</button>
+      <button class="chat-kapat" onclick="chatKapat()" aria-label="Kapat">&#10005;</button>
     </div>
     <div class="chat-mesajlar" id="chatMesajlar">
       <div class="chat-mesaj bot">👋 Merhaba! Hukuki sorununuzu buraya yazın, size ücretsiz ön bilgi verelim. Merak ettiklerinizi çekinmeden paylaşabilirsiniz — her soru gizli tutulmaktadır.</div>
@@ -352,46 +369,40 @@
       </div>
     </div>
     <div class="chat-input-alani">
-      <input class="chat-input" id="chatInput" type="text" placeholder="Sorunuzu yazin..." onkeydown="if(event.key==='Enter')mesajGonder()">
-      <button class="chat-gonder" onclick="mesajGonder()">&#10148;</button>
+      <input class="chat-input" id="chatInput" type="text" placeholder="Sorunuzu yazın..." onkeydown="if(event.key==='Enter')mesajGonder()">
+      <button class="chat-gonder" onclick="mesajGonder()" aria-label="Gönder">&#10148;</button>
     </div>
   </div>
-<script>
+
+  <script>
     var db = [
-      {k:["12 yargi","yargi paketi","af var mi","infaz indirimi","af cikacak mi"],c:"12. Yargi Paketi bir af duzzenlemesi degildir. Genel af, ehliyet affi veya infaz indirimi icermemektedir. Paket esas olarak dava surelerini kisaltmayi ve yargilama hizini artirmayi hedeflemektedir. Ilkbaharda komisyondan gecmesi beklenmektedir.",r:true},
-      {k:["temyiz suresi","temyiz kac gun","temyiz basvuru","temyiz hak dusurucü"],c:"2026 itibariyle temyiz suresi, gerekceli kararin tebliginden itibaren 14 gundur. Bu sure hak dusurucudur, gecirirseniz karar kesinlesir. Teblig tarihini hemen avukatiniza bildirin.",r:true},
-      {k:["banka hesabi kullandirdim","hesabima para geldi","iban dolandiricilik","hesap kullandirma","tck 158","nitelikli dolandiricilik"],c:"Hesabinizi baskasina kullandirdiniz ya da hesabiniza beklenmedik bir para geldi ve suclama ile karsilasdiyseniz: Yargitay'a gore IBAN sahibi olmak tek basina suc delili degildir. Kastinizin ve haksiz menfaat elde ettiginizin somut delille ispatlanmasi zorunludur. Hemen avukat desteği alin, ilk ifade cok kritiktir.",r:true},
-      {k:["dolandirildim","dolandiricilik madurum","para kaptirdim","sahte ilan","sahte satis"],c:"Dolandiriciligin magduruysaniz: Hemen emniyet veya jandarma mudurluğune suc duyurusunda bulunun. Tum yazisma, ekran goruntusu ve odeme belgelerini saklayin. Banka hesabiniza gelen paranin bloke edilmesi icin bankanizi arayin. Suclama ile ilgili olarak 0545 959 48 45 numarayi arayabilirsiniz.",r:true},
-      {k:["kira artisi","kira zammi","ev sahibi zam","kira arttirdi"],c:"2026 Mart ayinda yasal kira artis tavanı yuzde 3,39 olarak belirlenmistir. Ev sahibiniz bu oranin ustunde zam yapamaz. Sozlesmede daha yuksek oran yazsa bile bu hukum kiracı aleyhinize uygulanamaz. Hukuki yardim icin buromuzla iletisime gecebilirsiniz.",r:true},
+      {k:["12 yargi","yargi paketi","af var mi","infaz indirimi","af cikacak mi"],c:"12. Yargi Paketi bir af duzenlemesi degildir. Genel af, ehliyet affi veya infaz indirimi icermemektedir. Paket esas olarak dava surelerini kisaltmayi ve yargilama hizini artirmayi hedeflemektedir. Mayis ayinin ilk haftasinda komisyondan gecmesi beklenmektedir.",r:true},
+      {k:["temyiz suresi","temyiz kac gun","temyiz basvuru","temyiz hak dusurucu"],c:"2026 itibariyle temyiz suresi, gerekceli kararin tebliginden itibaren 14 gundur. Bu sure hak dusurucudur, gecirirseniz karar kesinlesir. Teblig tarihini hemen avukatiniza bildirin.",r:true},
+      {k:["banka hesabi kullandirdim","hesabima para geldi","iban dolandiricilik","hesap kullandirma","tck 158","nitelikli dolandiricilik"],c:"Hesabinizi baskasina kullandirdiniz ya da hesabiniza beklenmedik bir para geldi ve suclama ile karsilasdiyseniz: Yargitay'a gore IBAN sahibi olmak tek basina suc delili degildir. Kastinizin ve haksiz menfaat elde ettiginizin somut delille ispatlanmasi zorunludur. Hemen avukat destegi alin, ilk ifade cok kritiktir.",r:true},
+      {k:["dolandirildim","dolandiricilik madurum","para kaptirdim","sahte ilan","sahte satis"],c:"Dolandiriciligin magduruysaniz: Hemen emniyet veya jandarma mudurlugune suc duyurusunda bulunun. Tum yazisma, ekran goruntusu ve odeme belgelerini saklayin. Banka hesabiniza gelen paranin bloke edilmesi icin bankanizi arayin. Suclama ile ilgili olarak 0545 959 48 45 numarayi arayabilirsiniz.",r:true},
+      {k:["kira artisi","kira zammi","ev sahibi zam","kira arttirdi"],c:"Nisan 2026 yasal kira artis tavani yuzde 32,82 olarak belirlenmistir. Mayis 2026 orani 4 Mayis Pazartesi gunu aciklanacak. Ev sahibiniz yasal sinirin ustunde zam yapamaz. Sozlesmede daha yuksek oran yazsa bile bu hukum kiraci aleyhinize uygulanamaz.",r:true},
       {k:["trafik cezasi","makas cezasi","hiz cezasi","kirmizi isik","ehliyet iptal"],c:"2026 yilinda trafik cezalari buyuk olcude artirildi. Kirmizi isik ihlali 6. ihlalde 80.000 TL, makas atmak 90.000 TL ceza ve 60 gun ehliyet el koymasina neden olmaktadir. Haksiz trafik cezasina tebligden itibaren 15 gun icinde Sulh Ceza Hakimligi'ne itiraz edilebilir.",r:true},
-      {k:["istinaf","bam","bolge adliye"],c:"Istinaf, ilk derece mahkemesi kararlarinin Bolge Adliye Mahkemesinde yeniden incelenmesidir. Karara 2 hafta icinde itiraz edilebilir. Davayi lehte sonuclandirmak icin istinaf dilekccesinin dogru hazirlanmasi kritik onem tasir.",r:true},
-      {k:["temyiz","yargitay","bozma"],c:"Temyiz, istinaf kararlarinin Yargitay tarafindan hukuki denetiminin yapilmasidir. Suresi karar tebliginden itibaren 2 haftadir. Temyiz dilekccesi teknik bir belge olup uzman avukat gerektirmektedir.",r:true},
-      {k:["mudafi","mudahil","vekil","avukat tut","savunma"],c:"Mudafi, ceza davalarinda sanigi temsil eden avukattir. Bazi suclarda zorunlu mudafilik vardir. Mudafi secimi davanin seyrini dogrudan etkiler. Deneyimli bir mudafi olmadan yapilan savunma ciddi hak kayiplarina yol acacabilir.",r:true},
-      {k:["tutukluluk","tutuklu","tahliye","adli kontrol"],c:"Tutukluluk, kovusturma oncesinde sahsin ozgurlugunun kisitlanmasidir. Adli kontrol ise tutuklulugun alternatifi olarak uygulanan denetim tedbiridir. Tahliye talebinin zamaninda ve dogru yapilmasi cok onemlidir.",r:true},
-      {k:["beraat","mahkumiyet","ceza erteleme","hapis","para cezasi"],c:"Beraat, sanık hakkında suç ispatlanamadığı için verilen serbest birakma kararıdır. Ceza erteleme ise hapis cezasının denetimli serbestlik kapsamında infaz edilmesidir. Her iki karar da savunma kalitesiyle doğrudan ilişkilidir.",r:true},
-      {k:["uzlasma","uzlaştırma","uzlastirma"],c:"Uzlaştırma, tarafların bir uzlaştırmacı aracılığıyla anlaşmasıdır. Bazı suçlarda dava açılmadan önce zorunludur. Uzlaşma miktarı ve koşulları pazarlık konusudur, iyi bir avukat daha iyi koşullar sağlar.",r:true},
-      {k:["ifade","sorgu","savcı ifadesi","jandarmada","poliste","ifade ver"],c:"Savcılık veya kolluk ifadesi son derece önemlidir. Susma hakkınızı kullanabilirsiniz. İfade öncesinde mutlaka bir avukattan destek almanızı öneririz; ilk ifadede yapılan hatalar telafi edilemez sonuçlar doğurabilir.",r:true},
-      {k:["mal rejimi","edinilmis mal","mal paylasimi","ev paylasimi"],c:"Evlilik birliği içinde edinilen mallar kural olarak eşit paylaşılır. Ancak kişisel mallar, miras yoluyla edinilen varlıklar ve önceden sahip olunan mal varlıkları bu kapsam dışındadır. Mal paylaşımı hesabı uzmanlık gerektirir.",r:true},
-      {k:["nafaka","tedbir nafakasi","istirak nafakasi","yoksulluk nafakasi"],c:"Nafaka türleri şunlardır: tedbir nafakası (dava süresince), iştirak nafakası (çocuk için) ve yoksulluk nafakası (eş için). Nafaka miktarı tarafların ekonomik durumuna göre belirlenir ve artırım davası açılabilir.",r:true},
-      {k:["kidem","ihbar","kidem tazminati","ihbar tazminati","isine son"],c:"Kıdem tazminatı her tam yıl için 30 günlük brüt ücret üzerinden hesaplanır. İhbar tazminatı ise çalışma süresine göre 2-8 hafta arasında değişir. Hesaplama hataları çok yaygındır, mutlaka kontrol ettirilmelidir.",r:true},
-      {k:["is guvencesi","gecersiz fesih","ise iade","ise iade davasi"],c:"1 yılı aşkın kıdemi olan ve 30'dan fazla işçi çalıştıran işyerlerinde geçersiz feshe karşı işe iade davası açılabilir. Bu dava fesih bildiriminden itibaren 1 ay içinde açılmalıdır. Süre kaçırılırsa hak tamamen düşer.",r:true},
-      {k:["tenkis","tenkis davasi","sakli pay","miras hakki"],c:"Tenkis davası, mirasçıların saklı paylarının ihlal edildiği durumlarda açılır. Saklı pay oranları mirasçı türüne göre değişir. Bu dava miras bırakanın ölümünden itibaren belirli süreler içinde açılmalıdır.",r:true},
-      {k:["miras reddi","mirasi reddet","mirasi red"],c:"Mirasçılar, ölüm tarihinden itibaren 3 ay içinde mirası reddedebilir. Özellikle borçlu tereke söz konusu olduğunda ret kararı büyük önem taşır. Ret beyanı noter aracılığıyla veya mahkemeye yapılır.",r:true},
-      {k:["dava acma suresi","zamanasimt","hak dusurucü","sure"],c:"Hukuki davalarda süreler son derece kritiktir. Zamanaşımı ve hak düşürücü süreler dava türüne göre 1 ay ile 10 yıl arasında değişir. Süre geçirildikten sonra dava açma hakkı tamamen kaybedilebilir.",r:true},
-      {k:["icra","icra takibi","haciz","borcum var","alacakli"],c:"İcra takibi, borcun ödenmemesi durumunda alacaklının başvurabileceği hukuki yoldur. İtiraz süresi ödeme emrinin tebliğinden itibaren 7 veya 15 gündür. Bu süre geçirilirse borç kesinleşir ve haciz işlemleri başlar.",r:true},
-      {k:["itiraz","itiraz et","karara itiraz"],c:"Mahkeme kararlarına itiraz süreleri son derece kısadır. Karar tebliğinden itibaren genellikle 2 hafta içinde itiraz edilmelidir. Süre ve usul hatası itirazın reddine yol açar. Mutlaka avukat desteği alınmalıdır.",r:true},
-      {k:["sigorta","sgk","is kazasi","meslek hastaligi"],c:"İş kazası bildiriminin SGK'ya yapılması zorunludur. İş kazasından doğan tazminat haklarının kullanılması için delillerin hızla toplanması şarttır. Gecikme durumunda önemli haklar yitirilebilir.",r:true},
-      {k:["cocuk istismar","aile ici siddet","siddet","darp","kavga"],c:"Aile içi şiddet ve çocuk istismarı durumlarında öncelikle güvenliğinizi sağlayın. Koruma kararı ve uzaklaştırma kararı için acilen hukuki destek almanızı öneririz. Büromuz bu tür acil davalara öncelik vermektedir.",r:true},
-      {k:["tck","tck158","banka hesabi","banka hesap","hesap kullan","5549","hesabini kullan","para transfer","suistimal","dolandirici","dolandiricilik","sahte","hesap verdi","hesabimi verdi"],c:"Banka hesabini baskasina kullandirmak 5549 sayili Kanun m.15 kapsaminda suc teskil etmektedir. Bildirim yukumlulugunu yerine getirmeden baskasi hesabina islem yapanlar 6 aydan 1 yila kadar hapis veya adli para cezasiyla karsilasabilir. Bu suclama son derece teknik ve nüanslı olup savunma stratejisi hayati onem tasir. Deneyimli bir avukat olmadan bu davada hak kaybı yasanmasi kacınılmazdir.",r:true},
-      {k:["bosanma","boşanma","evlilik","anlasmali","cekismeli","nafaka","velayet"],c:"Bosanma davasi turune gore 1-3 ay (anlasmali) veya 1-3 yil (cekismeli) surebilir. Velayet, nafaka ve mal paylasimi konularinda da destek sunuyoruz.",r:true},
-      {k:["ceza","suc","dava","savci","mahkeme","gozalti","bilisim","hapis"],c:"Ceza davalarinda sorusturma asamasindan temyize kadar yaninizdayiz. Bilisim suclari basta olmak uzere tum ceza davalarinda hizmet veriyoruz.",r:true},
-      {k:["isten","isci","kidem","ihbar","is hukuku","isveren","maas","fazla mesai"],c:"Isten cikarilma durumunda kidem tazminati, ihbar tazminati ve diger haklariniz olabilir. Bu haklarin dogmasi calisma surenize ve isten cikarilma seklinize baglidir.",r:true},
-      {k:["miras","vasiyet","vasiyetname","mirasci","tereke"],c:"Miras paylasimi, vasiyetname duzenlenmesi ve mirascilik belgesi alinmasi konularinda hizmet veriyoruz.",r:true},
+      {k:["istinaf","bam","bolge adliye"],c:"Istinaf, ilk derece mahkemesi kararlarinin Bolge Adliye Mahkemesinde yeniden incelenmesidir. Karara 2 hafta icinde itiraz edilebilir.",r:true},
+      {k:["temyiz","yargitay","bozma"],c:"Temyiz, istinaf kararlarinin Yargitay tarafindan hukuki denetiminin yapilmasidir. Suresi karar tebliginden itibaren 2 haftadir.",r:true},
+      {k:["mudafi","mudahil","vekil","avukat tut","savunma"],c:"Mudafi, ceza davalarinda sanigi temsil eden avukattir. Bazi suclarda zorunlu mudafilik vardir. Mudafi secimi davanin seyrini dogrudan etkiler.",r:true},
+      {k:["tutukluluk","tutuklu","tahliye","adli kontrol"],c:"Tutukluluk, kovusturma oncesinde sahsin ozgurlugunun kisitlanmasidir. Adli kontrol ise tutuklulugun alternatifi olarak uygulanan denetim tedbiridir. CMK 109'a gore imza yukumlulugu, yurt disi cikis yasagi, elektronik kelepce gibi alternatifler talep edilebilir.",r:true},
+      {k:["beraat","mahkumiyet","ceza erteleme","hapis","para cezasi"],c:"Beraat, sanik hakkinda suc ispatlanamadigi icin verilen serbest birakma kararidir.",r:true},
+      {k:["uzlasma","uzlastirma"],c:"Uzlastirma, taraflarin bir uzlastirmaci araciligiyla anlasmasidir. Bazi suclarda dava acilmadan once zorunludur.",r:true},
+      {k:["ifade","sorgu","savci ifadesi","jandarmada","poliste","ifade ver"],c:"Savcilik veya kolluk ifadesi son derece onemlidir. Susma hakkinizi kullanabilirsiniz. Ifade oncesinde mutlaka bir avukattan destek almanizi oneririz; ilk ifadede yapilan hatalar telafi edilemez sonuclar dogurabilir.",r:true},
+      {k:["mal rejimi","edinilmis mal","mal paylasimi","ev paylasimi"],c:"Evlilik birligi icinde edinilen mallar kural olarak esit paylasilir. Ancak kisisel mallar, miras yoluyla edinilen varliklar ve onceden sahip olunan mal varliklari bu kapsam disindadir.",r:true},
+      {k:["nafaka","tedbir nafakasi","istirak nafakasi","yoksulluk nafakasi"],c:"Nafaka turleri sunlardir: tedbir nafakasi, istirak nafakasi ve yoksulluk nafakasi. Yargitay'in 2026 emsal kararina gore yoksulluk nafakasi icin karsi tarafin mali gucu de degerlendirilir.",r:true},
+      {k:["kidem","ihbar","kidem tazminati","ihbar tazminati","isine son"],c:"Kidem tazminati her tam yil icin 30 gunluk brut ucret uzerinden hesaplanir. Ihbar tazminati ise calisma suresine gore 2-8 hafta arasinda degisir.",r:true},
+      {k:["is guvencesi","gecersiz fesih","ise iade","ise iade davasi"],c:"30'dan fazla isci calistiran isyerlerinde 6 aylik kidemi olan isci icin gecersiz feshe karsi ise iade davasi acilabilir. Bu dava fesih bildiriminden itibaren 30 is gunu icinde acilmalidir.",r:true},
+      {k:["tenkis","tenkis davasi","sakli pay","miras hakki"],c:"Tenkis davasi, mirascilarin sakli paylarinin ihlal edildigi durumlarda acilir.",r:true},
+      {k:["miras reddi","mirasi reddet"],c:"Mirascilar, olum tarihinden itibaren 3 ay icinde mirasi reddedebilir.",r:true},
+      {k:["dava acma suresi","zamanasimi","hak dusurucu","sure"],c:"Hukuki davalarda sureler son derece kritiktir.",r:true},
+      {k:["icra","icra takibi","haciz","borcum var","alacakli"],c:"Icra takibi, borcun odenmemesi durumunda alacaklinin basvurabilecegi hukuki yoldur.",r:true},
+      {k:["bosanma","evlilik","anlasmali","cekismeli","velayet"],c:"Bosanma davasi turune gore 1-3 ay (anlasmali) veya 1-3 yil (cekismeli) surebilir.",r:true},
       {k:["tazminat","trafik","kaza","hasar","yaralanma"],c:"Trafik ve is kazalarindan dogan maddi ve manevi tazminat davalarinda haklarinizi koruyoruz.",r:true},
-      {k:["adres","nerede","ofis","beylikduzu","beylikdüzü","ekinoks","konum","nerede"],c:"Ofisimiz Istanbul Beylikduzu Ekinoks Towers'da, E-5'in hemen yaninda bulunmaktadir. Randevu icin 0545 959 48 45 numarali hatti arayabilir ya da WhatsApp'tan ulasabilirsiniz.",r:false},
+      {k:["adres","nerede","ofis","beylikduzu","ekinoks","konum"],c:"Ofisimiz Istanbul Beylikduzu Ekinoks Towers'da, E-5'in hemen yaninda bulunmaktadir. Randevu icin 0545 959 48 45 numarali hatti arayabilirsiniz.",r:false},
       {k:["telefon","iletisim","whatsapp","ara","numara"],c:"0545 959 48 45 numarali hattan veya WhatsApp uzerinden bize ulasabilirsiniz.",r:false},
       {k:["ucret","fiyat","para","maliyet","ne kadar"],c:"Ucretlerimiz dava turune gore belirlenmektedir. Ilk gorusmede net bilgi sunulur.",r:true},
-      {k:["avukat","levent","ismet","buro","kimsiniz"],c:"Av. Levent Mutlu ve ortagi Av. Ismet Mutlu olarak Beylikduzu'nde hizmet veriyoruz. Ceza, aile, is, miras ve tazminat davalarinda uzmaniz.",r:true}
+      {k:["avukat","levent","ismet","buro","kimsiniz"],c:"Av. Levent Mutlu ve ortagi Av. Ismet Mutlu olarak Beylikduzu'nde hizmet veriyoruz.",r:true}
     ];
 
     function chatAc(){document.getElementById("chatPencere").classList.add("acik");}
@@ -404,7 +415,7 @@
           if(s.indexOf(db[i].k[j])>-1) return db[i];
         }
       }
-      return {c:"Bu konuda kesin bilgi verebilmek icin davanizin detaylarini incelememiz gerekir. Hukuki surecler kisiselden kisiye farklılık gosterir ve yanlis bir adim telafi edilemez sonuclara yol acabilir. Buromuzla goruserek risksiz bir degerlendirme yapabilirsiniz.",r:true};
+      return {c:"Bu konuda kesin bilgi verebilmek icin davanizin detaylarini incelememiz gerekir. Buromuzla goruserek risksiz bir degerlendirme yapabilirsiniz.",r:true};
     }
 
     function mesajGonder(){
@@ -422,7 +433,6 @@
       yd.innerHTML="<span></span><span></span><span></span>";
       m.appendChild(yd);
       m.scrollTop=m.scrollHeight;
-      // Google Sheets'e kaydet
       var img = new Image();
       img.src = "https://script.google.com/macros/s/AKfycbwxLk2mG7mIRbSOxrA62yukb5gmHuihFWTPRN7BSZ6d6F_aYuUX53ScKErtdgK5N8pLKQ/exec?mesaj=" + encodeURIComponent(mesaj);
 
@@ -442,21 +452,19 @@
           bd.appendChild(a);
         }
         m.appendChild(bd);
-
         setTimeout(function(){
           var tesvikDiv = document.createElement("div");
           tesvikDiv.className = "chat-mesaj bot";
-          tesvikDiv.textContent = "Başka bir konuda yardımcı olabilir miyim? Her sorunuzu sormaktan çekinmeyin.";
+          tesvikDiv.textContent = "Baska bir konuda yardimci olabilir miyim? Her sorunuzu sormaktan cekinmeyin.";
           m.appendChild(tesvikDiv);
           m.scrollTop = m.scrollHeight;
         }, 1800);
-
         m.scrollTop=m.scrollHeight;
       },900);
     }
   </script>
 
-  <a class="whatsapp-btn" href="https://wa.me/905459594845" target="_blank" aria-label="WhatsApp">
+  <a class="whatsapp-btn" href="https://wa.me/905459594845" target="_blank" rel="noopener" aria-label="WhatsApp">
     <svg viewBox="0 0 24 24" width="30" height="30" fill="white" xmlns="http://www.w3.org/2000/svg">
       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
     </svg>
