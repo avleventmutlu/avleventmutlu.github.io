@@ -1,5 +1,40 @@
 [
   {
+  "id": "masak-inceleme-savunma-dilekce",
+  "baslik": "MASAK İncelemesi Kapsamında Savunma Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "MASAK incelemesi veya şüpheli para transferleri nedeniyle ifade veren kişiler için örnek savunma dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasından ibarettir.\n\nAÇIKLAMALAR:\n\n1. Hakkımda gerçekleştirilen MASAK incelemesi kapsamında tarafıma yöneltilen iddiaları kabul etmiyorum.\n\n2. Hesap hareketlerimin tamamı yasal işlemlerden kaynaklanmaktadır.\n\n3. Suçtan elde edilmiş herhangi bir gelirin transferine bilerek iştirak etmiş değilim.\n\nSONUÇ VE İSTEM: Lehime değerlendirme yapılarak kovuşturmaya yer olmadığına karar verilmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+},
+{
+  "id": "kara-para-aklama-savunma-dilekce",
+  "baslik": "Suçtan Kaynaklanan Malvarlığı Değerlerini Aklama Suçunda Savunma Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Kara para aklama suçlamasıyla soruşturulan kişiler için örnek savunma dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Tarafıma isnat edilen suçlamaları kabul etmiyorum.\n\n2. Banka hesap hareketlerim ticari ve kişisel işlemlerden kaynaklanmaktadır.\n\n3. Herhangi bir suç gelirinin aklanmasına iştirak etmiş değilim.\n\nSONUÇ VE İSTEM: Hakkımda kovuşturmaya yer olmadığına karar verilmesini talep ederim."
+},
+{
+  "id": "hts-kaydi-talep-dilekce",
+  "baslik": "HTS Kayıtlarının Celbi Talep Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Ceza yargılamasında telefon görüşme ve baz kayıtlarının dosyaya getirtilmesi talebi.",
+  "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: HTS kayıtlarının celbi talebidir.\n\nAÇIKLAMALAR:\n\n1. Dosyanın aydınlatılması açısından HTS kayıtlarının incelenmesi gerekmektedir.\n\n2. Kayıtlar müvekkilin savunmasını doğrulayacak niteliktedir.\n\nSONUÇ VE İSTEM: İlgili operatörlerden HTS kayıtlarının getirtilmesini talep ederiz."
+},
+{
+  "id": "telefon-imaj-kaydi-talep",
+  "baslik": "Telefon İmajı ve Bilirkişi Raporu Talep Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "El konulan telefonun imaj kayıtları ve bilirkişi raporlarının dosyaya sunulması talebi.",
+  "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Bilirkişi raporu ve telefon inceleme kayıtlarının celbi talebidir.\n\nAÇIKLAMALAR:\n\n1. El konulan dijital materyallere ilişkin rapor henüz tarafımıza verilmemiştir.\n\n2. Savunma hakkının etkin kullanılması için raporların incelenmesi gerekmektedir.\n\nSONUÇ VE İSTEM: Raporların tarafımıza verilmesini talep ederiz."
+},
+{
+  "id": "banka-hesap-hareketleri-celbi",
+  "baslik": "Banka Hesap Hareketlerinin Celbi Talep Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Dosyada yer alan banka hesap hareketlerinin ilgili bankalardan getirtilmesi talebi.",
+  "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Banka kayıtlarının getirtilmesi talebidir.\n\nAÇIKLAMALAR:\n\n1. Dosyanın çözümü bakımından hesap hareketlerinin incelenmesi zorunludur.\n\n2. Mevcut kayıtlar eksiktir.\n\nSONUÇ VE İSTEM: İlgili bankalardan hesap hareketlerinin celbine karar verilmesini talep ederiz."
+},
+{
   "id": "iban-kullandirma-savunma-dilekce",
   "baslik": "IBAN Kullandırma Suçunda Savunma Dilekçesi",
   "kategori": "Ceza Hukuku",
