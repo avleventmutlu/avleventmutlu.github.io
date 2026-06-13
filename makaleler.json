@@ -1,5 +1,40 @@
 [
   {
+"id": "iban-kullandim-ceza-alir-miyim-2026",
+"baslik": "IBAN Kullandırdım Ceza Alır Mıyım? (2026 Güncel Rehber)",
+"kategori": "Ceza Hukuku",
+"ozet": "Banka hesabını veya IBAN bilgisini başkasına kullandıran kişilerin hangi suçlamalarla karşılaşabileceği, ceza alıp almayacağı ve savunmada dikkat edilmesi gereken hususlar.",
+"icerik": "Son yıllarda özellikle internet üzerinden ek gelir vaadiyle birçok kişiye banka hesabını veya IBAN bilgisini kullandırması teklif edilmektedir. Ancak hesabını kullandıran kişiler çoğu zaman kendilerini dolandırıcılık, yasa dışı bahis veya suçtan kaynaklanan malvarlığı değerlerini aklama soruşturmalarının içerisinde bulmaktadır. \n\nTek başına IBAN paylaşmak her zaman suç oluşturmaz. Ancak hesabın suç gelirlerinin aktarılmasında kullanıldığının bilinmesi veya bilinmesi gereken durumlarda ceza sorumluluğu doğabilir. Özellikle yüksek miktarlı para transferleri, kısa süre içerisinde farklı kişilere yapılan gönderimler ve komisyon karşılığı hesap kullandırılması soruşturmalarda dikkat çekmektedir.\n\nHakkınızda soruşturma başlatılmışsa ifade vermeden önce dosyanın içeriğinin incelenmesi ve profesyonel hukuki destek alınması önemlidir.\n\n⚠️ Bu makale yalnızca genel bilgilendirme amaçlıdır. Her olay kendi koşulları içerisinde değerlendirilmelidir."
+},
+{
+"id": "hesap-kiralama-sucu-ve-cezasi",
+"baslik": "Hesap Kiralama Suçu ve Cezası Nedir?",
+"kategori": "Ceza Hukuku",
+"ozet": "Banka hesabı kiralama, hesap kullandırma ve komisyon karşılığı para transferine aracılık etmenin hukuki sonuçları.",
+"icerik": "Hesap kiralama, kişinin banka hesabını veya elektronik para hesabını üçüncü kişilerin kullanımına bırakması anlamına gelir. Son dönemde özellikle gençler ve öğrenciler bu tür tekliflerle karşılaşmaktadır.\n\nHesabın kullanıldığı faaliyet suç teşkil ediyorsa, hesap sahibinin de ceza soruşturmasına dahil edilmesi mümkündür. Soruşturmalarda kişinin kastı, para transferlerinden haberdar olup olmadığı ve elde ettiği menfaat araştırılmaktadır.\n\nBu nedenle hesabın başkalarına kullandırılması ciddi hukuki riskler doğurabilir.\n\n⚠️ Bu makale genel bilgilendirme amacı taşımaktadır."
+},
+{
+"id": "papara-hesabimi-kullandirdim-ne-yapmaliyim",
+"baslik": "Papara Hesabımı Kullandırdım, Ne Yapmalıyım?",
+"kategori": "Ceza Hukuku",
+"ozet": "Elektronik para hesaplarını kullandıran kişilerin karşılaşabileceği hukuki süreçler ve alınabilecek önlemler.",
+"icerik": "Papara ve benzeri elektronik para kuruluşları üzerinden yapılan işlemler gerektiğinde resmi makamlar tarafından incelenebilmektedir.\n\nHesabınızı başkasına kullandırdıysanız veya hesabınızın kötüye kullanıldığını fark ettiyseniz öncelikle hesabınızı güvence altına almalı ve gerekli kurumlarla iletişime geçmelisiniz.\n\nHakkınızda soruşturma bulunuyorsa ifade vermeden önce dosyanın kapsamı değerlendirilmelidir.\n\n⚠️ Her olay farklı olduğundan profesyonel hukuki destek alınması önemlidir."
+},
+{
+"id": "telefonuma-el-konuldu-nasil-geri-alabilirim",
+"baslik": "Telefonuma El Konuldu, Nasıl Geri Alabilirim?",
+"kategori": "Ceza Hukuku",
+"ozet": "Soruşturma kapsamında el konulan telefonların iadesi için izlenebilecek hukuki yollar.",
+"icerik": "Ceza soruşturmalarında cep telefonu, bilgisayar ve diğer dijital materyallere el konulabilmektedir.\n\nAncak inceleme işlemlerinin tamamlanması sonrasında eşyanın muhafazasının devamı her zaman gerekli değildir. Özellikle cihazın imajı alınmış ve teknik inceleme tamamlanmışsa iade talebinde bulunulabilir.\n\nEl koyma işleminin hukuka uygunluğu ve iade imkanları dosyanın özelliklerine göre değerlendirilmelidir.\n\n⚠️ Bu yazı genel bilgilendirme amaçlıdır."
+},
+{
+"id": "masak-incelemesi-nedir",
+"baslik": "MASAK İncelemesi Nedir? Hakkınızda İnceleme Başlatılırsa Ne Olur?",
+"kategori": "Ceza Hukuku",
+"ozet": "MASAK tarafından yapılan mali incelemeler, şüpheli işlem bildirimleri ve soruşturma süreçleri hakkında genel bilgiler.",
+"icerik": "MASAK, mali suçlarla mücadele kapsamında çeşitli incelemeler yapabilmektedir. Bankalar ve finans kuruluşları tarafından bildirilen bazı işlemler incelemeye konu olabilmektedir.\n\nMASAK incelemesi yapılması kişinin otomatik olarak suçlu olduğu anlamına gelmez. İnceleme sonucunda elde edilen bilgiler savcılık soruşturmalarına dayanak oluşturabilir.\n\nBu nedenle mali işlemlerin kaynağının açıklanabilir olması ve gerektiğinde belgelerle desteklenebilmesi önemlidir.\n\n⚠️ Bu makale hukuki danışmanlık yerine geçmez."
+},
+{
     "id": "atlamali-temyiz-modeli-12-yargi-paketi-2026",
     "baslik": "Atlamalı Temyiz Modeli Geliyor: Davanız Daha Hızlı Bitebilir mi?",
     "tarih": "30 Nisan 2026",
