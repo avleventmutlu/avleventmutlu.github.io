@@ -49,7 +49,16 @@
     .sayfa-baslik h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 300; color: var(--krem); }
     .sayfa-baslik h1 em { font-style: italic; color: var(--altin-acik); }
 
-    .filtre-bar { padding: 2rem 5%; background: var(--krem); display: flex; gap: 1rem; flex-wrap: wrap; border-bottom: 1px solid var(--krem-koyu); align-items: center; }
+    .filtre-bar {
+    padding: 2rem 5%;
+    background: var(--krem);
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--krem-koyu);
+    align-items: center;
+    justify-content: center;
+}
     .filtre-btn { padding: 0.5rem 1.2rem; border: 1px solid var(--bordo); background: transparent; color: var(--bordo); font-family: 'Montserrat', sans-serif; font-size: 0.68rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: all 0.3s; }
     .filtre-btn:hover, .filtre-btn.aktif { background: var(--bordo); color: var(--krem); }
     .arama-kutu { display: flex; align-items: center; border: 1px solid var(--bordo); background: transparent; padding: 0.3rem 0.8rem; margin-left: auto; }
