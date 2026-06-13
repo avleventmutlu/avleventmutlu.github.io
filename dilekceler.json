@@ -1,5 +1,54 @@
 [
   {
+  "id": "hesap-kiralama-savunma-dilekce",
+  "baslik": "Banka Hesabı Kiralama İddiasına Karşı Savunma Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Banka hesabını veya IBAN bilgisini üçüncü kişilere kullandırdığı iddiasıyla hakkında soruşturma yürütülen kişiler için örnek savunma dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Hakkımda banka hesabımı üçüncü kişilere kullandırdığım iddiasıyla soruşturma yürütülmektedir.\n\n2. Hesabım üzerinden gerçekleştirilen işlemlerin suç teşkil ettiğini bildiğime dair somut delil bulunmamaktadır.\n\n3. Suç işleme kastım bulunmamaktadır.\n\n4. Tüm hesap hareketlerinin detaylı incelenmesi halinde iddiaların gerçeği yansıtmadığı görülecektir.\n\nSONUÇ VE İSTEM: Hakkımda kovuşturmaya yer olmadığına karar verilmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+},
+{
+  "id": "papara-hesabi-savunma-dilekce",
+  "baslik": "Papara Hesabı Kullanımı Nedeniyle Savunma Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Papara hesabı üzerinden gerçekleştirilen işlemler nedeniyle ifade veren kişiler için örnek savunma dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Tarafıma ait elektronik para hesabı nedeniyle soruşturma yürütülmektedir.\n\n2. İşlemlerin yasa dışı faaliyetlerle bağlantılı olduğunu bilmem mümkün değildir.\n\n3. Hesabın suç amacıyla kullanıldığına ilişkin bilgim bulunmamaktadır.\n\nSONUÇ VE İSTEM: Lehime karar verilmesini talep ederim."
+},
+{
+  "id": "bahis-sorusturmasi-ifade-savunma",
+  "baslik": "Yasadışı Bahis Soruşturmasında İfade Savunma Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Yasadışı bahis soruşturması kapsamında ifade verecek kişiler için örnek savunma dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Dosyada adı geçen kişilerle yasa dışı bahis organizasyonu kapsamında herhangi bir bağlantım bulunmamaktadır.\n\n2. Hesap hareketleri tek başına suçun oluştuğunu göstermemektedir.\n\n3. Kast unsurunun oluşmadığı açıktır.\n\nSONUÇ VE İSTEM: Hakkımda takipsizlik kararı verilmesini talep ederim."
+},
+{
+  "id": "dolandiricilik-para-iadesi-sikayet",
+  "baslik": "Dolandırıcılık Nedeniyle Para İadesi ve Şikayet Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "İnternet üzerinden dolandırılan kişilerin savcılığa sunabileceği suç duyurusu dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Nitelikli dolandırıcılık nedeniyle suç duyurusu ve zarar tespiti talebidir.\n\nAÇIKLAMALAR:\n\n1. Şüpheli tarafından yanıltılarak para transferi gerçekleştirdim.\n\n2. Ürün/hizmet teslim edilmemiştir.\n\n3. Banka dekontları ve yazışmalar ektedir.\n\nSONUÇ VE İSTEM: Şüpheli hakkında soruşturma başlatılmasını talep ederim."
+},
+{
+  "id": "telegram-dolandiricilik-sikayet",
+  "baslik": "Telegram Dolandırıcılığı Suç Duyurusu Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Telegram uygulaması üzerinden gerçekleştirilen yatırım ve kazanç vaatli dolandırıcılıklara ilişkin suç duyurusu dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Telegram üzerinden gerçekleştirilen dolandırıcılık nedeniyle suç duyurusudur.\n\nAÇIKLAMALAR:\n\n1. Şüpheli Telegram uygulaması üzerinden benimle iletişime geçmiştir.\n\n2. Yüksek kazanç vaadiyle para göndermem sağlanmıştır.\n\n3. Sonrasında iletişim kesilmiş ve mağdur edilmiş bulunmaktayım.\n\nSONUÇ VE İSTEM: Şüphelilerin tespit edilerek cezalandırılmasını talep ederim."
+},
+{
+  "id": "instagram-sahte-hesap-sikayet",
+  "baslik": "Instagram Sahte Hesap Şikayet Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Adına sahte hesap açılan kişilerin kullanabileceği suç duyurusu dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Sahte sosyal medya hesabı nedeniyle suç duyurusudur.\n\nAÇIKLAMALAR:\n\n1. Adıma sahte sosyal medya hesabı açılmıştır.\n\n2. Bu hesap üzerinden kişilik haklarımı ihlal eden paylaşımlar yapılmaktadır.\n\n3. Ekran görüntüleri dosya ekindedir.\n\nSONUÇ VE İSTEM: Hesabı kullanan kişinin tespit edilmesini talep ederim."
+},
+{
+  "id": "whatsapp-hakaret-sikayet",
+  "baslik": "WhatsApp Üzerinden Hakaret Suçu Şikayet Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "WhatsApp mesajları yoluyla gerçekleştirilen hakaret eylemleri için suç duyurusu dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Hakaret suçu nedeniyle şikayetimizdir.\n\nAÇIKLAMALAR:\n\n1. Şüpheli WhatsApp mesajları ile şahsıma hakaret etmiştir.\n\n2. Yazışmalar ekran görüntüsü olarak saklanmıştır.\n\n3. Eylem TCK kapsamında suç oluşturmaktadır.\n\nSONUÇ VE İSTEM: Şüpheli hakkında işlem yapılmasını talep ederim."
+},
+{
   "id": "masak-inceleme-savunma-dilekce",
   "baslik": "MASAK İncelemesi Kapsamında Savunma Dilekçesi",
   "kategori": "Ceza Hukuku",
