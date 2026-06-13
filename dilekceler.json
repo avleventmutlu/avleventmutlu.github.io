@@ -1,5 +1,75 @@
 [
   {
+  "id": "iban-kullandirma-savunma-dilekce",
+  "baslik": "IBAN Kullandırma Suçunda Savunma Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Banka hesabını veya IBAN bilgisini üçüncü kişilere kullandırdığı iddiasıyla hakkında soruşturma yürütülen kişiler için örnek savunma dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nŞÜPHELİ: [Ad Soyad] - [TC Kimlik No] - [Adres]\nKONU: Savunmalarımızın sunulmasından ibarettir.\n\nAÇIKLAMALAR:\n\n1. Tarafıma ait banka hesabının üçüncü kişiler tarafından kullanıldığı iddiasıyla hakkımda soruşturma yürütülmektedir.\n\n2. Hesabıma gelen paraların suçtan kaynaklandığını bilmem mümkün değildir. Herhangi bir suç örgütü veya yasa dışı faaliyet ile bağlantım bulunmamaktadır.\n\n3. Hesabımı kullandırmam karşılığında suç işleme kastım bulunmamaktadır. Olayın tüm yönleriyle araştırılması gerekmektedir.\n\n4. Dosyada yer alan deliller tarafımdan suç işlendiğini kesin olarak göstermemektedir.\n\nHUKUKİ SEBEPLER: TCK, CMK ve ilgili mevzuat.\n\nSONUÇ VE İSTEM: Hakkımda kovuşturmaya yer olmadığına karar verilmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+},
+{
+  "id": "yasadisi-bahis-hesap-kullandirma-savunma",
+  "baslik": "Yasadışı Bahis İçin Hesap Kullandırma Savunma Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Yasadışı bahis kapsamında banka hesabını kullandırdığı iddia edilen kişiler için örnek savunma dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Hakkımda yasa dışı bahis faaliyetlerine aracılık ettiğim iddiasıyla soruşturma yürütülmektedir.\n\n2. Herhangi bir bahis organizasyonu içerisinde yer almadım.\n\n3. Hesabıma gelen transferlerin yasa dışı bahis faaliyetlerinden kaynaklandığını bilmiyordum.\n\n4. Suç işleme kastım bulunmadığından hakkımda beraat/kovuşturmaya yer olmadığı kararı verilmesi gerekmektedir.\n\nSONUÇ VE İSTEM: Lehime karar verilmesini saygılarımla talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+},
+{
+  "id": "kripto-dolandiricilik-suc-duyurusu",
+  "baslik": "Kripto Para Dolandırıcılığı Suç Duyurusu Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Sahte yatırım, borsa veya kripto para vaadiyle dolandırılan kişiler için suç duyurusu dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nŞİKAYETÇİ: [Ad Soyad]\nŞÜPHELİ: [Biliniyorsa]\n\nKONU: Kripto para dolandırıcılığı nedeniyle suç duyurusudur.\n\nAÇIKLAMALAR:\n\n1. Şüpheli tarafından yüksek kazanç vaadiyle tarafımdan kripto para yatırımı talep edilmiştir.\n\n2. Gönderdiğim tutarlar sonrasında iletişim kesilmiş ve mağdur edilmiş bulunmaktayım.\n\n3. Transfer kayıtları ve yazışmalar ekte sunulmaktadır.\n\nSONUÇ VE İSTEM: Şüpheliler hakkında soruşturma başlatılmasını talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+},
+{
+  "id": "instagram-hakaret-suc-duyurusu",
+  "baslik": "Instagram Üzerinden Hakaret Suçu Şikayet Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Instagram, Facebook, X veya diğer sosyal medya platformları üzerinden yapılan hakaretlere ilişkin suç duyurusu dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Hakaret suçu nedeniyle şikayetimizdir.\n\nAÇIKLAMALAR:\n\n1. Şüpheli sosyal medya hesabı üzerinden şahsıma yönelik hakaret içerikli paylaşımlarda bulunmuştur.\n\n2. Paylaşımların ekran görüntüleri dosya ekinde sunulmaktadır.\n\n3. Eylem TCK kapsamında hakaret suçunu oluşturmaktadır.\n\nSONUÇ VE İSTEM: Şüpheli hakkında gerekli işlemlerin yapılmasını talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+},
+{
+  "id": "nitelikli-dolandiricilik-sikayet",
+  "baslik": "Nitelikli Dolandırıcılık Suç Duyurusu Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "İnternet, telefon veya sahte ilan yoluyla dolandırılan kişiler için suç duyurusu dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Nitelikli dolandırıcılık suç duyurusudur.\n\nAÇIKLAMALAR:\n\n1. Şüpheli tarafından gerçeğe aykırı beyanlarla yanıltıldım.\n\n2. Bu nedenle maddi zarara uğradım.\n\n3. Dekontlar ve yazışmalar ekte sunulmaktadır.\n\nSONUÇ VE İSTEM: Şüphelinin cezalandırılması için soruşturma yürütülmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+},
+{
+  "id": "adli-kontrol-kaldirilmasi-dilekce",
+  "baslik": "Adli Kontrol Tedbirinin Kaldırılması Talep Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Yurt dışı çıkış yasağı, imza yükümlülüğü veya diğer adli kontrol tedbirlerinin kaldırılması talebi.",
+  "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Adli kontrol tedbirinin kaldırılması talebidir.\n\nAÇIKLAMALAR:\n\n1. Hakkımda uygulanan adli kontrol tedbiri uzun süredir devam etmektedir.\n\n2. Tedbirin devamını gerektiren şartlar ortadan kalkmıştır.\n\n3. Tüm yükümlülüklerime eksiksiz şekilde uydum.\n\nSONUÇ VE İSTEM: Adli kontrol tedbirinin kaldırılmasını talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+},
+{
+  "id": "hakaret-sucu-sikayet-dilekce",
+  "baslik": "Hakaret Suçu Şikayet Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Yüz yüze, telefonla veya internet ortamında gerçekleşen hakaret eylemleri için şikayet dilekçesi.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Hakaret suçu nedeniyle şikayetimizdir.\n\nAÇIKLAMALAR:\n\n1. Şüpheli tarafıma yönelik onur, şeref ve saygınlığımı zedeleyen ifadeler kullanmıştır.\n\n2. Olay tanıklar huzurunda gerçekleşmiştir.\n\n3. Deliller ekte sunulmaktadır.\n\nSONUÇ VE İSTEM: Şüpheli hakkında kamu davası açılmasını talep ederim."
+},
+{
+  "id": "uzlastirma-talep-dilekce",
+  "baslik": "Uzlaştırma Talep Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Uzlaştırma kapsamındaki suçlarda tarafların uzlaştırma sürecinden yararlanabilmesi amacıyla hazırlanabilecek dilekçe.",
+  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Uzlaştırma talebimizdir.\n\nAÇIKLAMALAR:\n\n1. Soruşturmaya konu suç uzlaştırma kapsamındadır.\n\n2. Taraflar arasında uzlaşma ihtimali bulunmaktadır.\n\nSONUÇ VE İSTEM: Dosyanın uzlaştırma bürosuna gönderilmesini talep ederim."
+},
+{
+  "id": "banka-hesabi-bloke-kaldirma",
+  "baslik": "Banka Hesabı Blokesinin Kaldırılması Talep Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Soruşturma kapsamında bloke edilen banka hesaplarına ilişkin bloke kaldırma talebi.",
+  "icerik": "... SULH CEZA HAKİMLİĞİ'NE\n\nKONU: Banka hesabı üzerindeki blokenin kaldırılması talebidir.\n\nAÇIKLAMALAR:\n\n1. Tarafıma ait banka hesabı soruşturma kapsamında bloke edilmiştir.\n\n2. Hesaptaki paranın suç gelirinden kaynaklandığına ilişkin kesin bir tespit bulunmamaktadır.\n\n3. Bloke nedeniyle temel yaşam faaliyetlerim olumsuz etkilenmektedir.\n\nSONUÇ VE İSTEM: Hesap üzerindeki blokenin kaldırılmasına karar verilmesini talep ederim."
+},
+{
+  "id": "arama-el-koyma-itiraz",
+  "baslik": "Arama ve El Koyma Kararına İtiraz Dilekçesi",
+  "kategori": "Ceza Hukuku",
+  "aciklama": "Konut, iş yeri veya dijital materyaller hakkında verilen arama ve el koyma kararlarına karşı itiraz dilekçesi.",
+  "icerik": "... SULH CEZA HAKİMLİĞİ'NE\n\nKONU: Arama ve el koyma kararına itirazlarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Karar hukuka aykırı şekilde uygulanmıştır.\n\n2. Ölçülülük ilkesine aykırılık bulunmaktadır.\n\n3. El konulan eşyaların soruşturmayla ilgisi bulunmamaktadır.\n\nSONUÇ VE İSTEM: Arama ve el koyma kararının kaldırılmasını talep ederim."
+},
+{
     "id": "kira-tespit-davasi-dilekce",
     "baslik": "Kira Tespit Davası Dilekçesi (5 Yıl Şartı)",
     "kategori": "Aile Hukuku",
