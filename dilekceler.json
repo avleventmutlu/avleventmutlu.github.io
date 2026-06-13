@@ -174,4 +174,75 @@
     "aciklama": "Mahkeme kararına karşı istinaf veya itiraz yoluyla başvuru için kullanılan dilekçe taslağı.",
     "icerik": "... BÖLGE ADLİYE MAHKEMESİ'NE\nGÖNDERİLMEK ÜZERE\n... MAHKEMESİ HAKİMLİĞİ'NE\n\nİSTİNAF EDEN (DAVACI/SANIK): [Ad Soyad] - [TC Kimlik No] - [Adres]\nKARŞI TARAF: [Ad Soyad] - [Adres]\nKONU: ... Mahkemesi'nin ... tarih ve ... E., ... K. sayılı kararına karşı istinaf başvurusudur.\n\nAÇIKLAMALAR:\n\n1. ... Mahkemesi'nin yukarıda belirtilen kararı tarafımıza [tebliğ tarihi] tarihinde tebliğ edilmiştir. İşbu dilekçe yasal süre içinde sunulmaktadır.\n\n2. Mahkeme kararı aşağıdaki nedenlerle hatalıdır:\n\na) Maddi hata: [Açıklama]\nb) Hukuki hata: [Açıklama]\nc) Delil değerlendirmesindeki hata: [Açıklama]\n\n3. Sayın mahkemenin kararında [itiraz gerekçesi] hususu yeterince değerlendirilmemiştir.\n\nHUKUKİ SEBEPLER: HMK md. 341 vd. / CMK md. 272 vd.\n\nDELİLLER: Dava dosyası kapsamındaki tüm deliller, yeni deliller: [belirtiniz]\n\nSONUÇ VE İSTEM: Hatalı olan kararın KALDIRILMASINA ve yeniden yargılama yapılarak davanın [talep] şeklinde sonuçlandırılmasına karar verilmesini saygıyla talep ederiz.\n\nTarih: [Tarih]\nİstinaf Eden: [İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Davanızın özelliklerine göre mutlaka bir avukat tarafından düzenlenmelidir."
   }
+,
+{
+"id": "hagb-talep-dilekce",
+"baslik": "Hükmün Açıklanmasının Geri Bırakılması (HAGB) Talep Dilekçesi",
+"kategori": "Ceza Hukuku",
+"aciklama": "Sanık hakkında hükmün açıklanmasının geri bırakılması kararı verilmesi talebine ilişkin örnek dilekçe.",
+"icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nSANIK: [Ad Soyad]\nKONU: HAGB talebimizdir.\n\nAÇIKLAMALAR:\n1. Müvekkilim hakkında hükmedilecek cezanın niteliği ve sabıka durumu dikkate alındığında HAGB şartları oluşmuştur.\n2. Müvekkilin daha önce kasıtlı suçtan mahkumiyeti bulunmamaktadır.\n3. Yeniden suç işlemeyeceği yönünde olumlu kanaat oluşmuştur.\n\nHUKUKİ SEBEPLER: CMK m.231\n\nSONUÇ VE İSTEM: Müvekkil hakkında HAGB kararı verilmesini arz ederiz.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+},
+{
+"id": "yakalama-karari-kaldirma-dilekce",
+"baslik": "Yakalama Kararının Kaldırılması Talep Dilekçesi",
+"kategori": "Ceza Hukuku",
+"aciklama": "Hakkında yakalama kararı bulunan kişinin kararın kaldırılması için sunabileceği örnek dilekçe.",
+"icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Yakalama kararının kaldırılması talebidir.\n\nAÇIKLAMALAR:\n1. Hakkımda verilen yakalama kararı amacına ulaşmıştır.\n2. Adresim ve iletişim bilgilerim dosyaya sunulmuştur.\n3. Kaçma şüphesi bulunmamaktadır.\n\nSONUÇ VE İSTEM: Yakalama kararının kaldırılmasına karar verilmesini arz ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+},
+{
+"id": "adli-para-cezasi-taksitlendirme-dilekce",
+"baslik": "Adli Para Cezasının Taksitlendirilmesi Talep Dilekçesi",
+"kategori": "Ceza Hukuku",
+"aciklama": "Kesinleşen adli para cezasının taksitlendirilmesi talebine ilişkin örnek dilekçe.",
+"icerik": "... İNFAZ SAVCILIĞI'NA\n\nKONU: Adli para cezasının taksitlendirilmesi talebidir.\n\nAÇIKLAMALAR:\n1. Ekonomik durumum cezanın peşin ödenmesine elverişli değildir.\n2. Düzenli gelir durumum dikkate alınarak ödeme planı yapılmasını talep etmekteyim.\n\nSONUÇ VE İSTEM: Adli para cezasının taksitlendirilmesine karar verilmesini arz ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+},
+{
+"id": "sabika-kaydi-silme-dilekce",
+"baslik": "Adli Sicil ve Arşiv Kaydının Silinmesi Talep Dilekçesi",
+"kategori": "Ceza Hukuku",
+"aciklama": "Şartları oluşan adli sicil ve arşiv kayıtlarının silinmesi için kullanılabilecek örnek dilekçe.",
+"icerik": "... ADLİ SİCİL VE İSTATİSTİK GENEL MÜDÜRLÜĞÜ'NE\n\nKONU: Adli sicil kaydının silinmesi talebidir.\n\nAÇIKLAMALAR:\n1. Kayda konu ceza infaz edilmiştir.\n2. Kanuni şartlar oluşmuştur.\n\nSONUÇ VE İSTEM: Adli sicil ve arşiv kayıtlarının silinmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+},
+{
+"id": "telefon-inceleme-iadesi-dilekce",
+"baslik": "Dijital İnceleme Sonrası Telefon İadesi Talep Dilekçesi",
+"kategori": "Ceza Hukuku",
+"aciklama": "İncelemesi tamamlanan dijital materyallerin iadesi talebine ilişkin dilekçe.",
+"icerik": "... SULH CEZA HAKİMLİĞİ'NE\n\nKONU: Dijital materyalin iadesi talebidir.\n\nAÇIKLAMALAR:\n1. Telefona ilişkin inceleme tamamlanmıştır.\n2. Delil niteliği kalmamıştır.\n\nSONUÇ VE İSTEM: Telefonun iadesine karar verilmesini arz ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+},
+{
+"id": "maas-haczi-kaldirma-dilekce",
+"baslik": "Maaş Haczinin Kaldırılması Talep Dilekçesi",
+"kategori": "İcra Hukuku",
+"aciklama": "Usulsüz veya sona eren maaş haczinin kaldırılması için kullanılabilecek örnek dilekçe.",
+"icerik": "... İCRA HUKUK MAHKEMESİ'NE\n\nKONU: Maaş haczinin kaldırılması talebidir.\n\nAÇIKLAMALAR:\n1. Borç sona ermiştir / haciz usulsüzdür.\n2. Haczin devamı hukuka aykırıdır.\n\nSONUÇ VE İSTEM: Maaş haczinin kaldırılmasına karar verilmesini talep ederim."
+},
+{
+"id": "haczedilmezlik-sikayeti-dilekce",
+"baslik": "Haczedilmezlik Şikayeti Dilekçesi",
+"kategori": "İcra Hukuku",
+"aciklama": "Kanunen haczedilemeyen mal veya gelirler üzerindeki hacze karşı şikayet dilekçesi.",
+"icerik": "... İCRA HUKUK MAHKEMESİ'NE\n\nKONU: Haczedilmezlik şikayetidir.\n\nAÇIKLAMALAR:\n1. Haczedilen mal kanunen haczedilemez niteliktedir.\n2. Yapılan işlem hukuka aykırıdır.\n\nSONUÇ VE İSTEM: Haczin kaldırılmasını talep ederim."
+},
+{
+"id": "nafaka-artirim-dilekce",
+"baslik": "Nafaka Artırım Davası Dilekçesi",
+"kategori": "Aile Hukuku",
+"aciklama": "Enflasyon ve değişen ekonomik koşullar nedeniyle nafaka artırımı talebine ilişkin dava dilekçesi.",
+"icerik": "... AİLE MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Nafaka artırımı talebidir.\n\nAÇIKLAMALAR:\n1. Mevcut nafaka ekonomik koşullar karşısında yetersiz kalmıştır.\n2. İhtiyaçlar önemli ölçüde artmıştır.\n\nSONUÇ VE İSTEM: Nafakanın hakkaniyete uygun şekilde artırılmasına karar verilmesini talep ederim."
+},
+{
+"id": "kisisel-iliski-kurulmasi-dilekce",
+"baslik": "Çocukla Kişisel İlişki Kurulması Talep Dilekçesi",
+"kategori": "Aile Hukuku",
+"aciklama": "Çocukla düzenli görüşme hakkının tesis edilmesi için kullanılabilecek örnek dilekçe.",
+"icerik": "... AİLE MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Kişisel ilişki kurulması talebidir.\n\nAÇIKLAMALAR:\n1. Çocuğun üstün yararı gereği düzenli görüşme sağlanmalıdır.\n2. Mevcut durumda kişisel ilişki kurulması engellenmektedir.\n\nSONUÇ VE İSTEM: Uygun gün ve saatlerde kişisel ilişki kurulmasına karar verilmesini talep ederim."
+},
+{
+"id": "menfi-tespit-davasi-dilekce",
+"baslik": "Menfi Tespit Davası Dilekçesi",
+"kategori": "İcra Hukuku",
+"aciklama": "Borçlu olunmadığının tespiti amacıyla açılan menfi tespit davası için örnek dilekçe.",
+"icerik": "... ASLİYE HUKUK MAHKEMESİ'NE\n\nKONU: Menfi tespit talebidir.\n\nAÇIKLAMALAR:\n1. Davacı gerçekte borçlu değildir.\n2. Takibe konu alacak hukuken mevcut değildir.\n\nSONUÇ VE İSTEM: Borçlu olunmadığının tespitine karar verilmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+}
 ]
