@@ -68,8 +68,23 @@
 
     .makaleler-listesi { max-width: 860px; margin: 0 auto; padding: 4rem 5%; }
     .yukluyor { text-align: center; padding: 4rem; font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: var(--bordo-acik); font-style: italic; }
-    .makale-kart { border-bottom: 1px solid var(--krem-koyu); padding: 2.5rem 0; display: grid; grid-template-columns: auto 1fr; gap: 2rem; cursor: pointer; transition: all 0.3s; }
-    .makale-kart:hover { transform: translateX(8px); }
+    .makale-kart {
+border-bottom: 1px solid var(--krem-koyu);
+padding: 2.5rem 0;
+display: grid;
+grid-template-columns: auto 1fr;
+gap: 2rem;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.makale-kart:hover {
+transform: translateX(8px);
+background: rgba(107, 26, 26, 0.04);
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
     .makale-kart:first-child { border-top: 1px solid var(--krem-koyu); }
     .makale-tarih-col { writing-mode: vertical-rl; text-orientation: mixed; font-size: 0.62rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--altin); padding-top: 0.3rem; }
     .makale-kategori { display: inline-block; font-size: 0.62rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--bordo-acik); margin-bottom: 0.7rem; }
