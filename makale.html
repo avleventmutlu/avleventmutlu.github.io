@@ -596,10 +596,12 @@ Yasadışı Bahis İçin Hesap Kullandırmanın Cezası
     <a href="tel:+905459594845">📞 Randevu Alın</a>
   </div>
 `;
-      } catch(e) {
-        console.error('Makale yüklenemedi:', e);
-        document.getElementById('hero-icerik').innerHTML = '<p style="color:var(--krem)">Makale yüklenemedi.</p>';
-      }
+  } catch(e) {
+  alert(e.message);
+  console.error('Makale yüklenemedi:', e);
+  document.getElementById('hero-icerik').innerHTML =
+    '<p style="color:var(--krem)">Makale yüklenemedi.</p>';
+}
     }
     yukle();
   </script>
