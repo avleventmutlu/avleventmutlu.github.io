@@ -430,6 +430,9 @@
         const res = await fetch('makaleler.json?t=' + Date.now());
         const makaleler = await res.json();
         const m = makaleler.find(x => x.id === id);
+        console.log("URL ID:", id);
+console.log("Bulunan:", m);
+console.log("Tüm ID'ler:", makaleler.map(x => x.id));
 
         if (!m) {
           // Makale yok → noindex + 404 mesajı
