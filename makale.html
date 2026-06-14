@@ -541,9 +541,7 @@
         const paragraflar = satirlar.map(p => `<p>${p}</p>`).join('');
         const emsal = sonSatir ? `<div class="emsal-kutu">${sonSatir}</div>` : '';
         const tumIcerik = paragraflar + emsal;
-
-   document.getElementById('makale-govde').innerHTML = `
-
+document.getElementById('makale-govde').innerHTML = `
   <div class="ozet">${m.ozet}</div>
 
   <div class="icerik">${tumIcerik}</div>
@@ -553,15 +551,12 @@
       Yazar Hakkında
     </h3>
 
-```
-<p style="line-height:1.9;color:#5C3D2E;">
-  Bu makale Av. Levent Mutlu tarafından hazırlanmıştır.
-  Ceza hukuku, bilişim suçları, MASAK incelemeleri,
-  IBAN kullandırma soruşturmaları, yasa dışı bahis dosyaları,
-  aile hukuku ve tazminat davaları alanlarında hukuki çalışmalar yürütmektedir.
-</p>
-```
-
+    <p style="line-height:1.9;color:#5C3D2E;">
+      Bu makale Av. Levent Mutlu tarafından hazırlanmıştır.
+      Ceza hukuku, bilişim suçları, MASAK incelemeleri,
+      IBAN kullandırma soruşturmaları, yasa dışı bahis dosyaları,
+      aile hukuku ve tazminat davaları alanlarında hukuki çalışmalar yürütmektedir.
+    </p>
   </div>
 
   <div class="iletisim-kutu">
@@ -569,7 +564,6 @@
     <a href="tel:+905459594845">📞 Randevu Alın</a>
   </div>
 `;
-
 
             <p>Bu konuda hukuki danışmanlık almak ister misiniz?</p>
             <a href="tel:+905459594845">📞 Randevu Alın</a>
