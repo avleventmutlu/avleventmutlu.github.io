@@ -802,13 +802,41 @@
       .form-row { grid-template-columns: 1fr; }
       .on-makale { grid-template-columns: 60px 1fr; }
       .on-makale-ok { display: none; }
-      .makale-ticker { margin-top: 2rem; }
+            .makale-ticker { margin-top: 2rem; }
       .makale-ticker-ic { animation-duration: 35s; gap: 2.5rem; }
       .ticker-baslik { font-size: 0.9rem; }
       .ticker-kategori { font-size: 0.55rem; }
       footer { flex-direction: column; gap: 1rem; text-align: center; }
     }
-  </style>
+
+    .son-makale-kart {
+      display: block;
+      padding: 1.5rem;
+      background: #fff;
+      border-left: 3px solid #B8943F;
+      text-decoration: none;
+      color: #4A1010;
+      transition: all 0.3s ease;
+    }
+
+    .son-makale-kart:hover {
+      transform: translateX(8px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      background: #faf7f2;
+    }
+
+    .son-makale-baslik {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem;
+      margin: 0;
+    }
+
+    .son-makale-alt {
+      margin-top: .5rem;
+      color: #8a6a45;
+      font-size: .9rem;
+    }
+    </style>
 
   <script type="application/ld+json">
   {
