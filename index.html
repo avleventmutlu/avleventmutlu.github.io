@@ -1427,5 +1427,30 @@
       },900);
     }
   </script>
+  <script>
+fetch('makaleler.json')
+  .then(response => response.json())
+  .then(data => {
+
+    const liste = document.getElementById('son-makaleler-listesi');
+
+    if (!liste) return;
+
+    const sonMakaleler = data.slice(-5).reverse();
+
+    sonMakaleler.forEach(m => {
+
+      liste.innerHTML += `
+        <a href="makale.html?id=${m.id}" class="son-makale-kart">
+          <h3 class="son-makale-baslik">${m.baslik}</h3>
+          <div class="son-makale-alt">${m.kategori} • Güncel Makale</div>
+        </a>
+      `;
+
+    });
+
+  })
+  .catch(error => console.error('Makaleler yüklenemedi:', error));
+</script>
 </body>
 </html>
