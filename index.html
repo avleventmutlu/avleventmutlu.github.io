@@ -1436,7 +1436,7 @@ fetch('makaleler.json')
 
     if (!liste) return;
 
-    const sonMakaleler = data.slice(-5).reverse();
+    const sonMakaleler = data.slice(0,5);
 
     sonMakaleler.forEach(m => {
 
