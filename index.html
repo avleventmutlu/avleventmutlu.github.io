@@ -145,6 +145,7 @@
       text-align: center;
       padding: 4rem 5%;
       animation: fadeUp 1.2s ease both;
+      width: 100%; min-width: 0; box-sizing: border-box;
     }
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(30px); }
@@ -207,6 +208,12 @@
     }
     .hero-cta:hover { color: var(--bordo-koyu); }
     .hero-cta:hover::before { transform: scaleX(1); }
+
+    .hero-butonlar { display:flex; justify-content:center; align-items:stretch; gap:1.2rem; flex-wrap:wrap; }
+    .hero-butonlar .hero-cta { isolation:isolate; min-width:270px; padding:1rem 1.8rem; white-space:nowrap; text-align:center; }
+    .hero-cta-ana { background:var(--altin); color:var(--bordo-koyu)!important; font-weight:600; }
+    .hero-cta-ana::before { background:var(--altin-acik)!important; }
+    @media (max-width:768px){ .hero-butonlar { flex-direction:column; align-items:center; gap:.8rem; } .hero-butonlar .hero-cta { width:100%; max-width:320px; } .hero-cta-ana { order:-1; } .hero-arama { width:100%; max-width:100%; box-sizing:border-box; } .hero-arama-input { min-width:0; } }
 
     .hero-arama {
       margin-top: 2rem;
@@ -979,7 +986,11 @@
       </h1>
       <p class="hero-subtitle">Hukuk · Analiz · Savunma</p>
       <div class="divider-gold"></div>
-      <a href="#iletisim" class="hero-cta">Randevu Alın</a>
+      <div class="hero-butonlar">
+        <a href="/emsal-kararlar.html" class="hero-cta">⚖ Emsal Kararlar</a>
+        <a href="#iletisim" class="hero-cta hero-cta-ana">Randevu Alın</a>
+        <a href="/araclar.html" class="hero-cta">🧮 Hesaplama Araçları</a>
+      </div>
 
       <div class="hero-arama">
         <input class="hero-arama-input" id="heroArama" type="text" placeholder="Hukuki konu arayın... (boşanma, tazminat, ceza...)" onkeydown="if(event.key==='Enter')heroAramaYap()">
