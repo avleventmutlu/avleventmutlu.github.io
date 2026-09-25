@@ -320,7 +320,7 @@
         if (hFiltre.length) {
           html += '<div class="sonuc-grup">';
           html += '<div class="sonuc-grup-baslik">Haberler <span class="sonuc-sayi">' + hFiltre.length + '</span></div>';
-          html += hFiltre.map(h => '<a href="haberler.html" class="sonuc-kart"><div class="sonuc-tip">Haber</div><div><div class="sonuc-baslik">' + h.baslik + '</div><p class="sonuc-ozet">' + h.ozet + '</p><span class="sonuc-kategori">' + h.kategori + '</span></div></a>').join('');
+          html += hFiltre.map(h => '<a href="/haber/' + h.id + '.html" class="sonuc-kart"><div class="sonuc-tip">Haber</div><div><div class="sonuc-baslik">' + h.baslik + '</div><p class="sonuc-ozet">' + h.ozet + '</p><span class="sonuc-kategori">' + h.kategori + '</span></div></a>').join('');
           html += '</div>';
         }
 
