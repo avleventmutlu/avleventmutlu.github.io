@@ -1264,7 +1264,7 @@
         var liste = document.getElementById('onizlemeListesi');
         makaleler.slice(0, 4).forEach(function(m, i) {
           var a = document.createElement('a');
-          a.href = 'makale.html?id=' + m.id;
+          a.href = '/makale/' + m.id + '.html';
           a.className = 'on-makale';
           a.innerHTML = '<div class="on-makale-numara">0' + (i+1) + '</div>' +
             '<div class="on-makale-icerik">' +
@@ -1291,7 +1291,7 @@
         for (var t = 0; t < 3; t++) {
           makaleler.forEach(function(m) {
             var a = document.createElement('a');
-            a.href = 'makale.html?id=' + m.id;
+            a.href = '/makale/' + m.id + '.html';
             a.className = 'ticker-item';
             a.innerHTML =
               '<span class="ticker-nokta"></span>' +
@@ -1453,7 +1453,7 @@ fetch('makaleler.json')
     sonMakaleler.forEach(m => {
 
       liste.innerHTML += `
-        <a href="makale.html?id=${m.id}" class="son-makale-kart">
+        <a href="/makale/${m.id}.html" class="son-makale-kart">
           <h3 class="son-makale-baslik">${m.baslik}</h3>
           <div class="son-makale-alt">${m.kategori} • Güncel Makale</div>
         </a>

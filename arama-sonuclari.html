@@ -313,7 +313,7 @@
         if (mFiltre.length) {
           html += '<div class="sonuc-grup">';
           html += '<div class="sonuc-grup-baslik">Makaleler <span class="sonuc-sayi">' + mFiltre.length + '</span></div>';
-          html += mFiltre.map(m => '<a href="makale.html?id=' + m.id + '" class="sonuc-kart"><div class="sonuc-tip">Makale</div><div><div class="sonuc-baslik">' + m.baslik + '</div><p class="sonuc-ozet">' + m.ozet + '</p><span class="sonuc-kategori">' + m.kategori + '</span></div></a>').join('');
+          html += mFiltre.map(m => '<a href="/makale/' + m.id + '.html" class="sonuc-kart"><div class="sonuc-tip">Makale</div><div><div class="sonuc-baslik">' + m.baslik + '</div><p class="sonuc-ozet">' + m.ozet + '</p><span class="sonuc-kategori">' + m.kategori + '</span></div></a>').join('');
           html += '</div>';
         }
 
