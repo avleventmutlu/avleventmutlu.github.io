@@ -665,5 +665,149 @@
     "etiket": [
       "TCK 158"
     ]
+  },
+  {
+    "id": "yargitay-11hd-2023-5679-fon-eksik-bilgilendirme-banka-sorumlu",
+    "baslik": "Fon Satışında Eksik Bilgilendirme Yapan Banka, Yatırımcının Zararından Sorumludur",
+    "kategori": "Fon ve Sermaye Piyasası",
+    "mahkeme": "Yargıtay 11. Hukuk Dairesi",
+    "esas": "2023/5679",
+    "karar": "2024/2980",
+    "tarih": "17 Nisan 2024",
+    "iso": "2024-04-17",
+    "ozet": "Anapara korumalı altın fonundan erken çıkışta yalnızca %1 komisyon kesileceğini söyleyen, ancak müşteriden çok daha yüksek kesinti yapan banka, eksik bilgilendirme nedeniyle doğan zarardan sorumlu tutuldu.",
+    "olay": "Davacılar 16.11.2011 tarihinde davalı bankadan anapara korumalı bir altın fonu satın aldı. Banka şubesi, erken çıkışta yalnızca %1 çıkış komisyonu kesileceğini bildirdi. Davacılar 05.12.2012 tarihinde fondan çıktıklarında ise 7.982,71 TL kesinti yapıldığını gördü ve bu tutarın iadesi için dava açtı.",
+    "sonuc": "Ticaret mahkemesi davayı kısmen kabul ederek kesintinin faiziyle iadesine hükmetti. Yargıtay 11. Hukuk Dairesi, banka şubesinin eksik bilgilendirme ve yönlendirmesiyle müşterinin zarara uğradığını kabul ederek kararı onadı.",
+    "alinti": "Davacı müşterinin fon satımına ilişkin davalı banka şubesine müracaatlarında, şube yetkililerince, fon satımı sırasında '%1 lik çıkış komisyonu dışında başka bir kesinti ve kaybın oluşmayacağı' yönünde eksik bilgilendirme-yönlendirme yapılarak",
+    "onem": "Fonu size satan banka veya aracı kurum, ürünün riskleri, kesintileri ve çıkış koşulları hakkında sizi doğru ve eksiksiz bilgilendirmek zorundadır. 2026 fon soruşturmasında fonu banka ya da aracı kurum üzerinden alan yatırımcılar için, satış sırasında yapılan açıklamalar ve yazışmalar tazminat talebinin temel dayanağı olabilir.",
+    "kaynak": "https://www.hukukihaber.net/yargitay-11-hukuk-dairesinin-20235679-e-ve-20161348-e-sayili-kararlari",
+    "ilgili": [
+      [
+        "m",
+        "fon-magdurlari-ne-yapmali-tasfiye-sikayet-tazminat-2026",
+        "Fon mağdurları ne yapmalı?"
+      ],
+      [
+        "h",
+        "fon-sorusturmasi-130-fon-tasfiye-yatirimci-haklari-2026",
+        "Fon soruşturmasında son durum"
+      ],
+      [
+        "d",
+        "yatirim-fonu-zarari-suc-duyurusu-katilma-dilekce",
+        "Fon zararı şikâyet dilekçesi"
+      ]
+    ],
+    "etiket": [
+      "Fon Soruşturması"
+    ]
+  },
+  {
+    "id": "yargitay-11hd-2016-1348-hedge-fon-zarar-kusur-dagilimi",
+    "baslik": "Hedge Fon Zararında Bankanın Sorumluluğu: Yatırımcının Önceki Kârı da Hesaba Katılmalı",
+    "kategori": "Fon ve Sermaye Piyasası",
+    "mahkeme": "Yargıtay 11. Hukuk Dairesi",
+    "esas": "2016/1348",
+    "karar": "2016/9772",
+    "tarih": "22 Aralık 2016",
+    "iso": "2016-12-22",
+    "ozet": "Prestij fon olarak pazarlanan serbest (hedge) fondan zarar eden yatırımcı lehine bankaya %70 kusur yükleyen karar, yatırımcının aynı fondan önceki işlemlerde elde ettiği kârın etkisi araştırılmadığı için bozuldu.",
+    "olay": "Davacı, bankanın 'prestij fon' olarak pazarladığı bir serbest (hedge) fona yatırım yaptı. Bankanın eksik ve yanıltıcı bilgilendirmesi nedeniyle yaklaşık 152.000 TL zarara uğradığını, SPK'nın da bu satışlar nedeniyle bankaya yaptırım uyguladığını ileri sürerek tazminat istedi.",
+    "sonuc": "Ticaret mahkemesi bankayı %70 oranında kusurlu bularak kısmen tazminata hükmetti. Yargıtay ise davacının aynı fondan daha önce yaptığı ve kâr ettiği alım işleminin hukuki geçerliliği ve zarar hesabına etkisi araştırılmadan karar verilemeyeceğini belirterek kararı bozdu.",
+    "alinti": "davacının daha önce yaptığı ve kar ettiği [...] fon alım işleminin hukuken geçerliliğine",
+    "onem": "Karar iki yönden önemlidir: Birincisi, yanlış pazarlanan fonlarda bankanın kusur oranı yüksek tutulabilmektedir. İkincisi, tazminat hesabında yatırımcının aynı üründen önceki dönemde elde ettiği kazançlar da dikkate alınır. Bu nedenle fon mağdurlarının yalnızca son zararını değil, tüm işlem geçmişini belgelemesi gerekir.",
+    "kaynak": "https://www.hukukihaber.net/yargitay-11-hukuk-dairesinin-20235679-e-ve-20161348-e-sayili-kararlari",
+    "ilgili": [
+      [
+        "m",
+        "fon-magdurlari-ne-yapmali-tasfiye-sikayet-tazminat-2026",
+        "Fon mağdurları ne yapmalı?"
+      ],
+      [
+        "h",
+        "fon-sorusturmasi-130-fon-tasfiye-yatirimci-haklari-2026",
+        "Fon soruşturmasında son durum"
+      ],
+      [
+        "d",
+        "yatirim-fonu-zarari-suc-duyurusu-katilma-dilekce",
+        "Fon zararı şikâyet dilekçesi"
+      ]
+    ],
+    "etiket": [
+      "Fon Soruşturması"
+    ]
+  },
+  {
+    "id": "yargitay-11hd-2020-5738-bankalar-agirlastirilmis-ozen-yukumlulugu",
+    "baslik": "Bankalar Ağırlaştırılmış Özen Yükümlülüğü Altındadır: Hafif Kusurlarından Bile Sorumludur",
+    "kategori": "Fon ve Sermaye Piyasası",
+    "mahkeme": "Yargıtay 11. Hukuk Dairesi",
+    "esas": "2020/5738",
+    "karar": "2020/4350",
+    "tarih": "22 Ekim 2020",
+    "iso": "2020-10-22",
+    "ozet": "Müşterinin kredi kartından izinsiz yapılan işlem nedeniyle açılan davada Yargıtay, bankaların güven kurumu olarak objektif özen yükümlülüğü taşıdığını ve hafif kusurlarından dahi sorumlu olduğunu vurguladı.",
+    "olay": "Davacının kredi kartından, bilgisi ve onayı dışında mail order yöntemiyle 3.900 TL tahsil edildi. İtiraz sonrası 1.700 TL iade edildi, kalan 2.200 TL ödenmedi. İlk derece mahkemesi bankaya karşı açılan davayı husumet yokluğundan reddetti.",
+    "sonuc": "Yargıtay, bankanın davada taraf olduğunu ve özen yükümlülüğü kapsamında sorumluluğunun incelenmesi gerektiğini belirterek kararı bozdu.",
+    "alinti": "Bankalar, ağırlaştırılmış sorumluluğun bir gereği olarak objektif özen yükümlülüğü altında bulunmakta olup, buna karşılık hafif kusurlarından dahi sorumludurlar.",
+    "onem": "Karar bir kredi kartı uyuşmazlığına ilişkin olsa da, bankaların 'güven kurumu' olarak ağırlaştırılmış özen yükümlülüğü taşıdığı ilkesi, bankalar aracılığıyla satılan yatırım fonlarından doğan tazminat davalarında da sıklıkla başvurulan temel ilkedir.",
+    "kaynak": "https://www.kazanci.com.tr/gunluk/11hd-2020-5738.htm",
+    "ilgili": [
+      [
+        "m",
+        "fon-magdurlari-ne-yapmali-tasfiye-sikayet-tazminat-2026",
+        "Fon mağdurları ne yapmalı?"
+      ],
+      [
+        "h",
+        "fon-sorusturmasi-130-fon-tasfiye-yatirimci-haklari-2026",
+        "Fon soruşturmasında son durum"
+      ],
+      [
+        "d",
+        "yatirim-fonu-zarari-suc-duyurusu-katilma-dilekce",
+        "Fon zararı şikâyet dilekçesi"
+      ]
+    ],
+    "etiket": [
+      "Fon Soruşturması"
+    ]
+  },
+  {
+    "id": "aym-2019-42188-sirkete-kayyim-el-koyma-mulkiyet-hakki",
+    "baslik": "Soruşturmada Şirkete Kayyım Atanması: Tedbir Somut Delile Dayanmalı ve Keyfî Olmamalı",
+    "kategori": "Ceza Usulü",
+    "mahkeme": "Anayasa Mahkemesi (Genel Kurul)",
+    "esas": "B. No. 2019/42188",
+    "karar": "B. Ö. B. Başvurusu",
+    "tarih": "31 Temmuz 2025",
+    "iso": "2025-07-31",
+    "ozet": "Anayasa Mahkemesi, ceza soruşturması kapsamında şirketlere kayyım atanmasını ve bu tedbirin uzun sürmesini incelediği başvuruda, tedbirin somut delillere dayandığını ve keyfî olmadığını belirterek mülkiyet hakkının ihlal edilmediğine karar verdi.",
+    "olay": "Havacılık sektöründeki şirketlerin ortağı ve yöneticisi olan başvurucu hakkında bir terör örgütüne üyelik iddiasıyla soruşturma başlatıldı ve şirketlerin yönetimine kayyım atandı. Başvurucu, tedbirin ve uzun sürmesinin mülkiyet hakkını ihlal ettiğini ileri sürdü.",
+    "sonuc": "AYM Genel Kurulu, kayyım tedbirinin genel bir şüpheye değil; ortaklık devirlerinin zamanlaması ve şüpheli para transferleri gibi somut olgulara dayandığını, tedbirin uzun sürmesinin ise soruşturmanın karmaşıklığı ve uluslararası boyutundan kaynaklandığını tespit ederek mülkiyet hakkının ihlal edilmediğine karar verdi.",
+    "alinti": "kayyım tedbirinin uzun sürmesinin keyfî olmadığı; aksine soruşturmanın niteliği",
+    "onem": "Karar farklı bir suç tipine ilişkin olsa da, ortaya koyduğu ölçüt her ekonomik soruşturmada geçerlidir: Şirketlere kayyım atanması ve malvarlıklarına el konulması somut delile dayanmalı, ölçülü olmalı ve süresi gerekçelendirilmelidir. 2026 fon soruşturmasında el koyma kararlarına itiraz edecek şirket ve kişiler ile el konulan varlıklardan zararını karşılamayı bekleyen yatırımcılar için bu ölçütler belirleyicidir.",
+    "kaynak": "https://www.hukukihaber.net/aymnin-201942188-basvuru-numarali-karari",
+    "ilgili": [
+      [
+        "m",
+        "fon-magdurlari-ne-yapmali-tasfiye-sikayet-tazminat-2026",
+        "Fon mağdurları ne yapmalı?"
+      ],
+      [
+        "h",
+        "fon-sorusturmasi-130-fon-tasfiye-yatirimci-haklari-2026",
+        "Fon soruşturmasında son durum"
+      ],
+      [
+        "d",
+        "arama-el-koyma-itiraz",
+        "Arama ve el koyma kararına itiraz dilekçesi"
+      ]
+    ],
+    "etiket": [
+      "Fon Soruşturması"
+    ]
   }
 ]
