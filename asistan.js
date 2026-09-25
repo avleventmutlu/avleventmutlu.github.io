@@ -19,7 +19,7 @@
     // ---------- GENEL ----------
     { k: ['merhaba', 'selam', 'iyi gunler', 'gunaydin', 'iyi aksamlar'], c: 'Merhaba! Hukuki sorunuzu kısaca yazın; size genel bilgi verip ilgili makale ve dilekçe örneklerini göstereyim.', ara: false, r: false, sadece: true },
     { k: ['tesekkur', 'sagol', 'sag ol', 'eyvallah'], c: 'Rica ederim. Başka bir sorunuz olursa buradayım. Dosyanızı ayrıntılı değerlendirmek isterseniz bizi arayabilirsiniz.', ara: false, r: true, sadece: true },
-    { k: ['adres', 'nerede', 'ofis', 'buro', 'ekinoks', 'konum', 'nasil gelirim'], c: 'Büromuz İstanbul Beylikdüzü\'nde, Ekinoks Towers\'dadır (E-5 yanı). Görüşme için lütfen önceden randevu alın.', ara: false, r: true },
+    { k: ['adres', 'nerede', 'ofis', 'buro', 'konum', 'nasil gelirim'], c: 'Büromuz İstanbul Beylikdüzü\'ndedir. Görüşme için lütfen önceden randevu alın.', ara: false, r: true },
     { k: ['telefon', 'iletisim', 'numara', 'whatsapp', 'ulasmak', 'ulasabilir'], c: 'Bize ' + TEL + ' numaralı hattan veya WhatsApp üzerinden ulaşabilirsiniz.', ara: false, r: true },
     { k: ['ucret', 'fiyat', 'ne kadar tutar', 'maliyet', 'vekalet ucreti', 'kac para', 'avukat parasi'], c: 'Vekalet ücreti; dosyanın türüne, aşamasına ve iş yüküne göre belirlenir ve İstanbul Barosu tavsiye tarifesi ile Avukatlık Asgari Ücret Tarifesi dikkate alınır. Net bilgiyi dosyanızı dinledikten sonra verebiliriz.', ara: false, r: true },
     { k: ['randevu', 'gorusme', 'gorusmek', 'avukat lazim', 'avukat ariyorum', 'avukat tutmak'], c: 'Randevu için ' + TEL + ' numarasını arayabilir veya WhatsApp\'tan yazabilirsiniz. Görüşmeye varsa tebligat, iddianame, sözleşme gibi belgelerinizi getirmeniz faydalı olur.', ara: false, r: true },
@@ -218,7 +218,7 @@
     m.innerHTML = '';
     var a = kutu('bot');
     a.innerHTML = '👋 Merhaba! Hukuki sorunuzu kısaca yazın; size genel bilgi verip ilgili makale ve dilekçe örneklerini göstereyim.' +
-      '<div class="la-not">Buradaki cevaplar genel bilgi niteliğindedir, avukatlık hizmeti yerine geçmez. Lütfen kimlik, telefon veya dosya numarası gibi kişisel bilgilerinizi yazmayın.</div>';
+      '<div class="la-not">Buradaki cevaplar genel bilgi niteliğindedir, avukatlık hizmeti yerine geçmez. Lütfen kimlik, telefon veya dosya numarası gibi kişisel bilgilerinizi yazmayın. <a href="/kvkk-aydinlatma-metni.html" style="color:inherit;text-decoration:underline">KVKK Aydınlatma Metni</a></div>';
     m.appendChild(a);
     var b = kutu('bot');
     b.innerHTML = 'Örneğin şunları sorabilirsiniz:<div class="la-linkler">' +
