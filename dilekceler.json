@@ -1,159 +1,264 @@
 [
   {
-  "id": "hesap-kiralama-savunma-dilekce",
-  "baslik": "Banka Hesabı Kiralama İddiasına Karşı Savunma Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Banka hesabını veya IBAN bilgisini üçüncü kişilere kullandırdığı iddiasıyla hakkında soruşturma yürütülen kişiler için örnek savunma dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Hakkımda banka hesabımı üçüncü kişilere kullandırdığım iddiasıyla soruşturma yürütülmektedir.\n\n2. Hesabım üzerinden gerçekleştirilen işlemlerin suç teşkil ettiğini bildiğime dair somut delil bulunmamaktadır.\n\n3. Suç işleme kastım bulunmamaktadır.\n\n4. Tüm hesap hareketlerinin detaylı incelenmesi halinde iddiaların gerçeği yansıtmadığı görülecektir.\n\nSONUÇ VE İSTEM: Hakkımda kovuşturmaya yer olmadığına karar verilmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
-},
-{
-  "id": "papara-hesabi-savunma-dilekce",
-  "baslik": "Papara Hesabı Kullanımı Nedeniyle Savunma Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Papara hesabı üzerinden gerçekleştirilen işlemler nedeniyle ifade veren kişiler için örnek savunma dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Tarafıma ait elektronik para hesabı nedeniyle soruşturma yürütülmektedir.\n\n2. İşlemlerin yasa dışı faaliyetlerle bağlantılı olduğunu bilmem mümkün değildir.\n\n3. Hesabın suç amacıyla kullanıldığına ilişkin bilgim bulunmamaktadır.\n\nSONUÇ VE İSTEM: Lehime karar verilmesini talep ederim."
-},
-{
-  "id": "bahis-sorusturmasi-ifade-savunma",
-  "baslik": "Yasadışı Bahis Soruşturmasında İfade Savunma Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Yasadışı bahis soruşturması kapsamında ifade verecek kişiler için örnek savunma dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Dosyada adı geçen kişilerle yasa dışı bahis organizasyonu kapsamında herhangi bir bağlantım bulunmamaktadır.\n\n2. Hesap hareketleri tek başına suçun oluştuğunu göstermemektedir.\n\n3. Kast unsurunun oluşmadığı açıktır.\n\nSONUÇ VE İSTEM: Hakkımda takipsizlik kararı verilmesini talep ederim."
-},
-{
-  "id": "dolandiricilik-para-iadesi-sikayet",
-  "baslik": "Dolandırıcılık Nedeniyle Para İadesi ve Şikayet Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "İnternet üzerinden dolandırılan kişilerin savcılığa sunabileceği suç duyurusu dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Nitelikli dolandırıcılık nedeniyle suç duyurusu ve zarar tespiti talebidir.\n\nAÇIKLAMALAR:\n\n1. Şüpheli tarafından yanıltılarak para transferi gerçekleştirdim.\n\n2. Ürün/hizmet teslim edilmemiştir.\n\n3. Banka dekontları ve yazışmalar ektedir.\n\nSONUÇ VE İSTEM: Şüpheli hakkında soruşturma başlatılmasını talep ederim."
-},
-{
-  "id": "telegram-dolandiricilik-sikayet",
-  "baslik": "Telegram Dolandırıcılığı Suç Duyurusu Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Telegram uygulaması üzerinden gerçekleştirilen yatırım ve kazanç vaatli dolandırıcılıklara ilişkin suç duyurusu dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Telegram üzerinden gerçekleştirilen dolandırıcılık nedeniyle suç duyurusudur.\n\nAÇIKLAMALAR:\n\n1. Şüpheli Telegram uygulaması üzerinden benimle iletişime geçmiştir.\n\n2. Yüksek kazanç vaadiyle para göndermem sağlanmıştır.\n\n3. Sonrasında iletişim kesilmiş ve mağdur edilmiş bulunmaktayım.\n\nSONUÇ VE İSTEM: Şüphelilerin tespit edilerek cezalandırılmasını talep ederim."
-},
-{
-  "id": "instagram-sahte-hesap-sikayet",
-  "baslik": "Instagram Sahte Hesap Şikayet Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Adına sahte hesap açılan kişilerin kullanabileceği suç duyurusu dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Sahte sosyal medya hesabı nedeniyle suç duyurusudur.\n\nAÇIKLAMALAR:\n\n1. Adıma sahte sosyal medya hesabı açılmıştır.\n\n2. Bu hesap üzerinden kişilik haklarımı ihlal eden paylaşımlar yapılmaktadır.\n\n3. Ekran görüntüleri dosya ekindedir.\n\nSONUÇ VE İSTEM: Hesabı kullanan kişinin tespit edilmesini talep ederim."
-},
-{
-  "id": "whatsapp-hakaret-sikayet",
-  "baslik": "WhatsApp Üzerinden Hakaret Suçu Şikayet Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "WhatsApp mesajları yoluyla gerçekleştirilen hakaret eylemleri için suç duyurusu dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Hakaret suçu nedeniyle şikayetimizdir.\n\nAÇIKLAMALAR:\n\n1. Şüpheli WhatsApp mesajları ile şahsıma hakaret etmiştir.\n\n2. Yazışmalar ekran görüntüsü olarak saklanmıştır.\n\n3. Eylem TCK kapsamında suç oluşturmaktadır.\n\nSONUÇ VE İSTEM: Şüpheli hakkında işlem yapılmasını talep ederim."
-},
-{
-  "id": "masak-inceleme-savunma-dilekce",
-  "baslik": "MASAK İncelemesi Kapsamında Savunma Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "MASAK incelemesi veya şüpheli para transferleri nedeniyle ifade veren kişiler için örnek savunma dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasından ibarettir.\n\nAÇIKLAMALAR:\n\n1. Hakkımda gerçekleştirilen MASAK incelemesi kapsamında tarafıma yöneltilen iddiaları kabul etmiyorum.\n\n2. Hesap hareketlerimin tamamı yasal işlemlerden kaynaklanmaktadır.\n\n3. Suçtan elde edilmiş herhangi bir gelirin transferine bilerek iştirak etmiş değilim.\n\nSONUÇ VE İSTEM: Lehime değerlendirme yapılarak kovuşturmaya yer olmadığına karar verilmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
-},
-{
-  "id": "kara-para-aklama-savunma-dilekce",
-  "baslik": "Suçtan Kaynaklanan Malvarlığı Değerlerini Aklama Suçunda Savunma Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Kara para aklama suçlamasıyla soruşturulan kişiler için örnek savunma dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Tarafıma isnat edilen suçlamaları kabul etmiyorum.\n\n2. Banka hesap hareketlerim ticari ve kişisel işlemlerden kaynaklanmaktadır.\n\n3. Herhangi bir suç gelirinin aklanmasına iştirak etmiş değilim.\n\nSONUÇ VE İSTEM: Hakkımda kovuşturmaya yer olmadığına karar verilmesini talep ederim."
-},
-{
-  "id": "hts-kaydi-talep-dilekce",
-  "baslik": "HTS Kayıtlarının Celbi Talep Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Ceza yargılamasında telefon görüşme ve baz kayıtlarının dosyaya getirtilmesi talebi.",
-  "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: HTS kayıtlarının celbi talebidir.\n\nAÇIKLAMALAR:\n\n1. Dosyanın aydınlatılması açısından HTS kayıtlarının incelenmesi gerekmektedir.\n\n2. Kayıtlar müvekkilin savunmasını doğrulayacak niteliktedir.\n\nSONUÇ VE İSTEM: İlgili operatörlerden HTS kayıtlarının getirtilmesini talep ederiz."
-},
-{
-  "id": "telefon-imaj-kaydi-talep",
-  "baslik": "Telefon İmajı ve Bilirkişi Raporu Talep Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "El konulan telefonun imaj kayıtları ve bilirkişi raporlarının dosyaya sunulması talebi.",
-  "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Bilirkişi raporu ve telefon inceleme kayıtlarının celbi talebidir.\n\nAÇIKLAMALAR:\n\n1. El konulan dijital materyallere ilişkin rapor henüz tarafımıza verilmemiştir.\n\n2. Savunma hakkının etkin kullanılması için raporların incelenmesi gerekmektedir.\n\nSONUÇ VE İSTEM: Raporların tarafımıza verilmesini talep ederiz."
-},
-{
-  "id": "banka-hesap-hareketleri-celbi",
-  "baslik": "Banka Hesap Hareketlerinin Celbi Talep Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Dosyada yer alan banka hesap hareketlerinin ilgili bankalardan getirtilmesi talebi.",
-  "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Banka kayıtlarının getirtilmesi talebidir.\n\nAÇIKLAMALAR:\n\n1. Dosyanın çözümü bakımından hesap hareketlerinin incelenmesi zorunludur.\n\n2. Mevcut kayıtlar eksiktir.\n\nSONUÇ VE İSTEM: İlgili bankalardan hesap hareketlerinin celbine karar verilmesini talep ederiz."
-},
-{
-  "id": "iban-kullandirma-savunma-dilekce",
-  "baslik": "IBAN Kullandırma Suçunda Savunma Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Banka hesabını veya IBAN bilgisini üçüncü kişilere kullandırdığı iddiasıyla hakkında soruşturma yürütülen kişiler için örnek savunma dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nŞÜPHELİ: [Ad Soyad] - [TC Kimlik No] - [Adres]\nKONU: Savunmalarımızın sunulmasından ibarettir.\n\nAÇIKLAMALAR:\n\n1. Tarafıma ait banka hesabının üçüncü kişiler tarafından kullanıldığı iddiasıyla hakkımda soruşturma yürütülmektedir.\n\n2. Hesabıma gelen paraların suçtan kaynaklandığını bilmem mümkün değildir. Herhangi bir suç örgütü veya yasa dışı faaliyet ile bağlantım bulunmamaktadır.\n\n3. Hesabımı kullandırmam karşılığında suç işleme kastım bulunmamaktadır. Olayın tüm yönleriyle araştırılması gerekmektedir.\n\n4. Dosyada yer alan deliller tarafımdan suç işlendiğini kesin olarak göstermemektedir.\n\nHUKUKİ SEBEPLER: TCK, CMK ve ilgili mevzuat.\n\nSONUÇ VE İSTEM: Hakkımda kovuşturmaya yer olmadığına karar verilmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
-},
-{
-  "id": "yasadisi-bahis-hesap-kullandirma-savunma",
-  "baslik": "Yasadışı Bahis İçin Hesap Kullandırma Savunma Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Yasadışı bahis kapsamında banka hesabını kullandırdığı iddia edilen kişiler için örnek savunma dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Hakkımda yasa dışı bahis faaliyetlerine aracılık ettiğim iddiasıyla soruşturma yürütülmektedir.\n\n2. Herhangi bir bahis organizasyonu içerisinde yer almadım.\n\n3. Hesabıma gelen transferlerin yasa dışı bahis faaliyetlerinden kaynaklandığını bilmiyordum.\n\n4. Suç işleme kastım bulunmadığından hakkımda beraat/kovuşturmaya yer olmadığı kararı verilmesi gerekmektedir.\n\nSONUÇ VE İSTEM: Lehime karar verilmesini saygılarımla talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
-},
-{
-  "id": "kripto-dolandiricilik-suc-duyurusu",
-  "baslik": "Kripto Para Dolandırıcılığı Suç Duyurusu Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Sahte yatırım, borsa veya kripto para vaadiyle dolandırılan kişiler için suç duyurusu dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nŞİKAYETÇİ: [Ad Soyad]\nŞÜPHELİ: [Biliniyorsa]\n\nKONU: Kripto para dolandırıcılığı nedeniyle suç duyurusudur.\n\nAÇIKLAMALAR:\n\n1. Şüpheli tarafından yüksek kazanç vaadiyle tarafımdan kripto para yatırımı talep edilmiştir.\n\n2. Gönderdiğim tutarlar sonrasında iletişim kesilmiş ve mağdur edilmiş bulunmaktayım.\n\n3. Transfer kayıtları ve yazışmalar ekte sunulmaktadır.\n\nSONUÇ VE İSTEM: Şüpheliler hakkında soruşturma başlatılmasını talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
-},
-{
-  "id": "instagram-hakaret-suc-duyurusu",
-  "baslik": "Instagram Üzerinden Hakaret Suçu Şikayet Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Instagram, Facebook, X veya diğer sosyal medya platformları üzerinden yapılan hakaretlere ilişkin suç duyurusu dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Hakaret suçu nedeniyle şikayetimizdir.\n\nAÇIKLAMALAR:\n\n1. Şüpheli sosyal medya hesabı üzerinden şahsıma yönelik hakaret içerikli paylaşımlarda bulunmuştur.\n\n2. Paylaşımların ekran görüntüleri dosya ekinde sunulmaktadır.\n\n3. Eylem TCK kapsamında hakaret suçunu oluşturmaktadır.\n\nSONUÇ VE İSTEM: Şüpheli hakkında gerekli işlemlerin yapılmasını talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
-},
-{
-  "id": "nitelikli-dolandiricilik-sikayet",
-  "baslik": "Nitelikli Dolandırıcılık Suç Duyurusu Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "İnternet, telefon veya sahte ilan yoluyla dolandırılan kişiler için suç duyurusu dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Nitelikli dolandırıcılık suç duyurusudur.\n\nAÇIKLAMALAR:\n\n1. Şüpheli tarafından gerçeğe aykırı beyanlarla yanıltıldım.\n\n2. Bu nedenle maddi zarara uğradım.\n\n3. Dekontlar ve yazışmalar ekte sunulmaktadır.\n\nSONUÇ VE İSTEM: Şüphelinin cezalandırılması için soruşturma yürütülmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
-},
-{
-  "id": "adli-kontrol-kaldirilmasi-dilekce",
-  "baslik": "Adli Kontrol Tedbirinin Kaldırılması Talep Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Yurt dışı çıkış yasağı, imza yükümlülüğü veya diğer adli kontrol tedbirlerinin kaldırılması talebi.",
-  "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Adli kontrol tedbirinin kaldırılması talebidir.\n\nAÇIKLAMALAR:\n\n1. Hakkımda uygulanan adli kontrol tedbiri uzun süredir devam etmektedir.\n\n2. Tedbirin devamını gerektiren şartlar ortadan kalkmıştır.\n\n3. Tüm yükümlülüklerime eksiksiz şekilde uydum.\n\nSONUÇ VE İSTEM: Adli kontrol tedbirinin kaldırılmasını talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
-},
-{
-  "id": "hakaret-sucu-sikayet-dilekce",
-  "baslik": "Hakaret Suçu Şikayet Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Yüz yüze, telefonla veya internet ortamında gerçekleşen hakaret eylemleri için şikayet dilekçesi.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Hakaret suçu nedeniyle şikayetimizdir.\n\nAÇIKLAMALAR:\n\n1. Şüpheli tarafıma yönelik onur, şeref ve saygınlığımı zedeleyen ifadeler kullanmıştır.\n\n2. Olay tanıklar huzurunda gerçekleşmiştir.\n\n3. Deliller ekte sunulmaktadır.\n\nSONUÇ VE İSTEM: Şüpheli hakkında kamu davası açılmasını talep ederim."
-},
-{
-  "id": "uzlastirma-talep-dilekce",
-  "baslik": "Uzlaştırma Talep Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Uzlaştırma kapsamındaki suçlarda tarafların uzlaştırma sürecinden yararlanabilmesi amacıyla hazırlanabilecek dilekçe.",
-  "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Uzlaştırma talebimizdir.\n\nAÇIKLAMALAR:\n\n1. Soruşturmaya konu suç uzlaştırma kapsamındadır.\n\n2. Taraflar arasında uzlaşma ihtimali bulunmaktadır.\n\nSONUÇ VE İSTEM: Dosyanın uzlaştırma bürosuna gönderilmesini talep ederim."
-},
-{
-  "id": "banka-hesabi-bloke-kaldirma",
-  "baslik": "Banka Hesabı Blokesinin Kaldırılması Talep Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Soruşturma kapsamında bloke edilen banka hesaplarına ilişkin bloke kaldırma talebi.",
-  "icerik": "... SULH CEZA HAKİMLİĞİ'NE\n\nKONU: Banka hesabı üzerindeki blokenin kaldırılması talebidir.\n\nAÇIKLAMALAR:\n\n1. Tarafıma ait banka hesabı soruşturma kapsamında bloke edilmiştir.\n\n2. Hesaptaki paranın suç gelirinden kaynaklandığına ilişkin kesin bir tespit bulunmamaktadır.\n\n3. Bloke nedeniyle temel yaşam faaliyetlerim olumsuz etkilenmektedir.\n\nSONUÇ VE İSTEM: Hesap üzerindeki blokenin kaldırılmasına karar verilmesini talep ederim."
-},
-{
-  "id": "arama-el-koyma-itiraz",
-  "baslik": "Arama ve El Koyma Kararına İtiraz Dilekçesi",
-  "kategori": "Ceza Hukuku",
-  "aciklama": "Konut, iş yeri veya dijital materyaller hakkında verilen arama ve el koyma kararlarına karşı itiraz dilekçesi.",
-  "icerik": "... SULH CEZA HAKİMLİĞİ'NE\n\nKONU: Arama ve el koyma kararına itirazlarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Karar hukuka aykırı şekilde uygulanmıştır.\n\n2. Ölçülülük ilkesine aykırılık bulunmaktadır.\n\n3. El konulan eşyaların soruşturmayla ilgisi bulunmamaktadır.\n\nSONUÇ VE İSTEM: Arama ve el koyma kararının kaldırılmasını talep ederim."
-},
-{
+    "id": "tck-158-4-lehe-kanun-uyarlama-dilekce",
+    "baslik": "IBAN / Hesap Kullandırma Mahkûmiyetinde Lehe Kanun Uyarlama Talebi (TCK 158/4)",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "12. Yargı Paketi ile getirilen yarı oranında ceza indiriminin kesinleşmiş mahkûmiyetlere uygulanması için hükmü veren mahkemeye sunulacak örnek dilekçe.",
+    "icerik": "... AĞIR CEZA MAHKEMESİ BAŞKANLIĞI'NA\n(Hükmü Veren Mahkeme)\n\nDOSYA NO: [Esas No] E. - [Karar No] K.\n\nTALEPTE BULUNAN\nHÜKÜMLÜ: [Ad Soyad] - [TC Kimlik No]\nMÜDAFİİ: Av. [Ad Soyad]\n\nKONU: 7589 sayılı Kanun ile TCK m. 158'e eklenen 4. fıkra uyarınca lehe kanun değerlendirmesi yapılarak hükmün uyarlanması talebidir.\n\nAÇIKLAMALAR:\n\n1. Sayın Mahkemenizin yukarıda numarası yazılı dosyasında, TCK m. 158/1-f uyarınca nitelikli dolandırıcılık suçundan [..] yıl hapis cezası ile cezalandırılmama karar verilmiş, hüküm [tarih] tarihinde kesinleşmiştir.\n\n2. Gerekçeli kararda da açıkça belirtildiği üzere, bana yüklenen eylem yalnızca adıma kayıtlı banka hesabına ait bilgi ve araçların üçüncü kişiye verilmesinden ibarettir. Paranın çekilmesi, transferi veya mağdurla iletişim gibi başkaca bir icrai katkım tespit edilmemiştir.\n\n3. 31.07.2026 tarihli ve 33326 sayılı Resmi Gazete'de yayımlanarak yürürlüğe giren 7589 sayılı Kanun ile TCK m. 158'e eklenen 4. fıkra uyarınca; suça iştirakin, ödeme araçlarının veya hesabın kullanılmasını sağlayan bilgi ya da araçların başkasına verilmesi fiiliyle sınırlı olması halinde verilecek ceza yarı oranında indirilir.\n\n4. TCK m. 7/2 uyarınca suçun işlendiği zaman yürürlükte bulunan kanun ile sonradan yürürlüğe giren kanunların hükümleri farklı ise, failin lehine olan kanun uygulanır ve infaz olunur. 5275 sayılı Kanun m. 98 ve 101 uyarınca, lehe kanun değerlendirmesi hükmü veren mahkemece yapılır.\n\n5. Somut olayda yeni hükmün uygulanması, lehime sonuç doğuracak olup uyarlama yapılması zorunludur.\n\nHUKUKİ SEBEPLER: TCK m. 7, 158/4; 5275 sayılı Kanun m. 98, 101; 7589 sayılı Kanun ve ilgili mevzuat.\n\nDELİLLER: Sayın Mahkemenizin [..] E. sayılı dosyası, gerekçeli karar, UYAP kayıtları.\n\nSONUÇ VE İSTEM: Yukarıda açıklanan nedenlerle; hakkımda verilen hükmün TCK m. 158/4 uyarınca lehe kanun değerlendirmesi yapılarak uyarlanmasına, cezanın yarı oranında indirilmesine ve infazın buna göre düzenlenmesine karar verilmesini saygılarımla talep ederim. [Tarih]\n\nHükümlü / Müdafii\n[Ad Soyad - İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "hesap-ele-gecirilmesi-suc-duyurusu",
+    "baslik": "Sosyal Medya / WhatsApp Hesabının Ele Geçirilmesi Suç Duyurusu Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Instagram, WhatsApp veya e-posta hesabı çalınan ve bu hesap üzerinden yakınlarından para istenen mağdurlar için suç duyurusu örneği.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nMÜŞTEKİ: [Ad Soyad] - [TC Kimlik No] - [Adres] - [Telefon]\nŞÜPHELİ: Kimliği belirsiz kişi veya kişiler\nSUÇ: Bilişim sistemine girme (TCK m. 243), sistemi engelleme, bozma, verileri yok etme veya değiştirme (TCK m. 244), bilişim sistemlerinin araç olarak kullanılması suretiyle nitelikli dolandırıcılık (TCK m. 158/1-f), kişisel verilerin hukuka aykırı olarak ele geçirilmesi (TCK m. 136)\nSUÇ TARİHİ: [Tarih]\n\nKONU: Şüpheli veya şüpheliler hakkında suç duyurusu ile gerekli delillerin toplanması talebidir.\n\nAÇIKLAMALAR:\n\n1. [Platform adı] uygulamasında \"[kullanıcı adı / telefon numarası]\" isimli hesabın sahibi ve tek kullanıcısıyım.\n\n2. [Tarih] tarihinde saat [..] sularında [SMS ile gelen doğrulama kodu / sahte bağlantı / \"hesabınız kapatılacak\" mesajı vb.] yoluyla hesabım tarafımın bilgisi ve rızası dışında ele geçirilmiştir. Hesabın şifresi ve güvenlik bilgileri değiştirilmiş, hesaba erişimim engellenmiştir.\n\n3. Hesabımı ele geçiren kişi veya kişiler, rehberimdeki yakınlarıma benim adıma mesaj göndererek acil para ihtiyacım olduğunu söylemiş ve [IBAN / hesap sahibi adı] hesabına para gönderilmesini istemiştir. Bu yolla [Ad Soyad] isimli yakınım [..] TL göndermiştir.\n\n4. Olaya ilişkin ekran görüntüleri, gönderilen mesajlar ve dekontlar ekte sunulmuştur. Hesabımın kurtarılması için platforma [tarih] tarihinde başvuru yapılmıştır.\n\nTALEPLERİM:\na) Hesaba giriş yapılan IP adresleri ile oturum kayıtlarının ilgili platformdan ve BTK'dan tespit edilmesi,\nb) Paranın gönderildiği [IBAN] numaralı hesabın sahibinin tespiti, hesap hareketlerinin ilgili bankadan celbi ve hesaba tedbiren bloke konulması,\nc) Şüphelilerin kimliklerinin tespiti ile haklarında kamu davası açılması.\n\nHUKUKİ SEBEPLER: TCK m. 136, 158, 243, 244; CMK m. 158 ve ilgili mevzuat.\n\nDELİLLER: Ekran görüntüleri, dekontlar, platform yazışmaları, tanık beyanları, IP ve HTS kayıtları, her türlü yasal delil.\n\nSONUÇ VE İSTEM: Yukarıda açıklanan nedenlerle, şüpheli veya şüpheliler hakkında gerekli soruşturmanın yapılarak cezalandırılmaları için kamu davası açılmasını saygılarımla arz ve talep ederim. [Tarih]\n\nMüşteki\n[Ad Soyad - İmza]\n\nEKLER: Ekran görüntüleri, dekont, kimlik fotokopisi\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "oltalama-sahte-sms-banka-dolandiriciligi-suc-duyurusu",
+    "baslik": "Sahte SMS / e-Devlet Linki ile Banka Hesabından Para Çekilmesi Suç Duyurusu",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Oltalama (phishing) yöntemiyle banka veya e-Devlet bilgileri ele geçirilerek hesabından para çekilen mağdurlar için örnek dilekçe.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nMÜŞTEKİ: [Ad Soyad] - [TC Kimlik No] - [Adres] - [Telefon]\nŞÜPHELİ: Kimliği belirsiz kişi veya kişiler ile paranın aktarıldığı hesap sahipleri\nSUÇ: Bilişim sistemlerinin, banka veya kredi kurumlarının araç olarak kullanılması suretiyle nitelikli dolandırıcılık (TCK m. 158/1-f), banka veya kredi kartlarının kötüye kullanılması (TCK m. 245), bilişim sistemine girme (TCK m. 243)\nSUÇ TARİHİ: [Tarih]\n\nKONU: Suç duyurusu ile hesaplara tedbiren bloke konulması talebidir.\n\nAÇIKLAMALAR:\n\n1. [Tarih] tarihinde cep telefonuma \"[kargo teslim edilemedi / e-Devlet iadeniz var / trafik cezanız bulunuyor]\" içerikli, [gönderen numara/başlık] tarafından gönderilen bir SMS gelmiştir.\n\n2. Mesajdaki bağlantıya tıkladığımda resmi siteye birebir benzeyen sahte bir sayfa açılmış, bu sayfaya [kart bilgilerimi / internet bankacılığı şifremi / doğrulama kodunu] girmem istenmiştir.\n\n3. Bilgileri girmemden kısa süre sonra, [Banka adı] nezdindeki hesabımdan [tarih-saat] tarihinde [..] TL ve [..] TL tutarında, tarafımca yapılmayan işlemlerle para transferi / harcama yapılmıştır.\n\n4. Durumu fark eder etmez bankamın müşteri hizmetlerini arayarak kartımı ve internet bankacılığımı kapattırdım ve itiraz kaydı oluşturdum (Başvuru no: [..]).\n\nTALEPLERİM:\na) Paranın aktarıldığı hesapların ve bu hesaplardan yapılan sonraki transferlerin tespiti ile tedbiren bloke konulması,\nb) Sahte internet sitesinin alan adı, barındırma ve kayıt bilgilerinin tespit edilmesi, erişiminin engellenmesi,\nc) SMS'in gönderildiği numara/başlığın BTK ve ilgili operatörden araştırılması,\nd) İşlemlerin yapıldığı IP adresleri ve cihaz bilgilerinin bankadan celbi,\ne) Şüphelilerin tespitiyle cezalandırılmaları.\n\nHUKUKİ SEBEPLER: TCK m. 158, 243, 245; CMK m. 128, 158 ve ilgili mevzuat.\n\nDELİLLER: SMS ekran görüntüsü, sahte site bağlantısı, hesap dökümü, banka itiraz kaydı, her türlü yasal delil.\n\nSONUÇ VE İSTEM: Yukarıda açıklanan nedenlerle şüpheliler hakkında soruşturma başlatılarak cezalandırılmalarını ve zararımın giderilmesi için gerekli tedbirlerin alınmasını saygılarımla talep ederim. [Tarih]\n\nMüşteki\n[Ad Soyad - İmza]\n\nNOT: Bankanın güvenlik yükümlülüğünü ihlal etmesi halinde zararın bankadan tazmini için ayrıca hukuki yola başvurulabilir.\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "tck-136-kisisel-veri-yayma-suc-duyurusu",
+    "baslik": "Kişisel Verilerin Hukuka Aykırı Olarak Yayılması Suç Duyurusu (TCK 136)",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Fotoğraf, telefon, adres, kimlik veya sağlık bilgileri izinsiz paylaşılan kişiler için suç duyurusu dilekçesi örneği.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nMÜŞTEKİ: [Ad Soyad] - [TC Kimlik No] - [Adres]\nŞÜPHELİ: [Ad Soyad / Kullanıcı adı] - [Bilinen bilgiler]\nSUÇ: Verileri hukuka aykırı olarak verme veya ele geçirme (TCK m. 136), kişisel verilerin kaydedilmesi (TCK m. 135), özel hayatın gizliliğini ihlal (TCK m. 134)\nSUÇ TARİHİ: [Tarih] ve devamı\n\nKONU: Şüpheli hakkında suç duyurusu ile içeriklerin erişime engellenmesi talebidir.\n\nAÇIKLAMALAR:\n\n1. Şüpheli, [tarih] tarihinden itibaren \"[platform / hesap adı / grup adı]\" üzerinden, rızam olmaksızın [fotoğraflarımı / telefon numaramı / ev adresimi / kimlik bilgilerimi] paylaşmıştır.\n\n2. Söz konusu paylaşımlar [..] kişi tarafından görüntülenmiş, bu nedenle tanımadığım kişilerce aranmaya ve mesaj alarak rahatsız edilmeye başlanmıştım.\n\n3. Kişisel verilerim, kimliğimi belirli veya belirlenebilir kılan bilgilerdir ve 6698 sayılı Kanun kapsamında korunmaktadır. Bu verilerin rızam dışında başkalarına verilmesi ve yayılması TCK m. 136'da düzenlenen suçu oluşturmaktadır.\n\n4. Paylaşımlar hâlâ yayında olup her geçen gün zararım artmaktadır.\n\nTALEPLERİM:\na) Paylaşımların bulunduğu URL adreslerine 5651 sayılı Kanun ve CMK hükümleri uyarınca erişimin engellenmesi / içeriğin çıkarılması için Sulh Ceza Hakimliği'nden karar alınması,\nb) Hesabın kullanıcısının ve IP bilgilerinin tespiti,\nc) Şüphelinin cezalandırılması için kamu davası açılması.\n\nİlgili URL adresleri:\n1) [URL]\n2) [URL]\n\nHUKUKİ SEBEPLER: TCK m. 134, 135, 136; 6698 sayılı KVKK; 5651 sayılı Kanun ve ilgili mevzuat.\n\nDELİLLER: Ekran görüntüleri (tarih ve URL görünür şekilde), tanık beyanları, IP kayıtları, her türlü yasal delil.\n\nSONUÇ VE İSTEM: Şüpheli hakkında gerekli soruşturmanın yapılarak cezalandırılmasına ve içeriklere erişimin engellenmesine karar verilmesini saygılarımla talep ederim. [Tarih]\n\nMüşteki\n[Ad Soyad - İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "5651-erisim-engeli-icerik-cikarma-talebi",
+    "baslik": "İnternet İçeriğine Erişimin Engellenmesi ve İçeriğin Çıkarılması Talebi (5651 m. 9)",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Kişilik haklarını ihlal eden internet paylaşımlarının kaldırılması için doğrudan Sulh Ceza Hakimliği'ne yapılacak başvuru örneği.",
+    "icerik": "İSTANBUL ... NÖBETÇİ SULH CEZA HAKİMLİĞİ'NE\n\nBAŞVURAN: [Ad Soyad] - [TC Kimlik No] - [Adres]\nVEKİLİ: Av. [Ad Soyad]\nKARŞI TARAF: [İçerik sağlayıcı / hesap adı / yer sağlayıcı]\n\nKONU: 5651 sayılı Kanun m. 9 uyarınca kişilik haklarını ihlal eden içeriklere erişimin engellenmesi ve içeriğin yayından çıkarılması talebidir.\n\nAÇIKLAMALAR:\n\n1. Aşağıda URL adresleri belirtilen içeriklerde, hakkımda gerçeğe aykırı ve onur, şeref ve saygınlığımı zedeleyen ifadeler yer almaktadır:\n\"[İhlal oluşturan ifade veya içerik açıklaması]\"\n\n2. Söz konusu içerikler [tarih] tarihinden bu yana yayındadır. İçerikler; [iş çevrem / ailem / müşterilerim] tarafından görülmüş, maddi ve manevi zararıma neden olmuştur.\n\n3. Paylaşımlar herhangi bir kamu yararı veya haber verme amacı taşımamakta olup, eleştiri sınırlarını açıkça aşmaktadır. Anayasa m. 17 ve m. 20 ile güvence altına alınan kişilik haklarım ağır biçimde ihlal edilmektedir.\n\n4. 5651 sayılı Kanun m. 9 uyarınca, internet ortamında yapılan yayın nedeniyle kişilik hakları ihlal edilen kişiler, doğrudan Sulh Ceza Hakimliği'ne başvurarak içeriğin yayından çıkarılmasını ve/veya erişimin engellenmesini isteyebilir. Hakim bu talebi en geç 24 saat içinde duruşma yapmaksızın karara bağlar.\n\nERİŞİMİN ENGELLENMESİ İSTENEN URL ADRESLERİ:\n1) [Tam URL]\n2) [Tam URL]\n\nHUKUKİ SEBEPLER: 5651 sayılı Kanun m. 9; Anayasa m. 17, 20; TMK m. 24-25 ve ilgili mevzuat.\n\nDELİLLER: URL listesi, tarih ve saat görünen ekran görüntüleri, tanık beyanları, her türlü yasal delil.\n\nSONUÇ VE İSTEM: Yukarıda URL adresleri belirtilen içeriklere erişimin engellenmesine ve içeriklerin yayından çıkarılmasına, kararın Erişim Sağlayıcıları Birliği'ne ve ilgili içerik/yer sağlayıcılara bildirilmesine karar verilmesini saygılarımla talep ederim. [Tarih]\n\nBaşvuran / Vekili\n[Ad Soyad - İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "ceza-istinaf-basvuru-dilekcesi",
+    "baslik": "Ceza Davasında İstinaf Başvuru Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "İlk derece ceza mahkemesi kararına karşı Bölge Adliye Mahkemesi'ne istinaf başvurusu örneği. Süre, hükmün açıklanmasından (yokluğunda verilmişse tebliğden) itibaren iki haftadır.",
+    "icerik": "İSTANBUL BÖLGE ADLİYE MAHKEMESİ İLGİLİ CEZA DAİRESİ'NE\nGönderilmek Üzere\nİSTANBUL ... ASLİYE / AĞIR CEZA MAHKEMESİ'NE\n\nDOSYA NO: [Esas No] E. - [Karar No] K.\n\nİSTİNAF YOLUNA BAŞVURAN\nSANIK: [Ad Soyad] - [TC Kimlik No]\nMÜDAFİİ: Av. [Ad Soyad]\n\nKARAR TARİHİ: [Tarih]\nTEBLİĞ TARİHİ: [Tarih - yokluğunda verilmişse]\n\nKONU: Yerel mahkemenin [tarih] tarihli mahkûmiyet hükmünün kaldırılarak beraat kararı verilmesi talebini içeren istinaf dilekçemizdir.\n\nAÇIKLAMALAR VE İSTİNAF SEBEPLERİ:\n\n1. Usule İlişkin Sebepler:\na) [Örn. Savunma hakkı kısıtlanmıştır; delillerin toplanması talebimiz gerekçesiz reddedilmiştir (CMK m. 206).]\nb) [Örn. Sanığa ek savunma hakkı verilmeden suç vasfı değiştirilmiştir (CMK m. 226).]\n\n2. Delillerin Değerlendirilmesine İlişkin Sebepler:\na) Mahkûmiyete esas alınan [tanık beyanı / bilirkişi raporu], dosyadaki diğer delillerle çelişmektedir ve bu çelişki giderilmemiştir.\nb) Lehe olan deliller tartışılmamış, gerekçede neden itibar edilmediği açıklanmamıştır (Anayasa m. 141, CMK m. 230).\nc) Ceza mahkûmiyeti şüpheye değil, kesin ve inandırıcı delile dayanmalıdır. \"Şüpheden sanık yararlanır\" ilkesi gözetilmemiştir.\n\n3. Hukuka Aykırılık Sebepleri:\na) Suçun manevi unsuru olan kast ispatlanamamıştır.\nb) Temel ceza alt sınırdan uzaklaşılarak belirlenmiş, bunun gerekçesi TCK m. 61'e uygun biçimde gösterilmemiştir.\nc) TCK m. 62 takdiri indirim, HAGB (CMK m. 231) ve erteleme (TCK m. 51) koşulları tartışılmamıştır.\n\n4. [Varsa: 7589 sayılı Kanun ile getirilen lehe hükümlerin değerlendirilmesi gerekmektedir.]\n\nHUKUKİ SEBEPLER: CMK m. 272 vd., 280, 289; Anayasa m. 36, 38, 141; TCK ve ilgili mevzuat.\n\nSONUÇ VE İSTEM: Yukarıda açıklanan ve re'sen gözetilecek nedenlerle; yerel mahkeme hükmünün kaldırılarak müvekkilin beraatine, aksi halde duruşma açılarak delillerin yeniden değerlendirilmesine, olmadığı takdirde hükmün lehe hükümler uygulanarak düzeltilmesine karar verilmesini saygılarımızla talep ederiz. [Tarih]\n\nSanık Müdafii\nAv. [Ad Soyad - İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "ceza-temyiz-dilekcesi",
+    "baslik": "Ceza Davasında Temyiz Dilekçesi (Yargıtay)",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Bölge Adliye Mahkemesi ceza dairesi kararına karşı Yargıtay'a temyiz başvurusu örneği. Süre, kararın tefhim veya tebliğinden itibaren iki haftadır.",
+    "icerik": "YARGITAY İLGİLİ CEZA DAİRESİ'NE\nGönderilmek Üzere\nİSTANBUL BÖLGE ADLİYE MAHKEMESİ ... CEZA DAİRESİ'NE\n\nDOSYA NO: [Esas No] E. - [Karar No] K.\nİLK DERECE MAHKEMESİ: İstanbul ... Ağır Ceza Mahkemesi [Esas/Karar No]\n\nTEMYİZ EDEN\nSANIK: [Ad Soyad] - [TC Kimlik No]\nMÜDAFİİ: Av. [Ad Soyad]\n\nKONU: İstinaf başvurusunun esastan reddine dair [tarih] tarihli kararın bozulması talebini içeren temyiz dilekçemizdir.\n\nTEMYİZ SEBEPLERİ:\n\n1. Hukuka Kesin Aykırılık (CMK m. 289):\n[Örn. Hüküm, hukuka aykırı yöntemle elde edilen delile dayanmaktadır. Arama kararı olmaksızın yapılan elkoyma işlemi sonucu elde edilen dijital materyal hükme esas alınmıştır (CMK m. 206/2-a, 217/2; Anayasa m. 38/6).]\n\n2. Hükmün Gerekçesiz Olması:\nBölge Adliye Mahkemesi, istinaf dilekçemizde ileri sürdüğümüz [..] numaralı itirazlarımızı hiç tartışmadan, kalıp ifadelerle esastan ret kararı vermiştir. Bu durum gerekçeli karar hakkının ve adil yargılanma hakkının ihlalidir (Anayasa m. 36, 141; AİHS m. 6).\n\n3. Suç Vasfının Hatalı Belirlenmesi:\nEylem [TCK m. ..] kapsamında değerlendirilmesi gerekirken, daha ağır cezayı gerektiren [TCK m. ..] uyarınca hüküm kurulmuştur.\n\n4. Yargıtay'ın Yerleşik İçtihadına Aykırılık:\nYargıtay [..]. Ceza Dairesi'nin ve Ceza Genel Kurulu'nun benzer olaylardaki kararlarında, [kast unsurunun somut delillerle ispatlanması gerektiği] vurgulanmıştır.\n\n5. Lehe Kanun Değerlendirmesi:\n[Varsa: 31.07.2026 tarihinde yürürlüğe giren 7589 sayılı Kanun'un lehe hükümleri gözetilmemiştir.]\n\nHUKUKİ SEBEPLER: CMK m. 286 vd., 288, 289, 291, 294 vd.; Anayasa m. 36, 38, 141 ve ilgili mevzuat.\n\nSONUÇ VE İSTEM: Yukarıda açıklanan ve re'sen gözetilecek nedenlerle, hukuka aykırı olan kararın BOZULMASINA karar verilmesini saygılarımızla talep ederiz. [Tarih]\n\nSanık Müdafii\nAv. [Ad Soyad - İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "kyok-kararina-itiraz-dilekcesi",
+    "baslik": "Kovuşturmaya Yer Olmadığı Kararına (KYOK) İtiraz Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Savcılığın takipsizlik kararına karşı suçtan zarar gören tarafından Sulh Ceza Hakimliği'ne yapılacak itiraz örneği. Süre, kararın tebliğinden itibaren 15 gündür.",
+    "icerik": "İSTANBUL ... NÖBETÇİ SULH CEZA HAKİMLİĞİ'NE\nGönderilmek Üzere\nİSTANBUL ... CUMHURİYET BAŞSAVCILIĞI'NA\n\nSORUŞTURMA NO: [..]\nKARAR NO: [..]\n\nİTİRAZ EDEN\nMÜŞTEKİ: [Ad Soyad] - [TC Kimlik No] - [Adres]\nVEKİLİ: Av. [Ad Soyad]\nŞÜPHELİ: [Ad Soyad]\nSUÇ: [..]\n\nKARAR TARİHİ: [Tarih]\nTEBLİĞ TARİHİ: [Tarih]\n\nKONU: Kovuşturmaya yer olmadığına dair kararın kaldırılarak kamu davası açılmasına karar verilmesi talebini içeren itirazımızdır.\n\nAÇIKLAMALAR:\n\n1. Şüpheli hakkında [suç] suçundan şikayette bulunduk. Başsavcılık, [tarih] tarihli kararla \"kamu davası açılmasını gerektirir yeterli şüphe oluşturacak delil elde edilemediği\" gerekçesiyle kovuşturmaya yer olmadığına karar vermiştir. Karar tarafımıza [tarih] tarihinde tebliğ edilmiştir.\n\n2. Soruşturma eksik yürütülmüştür. Şikayet dilekçemizde bildirdiğimiz;\na) [Tanık adları] isimli tanıkların ifadeleri alınmamıştır,\nb) [Olay yerindeki kamera kayıtları / HTS kayıtları / banka kayıtları] celbedilmemiştir,\nc) [Bilirkişi incelemesi] yaptırılmamıştır.\n\n3. Yargıtay ve Anayasa Mahkemesi içtihatlarına göre etkili soruşturma yükümlülüğü, tüm delillerin toplanmasını ve şikayetçinin iddialarının ciddi biçimde araştırılmasını gerektirir. Delil toplanmadan verilen KYOK kararı hukuka aykırıdır.\n\n4. Dosyadaki mevcut deliller dahi [..] nedenleriyle yeterli şüphe eşiğini aşmaktadır (CMK m. 170/2).\n\nHUKUKİ SEBEPLER: CMK m. 160, 170, 172, 173; Anayasa m. 36 ve ilgili mevzuat.\n\nDELİLLER: Soruşturma dosyası, şikayet dilekçesi ve ekleri, toplanması istenen deliller.\n\nSONUÇ VE İSTEM: Yukarıda açıklanan nedenlerle, itirazımızın kabulü ile kovuşturmaya yer olmadığına dair kararın kaldırılmasına ve kamu davası açılmasına, olmadığı takdirde eksik delillerin toplanması için dosyanın Başsavcılığa gönderilmesine karar verilmesini saygılarımızla talep ederiz. [Tarih]\n\nMüşteki / Vekili\n[Ad Soyad - İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "cmk-141-haksiz-tutuklama-tazminat-davasi",
+    "baslik": "Haksız Tutuklama / Gözaltı Nedeniyle Tazminat Davası Dilekçesi (CMK 141)",
+    "kategori": "Tazminat",
+    "aciklama": "Beraat eden veya hakkında kovuşturmaya yer olmadığı kararı verilen kişilerin koruma tedbirleri nedeniyle devletten tazminat talebi örneği.",
+    "icerik": "İSTANBUL ... AĞIR CEZA MAHKEMESİ BAŞKANLIĞI'NA\n(Davacının yerleşim yeri Ağır Ceza Mahkemesi)\n\nDAVACI: [Ad Soyad] - [TC Kimlik No] - [Adres]\nVEKİLİ: Av. [Ad Soyad]\nDAVALI: Hazine (Hazine ve Maliye Bakanlığı) - İstanbul Defterdarlığı Muhakemat Müdürlüğü\n\nKONU: CMK m. 141 vd. uyarınca haksız koruma tedbiri nedeniyle [..] TL maddi ve [..] TL manevi tazminatın yasal faiziyle birlikte davalıdan tahsili talebidir.\n\nAÇIKLAMALAR:\n\n1. Davacı, [suç] şüphesiyle [tarih] tarihinde gözaltına alınmış, [tarih] tarihinde tutuklanmış ve [tarih] tarihinde tahliye edilmiştir. Toplam [..] gün özgürlüğünden yoksun kalmıştır.\n\n2. Yapılan yargılama sonucunda İstanbul ... Mahkemesi'nin [Esas/Karar No] sayılı kararıyla davacının beraatine karar verilmiş, karar [tarih] tarihinde kesinleşmiştir.\n\n3. CMK m. 141/1-e uyarınca, kanuna uygun olarak yakalandıktan veya tutuklandıktan sonra hakkında kovuşturmaya yer olmadığına veya beraatine karar verilen kişiler, uğradıkları maddi ve manevi zararları Devletten isteyebilir.\n\n4. Maddi Zarar: Davacı tutukluluk süresince [iş yerinde ... olarak] çalışamamış, aylık [..] TL tutarında gelir kaybına uğramıştır. Ayrıca avukatlık ücreti ve yol masrafları gibi giderler yapmıştır.\n\n5. Manevi Zarar: Davacı, tutukluluk nedeniyle ailesinden ve sosyal çevresinden koparılmış, toplum içindeki saygınlığı zedelenmiş, ağır bir psikolojik baskı altında kalmıştır.\n\n6. Dava, CMK m. 142/1'de öngörülen kesinleşmeden itibaren üç ay ve her halde bir yıllık süre içinde açılmaktadır.\n\nHUKUKİ SEBEPLER: CMK m. 141, 142, 143, 144; Anayasa m. 19/9; AİHS m. 5/5 ve ilgili mevzuat.\n\nDELİLLER: İstanbul ... Mahkemesi'nin [..] sayılı dosyası, kesinleşme şerhi, gözaltı ve tutukluluk kayıtları, SGK kayıtları, maaş bordroları, tanık, bilirkişi incelemesi ve her türlü yasal delil.\n\nSONUÇ VE İSTEM: Fazlaya ilişkin haklarımız saklı kalmak kaydıyla, [..] TL maddi ve [..] TL manevi tazminatın tutuklama tarihinden itibaren işleyecek yasal faiziyle birlikte davalıdan tahsiline, yargılama giderleri ile vekalet ücretinin davalıya yüklenmesine karar verilmesini saygılarımızla talep ederiz. [Tarih]\n\nDavacı Vekili\nAv. [Ad Soyad - İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "esas-hakkinda-mutalaaya-karsi-savunma",
+    "baslik": "Esas Hakkındaki Mütalaaya Karşı Savunma Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Savcılığın esas hakkındaki mütalaasına karşı müdafi tarafından yazılı olarak sunulacak esas savunma dilekçesi örneği.",
+    "icerik": "İSTANBUL ... AĞIR CEZA / ASLİYE CEZA MAHKEMESİ'NE\n\nDOSYA NO: [Esas No] E.\n\nSANIK: [Ad Soyad] - [TC Kimlik No]\nMÜDAFİİ: Av. [Ad Soyad]\nSUÇ: [..]\n\nKONU: Cumhuriyet Savcılığı'nın [tarih] tarihli esas hakkındaki mütalaasına karşı savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\nI. MÜTALAANIN ÖZETİ\nCumhuriyet Savcısı, [..] delillerine dayanarak sanığın [TCK m. ..] uyarınca cezalandırılmasını talep etmiştir.\n\nII. MADDİ OLAYA İLİŞKİN SAVUNMALARIMIZ\n1. Sanık, soruşturma ve kovuşturmanın her aşamasında tutarlı beyanlarda bulunmuş ve [olayla ilgili savunmanın özeti] açıklamıştır.\n2. Mütalaada esas alınan [tanık / müşteki] beyanları, [..] nedenleriyle çelişkilidir ve hükme esas alınamaz.\n3. [Kamera kaydı / HTS kaydı / bilirkişi raporu] sanığın savunmasını doğrulamaktadır.\n\nIII. HUKUKİ DEĞERLENDİRMEMİZ\n1. Suçun maddi unsuru oluşmamıştır: [..]\n2. Suçun manevi unsuru olan kast ispatlanamamıştır. Ceza yargılamasında mahkûmiyet, her türlü şüpheden uzak, kesin delile dayanmalıdır. Şüpheden sanık yararlanır.\n3. Hukuka aykırı delil: [..] delili CMK m. 206/2-a ve 217/2 uyarınca hükme esas alınamaz.\n\nIV. KADEMELİ TALEPLERİMİZ\nMahkemeniz aksi kanaatte ise;\na) Eylemin [daha hafif suç tipi] kapsamında değerlendirilmesi,\nb) Temel cezanın alt sınırdan belirlenmesi (TCK m. 61),\nc) Sanığın yargılama sürecindeki tutum ve davranışları ile geçmişi gözetilerek TCK m. 62 uyarınca takdiri indirim uygulanması,\nd) Hükmün açıklanmasının geri bırakılması (CMK m. 231), cezanın ertelenmesi (TCK m. 51) veya seçenek yaptırımlara çevrilmesi (TCK m. 50),\ne) Varsa lehe kanun hükümlerinin (7589 sayılı Kanun) uygulanması.\n\nHUKUKİ SEBEPLER: CMK m. 216, 217, 223, 230, 231; TCK m. 7, 50, 51, 61, 62; Anayasa m. 36, 38.\n\nSONUÇ VE İSTEM: Yukarıda açıklanan nedenlerle, sanığın ÜZERİNE ATILI SUÇTAN BERAATİNE, aksi kanaatte ise kademeli taleplerimiz doğrultusunda karar verilmesini saygılarımızla talep ederiz. [Tarih]\n\nSanık Müdafii\nAv. [Ad Soyad - İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "anlasmali-bosanma-dava-dilekcesi-protokol",
+    "baslik": "Anlaşmalı Boşanma Dava Dilekçesi ve Protokol Örneği",
+    "kategori": "Aile Hukuku",
+    "aciklama": "En az bir yıl sürmüş evliliklerde eşlerin birlikte başvurusu ile açılan anlaşmalı boşanma davası ve ekindeki protokol için örnek.",
+    "icerik": "İSTANBUL ... NÖBETÇİ AİLE MAHKEMESİ'NE\n\nDAVACI: [Ad Soyad] - [TC Kimlik No] - [Adres]\nDAVALI: [Ad Soyad] - [TC Kimlik No] - [Adres]\n\nKONU: TMK m. 166/3 uyarınca anlaşmalı boşanma talebidir.\n\nAÇIKLAMALAR:\n\n1. Taraflar [tarih] tarihinde evlenmiş olup evlilik birliği bir yıldan fazla sürmüştür. Evlilikten [..] doğumlu [Çocuğun adı] isimli müşterek çocuk dünyaya gelmiştir. [Müşterek çocuk yoksa: Tarafların müşterek çocuğu bulunmamaktadır.]\n\n2. Taraflar arasında ortak hayatı sürdürmeyi imkânsız kılan şiddetli geçimsizlik nedeniyle evlilik birliği temelinden sarsılmıştır.\n\n3. Taraflar boşanma konusunda ve boşanmanın mali sonuçları ile çocukların durumu hakkında tam olarak anlaşmışlardır. Tarafların imzaladığı protokol ekte sunulmuştur.\n\n4. Taraflar duruşmada hazır bulunarak iradelerini hakim huzurunda serbestçe açıklayacaklardır.\n\nHUKUKİ SEBEPLER: TMK m. 166/3, 182, 184 ve ilgili mevzuat.\n\nDELİLLER: Nüfus kayıt örneği, evlenme kaydı, anlaşmalı boşanma protokolü, taraf beyanları.\n\nSONUÇ VE İSTEM: Tarafların anlaşmalı olarak boşanmalarına, ekteki protokolün onaylanarak hükme dahil edilmesine karar verilmesini saygılarımızla talep ederiz. [Tarih]\n\nDavacı: [Ad Soyad - İmza]        Davalı: [Ad Soyad - İmza]\n\n--------------------------------------------------\n\nANLAŞMALI BOŞANMA PROTOKOLÜ\n\n1. Boşanma: Taraflar TMK m. 166/3 uyarınca boşanmak konusunda anlaşmışlardır.\n\n2. Velayet: Müşterek çocuk [Ad]'ın velayeti [Anne/Baba]'ya verilecektir.\n\n3. Kişisel İlişki: [Diğer ebeveyn], çocukla her ayın 1. ve 3. hafta sonları cumartesi 10:00'dan pazar 18:00'e kadar, dini bayramların ikinci günleri ve yaz tatilinde 15 gün süreyle kişisel ilişki kuracaktır.\n\n4. İştirak Nafakası: [Ebeveyn], müşterek çocuk için aylık [..] TL iştirak nafakasını her ayın [..]'inde [IBAN] numaralı hesaba ödeyecektir. Nafaka her yıl TÜFE oranında artırılacaktır.\n\n5. Yoksulluk Nafakası: Taraflar birbirlerinden yoksulluk nafakası talep etmemektedir.\n\n6. Maddi ve Manevi Tazminat: Taraflar birbirlerinden maddi ve manevi tazminat talep etmemektedir.\n\n7. Mal Paylaşımı: [Taşınmaz / araç / eşyaların] paylaşımı şu şekilde yapılacaktır: [..]. Bunun dışında tarafların birbirinden mal rejiminin tasfiyesi dahil herhangi bir talebi bulunmamaktadır.\n\n8. Yargılama Giderleri: Taraflar yargılama giderlerini ve vekalet ücretini kendi üzerlerinde bırakmaktadır.\n\n[Tarih]\n[Ad Soyad - İmza]        [Ad Soyad - İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "velayetin-degistirilmesi-dava-dilekcesi",
+    "baslik": "Velayetin Değiştirilmesi Dava Dilekçesi (TMK 183)",
+    "kategori": "Aile Hukuku",
+    "aciklama": "Boşanma sonrası velayet sahibi ebeveynin çocuğun menfaatine aykırı davrandığı durumlarda velayetin diğer ebeveyne verilmesi için örnek dava dilekçesi.",
+    "icerik": "İSTANBUL ... NÖBETÇİ AİLE MAHKEMESİ'NE\n\nDAVACI: [Ad Soyad] - [TC Kimlik No] - [Adres]\nVEKİLİ: Av. [Ad Soyad]\nDAVALI: [Ad Soyad] - [TC Kimlik No] - [Adres]\nMÜŞTEREK ÇOCUK: [Ad Soyad] - [Doğum tarihi]\n\nKONU: Müşterek çocuğun velayetinin davalıdan alınarak davacıya verilmesi ve davacı lehine iştirak nafakasına hükmedilmesi talebidir.\n\nAÇIKLAMALAR:\n\n1. Taraflar İstanbul ... Aile Mahkemesi'nin [Esas/Karar No] sayılı kararıyla boşanmış, müşterek çocuğun velayeti davalıya verilmiştir.\n\n2. Boşanmadan sonra koşullar esaslı biçimde değişmiştir:\na) [Davalının çocuğu uzun süre bakıcıya / büyükanneye bırakarak ilgisiz kalması]\nb) [Çocuğun okul devamsızlığı ve başarısındaki ciddi düşüş]\nc) [Davalının yeni evliliği / yaşam koşullarının çocuk için uygun olmaması]\nd) [Davalının çocuk ile davacı arasındaki kişisel ilişkiyi sistematik biçimde engellemesi]\n\n3. TMK m. 183 uyarınca, durumun değişmesi üzerine hakim, re'sen veya ana ya da babadan birinin istemi üzerine gerekli önlemleri alır. Velayet düzenlemesinde asıl ölçüt çocuğun üstün yararıdır (TMK m. 182, BM Çocuk Haklarına Dair Sözleşme m. 3).\n\n4. Davacı, çocuğun bakımı, eğitimi ve gelişimi için uygun ev, ekonomik güç ve zamana sahiptir. [Çocuk idrak çağında olup kendi görüşünün alınmasını talep ediyoruz.]\n\nHUKUKİ SEBEPLER: TMK m. 182, 183, 324, 336 vd.; 4787 sayılı Kanun ve ilgili mevzuat.\n\nDELİLLER: Boşanma dosyası, okul kayıtları, sosyal inceleme raporu, pedagog/psikolog incelemesi, tanık beyanları, yazışmalar, her türlü yasal delil.\n\nTEDBİR TALEBİ: Yargılama süresince çocuğun davacının yanında kalmasına ilişkin tedbir kararı verilmesini talep ediyoruz.\n\nSONUÇ VE İSTEM: Müşterek çocuğun velayetinin davalıdan alınarak davacıya verilmesine, davalı ile çocuk arasında uygun kişisel ilişki tesisine, davalının çocuk için aylık [..] TL iştirak nafakası ödemesine, yargılama giderleri ve vekalet ücretinin davalıya yüklenmesine karar verilmesini saygılarımızla talep ederiz. [Tarih]\n\nDavacı Vekili\nAv. [Ad Soyad - İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "fazla-mesai-yillik-izin-alacagi-kismi-dava",
+    "baslik": "Fazla Mesai ve Yıllık İzin Alacağı Dava Dilekçesi (Yeni Kısmi Dava - HMK 109)",
+    "kategori": "İş Hukuku",
+    "aciklama": "7589 sayılı Kanun ile belirsiz alacak davasının kaldırılmasından sonra işçilik alacakları için açılacak kısmi dava örneği. Arabuluculuk dava şartıdır.",
+    "icerik": "İSTANBUL ... NÖBETÇİ İŞ MAHKEMESİ'NE\n\nDAVACI: [Ad Soyad] - [TC Kimlik No] - [Adres]\nVEKİLİ: Av. [Ad Soyad]\nDAVALI: [İşveren unvanı] - [Adres] - [Vergi No]\n\nKONU: Şimdilik [..] TL fazla çalışma ücreti, [..] TL yıllık izin ücreti ve [..] TL hafta tatili / genel tatil ücreti alacağının faiziyle birlikte tahsili talebidir. (HMK m. 109 uyarınca kısmi dava; talep artırım hakkımız saklıdır.)\n\nDAVA DEĞERİ: [..] TL\n\nARABULUCULUK: İstanbul Arabuluculuk Bürosu [Büro No] sayılı dosyada [tarih] tarihinde anlaşamama son tutanağı düzenlenmiştir (7036 sayılı Kanun m. 3).\n\nAÇIKLAMALAR:\n\n1. Davacı, davalı işyerinde [tarih] - [tarih] tarihleri arasında [görev] olarak çalışmıştır. Son aylık brüt ücreti [..] TL'dir.\n\n2. Fazla Çalışma: Davacı haftanın [..] günü [08:00 - 20:00] saatleri arasında çalışmış, haftalık 45 saati aşan çalışmaları için fazla çalışma ücreti ödenmemiştir (4857 sayılı Kanun m. 41).\n\n3. Yıllık İzin: Davacı hizmet süresi boyunca hak kazandığı [..] günlük yıllık iznini kullanmamıştır. Kullanılmayan izin ücretleri, iş sözleşmesinin sona ermesiyle muaccel hale gelmiştir (4857 sayılı Kanun m. 59).\n\n4. Hafta ve Genel Tatil: Davacı [..] hafta tatillerinde ve ulusal bayram-genel tatil günlerinde çalıştırılmış, karşılığı ödenmemiştir.\n\n5. Alacakların tam miktarı, işyeri kayıtları, puantajlar ve bilirkişi incelemesi ile belirlenebilecektir. Bu nedenle dava, HMK m. 109 uyarınca kısmi dava olarak açılmıştır. Bilirkişi raporundan sonra HMK m. 109'da tanınan talep artırım hakkımızı kullanacağımızı ve artırılan kısım bakımından zamanaşımının dava tarihinde kesilmiş sayılacağını belirtiriz.\n\nHUKUKİ SEBEPLER: 4857 sayılı İş Kanunu m. 41, 46, 47, 59; 7036 sayılı İş Mahkemeleri Kanunu; HMK m. 109 (7589 sayılı Kanun ile değişik) ve ilgili mevzuat.\n\nDELİLLER: SGK hizmet dökümü, işyeri özlük dosyası, puantaj ve giriş-çıkış kayıtları, bordrolar, banka kayıtları, WhatsApp yazışmaları, tanık beyanları, arabuluculuk son tutanağı, bilirkişi incelemesi, her türlü yasal delil.\n\nSONUÇ VE İSTEM: Fazlaya ilişkin haklarımız saklı kalmak kaydıyla; şimdilik [..] TL fazla çalışma, [..] TL yıllık izin, [..] TL hafta tatili ve [..] TL genel tatil ücreti alacağının en yüksek mevduat faiziyle birlikte davalıdan tahsiline, yargılama giderleri ve vekalet ücretinin davalıya yüklenmesine karar verilmesini saygılarımızla talep ederiz. [Tarih]\n\nDavacı Vekili\nAv. [Ad Soyad - İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "ilamsiz-takibe-borca-itiraz-dilekcesi",
+    "baslik": "İlamsız İcra Takibine Borca İtiraz Dilekçesi",
+    "kategori": "İcra Hukuku",
+    "aciklama": "Ödeme emrine karşı borçlunun 7 gün içinde icra dairesine vereceği itiraz dilekçesi örneği. Süre kaçırılırsa takip kesinleşir.",
+    "icerik": "İSTANBUL ... İCRA DAİRESİ MÜDÜRLÜĞÜ'NE\n\nDOSYA NO: [..] E.\n\nİTİRAZ EDEN (BORÇLU): [Ad Soyad] - [TC Kimlik No] - [Adres]\nALACAKLI: [Ad Soyad / Unvan]\n\nÖDEME EMRİNİN TEBLİĞ TARİHİ: [Tarih]\n\nKONU: Ödeme emrine süresi içinde itirazlarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Yukarıda numarası yazılı dosya ile alacaklı tarafından hakkımda [..] TL asıl alacak ve fer'ileri için ilamsız icra takibi başlatılmış, ödeme emri tarafıma [tarih] tarihinde tebliğ edilmiştir.\n\n2. BORCA İTİRAZ: Alacaklıya takip konusu edilen miktarda veya herhangi bir miktarda borcum bulunmamaktadır. Takibe konu borcun tamamına itiraz ediyorum.\n\n3. FAİZE VE FER'İLERE İTİRAZ: İşlemiş faize, faiz oranına, faiz başlangıç tarihine ve tüm fer'ilere itiraz ediyorum.\n\n4. İMZAYA İTİRAZ (varsa): Takibe dayanak belgedeki imza tarafıma ait değildir.\n\n5. YETKİYE İTİRAZ (varsa): Yerleşim yerim [..] olup takip yetkisiz icra dairesinde başlatılmıştır. Yetkili icra dairesi [..] İcra Daireleri'dir. [Yetki itirazı yapılıyorsa yetkili icra dairesi mutlaka gösterilmelidir.]\n\nHUKUKİ SEBEPLER: 2004 sayılı İcra ve İflas Kanunu m. 62, 66 ve ilgili mevzuat.\n\nSONUÇ VE İSTEM: Yukarıda açıklanan nedenlerle, borca, faize, fer'ilere [ve yetkiye] itirazımın kabulü ile takibin durdurulmasına karar verilmesini saygılarımla talep ederim. [Tarih]\n\nBorçlu\n[Ad Soyad - İmza]\n\nNOT: İtiraz, ödeme emrinin tebliğinden itibaren 7 gün içinde yapılmalıdır. İtiraz üzerine takip durur. Alacaklı, itirazın kaldırılması veya itirazın iptali yoluna başvurabilir.\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "ucuncu-kisi-istihkak-davasi-dilekcesi",
+    "baslik": "Üçüncü Kişinin İstihkak Davası Dilekçesi (Haczedilen Eşya Benim)",
+    "kategori": "İcra Hukuku",
+    "aciklama": "Başkasının borcu nedeniyle kendisine ait eşya veya araç haczedilen üçüncü kişinin İcra Mahkemesi'nde açacağı istihkak davası örneği.",
+    "icerik": "İSTANBUL ... NÖBETÇİ İCRA HUKUK MAHKEMESİ'NE\n\nDAVACI (3. KİŞİ): [Ad Soyad] - [TC Kimlik No] - [Adres]\nVEKİLİ: Av. [Ad Soyad]\nDAVALILAR: 1- [Alacaklı Ad Soyad / Unvan] - [Adres]\n           2- [Borçlu Ad Soyad] - [Adres]\n\nİCRA DOSYASI: İstanbul ... İcra Dairesi [..] E.\n\nKONU: Haczedilen mahcuzların davacıya ait olduğunun tespiti ile haczin kaldırılması ve takibin mahcuzlar yönünden durdurulması (tedbir) talebidir.\n\nAÇIKLAMALAR:\n\n1. Davalı alacaklı tarafından davalı borçlu aleyhine başlatılan icra takibinde, [tarih] tarihinde [adres]'te bulunan ve haciz tutanağında [..] sıra numarasıyla gösterilen [eşya / araç] haczedilmiştir.\n\n2. Haczedilen mallar borçluya değil, davacıya aittir:\na) [Mahcuzlar davacı adına düzenlenmiş faturalarla satın alınmıştır.]\nb) [Haciz yapılan adres, davacının kiracı olarak oturduğu evdir; kira sözleşmesi ve abonelikler davacı adınadır.]\nc) [Borçlu bu adreste ikamet etmemektedir / yalnızca ziyaretçi olarak bulunmaktadır.]\n\n3. Haciz sırasında istihkak iddiamız tutanağa geçirilmiş olup dava, İİK m. 96 vd. hükümleri uyarınca süresi içinde açılmaktadır.\n\n4. İİK m. 97/a'daki mülkiyet karinesi aksi ispatlanabilir bir karinedir. Mahcuzların davacıya ait olduğu, ekte sunulan resmi belgelerle açıkça ispatlanmaktadır.\n\nTEDBİR TALEBİ: Dava sonuçlanıncaya kadar mahcuzlar yönünden takibin durdurulmasına ve satış yapılmamasına karar verilmesini talep ediyoruz (İİK m. 97).\n\nHUKUKİ SEBEPLER: İİK m. 96, 97, 97/a, 99 ve ilgili mevzuat.\n\nDELİLLER: İcra dosyası, haciz tutanağı, faturalar, kira sözleşmesi, abonelik kayıtları, nüfus/adres kayıtları, tanık beyanları, keşif, her türlü yasal delil.\n\nSONUÇ VE İSTEM: Davanın kabulü ile haczedilen mahcuzların davacıya ait olduğunun tespitine, üzerlerindeki haczin kaldırılmasına, yargılama giderleri ve vekalet ücretinin davalılara yüklenmesine karar verilmesini saygılarımızla talep ederiz. [Tarih]\n\nDavacı Vekili\nAv. [Ad Soyad - İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "hesap-kiralama-savunma-dilekce",
+    "baslik": "Banka Hesabı Kiralama İddiasına Karşı Savunma Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Banka hesabını veya IBAN bilgisini üçüncü kişilere kullandırdığı iddiasıyla hakkında soruşturma yürütülen kişiler için örnek savunma dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Hakkımda banka hesabımı üçüncü kişilere kullandırdığım iddiasıyla soruşturma yürütülmektedir.\n\n2. Hesabım üzerinden gerçekleştirilen işlemlerin suç teşkil ettiğini bildiğime dair somut delil bulunmamaktadır.\n\n3. Suç işleme kastım bulunmamaktadır.\n\n4. Tüm hesap hareketlerinin detaylı incelenmesi halinde iddiaların gerçeği yansıtmadığı görülecektir.\n\nSONUÇ VE İSTEM: Hakkımda kovuşturmaya yer olmadığına karar verilmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+  },
+  {
+    "id": "papara-hesabi-savunma-dilekce",
+    "baslik": "Papara Hesabı Kullanımı Nedeniyle Savunma Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Papara hesabı üzerinden gerçekleştirilen işlemler nedeniyle ifade veren kişiler için örnek savunma dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Tarafıma ait elektronik para hesabı nedeniyle soruşturma yürütülmektedir.\n\n2. İşlemlerin yasa dışı faaliyetlerle bağlantılı olduğunu bilmem mümkün değildir.\n\n3. Hesabın suç amacıyla kullanıldığına ilişkin bilgim bulunmamaktadır.\n\nSONUÇ VE İSTEM: Lehime karar verilmesini talep ederim."
+  },
+  {
+    "id": "bahis-sorusturmasi-ifade-savunma",
+    "baslik": "Yasadışı Bahis Soruşturmasında İfade Savunma Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Yasadışı bahis soruşturması kapsamında ifade verecek kişiler için örnek savunma dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Dosyada adı geçen kişilerle yasa dışı bahis organizasyonu kapsamında herhangi bir bağlantım bulunmamaktadır.\n\n2. Hesap hareketleri tek başına suçun oluştuğunu göstermemektedir.\n\n3. Kast unsurunun oluşmadığı açıktır.\n\nSONUÇ VE İSTEM: Hakkımda takipsizlik kararı verilmesini talep ederim."
+  },
+  {
+    "id": "dolandiricilik-para-iadesi-sikayet",
+    "baslik": "Dolandırıcılık Nedeniyle Para İadesi ve Şikayet Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "İnternet üzerinden dolandırılan kişilerin savcılığa sunabileceği suç duyurusu dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Nitelikli dolandırıcılık nedeniyle suç duyurusu ve zarar tespiti talebidir.\n\nAÇIKLAMALAR:\n\n1. Şüpheli tarafından yanıltılarak para transferi gerçekleştirdim.\n\n2. Ürün/hizmet teslim edilmemiştir.\n\n3. Banka dekontları ve yazışmalar ektedir.\n\nSONUÇ VE İSTEM: Şüpheli hakkında soruşturma başlatılmasını talep ederim."
+  },
+  {
+    "id": "telegram-dolandiricilik-sikayet",
+    "baslik": "Telegram Dolandırıcılığı Suç Duyurusu Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Telegram uygulaması üzerinden gerçekleştirilen yatırım ve kazanç vaatli dolandırıcılıklara ilişkin suç duyurusu dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Telegram üzerinden gerçekleştirilen dolandırıcılık nedeniyle suç duyurusudur.\n\nAÇIKLAMALAR:\n\n1. Şüpheli Telegram uygulaması üzerinden benimle iletişime geçmiştir.\n\n2. Yüksek kazanç vaadiyle para göndermem sağlanmıştır.\n\n3. Sonrasında iletişim kesilmiş ve mağdur edilmiş bulunmaktayım.\n\nSONUÇ VE İSTEM: Şüphelilerin tespit edilerek cezalandırılmasını talep ederim."
+  },
+  {
+    "id": "instagram-sahte-hesap-sikayet",
+    "baslik": "Instagram Sahte Hesap Şikayet Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Adına sahte hesap açılan kişilerin kullanabileceği suç duyurusu dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Sahte sosyal medya hesabı nedeniyle suç duyurusudur.\n\nAÇIKLAMALAR:\n\n1. Adıma sahte sosyal medya hesabı açılmıştır.\n\n2. Bu hesap üzerinden kişilik haklarımı ihlal eden paylaşımlar yapılmaktadır.\n\n3. Ekran görüntüleri dosya ekindedir.\n\nSONUÇ VE İSTEM: Hesabı kullanan kişinin tespit edilmesini talep ederim."
+  },
+  {
+    "id": "whatsapp-hakaret-sikayet",
+    "baslik": "WhatsApp Üzerinden Hakaret Suçu Şikayet Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "WhatsApp mesajları yoluyla gerçekleştirilen hakaret eylemleri için suç duyurusu dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Hakaret suçu nedeniyle şikayetimizdir.\n\nAÇIKLAMALAR:\n\n1. Şüpheli WhatsApp mesajları ile şahsıma hakaret etmiştir.\n\n2. Yazışmalar ekran görüntüsü olarak saklanmıştır.\n\n3. Eylem TCK kapsamında suç oluşturmaktadır.\n\nSONUÇ VE İSTEM: Şüpheli hakkında işlem yapılmasını talep ederim."
+  },
+  {
+    "id": "masak-inceleme-savunma-dilekce",
+    "baslik": "MASAK İncelemesi Kapsamında Savunma Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "MASAK incelemesi veya şüpheli para transferleri nedeniyle ifade veren kişiler için örnek savunma dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasından ibarettir.\n\nAÇIKLAMALAR:\n\n1. Hakkımda gerçekleştirilen MASAK incelemesi kapsamında tarafıma yöneltilen iddiaları kabul etmiyorum.\n\n2. Hesap hareketlerimin tamamı yasal işlemlerden kaynaklanmaktadır.\n\n3. Suçtan elde edilmiş herhangi bir gelirin transferine bilerek iştirak etmiş değilim.\n\nSONUÇ VE İSTEM: Lehime değerlendirme yapılarak kovuşturmaya yer olmadığına karar verilmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+  },
+  {
+    "id": "kara-para-aklama-savunma-dilekce",
+    "baslik": "Suçtan Kaynaklanan Malvarlığı Değerlerini Aklama Suçunda Savunma Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Kara para aklama suçlamasıyla soruşturulan kişiler için örnek savunma dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Tarafıma isnat edilen suçlamaları kabul etmiyorum.\n\n2. Banka hesap hareketlerim ticari ve kişisel işlemlerden kaynaklanmaktadır.\n\n3. Herhangi bir suç gelirinin aklanmasına iştirak etmiş değilim.\n\nSONUÇ VE İSTEM: Hakkımda kovuşturmaya yer olmadığına karar verilmesini talep ederim."
+  },
+  {
+    "id": "hts-kaydi-talep-dilekce",
+    "baslik": "HTS Kayıtlarının Celbi Talep Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Ceza yargılamasında telefon görüşme ve baz kayıtlarının dosyaya getirtilmesi talebi.",
+    "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: HTS kayıtlarının celbi talebidir.\n\nAÇIKLAMALAR:\n\n1. Dosyanın aydınlatılması açısından HTS kayıtlarının incelenmesi gerekmektedir.\n\n2. Kayıtlar müvekkilin savunmasını doğrulayacak niteliktedir.\n\nSONUÇ VE İSTEM: İlgili operatörlerden HTS kayıtlarının getirtilmesini talep ederiz."
+  },
+  {
+    "id": "telefon-imaj-kaydi-talep",
+    "baslik": "Telefon İmajı ve Bilirkişi Raporu Talep Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "El konulan telefonun imaj kayıtları ve bilirkişi raporlarının dosyaya sunulması talebi.",
+    "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Bilirkişi raporu ve telefon inceleme kayıtlarının celbi talebidir.\n\nAÇIKLAMALAR:\n\n1. El konulan dijital materyallere ilişkin rapor henüz tarafımıza verilmemiştir.\n\n2. Savunma hakkının etkin kullanılması için raporların incelenmesi gerekmektedir.\n\nSONUÇ VE İSTEM: Raporların tarafımıza verilmesini talep ederiz."
+  },
+  {
+    "id": "banka-hesap-hareketleri-celbi",
+    "baslik": "Banka Hesap Hareketlerinin Celbi Talep Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Dosyada yer alan banka hesap hareketlerinin ilgili bankalardan getirtilmesi talebi.",
+    "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Banka kayıtlarının getirtilmesi talebidir.\n\nAÇIKLAMALAR:\n\n1. Dosyanın çözümü bakımından hesap hareketlerinin incelenmesi zorunludur.\n\n2. Mevcut kayıtlar eksiktir.\n\nSONUÇ VE İSTEM: İlgili bankalardan hesap hareketlerinin celbine karar verilmesini talep ederiz."
+  },
+  {
+    "id": "iban-kullandirma-savunma-dilekce",
+    "baslik": "IBAN Kullandırma Suçunda Savunma Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Banka hesabını veya IBAN bilgisini üçüncü kişilere kullandırdığı iddiasıyla hakkında soruşturma yürütülen kişiler için örnek savunma dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nŞÜPHELİ: [Ad Soyad] - [TC Kimlik No] - [Adres]\nKONU: Savunmalarımızın sunulmasından ibarettir.\n\nAÇIKLAMALAR:\n\n1. Tarafıma ait banka hesabının üçüncü kişiler tarafından kullanıldığı iddiasıyla hakkımda soruşturma yürütülmektedir.\n\n2. Hesabıma gelen paraların suçtan kaynaklandığını bilmem mümkün değildir. Herhangi bir suç örgütü veya yasa dışı faaliyet ile bağlantım bulunmamaktadır.\n\n3. Hesabımı kullandırmam karşılığında suç işleme kastım bulunmamaktadır. Olayın tüm yönleriyle araştırılması gerekmektedir.\n\n4. Dosyada yer alan deliller tarafımdan suç işlendiğini kesin olarak göstermemektedir.\n\nHUKUKİ SEBEPLER: TCK, CMK ve ilgili mevzuat.\n\nSONUÇ VE İSTEM: Hakkımda kovuşturmaya yer olmadığına karar verilmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır. Her dosya kendi özelliklerine göre değerlendirilmelidir."
+  },
+  {
+    "id": "yasadisi-bahis-hesap-kullandirma-savunma",
+    "baslik": "Yasadışı Bahis İçin Hesap Kullandırma Savunma Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Yasadışı bahis kapsamında banka hesabını kullandırdığı iddia edilen kişiler için örnek savunma dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Savunmalarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Hakkımda yasa dışı bahis faaliyetlerine aracılık ettiğim iddiasıyla soruşturma yürütülmektedir.\n\n2. Herhangi bir bahis organizasyonu içerisinde yer almadım.\n\n3. Hesabıma gelen transferlerin yasa dışı bahis faaliyetlerinden kaynaklandığını bilmiyordum.\n\n4. Suç işleme kastım bulunmadığından hakkımda beraat/kovuşturmaya yer olmadığı kararı verilmesi gerekmektedir.\n\nSONUÇ VE İSTEM: Lehime karar verilmesini saygılarımla talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+  },
+  {
+    "id": "kripto-dolandiricilik-suc-duyurusu",
+    "baslik": "Kripto Para Dolandırıcılığı Suç Duyurusu Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Sahte yatırım, borsa veya kripto para vaadiyle dolandırılan kişiler için suç duyurusu dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nŞİKAYETÇİ: [Ad Soyad]\nŞÜPHELİ: [Biliniyorsa]\n\nKONU: Kripto para dolandırıcılığı nedeniyle suç duyurusudur.\n\nAÇIKLAMALAR:\n\n1. Şüpheli tarafından yüksek kazanç vaadiyle tarafımdan kripto para yatırımı talep edilmiştir.\n\n2. Gönderdiğim tutarlar sonrasında iletişim kesilmiş ve mağdur edilmiş bulunmaktayım.\n\n3. Transfer kayıtları ve yazışmalar ekte sunulmaktadır.\n\nSONUÇ VE İSTEM: Şüpheliler hakkında soruşturma başlatılmasını talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+  },
+  {
+    "id": "instagram-hakaret-suc-duyurusu",
+    "baslik": "Instagram Üzerinden Hakaret Suçu Şikayet Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Instagram, Facebook, X veya diğer sosyal medya platformları üzerinden yapılan hakaretlere ilişkin suç duyurusu dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Hakaret suçu nedeniyle şikayetimizdir.\n\nAÇIKLAMALAR:\n\n1. Şüpheli sosyal medya hesabı üzerinden şahsıma yönelik hakaret içerikli paylaşımlarda bulunmuştur.\n\n2. Paylaşımların ekran görüntüleri dosya ekinde sunulmaktadır.\n\n3. Eylem TCK kapsamında hakaret suçunu oluşturmaktadır.\n\nSONUÇ VE İSTEM: Şüpheli hakkında gerekli işlemlerin yapılmasını talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+  },
+  {
+    "id": "nitelikli-dolandiricilik-sikayet",
+    "baslik": "Nitelikli Dolandırıcılık Suç Duyurusu Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "İnternet, telefon veya sahte ilan yoluyla dolandırılan kişiler için suç duyurusu dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Nitelikli dolandırıcılık suç duyurusudur.\n\nAÇIKLAMALAR:\n\n1. Şüpheli tarafından gerçeğe aykırı beyanlarla yanıltıldım.\n\n2. Bu nedenle maddi zarara uğradım.\n\n3. Dekontlar ve yazışmalar ekte sunulmaktadır.\n\nSONUÇ VE İSTEM: Şüphelinin cezalandırılması için soruşturma yürütülmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+  },
+  {
+    "id": "adli-kontrol-kaldirilmasi-dilekce",
+    "baslik": "Adli Kontrol Tedbirinin Kaldırılması Talep Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Yurt dışı çıkış yasağı, imza yükümlülüğü veya diğer adli kontrol tedbirlerinin kaldırılması talebi.",
+    "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Adli kontrol tedbirinin kaldırılması talebidir.\n\nAÇIKLAMALAR:\n\n1. Hakkımda uygulanan adli kontrol tedbiri uzun süredir devam etmektedir.\n\n2. Tedbirin devamını gerektiren şartlar ortadan kalkmıştır.\n\n3. Tüm yükümlülüklerime eksiksiz şekilde uydum.\n\nSONUÇ VE İSTEM: Adli kontrol tedbirinin kaldırılmasını talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+  },
+  {
+    "id": "hakaret-sucu-sikayet-dilekce",
+    "baslik": "Hakaret Suçu Şikayet Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Yüz yüze, telefonla veya internet ortamında gerçekleşen hakaret eylemleri için şikayet dilekçesi.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Hakaret suçu nedeniyle şikayetimizdir.\n\nAÇIKLAMALAR:\n\n1. Şüpheli tarafıma yönelik onur, şeref ve saygınlığımı zedeleyen ifadeler kullanmıştır.\n\n2. Olay tanıklar huzurunda gerçekleşmiştir.\n\n3. Deliller ekte sunulmaktadır.\n\nSONUÇ VE İSTEM: Şüpheli hakkında kamu davası açılmasını talep ederim."
+  },
+  {
+    "id": "uzlastirma-talep-dilekce",
+    "baslik": "Uzlaştırma Talep Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Uzlaştırma kapsamındaki suçlarda tarafların uzlaştırma sürecinden yararlanabilmesi amacıyla hazırlanabilecek dilekçe.",
+    "icerik": "... CUMHURİYET BAŞSAVCILIĞI'NA\n\nKONU: Uzlaştırma talebimizdir.\n\nAÇIKLAMALAR:\n\n1. Soruşturmaya konu suç uzlaştırma kapsamındadır.\n\n2. Taraflar arasında uzlaşma ihtimali bulunmaktadır.\n\nSONUÇ VE İSTEM: Dosyanın uzlaştırma bürosuna gönderilmesini talep ederim."
+  },
+  {
+    "id": "banka-hesabi-bloke-kaldirma",
+    "baslik": "Banka Hesabı Blokesinin Kaldırılması Talep Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Soruşturma kapsamında bloke edilen banka hesaplarına ilişkin bloke kaldırma talebi.",
+    "icerik": "... SULH CEZA HAKİMLİĞİ'NE\n\nKONU: Banka hesabı üzerindeki blokenin kaldırılması talebidir.\n\nAÇIKLAMALAR:\n\n1. Tarafıma ait banka hesabı soruşturma kapsamında bloke edilmiştir.\n\n2. Hesaptaki paranın suç gelirinden kaynaklandığına ilişkin kesin bir tespit bulunmamaktadır.\n\n3. Bloke nedeniyle temel yaşam faaliyetlerim olumsuz etkilenmektedir.\n\nSONUÇ VE İSTEM: Hesap üzerindeki blokenin kaldırılmasına karar verilmesini talep ederim."
+  },
+  {
+    "id": "arama-el-koyma-itiraz",
+    "baslik": "Arama ve El Koyma Kararına İtiraz Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Konut, iş yeri veya dijital materyaller hakkında verilen arama ve el koyma kararlarına karşı itiraz dilekçesi.",
+    "icerik": "... SULH CEZA HAKİMLİĞİ'NE\n\nKONU: Arama ve el koyma kararına itirazlarımızın sunulmasıdır.\n\nAÇIKLAMALAR:\n\n1. Karar hukuka aykırı şekilde uygulanmıştır.\n\n2. Ölçülülük ilkesine aykırılık bulunmaktadır.\n\n3. El konulan eşyaların soruşturmayla ilgisi bulunmamaktadır.\n\nSONUÇ VE İSTEM: Arama ve el koyma kararının kaldırılmasını talep ederim."
+  },
+  {
     "id": "kira-tespit-davasi-dilekce",
     "baslik": "Kira Tespit Davası Dilekçesi (5 Yıl Şartı)",
     "kategori": "Aile Hukuku",
@@ -327,76 +432,75 @@
     "kategori": "Ceza Hukuku",
     "aciklama": "Mahkeme kararına karşı istinaf veya itiraz yoluyla başvuru için kullanılan dilekçe taslağı.",
     "icerik": "... BÖLGE ADLİYE MAHKEMESİ'NE\nGÖNDERİLMEK ÜZERE\n... MAHKEMESİ HAKİMLİĞİ'NE\n\nİSTİNAF EDEN (DAVACI/SANIK): [Ad Soyad] - [TC Kimlik No] - [Adres]\nKARŞI TARAF: [Ad Soyad] - [Adres]\nKONU: ... Mahkemesi'nin ... tarih ve ... E., ... K. sayılı kararına karşı istinaf başvurusudur.\n\nAÇIKLAMALAR:\n\n1. ... Mahkemesi'nin yukarıda belirtilen kararı tarafımıza [tebliğ tarihi] tarihinde tebliğ edilmiştir. İşbu dilekçe yasal süre içinde sunulmaktadır.\n\n2. Mahkeme kararı aşağıdaki nedenlerle hatalıdır:\n\na) Maddi hata: [Açıklama]\nb) Hukuki hata: [Açıklama]\nc) Delil değerlendirmesindeki hata: [Açıklama]\n\n3. Sayın mahkemenin kararında [itiraz gerekçesi] hususu yeterince değerlendirilmemiştir.\n\nHUKUKİ SEBEPLER: HMK md. 341 vd. / CMK md. 272 vd.\n\nDELİLLER: Dava dosyası kapsamındaki tüm deliller, yeni deliller: [belirtiniz]\n\nSONUÇ VE İSTEM: Hatalı olan kararın KALDIRILMASINA ve yeniden yargılama yapılarak davanın [talep] şeklinde sonuçlandırılmasına karar verilmesini saygıyla talep ederiz.\n\nTarih: [Tarih]\nİstinaf Eden: [İmza]\n\n⚠️ Bu dilekçe örnek amaçlıdır. Davanızın özelliklerine göre mutlaka bir avukat tarafından düzenlenmelidir."
+  },
+  {
+    "id": "hagb-talep-dilekce",
+    "baslik": "Hükmün Açıklanmasının Geri Bırakılması (HAGB) Talep Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Sanık hakkında hükmün açıklanmasının geri bırakılması kararı verilmesi talebine ilişkin örnek dilekçe.",
+    "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nSANIK: [Ad Soyad]\nKONU: HAGB talebimizdir.\n\nAÇIKLAMALAR:\n1. Müvekkilim hakkında hükmedilecek cezanın niteliği ve sabıka durumu dikkate alındığında HAGB şartları oluşmuştur.\n2. Müvekkilin daha önce kasıtlı suçtan mahkumiyeti bulunmamaktadır.\n3. Yeniden suç işlemeyeceği yönünde olumlu kanaat oluşmuştur.\n\nHUKUKİ SEBEPLER: CMK m.231\n\nSONUÇ VE İSTEM: Müvekkil hakkında HAGB kararı verilmesini arz ederiz.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+  },
+  {
+    "id": "yakalama-karari-kaldirma-dilekce",
+    "baslik": "Yakalama Kararının Kaldırılması Talep Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Hakkında yakalama kararı bulunan kişinin kararın kaldırılması için sunabileceği örnek dilekçe.",
+    "icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Yakalama kararının kaldırılması talebidir.\n\nAÇIKLAMALAR:\n1. Hakkımda verilen yakalama kararı amacına ulaşmıştır.\n2. Adresim ve iletişim bilgilerim dosyaya sunulmuştur.\n3. Kaçma şüphesi bulunmamaktadır.\n\nSONUÇ VE İSTEM: Yakalama kararının kaldırılmasına karar verilmesini arz ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+  },
+  {
+    "id": "adli-para-cezasi-taksitlendirme-dilekce",
+    "baslik": "Adli Para Cezasının Taksitlendirilmesi Talep Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Kesinleşen adli para cezasının taksitlendirilmesi talebine ilişkin örnek dilekçe.",
+    "icerik": "... İNFAZ SAVCILIĞI'NA\n\nKONU: Adli para cezasının taksitlendirilmesi talebidir.\n\nAÇIKLAMALAR:\n1. Ekonomik durumum cezanın peşin ödenmesine elverişli değildir.\n2. Düzenli gelir durumum dikkate alınarak ödeme planı yapılmasını talep etmekteyim.\n\nSONUÇ VE İSTEM: Adli para cezasının taksitlendirilmesine karar verilmesini arz ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+  },
+  {
+    "id": "sabika-kaydi-silme-dilekce",
+    "baslik": "Adli Sicil ve Arşiv Kaydının Silinmesi Talep Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "Şartları oluşan adli sicil ve arşiv kayıtlarının silinmesi için kullanılabilecek örnek dilekçe.",
+    "icerik": "... ADLİ SİCİL VE İSTATİSTİK GENEL MÜDÜRLÜĞÜ'NE\n\nKONU: Adli sicil kaydının silinmesi talebidir.\n\nAÇIKLAMALAR:\n1. Kayda konu ceza infaz edilmiştir.\n2. Kanuni şartlar oluşmuştur.\n\nSONUÇ VE İSTEM: Adli sicil ve arşiv kayıtlarının silinmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+  },
+  {
+    "id": "telefon-inceleme-iadesi-dilekce",
+    "baslik": "Dijital İnceleme Sonrası Telefon İadesi Talep Dilekçesi",
+    "kategori": "Ceza Hukuku",
+    "aciklama": "İncelemesi tamamlanan dijital materyallerin iadesi talebine ilişkin dilekçe.",
+    "icerik": "... SULH CEZA HAKİMLİĞİ'NE\n\nKONU: Dijital materyalin iadesi talebidir.\n\nAÇIKLAMALAR:\n1. Telefona ilişkin inceleme tamamlanmıştır.\n2. Delil niteliği kalmamıştır.\n\nSONUÇ VE İSTEM: Telefonun iadesine karar verilmesini arz ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
+  },
+  {
+    "id": "maas-haczi-kaldirma-dilekce",
+    "baslik": "Maaş Haczinin Kaldırılması Talep Dilekçesi",
+    "kategori": "İcra Hukuku",
+    "aciklama": "Usulsüz veya sona eren maaş haczinin kaldırılması için kullanılabilecek örnek dilekçe.",
+    "icerik": "... İCRA HUKUK MAHKEMESİ'NE\n\nKONU: Maaş haczinin kaldırılması talebidir.\n\nAÇIKLAMALAR:\n1. Borç sona ermiştir / haciz usulsüzdür.\n2. Haczin devamı hukuka aykırıdır.\n\nSONUÇ VE İSTEM: Maaş haczinin kaldırılmasına karar verilmesini talep ederim."
+  },
+  {
+    "id": "haczedilmezlik-sikayeti-dilekce",
+    "baslik": "Haczedilmezlik Şikayeti Dilekçesi",
+    "kategori": "İcra Hukuku",
+    "aciklama": "Kanunen haczedilemeyen mal veya gelirler üzerindeki hacze karşı şikayet dilekçesi.",
+    "icerik": "... İCRA HUKUK MAHKEMESİ'NE\n\nKONU: Haczedilmezlik şikayetidir.\n\nAÇIKLAMALAR:\n1. Haczedilen mal kanunen haczedilemez niteliktedir.\n2. Yapılan işlem hukuka aykırıdır.\n\nSONUÇ VE İSTEM: Haczin kaldırılmasını talep ederim."
+  },
+  {
+    "id": "nafaka-artirim-dilekce",
+    "baslik": "Nafaka Artırım Davası Dilekçesi",
+    "kategori": "Aile Hukuku",
+    "aciklama": "Enflasyon ve değişen ekonomik koşullar nedeniyle nafaka artırımı talebine ilişkin dava dilekçesi.",
+    "icerik": "... AİLE MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Nafaka artırımı talebidir.\n\nAÇIKLAMALAR:\n1. Mevcut nafaka ekonomik koşullar karşısında yetersiz kalmıştır.\n2. İhtiyaçlar önemli ölçüde artmıştır.\n\nSONUÇ VE İSTEM: Nafakanın hakkaniyete uygun şekilde artırılmasına karar verilmesini talep ederim."
+  },
+  {
+    "id": "kisisel-iliski-kurulmasi-dilekce",
+    "baslik": "Çocukla Kişisel İlişki Kurulması Talep Dilekçesi",
+    "kategori": "Aile Hukuku",
+    "aciklama": "Çocukla düzenli görüşme hakkının tesis edilmesi için kullanılabilecek örnek dilekçe.",
+    "icerik": "... AİLE MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Kişisel ilişki kurulması talebidir.\n\nAÇIKLAMALAR:\n1. Çocuğun üstün yararı gereği düzenli görüşme sağlanmalıdır.\n2. Mevcut durumda kişisel ilişki kurulması engellenmektedir.\n\nSONUÇ VE İSTEM: Uygun gün ve saatlerde kişisel ilişki kurulmasına karar verilmesini talep ederim."
+  },
+  {
+    "id": "menfi-tespit-davasi-dilekce",
+    "baslik": "Menfi Tespit Davası Dilekçesi",
+    "kategori": "İcra Hukuku",
+    "aciklama": "Borçlu olunmadığının tespiti amacıyla açılan menfi tespit davası için örnek dilekçe.",
+    "icerik": "... ASLİYE HUKUK MAHKEMESİ'NE\n\nKONU: Menfi tespit talebidir.\n\nAÇIKLAMALAR:\n1. Davacı gerçekte borçlu değildir.\n2. Takibe konu alacak hukuken mevcut değildir.\n\nSONUÇ VE İSTEM: Borçlu olunmadığının tespitine karar verilmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
   }
-,
-{
-"id": "hagb-talep-dilekce",
-"baslik": "Hükmün Açıklanmasının Geri Bırakılması (HAGB) Talep Dilekçesi",
-"kategori": "Ceza Hukuku",
-"aciklama": "Sanık hakkında hükmün açıklanmasının geri bırakılması kararı verilmesi talebine ilişkin örnek dilekçe.",
-"icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nSANIK: [Ad Soyad]\nKONU: HAGB talebimizdir.\n\nAÇIKLAMALAR:\n1. Müvekkilim hakkında hükmedilecek cezanın niteliği ve sabıka durumu dikkate alındığında HAGB şartları oluşmuştur.\n2. Müvekkilin daha önce kasıtlı suçtan mahkumiyeti bulunmamaktadır.\n3. Yeniden suç işlemeyeceği yönünde olumlu kanaat oluşmuştur.\n\nHUKUKİ SEBEPLER: CMK m.231\n\nSONUÇ VE İSTEM: Müvekkil hakkında HAGB kararı verilmesini arz ederiz.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
-},
-{
-"id": "yakalama-karari-kaldirma-dilekce",
-"baslik": "Yakalama Kararının Kaldırılması Talep Dilekçesi",
-"kategori": "Ceza Hukuku",
-"aciklama": "Hakkında yakalama kararı bulunan kişinin kararın kaldırılması için sunabileceği örnek dilekçe.",
-"icerik": "... CEZA MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Yakalama kararının kaldırılması talebidir.\n\nAÇIKLAMALAR:\n1. Hakkımda verilen yakalama kararı amacına ulaşmıştır.\n2. Adresim ve iletişim bilgilerim dosyaya sunulmuştur.\n3. Kaçma şüphesi bulunmamaktadır.\n\nSONUÇ VE İSTEM: Yakalama kararının kaldırılmasına karar verilmesini arz ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
-},
-{
-"id": "adli-para-cezasi-taksitlendirme-dilekce",
-"baslik": "Adli Para Cezasının Taksitlendirilmesi Talep Dilekçesi",
-"kategori": "Ceza Hukuku",
-"aciklama": "Kesinleşen adli para cezasının taksitlendirilmesi talebine ilişkin örnek dilekçe.",
-"icerik": "... İNFAZ SAVCILIĞI'NA\n\nKONU: Adli para cezasının taksitlendirilmesi talebidir.\n\nAÇIKLAMALAR:\n1. Ekonomik durumum cezanın peşin ödenmesine elverişli değildir.\n2. Düzenli gelir durumum dikkate alınarak ödeme planı yapılmasını talep etmekteyim.\n\nSONUÇ VE İSTEM: Adli para cezasının taksitlendirilmesine karar verilmesini arz ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
-},
-{
-"id": "sabika-kaydi-silme-dilekce",
-"baslik": "Adli Sicil ve Arşiv Kaydının Silinmesi Talep Dilekçesi",
-"kategori": "Ceza Hukuku",
-"aciklama": "Şartları oluşan adli sicil ve arşiv kayıtlarının silinmesi için kullanılabilecek örnek dilekçe.",
-"icerik": "... ADLİ SİCİL VE İSTATİSTİK GENEL MÜDÜRLÜĞÜ'NE\n\nKONU: Adli sicil kaydının silinmesi talebidir.\n\nAÇIKLAMALAR:\n1. Kayda konu ceza infaz edilmiştir.\n2. Kanuni şartlar oluşmuştur.\n\nSONUÇ VE İSTEM: Adli sicil ve arşiv kayıtlarının silinmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
-},
-{
-"id": "telefon-inceleme-iadesi-dilekce",
-"baslik": "Dijital İnceleme Sonrası Telefon İadesi Talep Dilekçesi",
-"kategori": "Ceza Hukuku",
-"aciklama": "İncelemesi tamamlanan dijital materyallerin iadesi talebine ilişkin dilekçe.",
-"icerik": "... SULH CEZA HAKİMLİĞİ'NE\n\nKONU: Dijital materyalin iadesi talebidir.\n\nAÇIKLAMALAR:\n1. Telefona ilişkin inceleme tamamlanmıştır.\n2. Delil niteliği kalmamıştır.\n\nSONUÇ VE İSTEM: Telefonun iadesine karar verilmesini arz ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
-},
-{
-"id": "maas-haczi-kaldirma-dilekce",
-"baslik": "Maaş Haczinin Kaldırılması Talep Dilekçesi",
-"kategori": "İcra Hukuku",
-"aciklama": "Usulsüz veya sona eren maaş haczinin kaldırılması için kullanılabilecek örnek dilekçe.",
-"icerik": "... İCRA HUKUK MAHKEMESİ'NE\n\nKONU: Maaş haczinin kaldırılması talebidir.\n\nAÇIKLAMALAR:\n1. Borç sona ermiştir / haciz usulsüzdür.\n2. Haczin devamı hukuka aykırıdır.\n\nSONUÇ VE İSTEM: Maaş haczinin kaldırılmasına karar verilmesini talep ederim."
-},
-{
-"id": "haczedilmezlik-sikayeti-dilekce",
-"baslik": "Haczedilmezlik Şikayeti Dilekçesi",
-"kategori": "İcra Hukuku",
-"aciklama": "Kanunen haczedilemeyen mal veya gelirler üzerindeki hacze karşı şikayet dilekçesi.",
-"icerik": "... İCRA HUKUK MAHKEMESİ'NE\n\nKONU: Haczedilmezlik şikayetidir.\n\nAÇIKLAMALAR:\n1. Haczedilen mal kanunen haczedilemez niteliktedir.\n2. Yapılan işlem hukuka aykırıdır.\n\nSONUÇ VE İSTEM: Haczin kaldırılmasını talep ederim."
-},
-{
-"id": "nafaka-artirim-dilekce",
-"baslik": "Nafaka Artırım Davası Dilekçesi",
-"kategori": "Aile Hukuku",
-"aciklama": "Enflasyon ve değişen ekonomik koşullar nedeniyle nafaka artırımı talebine ilişkin dava dilekçesi.",
-"icerik": "... AİLE MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Nafaka artırımı talebidir.\n\nAÇIKLAMALAR:\n1. Mevcut nafaka ekonomik koşullar karşısında yetersiz kalmıştır.\n2. İhtiyaçlar önemli ölçüde artmıştır.\n\nSONUÇ VE İSTEM: Nafakanın hakkaniyete uygun şekilde artırılmasına karar verilmesini talep ederim."
-},
-{
-"id": "kisisel-iliski-kurulmasi-dilekce",
-"baslik": "Çocukla Kişisel İlişki Kurulması Talep Dilekçesi",
-"kategori": "Aile Hukuku",
-"aciklama": "Çocukla düzenli görüşme hakkının tesis edilmesi için kullanılabilecek örnek dilekçe.",
-"icerik": "... AİLE MAHKEMESİ HAKİMLİĞİ'NE\n\nKONU: Kişisel ilişki kurulması talebidir.\n\nAÇIKLAMALAR:\n1. Çocuğun üstün yararı gereği düzenli görüşme sağlanmalıdır.\n2. Mevcut durumda kişisel ilişki kurulması engellenmektedir.\n\nSONUÇ VE İSTEM: Uygun gün ve saatlerde kişisel ilişki kurulmasına karar verilmesini talep ederim."
-},
-{
-"id": "menfi-tespit-davasi-dilekce",
-"baslik": "Menfi Tespit Davası Dilekçesi",
-"kategori": "İcra Hukuku",
-"aciklama": "Borçlu olunmadığının tespiti amacıyla açılan menfi tespit davası için örnek dilekçe.",
-"icerik": "... ASLİYE HUKUK MAHKEMESİ'NE\n\nKONU: Menfi tespit talebidir.\n\nAÇIKLAMALAR:\n1. Davacı gerçekte borçlu değildir.\n2. Takibe konu alacak hukuken mevcut değildir.\n\nSONUÇ VE İSTEM: Borçlu olunmadığının tespitine karar verilmesini talep ederim.\n\n⚠️ Bu dilekçe örnek amaçlıdır."
-}
 ]
