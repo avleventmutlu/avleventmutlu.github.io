@@ -23,6 +23,7 @@
     { k: ['telefon', 'iletisim', 'numara', 'whatsapp', 'ulasmak', 'ulasabilir'], c: 'Bize ' + TEL + ' numaralı hattan veya WhatsApp üzerinden ulaşabilirsiniz.', ara: false, r: true },
     { k: ['ucret', 'fiyat', 'ne kadar tutar', 'maliyet', 'vekalet ucreti', 'kac para', 'avukat parasi'], c: 'Vekalet ücreti; dosyanın türüne, aşamasına ve iş yüküne göre belirlenir ve İstanbul Barosu tavsiye tarifesi ile Avukatlık Asgari Ücret Tarifesi dikkate alınır. Net bilgiyi dosyanızı dinledikten sonra verebiliriz.', ara: false, r: true },
     { k: ['randevu', 'gorusme', 'gorusmek', 'avukat lazim', 'avukat ariyorum', 'avukat tutmak'], c: 'Randevu için ' + TEL + ' numarasını arayabilir veya WhatsApp\'tan yazabilirsiniz. Görüşmeye varsa tebligat, iddianame, sözleşme gibi belgelerinizi getirmeniz faydalı olur.', ara: false, r: true },
+    { k: ['emsal', 'yargitay karari', 'yargitay kararlari', 'ictihat', 'emsal karar'], c: 'Önemli Yargıtay, Anayasa Mahkemesi ve AİHM kararlarının özetlerini Emsal Kararlar sayfamızda bulabilirsiniz. Konunuzu yazarsanız ilgili kararı da göstermeye çalışırım.', l: [{ t: 'Emsal Kararlar', u: '/emsal-kararlar.html' }], r: false },
     { k: ['hangi adliye', 'adliyesi nerede', 'hangi mahkeme', 'yetkili mahkeme'], c: 'Özetle: Beylikdüzü, Esenyurt ve Büyükçekmece dosyaları Büyükçekmece Adliyesi\'nde; bu ilçelerin ağır ceza dosyaları Bakırköy\'de görülür. Avcılar Küçükçekmece\'ye, Bakırköy ve Bahçelievler Bakırköy\'e, Şişli ve Bayrampaşa Çağlayan\'a, Kadıköy, Üsküdar ve Maltepe Kartal\'daki Anadolu Adliyesi\'ne bağlıdır.', l: [{ t: 'İstanbul bölge sayfalarımız', u: '/istanbul-avukat.html' }], ara: false, r: false },
 
     // ---------- YARGI PAKETİ ----------
@@ -137,12 +138,14 @@
     return Promise.all([
       fetch('/makaleler.json').then(function (r) { return r.json(); }).catch(function () { return []; }),
       fetch('/dilekceler.json').then(function (r) { return r.json(); }).catch(function () { return []; }),
-      fetch('/haberler.json').then(function (r) { return r.json(); }).catch(function () { return []; })
+      fetch('/haberler.json').then(function (r) { return r.json(); }).catch(function () { return []; }),
+      fetch('/emsal-kararlar.json').then(function (r) { return r.json(); }).catch(function () { return []; })
     ]).then(function (v) {
       ICERIK = [];
       v[0].forEach(function (x) { ICERIK.push({ t: x.baslik, u: '/makale/' + x.id + '.html', m: norm(x.baslik + ' ' + x.ozet + ' ' + x.kategori), tip: 'Makale' }); });
       v[1].forEach(function (x) { ICERIK.push({ t: x.baslik, u: '/dilekce.html#' + x.id, m: norm(x.baslik + ' ' + x.aciklama), tip: 'Dilekçe' }); });
       v[2].forEach(function (x) { ICERIK.push({ t: x.baslik, u: '/haber/' + x.id + '.html', m: norm(x.baslik + ' ' + x.ozet), tip: 'Haber' }); });
+      (v[3] || []).forEach(function (x) { ICERIK.push({ t: x.baslik, u: '/emsal/' + x.id + '.html', m: norm(x.baslik + ' ' + x.ozet + ' ' + x.kategori + ' ' + x.mahkeme), tip: 'Emsal Karar' }); });
       return ICERIK;
     });
   }
