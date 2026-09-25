@@ -173,6 +173,7 @@ padding-right: 1rem;
     <a href="makaleler.html" class="aktif" onclick="menuKapat()">Makaleler</a>
     <a href="dilekce.html" onclick="menuKapat()">Dilekçeler</a>
     <a href="haberler.html" onclick="menuKapat()">Haberler</a>
+    <a href="istanbul-avukat.html" onclick="menuKapat()">Bölgeler</a>
     <a href="index.html#iletisim" onclick="menuKapat()">İletişim</a>
   </div>
 
@@ -312,11 +313,14 @@ padding-right: 1rem;
     }
 
     var db = [
-      {k:["12 yargi","yargi paketi","af var mi","infaz indirimi","af cikacak mi"],c:"12. Yargi Paketi bir af duzzenlemesi degildir. Genel af, ehliyet affi veya infaz indirimi icermemektedir. Paket esas olarak dava surelerini kisaltmayi ve yargilama hizini artirmayi hedeflemektedir. Ilkbaharda komisyondan gecmesi beklenmektedir.",r:true},
+      {k:["158/4","hesap kullandirma indirim","iban indirim","ceza indirimi","yari oraninda"],c:"12. Yargı Paketi ile TCK 158'e eklenen 4. fıkraya göre, dolandırıcılığa katkısı yalnızca banka hesabı, kart veya kripto hesabı bilgisini vermekle sınırlı kalan kişinin cezası yarı oranında indirilir. Düzenleme lehe olduğu için devam eden ve kesinleşmiş dosyalara da uygulanabilir. Ancak öncelikli hedef, kastın ispatlanamadığı durumlarda beraattir.",r:true},
+      {k:["suresiz nafaka","nafaka kalkti","nafaka iptal","aym nafaka"],c:"Anayasa Mahkemesi, 4 Haziran 2026'da TMK 175'teki 'süresiz' ibaresini iptal etti. İptal, gerekçeli kararın Resmi Gazete'de yayımlanmasından 9 ay sonra yürürlüğe girecek. Mevcut nafakalar kendiliğinden kesilmez; kaldırma veya azaltma için dava açılması gerekir.",r:true},
+      {k:["belirsiz alacak","kismi dava"],c:"7589 sayılı Kanun ile belirsiz alacak davası (HMK 107) 31 Temmuz 2026 itibarıyla kaldırıldı. Yerine bir kez talep artırımına ve zamanaşımı güvencesine imkân veren yeni kısmi dava sistemi getirildi. Bu tarihten önce açılan davalar eski hükümlere tabidir.",r:true},
+      {k:["12 yargi","yargi paketi","af var mi","infaz indirimi","af cikacak mi","13 yargi","7589"],c:"12. Yargı Paketi (7589 sayılı Kanun) 31 Temmuz 2026 tarihinde Resmi Gazete'de yayımlanarak yürürlüğe girdi. Pakette genel af veya toplu infaz indirimi yoktur. IBAN/hesap kullandırmada yarı oranında ceza indirimi, belirsiz alacak davasının kaldırılması ve kanuni faizin yeniden düzenlenmesi gibi önemli değişiklikler getirildi. Nafaka ve infaz düzenlemelerini içermesi beklenen 13. Yargı Paketi ise henüz taslak aşamasındadır.",r:true},
       {k:["temyiz suresi","temyiz kac gun","temyiz basvuru","temyiz hak dusurucü"],c:"2026 itibariyle temyiz suresi, gerekceli kararin tebliginden itibaren 14 gundur. Bu sure hak dusurucudur, gecirirseniz karar kesinlesir. Teblig tarihini hemen avukatiniza bildirin.",r:true},
       {k:["banka hesabi kullandirdim","hesabima para geldi","iban dolandiricilik","hesap kullandirma","tck 158","nitelikli dolandiricilik"],c:"Hesabinizi baskasina kullandirdiniz ya da hesabiniza beklenmedik bir para geldi ve suclama ile karsilasdiyseniz: Yargitay'a gore IBAN sahibi olmak tek basina suc delili degildir. Kastinizin ve haksiz menfaat elde ettiginizin somut delille ispatlanmasi zorunludur. Hemen avukat desteği alin, ilk ifade cok kritiktir.",r:true},
       {k:["dolandirildim","dolandiricilik madurum","para kaptirdim","sahte ilan","sahte satis"],c:"Dolandiriciligin magduruysaniz: Hemen emniyet veya jandarma mudurluğune suc duyurusunda bulunun. Tum yazisma, ekran goruntusu ve odeme belgelerini saklayin. Banka hesabiniza gelen paranin bloke edilmesi icin bankanizi arayin. Suclama ile ilgili olarak 0545 959 48 45 numarayi arayabilirsiniz.",r:true},
-      {k:["kira artisi","kira zammi","ev sahibi zam","kira arttirdi"],c:"2026 Mart ayinda yasal kira artis tavanı yuzde 3,39 olarak belirlenmistir. Ev sahibiniz bu oranin ustunde zam yapamaz. Sozlesmede daha yuksek oran yazsa bile bu hukum kiracı aleyhinize uygulanamaz. Hukuki yardim icin buromuzla iletisime gecebilirsiniz.",r:true},
+      {k:["kira artisi","kira zammi","ev sahibi zam","kira arttirdi","kira artis"],c:"Eylül 2026 için yasal kira artış sınırı yüzde 31,79'dur (TÜFE 12 aylık ortalaması). Oran her ay TÜİK enflasyon verileriyle birlikte güncellenir. Ev sahibiniz yasal sınırın üstünde zam yapamaz; sözleşmede daha yüksek oran yazsa bile bu hüküm aşan kısım yönünden kiracıyı bağlamaz.",r:true},
       {k:["trafik cezasi","makas cezasi","hiz cezasi","kirmizi isik","ehliyet iptal"],c:"2026 yilinda trafik cezalari buyuk olcude artirildi. Kirmizi isik ihlali 6. ihlalde 80.000 TL, makas atmak 90.000 TL ceza ve 60 gun ehliyet el koymasina neden olmaktadir. Haksiz trafik cezasina tebligden itibaren 15 gun icinde Sulh Ceza Hakimligi'ne itiraz edilebilir.",r:true},
       {k:["istinaf","bam","bolge adliye"],c:"Istinaf, ilk derece mahkemesi kararlarinin Bolge Adliye Mahkemesinde yeniden incelenmesidir. Karara 2 hafta icinde itiraz edilebilir.",r:true},
       {k:["temyiz","yargitay","bozma"],c:"Temyiz, istinaf kararlarinin Yargitay tarafindan hukuki denetiminin yapilmasidir. Suresi karar tebliginden itibaren 2 haftadir.",r:true},
@@ -332,8 +336,11 @@ padding-right: 1rem;
       {k:["dilekce","dilekcesi"],c:"Sitemizde ornek dilekce taslaklari bulunmaktadir! Dilekce sayfamizi ziyaret edin.",r:true,link:"dilekce.html"}
     ];
 
-    function cevapBul(s) {
-      s = s.toLowerCase();
+    function normalize(s){
+      return s.toLocaleLowerCase('tr').replace(/ç/g,'c').replace(/ğ/g,'g').replace(/ı/g,'i').replace(/ö/g,'o').replace(/ş/g,'s').replace(/ü/g,'u').replace(/â/g,'a').replace(/î/g,'i').replace(/û/g,'u');
+    }
+    function cevapBul(s){
+      s=normalize(s);
       for (var i = 0; i < db.length; i++) {
         for (var j = 0; j < db[i].k.length; j++) {
           if (s.indexOf(db[i].k[j]) > -1) return db[i];
