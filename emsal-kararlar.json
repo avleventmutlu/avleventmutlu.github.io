@@ -14,7 +14,26 @@
     "alinti": "Sanığın diğer sanıkların eylemlerine iştirak ettiğine dair cezalandırılmasına yeterli kesin, inandırıcı delil bulunmadığı gözetilmeden",
     "onem": "Hesap kullandırma dosyalarında yalnızca IBAN sahibi olmak mahkûmiyet için yeterli değildir; kastın somut delillerle ispatı gerekir. 12. Yargı Paketi ile getirilen TCK 158/4 indirimi ancak kademeli bir savunmadır; öncelikli hedef bu karardaki gibi beraattir.",
     "kaynak": "https://emrahkaratay.av.tr/yargitay-karari-isiginda-banka-hesabini-kullandiran-sanigin-dolandiricilik-sucuna-iliskin-hukuki-durumu/",
-    "ilgili": [["m", "banka-hesabi-kullandirma-beraat-savunmasi", "Hesap kullandırmada beraat nasıl sağlanır?"], ["d", "iban-kullandirma-savunma-dilekce", "IBAN kullandırma savunma dilekçesi"], ["h", "iban-hesap-kullandirma-ceza-indirimi-tck-158-4", "TCK 158/4 ceza indirimi"]]
+    "ilgili": [
+      [
+        "m",
+        "banka-hesabi-kullandirma-beraat-savunmasi",
+        "Hesap kullandırmada beraat nasıl sağlanır?"
+      ],
+      [
+        "d",
+        "iban-kullandirma-savunma-dilekce",
+        "IBAN kullandırma savunma dilekçesi"
+      ],
+      [
+        "h",
+        "iban-hesap-kullandirma-ceza-indirimi-tck-158-4",
+        "TCK 158/4 ceza indirimi"
+      ]
+    ],
+    "etiket": [
+      "TCK 158"
+    ]
   },
   {
     "id": "yargitay-12cd-2014-7409-sahte-facebook-hesabi-ip",
@@ -31,7 +50,23 @@
     "alinti": "aradan geçen süre nedeniyle, hesap açarak fotoğraf yüklemesi yapan bilgisayara ait IP bilgileri ile bilgisayarda yapılacak incelemede suça ilişkin maddi bir delilin elde edilmesinin mümkün görülmemesi",
     "onem": "Sosyal medya kaynaklı suçlamalarda (sahte hesap, hakaret, özel hayatın ihlali) failin kimliği teknik delille ortaya konmalıdır. Mağdur tarafta iseniz IP ve kayıt taleplerinin gecikmeden yapılması hayati önemdedir, çünkü kayıtlar kısa sürede silinebilir.",
     "kaynak": "https://kazanci.com.tr/gunluk/12cd-2014-7409.htm",
-    "ilgili": [["m", "instagramdan-hakaret-eden-kisi-nasil-bulunur", "Instagram'dan hakaret eden kişi nasıl bulunur?"], ["d", "instagram-sahte-hesap-sikayet", "Sahte hesap şikâyet dilekçesi"], ["d", "tck-136-kisisel-veri-yayma-suc-duyurusu", "Kişisel veri yayma suç duyurusu"]]
+    "ilgili": [
+      [
+        "m",
+        "instagramdan-hakaret-eden-kisi-nasil-bulunur",
+        "Instagram'dan hakaret eden kişi nasıl bulunur?"
+      ],
+      [
+        "d",
+        "instagram-sahte-hesap-sikayet",
+        "Sahte hesap şikâyet dilekçesi"
+      ],
+      [
+        "d",
+        "tck-136-kisisel-veri-yayma-suc-duyurusu",
+        "Kişisel veri yayma suç duyurusu"
+      ]
+    ]
   },
   {
     "id": "yargitay-cgk-2019-8-155-iddianameye-baglilik-kredi-karti",
@@ -48,7 +83,26 @@
     "alinti": "davaya konu edilmeyen fiil veya olaydan dolayı yargılama yapılıp hüküm kurulmasının ise kanuna açıkça aykırılık oluşturacağı",
     "onem": "Kart ve bilişim dolandırıcılığı dosyalarında iddianamede hangi fiilin anlatıldığı savunmanın sınırlarını belirler. İddianame dışına çıkan mahkûmiyet hükümleri istinaf ve temyizde güçlü bir bozma sebebidir.",
     "kaynak": "https://kazanci.com.tr/gunluk/cgk-2019-8-155.htm",
-    "ilgili": [["m", "bilisim-sucu-internet-dolandiricilik-2026", "İnternet dolandırıcılığı ve kart kopyalama"], ["d", "ceza-istinaf-basvuru-dilekcesi", "Ceza istinaf dilekçesi"], ["d", "ceza-temyiz-dilekcesi", "Ceza temyiz dilekçesi"]]
+    "ilgili": [
+      [
+        "m",
+        "bilisim-sucu-internet-dolandiricilik-2026",
+        "İnternet dolandırıcılığı ve kart kopyalama"
+      ],
+      [
+        "d",
+        "ceza-istinaf-basvuru-dilekcesi",
+        "Ceza istinaf dilekçesi"
+      ],
+      [
+        "d",
+        "ceza-temyiz-dilekcesi",
+        "Ceza temyiz dilekçesi"
+      ]
+    ],
+    "etiket": [
+      "TCK 158"
+    ]
   },
   {
     "id": "yargitay-4cd-2019-5283-magdurun-ses-kaydi-hukuka-uygun",
@@ -65,7 +119,23 @@
     "alinti": "Kişinin kendisine karşı işlenmekte olan bir suçla ilgili olarak, bir daha kanıt elde etme olanağının bulunmadığı ve yetkili makamlara başvurma imkanının olmadığı ani gelişen durumlarda karşı tarafla yaptığı konuşmaları kayda alması halinin hukuka uygun olduğunun kabulü zorunludur.",
     "onem": "Tehdit, şantaj ve hakaret mağdurları için kritik bir karardır: kendinize yönelik suçu kayda almak, koşulları varsa delil olarak kullanılabilir. Ancak başkaları arasındaki konuşmaları gizlice kaydetmek bu kapsama girmez ve ayrı bir suç oluşturabilir.",
     "kaynak": "https://kazanci.com.tr/gunluk/4cd-2019-5283.htm",
-    "ilgili": [["m", "sosyal-medya-hakaret-tehdit-sucu", "Sosyal medyada hakaret ve tehdit"], ["m", "whatsapp-mesajlari-delil-olur-mu", "WhatsApp mesajları delil olur mu?"], ["d", "suc-duyurusu-dilekce", "Suç duyurusu dilekçesi"]]
+    "ilgili": [
+      [
+        "m",
+        "sosyal-medya-hakaret-tehdit-sucu",
+        "Sosyal medyada hakaret ve tehdit"
+      ],
+      [
+        "m",
+        "whatsapp-mesajlari-delil-olur-mu",
+        "WhatsApp mesajları delil olur mu?"
+      ],
+      [
+        "d",
+        "suc-duyurusu-dilekce",
+        "Suç duyurusu dilekçesi"
+      ]
+    ]
   },
   {
     "id": "yargitay-cgk-2018-7-433-rizaya-dayali-arama-yasak-delil",
@@ -82,7 +152,23 @@
     "alinti": "devletin kamu gücünü kullanan kolluk görevlilerinin karşısında direnme gücü bulunmayan sanığın ... gösterdiği rızanın hukuken geçerli olmadığının kabulü gerekmektedir",
     "onem": "Ev, iş yeri, araç ve telefon aramalarında usule uygun bir karar ya da emir yoksa, \"kendisi izin verdi\" savunması aramayı hukuka uygun hale getirmez. Hukuka aykırı aramayla elde edilen deliller hükme esas alınamaz (CMK 217/2).",
     "kaynak": "https://kazanci.com.tr/gunluk/cgk-2018-7-433.htm",
-    "ilgili": [["d", "arama-el-koyma-itiraz", "Arama ve el koyma kararına itiraz"], ["m", "telefonuma-el-konuldu-nasil-geri-alabilirim-rehber", "Telefonuma el konuldu"], ["m", "ifade-vermeden-once-bilinmesi-gerekenler-2026", "İfade vermeden önce bilinmesi gerekenler"]]
+    "ilgili": [
+      [
+        "d",
+        "arama-el-koyma-itiraz",
+        "Arama ve el koyma kararına itiraz"
+      ],
+      [
+        "m",
+        "telefonuma-el-konuldu-nasil-geri-alabilirim-rehber",
+        "Telefonuma el konuldu"
+      ],
+      [
+        "m",
+        "ifade-vermeden-once-bilinmesi-gerekenler-2026",
+        "İfade vermeden önce bilinmesi gerekenler"
+      ]
+    ]
   },
   {
     "id": "yargitay-cgk-2020-6-409-mudafi-mazereti-savunma-hakki",
@@ -99,7 +185,18 @@
     "alinti": "müdafi de savunmanın meşru bir aracıdır. Dolayısıyla söz konusu hüküm, müdafi aracılığı ile savunulmayı da anayasal güvence altına almaktadır.",
     "onem": "Savunma hakkı yalnızca sanığın kendini savunmasını değil, avukat aracılığıyla etkin biçimde savunulmasını da kapsar. Müdafi yokluğunda kurulan hükümler istinaf ve temyizde bozma sebebi olarak ileri sürülebilir.",
     "kaynak": "https://kazanci.com.tr/gunluk/cgk-2020-6-409.htm",
-    "ilgili": [["d", "ceza-temyiz-dilekcesi", "Ceza temyiz dilekçesi"], ["d", "esas-hakkinda-mutalaaya-karsi-savunma", "Esas hakkındaki mütalaaya karşı savunma"]]
+    "ilgili": [
+      [
+        "d",
+        "ceza-temyiz-dilekcesi",
+        "Ceza temyiz dilekçesi"
+      ],
+      [
+        "d",
+        "esas-hakkinda-mutalaaya-karsi-savunma",
+        "Esas hakkındaki mütalaaya karşı savunma"
+      ]
+    ]
   },
   {
     "id": "aihm-yalcinkaya-turkiye-15669-20-bylock",
@@ -116,7 +213,18 @@
     "alinti": "",
     "onem": "Karar, dijital bir uygulamanın kullanıldığına ilişkin tespitin tek başına kast ve örgütsel bağlantıyı ispatlamayacağını ortaya koyması bakımından bilişim delillerinin değerlendirilmesinde önemli bir ölçüttür. Kararın ulusal dosyalara etkisi yargılamanın yenilenmesi başvurularıyla gündemdedir.",
     "kaynak": "https://hudoc.echr.coe.int/?i=001-229312",
-    "ilgili": [["m", "bilisim-suclari-delil", "Bilişim suçlarında dijital delil"], ["d", "telefon-imaj-kaydi-talep", "Telefon imajı ve bilirkişi raporu talebi"]]
+    "ilgili": [
+      [
+        "m",
+        "bilisim-suclari-delil",
+        "Bilişim suçlarında dijital delil"
+      ],
+      [
+        "d",
+        "telefon-imaj-kaydi-talep",
+        "Telefon imajı ve bilirkişi raporu talebi"
+      ]
+    ]
   },
   {
     "id": "yargitay-4cd-2020-438-yalanci-sozu-hakaret-degil",
@@ -133,7 +241,23 @@
     "alinti": "açıkça, onur, şeref ve saygınlığı rencide edebilecek nitelikte somut bir fiil veya olgu isnadı",
     "onem": "Her kaba veya kırıcı söz hakaret suçu oluşturmaz. Özellikle sosyal medya ve WhatsApp kaynaklı şikâyetlerde, sözün ağır eleştiri mi yoksa hakaret mi olduğu dosyanın sonucunu belirler.",
     "kaynak": "https://kazanci.com.tr/gunluk/4cd-2020-438.htm",
-    "ilgili": [["m", "hakaret-sucu-sosyal-medya-2026", "Sosyal medyada hakaret suçu"], ["m", "hakaret-sucu-uzlasmaya-tabi-mi", "Hakaret uzlaşmaya tabi mi?"], ["d", "hakaret-sucu-sikayet-dilekce", "Hakaret şikâyet dilekçesi"]]
+    "ilgili": [
+      [
+        "m",
+        "hakaret-sucu-sosyal-medya-2026",
+        "Sosyal medyada hakaret suçu"
+      ],
+      [
+        "m",
+        "hakaret-sucu-uzlasmaya-tabi-mi",
+        "Hakaret uzlaşmaya tabi mi?"
+      ],
+      [
+        "d",
+        "hakaret-sucu-sikayet-dilekce",
+        "Hakaret şikâyet dilekçesi"
+      ]
+    ]
   },
   {
     "id": "aym-2025-156-suresiz-nafaka-iptal",
@@ -150,7 +274,23 @@
     "alinti": "",
     "onem": "Mevcut nafakalar kendiliğinden sona ermez; kaldırma veya azaltma için dava açılması gerekir. Gerekçeli karar ve bu karar üzerine yapılacak yasal düzenleme (13. Yargı Paketi kapsamında gündemde), açılacak davaların sonucunu doğrudan etkileyecektir.",
     "kaynak": "https://hukukdestegi.com/2026/06/08/anayasa-mahkemesinin-suresiz-nafaka-iptali-karari/",
-    "ilgili": [["h", "suresiz-nafaka-aym-iptal-son-durum-2026", "Süresiz nafaka iptali: son durum"], ["d", "yoksulluk-nafakasi-kaldirma-dilekce", "Nafaka kaldırma dilekçesi"], ["m", "nafaka-nasil-hesaplanir", "Nafaka nasıl hesaplanır?"]]
+    "ilgili": [
+      [
+        "h",
+        "suresiz-nafaka-aym-iptal-son-durum-2026",
+        "Süresiz nafaka iptali: son durum"
+      ],
+      [
+        "d",
+        "yoksulluk-nafakasi-kaldirma-dilekce",
+        "Nafaka kaldırma dilekçesi"
+      ],
+      [
+        "m",
+        "nafaka-nasil-hesaplanir",
+        "Nafaka nasıl hesaplanır?"
+      ]
+    ]
   },
   {
     "id": "yargitay-2hd-2021-4211-agir-kusurlu-es-nafaka",
@@ -167,7 +307,23 @@
     "alinti": "Ağır kusurlu eş yararına yoksulluk nafakasına hükmedilemez.",
     "onem": "Yoksulluk nafakasında belirleyici olan yalnızca ekonomik durum değil, tarafların kusur oranıdır. Boşanma davasında kusurun doğru ispatı, nafaka sonucunu doğrudan belirler.",
     "kaynak": "https://kazanci.com.tr/gunluk/2hd-2021-4211.htm",
-    "ilgili": [["m", "yoksulluk-nafakasi-emsal-yargitay-2026", "Yoksulluk nafakası hangi durumda ödenmez?"], ["m", "bosanmada-en-sik-yapilan-hatalar", "Boşanmada en sık yapılan hatalar"], ["d", "bosanma-dava-dilekce", "Boşanma dava dilekçesi"]]
+    "ilgili": [
+      [
+        "m",
+        "yoksulluk-nafakasi-emsal-yargitay-2026",
+        "Yoksulluk nafakası hangi durumda ödenmez?"
+      ],
+      [
+        "m",
+        "bosanmada-en-sik-yapilan-hatalar",
+        "Boşanmada en sık yapılan hatalar"
+      ],
+      [
+        "d",
+        "bosanma-dava-dilekce",
+        "Boşanma dava dilekçesi"
+      ]
+    ]
   },
   {
     "id": "yargitay-2hd-2017-5594-cocugun-dinlenmesi-uzman-raporu",
@@ -184,7 +340,23 @@
     "alinti": "Çocuğun üstün yararını belirlerken; onun bedensel, zihinsel, ruhsal, ahlaki ve toplumsal gelişiminin sağlanması amacının gözetilmesi gereklidir.",
     "onem": "Velayet ve kişisel ilişki davalarında çocuğun dinlenmesi ve sosyal inceleme raporu usulün temel parçasıdır. Bu adımlar atlanmışsa karar kanun yolunda bozulabilir.",
     "kaynak": "https://www.lexpera.com.tr/ictihat/yargitay/2-hukuk-dairesi-e-2017-5594-k-2017-13799-t-4-12-2017",
-    "ilgili": [["m", "velayet-degisikligi-nasil-yapilir-2026", "Velayet değişikliği davası"], ["d", "kisisel-iliski-kurulmasi-dilekce", "Kişisel ilişki kurulması dilekçesi"], ["d", "velayetin-degistirilmesi-dava-dilekcesi", "Velayet değişikliği dilekçesi"]]
+    "ilgili": [
+      [
+        "m",
+        "velayet-degisikligi-nasil-yapilir-2026",
+        "Velayet değişikliği davası"
+      ],
+      [
+        "d",
+        "kisisel-iliski-kurulmasi-dilekce",
+        "Kişisel ilişki kurulması dilekçesi"
+      ],
+      [
+        "d",
+        "velayetin-degistirilmesi-dava-dilekcesi",
+        "Velayet değişikliği dilekçesi"
+      ]
+    ]
   },
   {
     "id": "yargitay-hgk-2013-22-1771-ucret-odenmemesi-hakli-fesih",
@@ -201,7 +373,23 @@
     "alinti": "İşçinin ücretinin kanun veya sözleşme hükümlerine göre ödenmemesi işçiye bu imkanı verir.",
     "onem": "Maaşı ödenmeyen, eksik ödenen veya sigortası gerçek ücretten yatırılmayan işçi istifa etse bile kıdem tazminatını kaybetmez. Ancak fesih bildiriminin gerekçeli ve ispatlanabilir şekilde yapılması önemlidir.",
     "kaynak": "https://kazanci.com.tr/gunluk/hgk-2013-22-1771.htm",
-    "ilgili": [["m", "hakli-nedenle-fesih-isci-hakli-istifa-2026", "Haklı nedenle istifa ve kıdem"], ["m", "kidem-tazminati-hesaplama-2026", "Kıdem tazminatı hesaplama"], ["d", "kidem-tazminati-ihtarname", "Kıdem ve ihbar tazminatı ihtarnamesi"]]
+    "ilgili": [
+      [
+        "m",
+        "hakli-nedenle-fesih-isci-hakli-istifa-2026",
+        "Haklı nedenle istifa ve kıdem"
+      ],
+      [
+        "m",
+        "kidem-tazminati-hesaplama-2026",
+        "Kıdem tazminatı hesaplama"
+      ],
+      [
+        "d",
+        "kidem-tazminati-ihtarname",
+        "Kıdem ve ihbar tazminatı ihtarnamesi"
+      ]
+    ]
   },
   {
     "id": "yargitay-9hd-2016-18207-esasli-degisiklik-zimni-kabul-degil",
@@ -218,7 +406,18 @@
     "alinti": "işçinin değişiklik sonrasında 8 ay kadar çalışmaya devam etmesinin değişikliği zımni olarak kabul ettiği anlamına gelmediği",
     "onem": "İşveren ücret, servis, yemek, çalışma saati veya iş yeri gibi koşulları tek taraflı olarak aleyhe değiştiremez. İşçi yazılı olarak kabul etmediği sürece değişiklik bağlayıcı değildir ve haklı fesih sebebi oluşturabilir.",
     "kaynak": "https://www.kazanci.com.tr/gunluk/9hd-2016-18207.htm",
-    "ilgili": [["m", "hakli-nedenle-fesih-isci-hakli-istifa-2026", "Haklı nedenle istifa ve kıdem"], ["m", "mobbing-is-yerinde-psikolojik-baski", "İş yerinde mobbing"]]
+    "ilgili": [
+      [
+        "m",
+        "hakli-nedenle-fesih-isci-hakli-istifa-2026",
+        "Haklı nedenle istifa ve kıdem"
+      ],
+      [
+        "m",
+        "mobbing-is-yerinde-psikolojik-baski",
+        "İş yerinde mobbing"
+      ]
+    ]
   },
   {
     "id": "yargitay-hgk-2017-12-1147-haciz-isteme-suresi",
@@ -235,7 +434,18 @@
     "alinti": "Alacaklı yenileme talebinde bulunmaksızın doğrudan haciz isteyebilir.",
     "onem": "İcra takiplerinde sürelerin doğru hesaplanması hem alacaklı hem borçlu için kritiktir. Borçlu tarafta \"takip düştü\" itirazının hangi koşullarda başarılı olabileceği bu karar ışığında değerlendirilmelidir.",
     "kaynak": "https://kazanci.com.tr/gunluk/hgk-2017-12-1147.htm",
-    "ilgili": [["d", "ilamsiz-takibe-borca-itiraz-dilekcesi", "Borca itiraz dilekçesi"], ["d", "menfi-tespit-davasi-dilekce", "Menfi tespit dilekçesi"]]
+    "ilgili": [
+      [
+        "d",
+        "ilamsiz-takibe-borca-itiraz-dilekcesi",
+        "Borca itiraz dilekçesi"
+      ],
+      [
+        "d",
+        "menfi-tespit-davasi-dilekce",
+        "Menfi tespit dilekçesi"
+      ]
+    ]
   },
   {
     "id": "yargitay-hgk-2013-12-2065-vekalet-ucreti-haczedilemez",
@@ -252,6 +462,208 @@
     "alinti": "Dava sonunda, kararla tarifeye dayanılarak karşı tarafa yüklenecek vekalet ücreti avukata aittir. Bu ücret, iş sahibinin borcu sebebiyle takas ve mahsup edilemez, haczedilemez.",
     "onem": "Haczedilmezlik şikâyetlerinde hangi alacak ve malların kanunen korunduğunu bilmek önemlidir. Kanuna aykırı hacizlere karşı icra mahkemesine şikâyet yoluna başvurulabilir.",
     "kaynak": "https://kazanci.com.tr/gunluk/hgk-2013-12-2065.htm",
-    "ilgili": [["d", "haczedilmezlik-sikayeti-dilekce", "Haczedilmezlik şikâyeti dilekçesi"], ["d", "maas-haczi-kaldirma-dilekce", "Maaş haczi kaldırma dilekçesi"]]
+    "ilgili": [
+      [
+        "d",
+        "haczedilmezlik-sikayeti-dilekce",
+        "Haczedilmezlik şikâyeti dilekçesi"
+      ],
+      [
+        "d",
+        "maas-haczi-kaldirma-dilekce",
+        "Maaş haczi kaldırma dilekçesi"
+      ]
+    ]
+  },
+  {
+    "id": "yargitay-8cd-2024-24160-komisyon-karsiligi-hesap-kanun-yararina-bozma",
+    "baslik": "Komisyon Karşılığı Hesabını Kullandıran Öğrenci: Kast Kanıtlanamadı, Kanun Yararına Bozma",
+    "kategori": "Bilişim ve Dolandırıcılık",
+    "mahkeme": "Yargıtay 8. Ceza Dairesi",
+    "esas": "2024/24160",
+    "karar": "2025/3482",
+    "tarih": "30 Nisan 2025",
+    "iso": "2025-04-30",
+    "ozet": "Yurt dışındaki kişilerin talebiyle hesabına gelen parayı komisyon karşılığında ileri gönderen öğrencinin, suç kastıyla hareket ettiğine dair yeterli delil bulunmadığından beraat etmesi gerektiği belirtilerek kesinleşmiş mahkûmiyet kanun yararına bozuldu.",
+    "olay": "Bir öğrenci, internet üzerinden iletişime geçtiği ve yurt dışında bulunduklarını söyleyen kişilerin talebiyle, banka hesabına gelen parayı belirli bir komisyon karşılığında başka hesaplara göndermiştir. Hesaba gelen paranın dolandırıcılık mağdurlarına ait olduğu anlaşılmış ve öğrenci mahkûm edilmiştir. Hüküm kesinleştikten sonra kanun yararına bozma yoluna gidilmiştir.",
+    "sonuc": "Yargıtay, hükümlünün savunmasının aksine suç kastıyla hareket ettiğine dair mahkûmiyetine yeterli delil bulunmadığını, beraat kararı verilmesi gerekirken mahkûmiyet kurulmasının kanuna aykırı olduğunu belirterek kanun yararına bozma talebini yerinde gördü.",
+    "alinti": "Hükümlü hakkında, savunmasının aksine suç kastı ile hareket ettiğine dair mahkumiyetine yeterli delil bulunmadığından atılı suçtan beraatine karar verilmesi gerekirken, yazılı şekilde mahkumiyetine karar verilmesi, Kanun'a aykırı olup kanun yararına bozma talebi yerinde görülmüştür.",
+    "onem": "Hesaba gelen parayı ileri göndermek, hatta bunun için komisyon almak bile tek başına dolandırıcılık kastını ispatlamaz. Karar, kesinleşmiş mahkûmiyetlerde de kanun yararına bozma yoluyla sonuç alınabileceğini gösteriyor.",
+    "kaynak": "https://www.sonkarar.com/kararlar/yargitay-8-ceza-dairesi-2024-24160-esas-2025-3482-karari-e16ccd8f-bf89-55fa-9b8d-890c073865eb",
+    "ilgili": [
+      [
+        "m",
+        "banka-hesabi-kullandirma-beraat-savunmasi",
+        "Hesap kullandırmada beraat nasıl sağlanır?"
+      ],
+      [
+        "m",
+        "hesabima-dolandiricilik-parasi-geldi-ne-yapmaliyim",
+        "Hesabıma dolandırıcılık parası geldi"
+      ],
+      [
+        "d",
+        "tck-158-4-lehe-kanun-uyarlama-dilekce",
+        "TCK 158/4 lehe kanun uyarlama talebi"
+      ]
+    ],
+    "etiket": [
+      "TCK 158"
+    ]
+  },
+  {
+    "id": "yargitay-15cd-2013-14846-facebook-hesabi-ele-gecirip-para-isteme",
+    "baslik": "Ele Geçirilen Sosyal Medya Hesabından Arkadaşlardan Para İstemek Nitelikli Dolandırıcılıktır",
+    "kategori": "Bilişim ve Dolandırıcılık",
+    "mahkeme": "Yargıtay 15. Ceza Dairesi",
+    "esas": "2013/14846",
+    "karar": "2013/12178",
+    "tarih": "1 Temmuz 2013",
+    "iso": "2013-07-01",
+    "ozet": "Başkasının Facebook hesabını ele geçirip hesap sahibi gibi davranarak arkadaşından para isteyen ve parayı ATM'den çeken sanık hakkında bilişim sistemlerinin araç olarak kullanılması suretiyle nitelikli dolandırıcılıktan kurulan mahkûmiyet onandı.",
+    "olay": "Sanık, mağdurun arkadaşının Facebook hesabını ele geçirmiş, hesap sahibiymiş gibi yazışarak mağdurdan 450 TL istemiştir. Mağdur parayı internet bankacılığıyla sanığın verdiği GSM numarasına göndermiş, para birkaç dakika içinde başka bir ildeki ATM'den çekilmiştir.",
+    "sonuc": "Yargıtay, dolandırıcılık suçunun unsurlarını açıklayarak, kandırmaya elverişli hileli davranışlarla mağdurun hataya düşürülüp zarara uğratıldığını ve eylemin nitelikli dolandırıcılık olarak kabulünde isabetsizlik bulunmadığını belirtti.",
+    "alinti": "Dolandırıcılık suçunun oluşabilmesi için; failin bir kimseyi, kandırabilecek nitelikte hileli davranışlarla hataya düşürüp, onun veya başkasının zararına, kendisine veya başkasına yarar sağlaması gerekmektedir.",
+    "onem": "\"Hesabım çalındı, acil para lazım\" türü dolandırıcılıklar TCK 158/1-f kapsamında nitelikli dolandırıcılıktır ve cezası basit dolandırıcılığa göre çok daha ağırdır. Mağdurlar için hesabı ele geçirme (TCK 243) ile dolandırıcılık birlikte şikâyet konusu yapılmalıdır.",
+    "kaynak": "https://kazanci.com.tr/gunluk/15cd-2013-14846.t.htm",
+    "ilgili": [
+      [
+        "d",
+        "hesap-ele-gecirilmesi-suc-duyurusu",
+        "Hesabın ele geçirilmesi suç duyurusu"
+      ],
+      [
+        "m",
+        "bilisim-sucu-internet-dolandiricilik-2026",
+        "İnternet dolandırıcılığı rehberi"
+      ],
+      [
+        "m",
+        "nitelikli-dolandiricilik-sucu-ve-cezasi",
+        "Nitelikli dolandırıcılık suçu ve cezası"
+      ]
+    ],
+    "etiket": [
+      "TCK 158"
+    ]
+  },
+  {
+    "id": "yargitay-11cd-2015-671-olu-annenin-maasi-dolandiricilik-mi-245-mi",
+    "baslik": "Ölen Annenin Maaşını Bankamatik Kartıyla Çekmek Dolandırıcılık mı, Kart Suçu mu?",
+    "kategori": "Bilişim ve Dolandırıcılık",
+    "mahkeme": "Yargıtay 11. Ceza Dairesi",
+    "esas": "2015/671",
+    "karar": "2016/8894",
+    "tarih": "28 Aralık 2016",
+    "iso": "2016-12-28",
+    "ozet": "Annesinin ölümünü bildirmeyip ona bağlı aylığı almaya devam eden sanık hakkında, paranın nasıl çekildiği araştırılmadan dolandırıcılıktan hüküm kurulması bozuldu; para kartla çekilmişse eylemin TCK 245 kapsamında değerlendirilmesi gerekebileceği belirtildi.",
+    "olay": "Sanık, vefat eden annesinin ölümünü kuruma bildirmemiş ve anneye bağlanan aylık ödenmeye devam etmiştir. Yerel mahkeme eylemi dolandırıcılık olarak nitelendirmiş, ancak aylığın banka gişesinden mi yoksa annenin bankamatik kartıyla mı çekildiği araştırılmamıştır.",
+    "sonuc": "Yargıtay, dolandırıcılıkta hilenin gerçek bir kişiye yönelmesi ve onu hataya düşürmesi gerektiğini hatırlatarak, aylığın ölen anneye ait bankamatik kartıyla çekilmiş olması halinde eylemin banka veya kredi kartlarının kötüye kullanılması suçunu oluşturabileceğini, bu hususun araştırılması gerektiğini belirterek hükmü bozdu.",
+    "alinti": "Dolandırıcılık suçunda unsur olan hilenin, gerçek kişiye yönelmesi ve hataya düşürülerek mağdur veya bir başkasının mal varlığı aleyhine, sanık veya bir başkasının lehine bir işlemde bulunmaya yöneltilmesi",
+    "onem": "Makineye (ATM, internet bankacılığı) karşı işlenen eylemlerde hile bir insana yönelmediği için suç vasfı değişebilir. Doğru suç vasfı, ceza miktarını ve etkin pişmanlık gibi imkânları doğrudan etkiler.",
+    "kaynak": "https://kazanci.com.tr/gunluk/11cd-2015-671.htm",
+    "ilgili": [
+      [
+        "m",
+        "dolandiricilik-sucu-turkiye",
+        "Dolandırıcılık suçu rehberi"
+      ],
+      [
+        "d",
+        "ceza-istinaf-basvuru-dilekcesi",
+        "Ceza istinaf dilekçesi"
+      ]
+    ],
+    "etiket": [
+      "TCK 158"
+    ]
+  },
+  {
+    "id": "yargitay-15cd-2015-8748-adli-para-cezasi-haksiz-menfaatin-iki-kati",
+    "baslik": "Nitelikli Dolandırıcılıkta Adli Para Cezası Haksız Menfaatin İki Katından Az Olamaz",
+    "kategori": "Bilişim ve Dolandırıcılık",
+    "mahkeme": "Yargıtay 15. Ceza Dairesi",
+    "esas": "2015/8748",
+    "karar": "2018/5543",
+    "tarih": "13 Eylül 2018",
+    "iso": "2018-09-13",
+    "ozet": "Ölen kişinin kimliğini kullanarak yıllarca ölüm aylığı çeken sanıklar hakkında nitelikli dolandırıcılıktan mahkûmiyet kurulurken, adli para cezasının suçtan elde edilen haksız menfaatin iki katından az belirlenemeyeceği hatırlatıldı.",
+    "olay": "Sanıklar, aylık bağlanan kişinin ölümünü gizleyerek, ölenin nüfus cüzdanını kullanmak ve kendilerini yakını olarak tanıtmak suretiyle yıllarca bankadan aylık çekmiştir. Yerel mahkeme adli para cezasını düşük hesaplamıştır.",
+    "sonuc": "Yargıtay, TCK 158/1'in son cümlesi uyarınca nitelikli dolandırıcılıkta adli para cezasının suçtan elde edilen haksız menfaatin iki katından az olamayacağını, cezanın bu kurala aykırı belirlendiğini belirterek hükmü bozdu.",
+    "alinti": "adli para cezasının tayininde tespit olunacak temel gün, suçtan elde olunan haksız menfaatin iki katından az olmayacak",
+    "onem": "Nitelikli dolandırıcılıkta hapis cezasının yanında adli para cezası da çok yüksek tutarlara ulaşabilir. Zararın erken giderilmesi (TCK 168 etkin pişmanlık) bu nedenle hem hapis hem para cezası bakımından önemlidir.",
+    "kaynak": "https://kazanci.com.tr/gunluk/2015-8748.htm",
+    "ilgili": [
+      [
+        "m",
+        "nitelikli-dolandiricilik-sucu-ve-cezasi",
+        "Nitelikli dolandırıcılık suçu ve cezası"
+      ],
+      [
+        "d",
+        "adli-para-cezasi-taksitlendirme-dilekce",
+        "Adli para cezası taksitlendirme dilekçesi"
+      ]
+    ],
+    "etiket": [
+      "TCK 158"
+    ]
+  },
+  {
+    "id": "yargitay-11cd-2009-17340-sirket-calisani-158-1-h-uygulanmaz",
+    "baslik": "Şirket Yöneticisi Olmayan Çalışana TCK 158/1-h Nitelikli Hali Uygulanamaz",
+    "kategori": "Bilişim ve Dolandırıcılık",
+    "mahkeme": "Yargıtay 11. Ceza Dairesi",
+    "esas": "2009/17340",
+    "karar": "2010/4311",
+    "tarih": "9 Nisan 2010",
+    "iso": "2010-04-09",
+    "ozet": "Bir pazarlama şirketinde çalışan ve şirket adını kullanarak dolandırıcılık yaptığı iddia edilen sanık, şirket yöneticisi veya şirket adına hareket eden kişi olmadığından TCK 158/1-h'deki nitelikli hal uygulanmadı.",
+    "olay": "Pazarlama firmasında çalışan sanık, müşteriye çekilişte saat kazandığını söyleyerek ürün satmış ve dolandırıcılıkla suçlanmıştır. Sanığın şirkette yönetici ya da şirket adına hareket etmeye yetkili biri olmadığı anlaşılmıştır.",
+    "sonuc": "Yargıtay, TCK 158/1-h'deki nitelikli halin ancak tacir veya şirket yöneticisi ya da şirket adına hareket eden kişiler tarafından işlenmesi halinde uygulanabileceğini, şirkette çalışan kişinin şirket adını kullanmasının bu nitelikli hali oluşturmayacağını belirtti.",
+    "alinti": "Şirket yöneticisi olmayıp, şirkette çalışan kişilerin, şirket adını kullanarak dolandırıcılık suçunu işlemeleri halinde bu bentteki nitelikli halden söz edilemeyeceği",
+    "onem": "TCK 158'deki nitelikli hallerin her biri özel şartlara bağlıdır. İddianamede nitelikli dolandırıcılık denmesi yeterli değildir; hangi bendin hangi olguyla gerçekleştiği somut olarak gösterilmelidir. Doğru nitelendirme ceza miktarını ciddi biçimde değiştirir.",
+    "kaynak": "https://www.kazanci.com.tr/gunluk/11cd-2009-17340.htm",
+    "ilgili": [
+      [
+        "m",
+        "nitelikli-dolandiricilik-sucu-ve-cezasi",
+        "Nitelikli dolandırıcılık suçu ve cezası"
+      ],
+      [
+        "d",
+        "esas-hakkinda-mutalaaya-karsi-savunma",
+        "Esas hakkındaki mütalaaya karşı savunma"
+      ]
+    ],
+    "etiket": [
+      "TCK 158"
+    ]
+  },
+  {
+    "id": "yargitay-15cd-2015-6687-sahte-diploma-kamu-kurumu-araci",
+    "baslik": "Sahte Üniversite Diplomasıyla İşe Girmek: TCK 158/1-d Değerlendirmesi Ağır Ceza Mahkemesine Aittir",
+    "kategori": "Bilişim ve Dolandırıcılık",
+    "mahkeme": "Yargıtay 15. Ceza Dairesi",
+    "esas": "2015/6687",
+    "karar": "2017/20601",
+    "tarih": "17 Ekim 2017",
+    "iso": "2017-10-17",
+    "ozet": "İnternetten bulduğu bir üniversite diploması şablonunu kendi bilgileriyle doldurarak işe giren ve yıllarca maaş alan sanığın eyleminin kamu kurumlarının araç olarak kullanılması suretiyle dolandırıcılık oluşturup oluşturmadığını değerlendirme yetkisinin ağır ceza mahkemesine ait olduğu belirtildi.",
+    "olay": "Sanık, bir şirkete iş başvurusu yaparken internetten bulup kendi bilgileriyle doldurduğu sahte bir üniversite diploması sunmuş, işe alınmış ve yaklaşık dört yıl maaş almıştır. Asliye ceza mahkemesi dolandırıcılıktan hüküm kurmuştur.",
+    "sonuc": "Yargıtay, eylemin TCK 158/1-d'de düzenlenen kamu kurum ve kuruluşlarının araç olarak kullanılması suretiyle nitelikli dolandırıcılık suçunu oluşturup oluşturmayacağına ilişkin delilleri takdir yetkisinin üst dereceli ağır ceza mahkemesine ait olduğunu belirterek hükmü bozdu.",
+    "alinti": "",
+    "onem": "Nitelikli dolandırıcılık iddiası mahkemenin görevini de belirler. Görevsiz mahkemede verilen karar bozma sebebidir; bu nedenle suç vasfının ilk aşamada doğru tartışılması önemlidir.",
+    "kaynak": "https://www.kazanci.com.tr/gunluk/15cd-2015-6687.htm",
+    "ilgili": [
+      [
+        "m",
+        "nitelikli-dolandiricilik-sucu-ve-cezasi",
+        "Nitelikli dolandırıcılık suçu ve cezası"
+      ]
+    ],
+    "etiket": [
+      "TCK 158"
+    ]
   }
 ]
