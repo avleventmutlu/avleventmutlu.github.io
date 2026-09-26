@@ -7,25 +7,25 @@
   <!-- Ana Sayfalar -->
   <url>
     <loc>https://avleventmutlu.com.tr/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makaleler.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haberler.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/dilekce.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -35,85 +35,85 @@
   <!-- Lokal SEO Sayfaları (Bölgeler) -->
   <url>
     <loc>https://avleventmutlu.com.tr/istanbul-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/avrupa-yakasi-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/anadolu-yakasi-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/beylikduzu-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/buyukcekmece-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/esenyurt-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/avcilar-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/bakirkoy-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/bahcelievler-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/sisli-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/bayrampasa-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/kadikoy-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/uskudar-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/maltepe-avukat.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -121,487 +121,469 @@
   <!-- Makaleler -->
   <url>
     <loc>https://avleventmutlu.com.tr/makale/ise-iade-davasi-nedir.html</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/nafaka-nasil-hesaplanir.html</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/cekismeli-bosanma-davasi-ne-kadar-surer.html</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/telegram-yazismalari-delil-sayilir-mi.html</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/hakaret-sucu-uzlasmaya-tabi-mi.html</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/whatsapp-mesajlari-delil-olur-mu.html</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/hagb-sicile-isler-mi.html</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/hagb-nedir.html</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/banka-hesabina-bloke-konulursa-ne-yapilir.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/supheli-islem-bildirimi-sib-nedir.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/hesabima-dolandiricilik-parasi-geldi-ne-yapmaliyim.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/papara-hesabi-kullandirdim-ceza-alir-miyim.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/yasadisi-bahis-icin-hesap-kullandirmanin-cezasi-kapsamli-rehber.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/iban-kullandirdim-ceza-alir-miyim-kapsamli-rehber.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/nitelikli-dolandiricilik-sucu-ve-cezasi.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/instagramdan-hakaret-eden-kisi-nasil-bulunur.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/adli-kontrol-nedir-ve-nasil-kaldirilir.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/kripto-para-dolandiriciligina-ugradim-ne-yapmaliyim.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/telefonuma-el-konuldu-nasil-geri-alabilirim-rehber.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/masak-incelemesi-nedir-2026.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/yasadisi-bahis-icin-hesap-kullandirmanin-cezasi-2026.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/iban-kullandirdim-ceza-alir-miyim-2026-rehber.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://avleventmutlu.com.tr/makale/iban-kullandim-ceza-alir-miyim-2026.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/hesap-kiralama-sucu-ve-cezasi.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/papara-hesabimi-kullandirdim-ne-yapmaliyim.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://avleventmutlu.com.tr/makale/telefonuma-el-konuldu-nasil-geri-alabilirim.html</loc>
-    <lastmod>2026-06-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://avleventmutlu.com.tr/makale/masak-incelemesi-nedir.html</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/atlamali-temyiz-modeli-12-yargi-paketi-2026.html</loc>
-    <lastmod>2026-05-01</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/cocuk-suca-surukleme-yeni-cezalar-2026.html</loc>
-    <lastmod>2026-05-01</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/tutukluluga-alternatif-tedbirler-cmk-109-rehber-2026.html</loc>
-    <lastmod>2026-05-01</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/kira-tespit-davasi-5-yil-sarti-2026-rehber.html</loc>
-    <lastmod>2026-05-01</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/yoksulluk-nafakasi-emsal-yargitay-2026.html</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/12-yargi-paketi-iban-tck-145-rehber-2026.html</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/trafik-kazasi-tazminat-zamanasimi-2026.html</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/ihbar-tazminati-haklari-2026-rehber.html</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/ifade-vermeden-once-bilinmesi-gerekenler-2026.html</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/anlasmali-bosanma-protokolu-2026-rehberi.html</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/hakli-nedenle-fesih-isci-hakli-istifa-2026.html</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/saklipay-mirasta-tenkis-davasi-2026.html</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/gss-borcu-yapilandirma-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/ayipli-urun-tuketici-haklari-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/bilisim-sucu-internet-dolandiricilik-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/ev-kira-sozlesmesi-bilmeniz-gerekenler-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/tutukluluk-sartlari-itiraz-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/nafaka-odememek-hapis-cezasi-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/bosanmada-mal-paylasimi-2026.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/sgk-cikis-kodu-yanlis-yazildi-2026.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/arabuluculuk-zorunlu-davalar-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/cocuk-istismari-sikayet-sureci-2026.html</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/konkordato-iscinin-haklari-2026.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/bosanmada-aldatma-delil-2026.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/cekismeli-bosanma-arabuluculuk-2026.html</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/iban-maguru-tck-145-duzenlemesi-2026.html</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/trafik-cezasina-itiraz-2026.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/cocuk-nafakasi-arttirilmasi-2026.html</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/hakaret-sucu-sosyal-medya-2026.html</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/is-kazasi-haklari-isci-2026.html</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/suresiz-nafaka-kalkacak-mi-2026.html</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/isyeri-kapatma-isci-haklari-2026.html</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/velayet-degisikligi-nasil-yapilir-2026.html</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/trafik-kazasi-tazminat-nasil-alinir-2026.html</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/miras-tapu-iptali-davasi-2026.html</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/2026-af-cikacak-mi-12-yargi-paketi-gercekler.html</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/sirket-avukat-tutma-zorunlulugu-2026.html</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/bosanmada-en-sik-yapilan-hatalar.html</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/kidem-tazminati-hesaplama-2026.html</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/miras-reddi-nasil-yapilir-2026.html</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/banka-hesabi-kullandirma-beraat-savunmasi.html</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/sahte-savci-telefon-dolandiricilik.html</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/sosyal-medya-hakaret-tehdit-sucu.html</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/anlasmali-bosanma-dikkat-edilmesi-gerekenler.html</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/mobbing-is-yerinde-psikolojik-baski.html</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/tck-158-banka-hesabi-kullandirma.html</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/bilisim-suclari-delil.html</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/dolandiricilik-sucu-turkiye.html</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/vasiyetname-nasil-yapilir.html</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/trafik-kazasi-sigorta-odeme-yapmiyorsa.html</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/hirsizlik-sucu-ceza-savunma.html</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/sgk-bildirimsiz-calisma-haklari.html</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/kasten-yaralama-sucu-savunma.html</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/makale/bosanma-velayet.html</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -609,391 +591,391 @@
   <!-- Haberler -->
   <url>
     <loc>https://avleventmutlu.com.tr/haber/13-yargi-paketi-sosyal-medya-nafaka-2026.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/e-satis-segbis-31-ekim-2026.html</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/suresiz-nafaka-aym-iptal-son-durum-2026.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/eylul-2026-kira-artis-orani-3179.html</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/2026-2027-adli-yil-acildi.html</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/hukuk-davalarinda-durusma-arasi-uc-ay.html</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/genetik-veri-20-yil-hagb-istisna.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/kanuni-faiz-reeskont-yuzde-80.html</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/belirsiz-alacak-davasi-kaldirildi-kismi-dava.html</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/iban-hesap-kullandirma-ceza-indirimi-tck-158-4.html</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/12-yargi-paketi-yururlukte-7589.html</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/kidem-tazminati-tavani-temmuz-2026.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/icra-dosyalarinda-dijital-donusum-2026.html</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/sgk-kayit-disi-istihdam-denetimleri-2026.html</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/yargitaydan-bosanma-davalarinda-emsal-karar-2026.html</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/kiraci-ev-sahibi-uyusmazliklari-artiyor-2026.html</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/12-yargi-paketi-mayis-ilk-hafta-komisyon-2026.html</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/mayis-2026-kira-artisi-4-mayis-aciklanacak.html</loc>
-    <lastmod>2026-04-30</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/ticari-davalarda-arabuluculuk-12-yargi-paketi-2026.html</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/tutuklamada-yeni-donem-cmk-12-yargi-paketi-2026.html</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/12-yargi-paketi-mayis-meclis-2026.html</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/yargitay-yoksulluk-nafakasi-emsal-nisan-2026.html</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/mayis-2026-kira-artisi-tuik-aciklama.html</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/iban-tck-145-50-bin-magdur-2026.html</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/12-yargi-paketi-nisan-ortasi-2026-meclis.html</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/nisan-2026-kira-artisi-yuzde-32-82.html</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/iban-magdurlari-tck-145-duzenlemesi-2026.html</loc>
-    <lastmod>2026-04-15</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/2026-asgari-ucret-28075-isci-haklari.html</loc>
-    <lastmod>2026-04-14</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/gss-borc-yapilandirma-nisan-2026.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/ayipli-arac-tuketici-hakemi-2026.html</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/internet-banka-dolandirici-nisan-2026.html</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/kiralayan-tahliye-yollari-2026.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/prolift-iflas-isci-haklari-2026.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/whatsapp-bosanma-delil-2026.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/arabuluculuk-anlasma-icra-2026.html</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/trafik-cezalari-2026-artis.html</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/12-yargi-paketi-nisan-2026-meclis.html</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/beylikduzu-tapu-dolandiricilik-2026.html</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/beylikduzu-konut-kira-nisan-2026.html</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/sgk-eksik-gun-haklari-2026.html</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/asgari-ucret-isci-haklari-nisan-2026.html</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/nafaka-duzenleme-meclis-2026.html</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/miras-davasi-yasli-aldatma-2026.html</loc>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/sahte-kargo-dolandiricilik-2026.html</loc>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/sahte-avukat-dolandiricilik-2026.html</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/isci-maas-alacagi-iflas-2026.html</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/cocuk-nafakasi-odenmezse-2026.html</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/kentsel-donusum-hak-kaybi-2026.html</loc>
-    <lastmod>2026-04-03</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/12-yargi-paketi-son-dakika-mart-2026.html</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/beylikduzu-kira-artisi-mart-2026.html</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/dolandiricilik-yeni-yontem-qr-kod-2026.html</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/isveren-mobbing-dava-2026.html</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/12-yargi-paketi-2026.html</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/temyiz-suresi-2026-degisikligi.html</loc>
-    <lastmod>2026-03-21</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/yeni-trafik-cezalari-2026.html</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/mart-2026-kira-artis-orani.html</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/yargitay-kira-artisi-karari-2026.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/anayasa-mahkemesi-karar-mart-2026.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/yargi-harclari-2026-guncelleme.html</loc>
-    <lastmod>2026-03-15</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/sosyal-medya-ifade-ozgurlugu-ceza.html</loc>
-    <lastmod>2026-03-15</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/yargitay-uyeligine-8-isim.html</loc>
-    <lastmod>2026-03-14</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/ulusal-su-plani-hukuki-etkileri.html</loc>
-    <lastmod>2026-03-14</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/rusvet-irtikap-belediye-baskani-gozalti.html</loc>
-    <lastmod>2026-03-13</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/ilac-fiyatlandirma-cumhurbaskanligi-karari.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/2026-yargi-harcclari-anayasa-mahkemesi.html</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1001,202 +983,202 @@
   <!-- Emsal Kararlar -->
   <url>
     <loc>https://avleventmutlu.com.tr/emsal-kararlar.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-11cd-2021-16966-hesap-kullandirma-beraat.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-12cd-2014-7409-sahte-facebook-hesabi-ip.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-cgk-2019-8-155-iddianameye-baglilik-kredi-karti.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-4cd-2019-5283-magdurun-ses-kaydi-hukuka-uygun.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-cgk-2018-7-433-rizaya-dayali-arama-yasak-delil.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-cgk-2020-6-409-mudafi-mazereti-savunma-hakki.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/aihm-yalcinkaya-turkiye-15669-20-bylock.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-4cd-2020-438-yalanci-sozu-hakaret-degil.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/aym-2025-156-suresiz-nafaka-iptal.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-2hd-2021-4211-agir-kusurlu-es-nafaka.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-2hd-2017-5594-cocugun-dinlenmesi-uzman-raporu.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-hgk-2013-22-1771-ucret-odenmemesi-hakli-fesih.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-9hd-2016-18207-esasli-degisiklik-zimni-kabul-degil.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-hgk-2017-12-1147-haciz-isteme-suresi.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-hgk-2013-12-2065-vekalet-ucreti-haczedilemez.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-8cd-2024-24160-komisyon-karsiligi-hesap-kanun-yararina-bozma.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-15cd-2013-14846-facebook-hesabi-ele-gecirip-para-isteme.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-11cd-2015-671-olu-annenin-maasi-dolandiricilik-mi-245-mi.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-15cd-2015-8748-adli-para-cezasi-haksiz-menfaatin-iki-kati.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-11cd-2009-17340-sirket-calisani-158-1-h-uygulanmaz.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-15cd-2015-6687-sahte-diploma-kamu-kurumu-araci.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Hesaplama Araçları -->
   <url>
     <loc>https://avleventmutlu.com.tr/araclar.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/araclar/infaz-hesaplama.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/araclar/sure-hesaplama.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/araclar/kidem-ihbar-hesaplama.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/araclar/kira-artis-hesaplama.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/kvkk-aydinlatma-metni.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/7593-sayili-kanun-adli-surecteki-cocuk-2026.html</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://avleventmutlu.com.tr/makale/fon-magdurlari-ne-yapmali-tasfiye-sikayet-tazminat-2026.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/haber/fon-sorusturmasi-130-fon-tasfiye-yatirimci-haklari-2026.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-11hd-2023-5679-fon-eksik-bilgilendirme-banka-sorumlu.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-11hd-2016-1348-hedge-fon-zarar-kusur-dagilimi.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/yargitay-11hd-2020-5738-bankalar-agirlastirilmis-ozen-yukumlulugu.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
   </url>
   <url>
     <loc>https://avleventmutlu.com.tr/emsal/aym-2019-42188-sirkete-kayyim-el-koyma-mulkiyet-hakki.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
   </url>
 </urlset>
