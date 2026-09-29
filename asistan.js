@@ -290,3 +290,51 @@
   function kur() { arayuz(); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', kur); else kur();
 })();
+
+/* İletişim: hazır WhatsApp mesajı, mobil Ara/WhatsApp çubuğu, tıklama ölçümü (GA4) */
+(function () {
+  var TEL = 'tel:+905459594845', WA = 'https://wa.me/905459594845';
+  function konu() {
+    var h = document.querySelector('h1');
+    var t = (h ? h.textContent : document.title.split('|')[0]).replace(/\s+/g, ' ').trim();
+    return t.length > 90 ? t.slice(0, 87) + '…' : t;
+  }
+  function mesaj() {
+    var p = location.pathname;
+    if (/^\/(makale|haber|emsal)\//.test(p) || /(avukat|avukati|hukuki-destek)\.html$/.test(p)) {
+      return 'Merhaba, sitenizdeki "' + konu() + '" sayfasıyla ilgili görüşmek istiyorum.';
+    }
+    return 'Merhaba, randevu almak istiyorum.';
+  }
+  function waDuzelt() {
+    var m = encodeURIComponent(mesaj());
+    document.querySelectorAll('a[href*="wa.me/905459594845"]').forEach(function (a) {
+      if (a.href.indexOf('text=') < 0) a.href = WA + '?text=' + m;
+    });
+  }
+  function cubuk() {
+    if (document.getElementById('iletisim-cubuk')) return;
+    var st = document.createElement('style');
+    st.textContent = '#iletisim-cubuk{display:none}' +
+      '@media(max-width:768px){#iletisim-cubuk{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:997;box-shadow:0 -2px 12px rgba(0,0,0,.18);padding-bottom:env(safe-area-inset-bottom);background:#6B1A1A}' +
+      '#iletisim-cubuk a{flex:1;display:flex;align-items:center;justify-content:center;gap:.4rem;padding:.9rem .5rem;font-family:Montserrat,sans-serif;font-size:.85rem;font-weight:600;letter-spacing:.04em;text-decoration:none;color:#F5EFE0}' +
+      '#iletisim-cubuk a+a{background:#1E7A45}' +
+      'body{padding-bottom:58px}.whatsapp-btn{display:none!important}}';
+    document.head.appendChild(st);
+    var d = document.createElement('div');
+    d.id = 'iletisim-cubuk';
+    d.innerHTML = '<a href="' + TEL + '" data-konum="mobil_cubuk">📞 Ara</a><a href="' + WA + '" data-konum="mobil_cubuk" target="_blank" rel="noopener">💬 WhatsApp</a>';
+    document.body.appendChild(d);
+  }
+  function olc(e) {
+    var a = e.target.closest && e.target.closest('a[href^="tel:"], a[href*="wa.me/"]');
+    if (!a || typeof window.gtag !== 'function') return;
+    var yontem = a.href.indexOf('tel:') === 0 ? 'telefon' : 'whatsapp';
+    var konum = a.getAttribute('data-konum') || (a.classList.contains('whatsapp-btn') ? 'yuzen_buton' : (a.closest('.on-kutu') ? 'ust_kutu' : (a.closest('.iletisim-kutu') ? 'alt_kutu' : (a.closest('.chat-pencere') ? 'asistan' : 'sayfa_ici'))));
+    window.gtag('event', 'iletisim_tiklama', { yontem: yontem, konum: konum, sayfa: location.pathname });
+    window.gtag('event', 'generate_lead', { method: yontem });
+  }
+  function kur() { cubuk(); waDuzelt(); }
+  document.addEventListener('click', olc, true);
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', kur); else kur();
+})();
