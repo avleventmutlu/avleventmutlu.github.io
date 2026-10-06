@@ -139,7 +139,7 @@
   function icerikYukle() {
     if (ICERIK) return Promise.resolve(ICERIK);
     return Promise.all([
-      fetch('/makaleler.json').then(function (r) { return r.json(); }).catch(function () { return []; }),
+      fetch('/makale-ozet.json').then(function (r) { return r.json(); }).catch(function () { return []; }),
       fetch('/dilekceler.json').then(function (r) { return r.json(); }).catch(function () { return []; }),
       fetch('/haberler.json').then(function (r) { return r.json(); }).catch(function () { return []; }),
       fetch('/emsal-kararlar.json').then(function (r) { return r.json(); }).catch(function () { return []; })

@@ -444,7 +444,7 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
     <script>
       // eski makale.html?id= ve kök dizindeki eski makale adreslerini yeni yerlerine yönlendir
       (function(){var p=location.pathname.replace(/^\/+/,'');
-        if(/^[a-z0-9-]+\.html$/.test(p)&&p.indexOf('-')>0){fetch('/makaleler.json').then(function(r){return r.json();}).then(function(m){var id=p.replace('.html','');if(m.some(function(x){return x.id===id;}))location.replace('/makale/'+id+'.html');}).catch(function(){});}
+        if(/^[a-z0-9-]+\.html$/.test(p)&&p.indexOf('-')>0){fetch('/makale-ozet.json').then(function(r){return r.json();}).then(function(m){var id=p.replace('.html','');if(m.some(function(x){return x.id===id;}))location.replace('/makale/'+id+'.html');}).catch(function(){});}
       })();
     </script>
   </article>

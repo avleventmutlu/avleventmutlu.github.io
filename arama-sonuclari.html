@@ -297,9 +297,9 @@
 
       // Tüm verileri çek
       Promise.all([
-        fetch('makaleler.json?t=' + Date.now()).then(r => r.json()).catch(() => []),
-        fetch('haberler.json?t=' + Date.now()).then(r => r.json()).catch(() => []),
-        fetch('dilekce.json?t=' + Date.now()).then(r => r.json()).catch(() => [])
+        fetch('makaleler.json').then(r => r.json()).catch(() => []),
+        fetch('haberler.json').then(r => r.json()).catch(() => []),
+        fetch('dilekce.json').then(r => r.json()).catch(() => [])
       ]).then(function(sonuclar) {
         var makaleler = sonuclar[0];
         var haberler = sonuclar[1];

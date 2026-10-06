@@ -14,7 +14,7 @@
   <title>Av. Levent Mutlu Hukuk Bürosu | Beylikdüzü Avukat, İstanbul</title>
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png">
-  <meta name="description" content="Av. Levent Mutlu Hukuk Bürosu: Beylikdüzü merkezli avukatlık bürosu. Ceza ve bilişim suçları, boşanma, iş, icra ve miras davaları; güncel rehberler ve emsal kararlar.">
+  <meta name="description" content="Av. Levent Mutlu Hukuk Bürosu, Beylikdüzü: ceza ve bilişim suçları, boşanma, iş, icra ve miras davaları; güncel rehberler ve emsal kararlar.">
   <meta name="keywords" content="beylikdüzü avukat, beylikdüzü hukuk bürosu, avukat beylikdüzü, ceza avukatı beylikdüzü, boşanma avukatı beylikdüzü, iş hukuku avukatı beylikdüzü, miras avukatı istanbul, tazminat davası, av levent mutlu, infaz düzenlemesi 2026">
   <meta name="author" content="Av. Levent Mutlu">
   <meta name="robots" content="index, follow">
@@ -850,6 +850,38 @@
       color: #8a6a45;
       font-size: .9rem;
     }
+    /* ── ÖNE ÇIKAN REHBERLER (statik) ── */
+    #son-makaleler { background: var(--krem); }
+    #uzmanlik { background: var(--beyaz); }
+    #uzmanlik .uzmanlik-kart { background: var(--krem); }
+    .oc-kap { max-width: 900px; margin: 0 auto; }
+    .oc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 2.5rem; }
+    .oc-kart { display: flex; flex-direction: column; background: var(--beyaz); padding: 1.6rem 1.5rem 1.4rem; border-top: 3px solid var(--altin); text-decoration: none; color: var(--bordo-koyu); transition: transform .3s, box-shadow .3s; }
+    .oc-kart:hover { transform: translateY(-4px); box-shadow: 0 16px 32px rgba(107,26,26,.10); }
+    .oc-kat { font-size: .66rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--altin); }
+    .oc-baslik { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 600; line-height: 1.3; margin: .6rem 0 .7rem; color: var(--bordo-koyu); }
+    .oc-ozet { font-size: .83rem; font-weight: 300; line-height: 1.7; color: var(--metin-acik); margin: 0 0 1rem; flex: 1; }
+    .oc-devam { font-size: .75rem; font-weight: 600; letter-spacing: .06em; color: var(--bordo); }
+    .oc-alt { text-align: center; margin-top: 2.5rem; }
+    .oc-tumu { display: inline-block; padding: .9rem 2rem; border: 1px solid var(--bordo); color: var(--bordo); text-decoration: none; font-size: .75rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; transition: background .3s, color .3s; }
+    .oc-tumu:hover { background: var(--bordo); color: var(--krem); }
+    a.uzmanlik-kart { display: flex; flex-direction: column; text-decoration: none; }
+    a.uzmanlik-kart .kart-metin { flex: 1; }
+    .kart-ok { margin-top: 1.2rem; font-size: .72rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--bordo); }
+    a.uzmanlik-kart:hover .kart-ok { color: var(--altin); }
+    .bolge-blok { margin-top: 1.8rem; }
+    .bolge-blok strong { display: block; font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--bordo); margin-bottom: .8rem; }
+    .bolge-cipler { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .bolge-cipler a { padding: .45rem .85rem; background: var(--beyaz); border: 1px solid rgba(184,148,63,.45); color: var(--bordo-koyu); text-decoration: none; font-size: .8rem; transition: background .25s, color .25s; }
+    .bolge-cipler a:hover { background: var(--bordo); color: var(--krem); border-color: var(--bordo); }
+    @media (max-width: 960px) { .oc-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 768px) {
+      .oc-grid { grid-template-columns: 1fr; }
+      .oc-kart:nth-child(n+5) { display: none; }
+      .avatar-placeholder { max-width: 300px; margin: 0 auto; }
+      .uzmanlik-grid { grid-template-columns: 1fr; }
+    }
+    @media (min-width: 769px) and (max-width: 960px) { .uzmanlik-grid { grid-template-columns: repeat(2, 1fr); } }
     </style>
 
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": ["LegalService", "LocalBusiness"], "@id": "https://avleventmutlu.com.tr/#buro", "name": "Av. Levent Mutlu Hukuk Bürosu", "alternateName": ["Av. Levent Mutlu - Av. İsmet Mutlu Hukuk Bürosu", "Mutlu Hukuk Bürosu"], "description": "Beylikdüzü merkezli avukatlık bürosu. Ceza hukuku, bilişim suçları, aile, iş, icra, miras ve tazminat hukukunda avukatlık hizmeti; güncel rehberler, emsal kararlar, dilekçe örnekleri ve hesaplama araçları.", "url": "https://avleventmutlu.com.tr/", "telephone": "+905459594845", "inLanguage": "tr-TR", "image": "https://avleventmutlu.com.tr/foto.jpg", "logo": "https://avleventmutlu.com.tr/favicon.png", "address": {"@type": "PostalAddress", "addressLocality": "Beylikdüzü", "addressRegion": "İstanbul", "postalCode": "34520", "addressCountry": "TR"}, "geo": {"@type": "GeoCoordinates", "latitude": 41.003, "longitude": 28.643}, "openingHours": "Mo-Fr 11:00-18:00", "priceRange": "₺₺", "areaServed": [{"@type": "City", "name": "İstanbul"}, {"@type": "AdministrativeArea", "name": "Beylikdüzü, İstanbul"}, {"@type": "AdministrativeArea", "name": "Esenyurt, İstanbul"}, {"@type": "AdministrativeArea", "name": "Büyükçekmece, İstanbul"}, {"@type": "AdministrativeArea", "name": "Avcılar, İstanbul"}, {"@type": "AdministrativeArea", "name": "Bakırköy, İstanbul"}, {"@type": "AdministrativeArea", "name": "Bahçelievler, İstanbul"}, {"@type": "AdministrativeArea", "name": "Bayrampaşa, İstanbul"}, {"@type": "AdministrativeArea", "name": "Şişli, İstanbul"}, {"@type": "AdministrativeArea", "name": "Kadıköy, İstanbul"}, {"@type": "AdministrativeArea", "name": "Üsküdar, İstanbul"}, {"@type": "AdministrativeArea", "name": "Maltepe, İstanbul"}], "founder": {"@id": "https://avleventmutlu.com.tr/#avukat"}, "employee": {"@id": "https://avleventmutlu.com.tr/#avukat"}, "sameAs": ["https://www.tiktok.com/@avleventmutlu", "https://www.instagram.com/avleventmutlu/"], "knowsAbout": ["Ceza hukuku", "Bilişim suçları", "Nitelikli dolandırıcılık (TCK 158)", "Hesap kullandırma", "Ceza muhakemesi", "Aile hukuku", "Boşanma ve nafaka", "İş hukuku", "Kıdem ve ihbar tazminatı", "İcra hukuku", "Miras hukuku", "Tazminat hukuku", "Sermaye piyasası ve yatırım fonu uyuşmazlıkları"], "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Hukuki Hizmetler", "itemListElement": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ceza Hukuku"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Bilişim Suçları"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Aile Hukuku"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "İş Hukuku"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "İcra Hukuku"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Miras Hukuku"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tazminat Davaları"}}]}}</script>
@@ -970,58 +1002,71 @@
   </section>
 
   <!-- UZMANLIK -->
-   <section id="son-makaleler" style="padding:6rem 5%;background:#faf7f2;">
-  <div style="max-width:1100px;margin:auto;">
-    
-    <p style="color:#B8943F;letter-spacing:2px;text-transform:uppercase;font-size:.8rem;">
-      Hukuk Blogu
-    </p>
-
-    <h2 style="font-family:'Cormorant Garamond',serif;font-size:2.3rem;color:#4A1010;margin-bottom:3rem;">
-      Öne Çıkan Hukuk Rehberleri
-    </h2>
-
-    <div id="son-makaleler-listesi" style="display:grid;gap:1rem;">
-  </div>
-
+   <!--ONE-CIKAN-BAS-->
+  <section id="son-makaleler">
+    <div class="oc-kap">
+      <p class="section-eyebrow">Hukuk Rehberleri</p>
+      <h2 class="section-title">Güncel <em>rehberler</em></h2>
+      <div class="oc-grid">
+      <a href="/makale/dolandirildim-parami-nasil-geri-alirim.html" class="oc-kart"><span class="oc-kat">Ceza Hukuku</span><h3 class="oc-baslik">Dolandırıldım, Paramı Nasıl Geri Alırım? (2026 Rehberi)</h3><p class="oc-ozet">Dolandırıldınız mı? İlk 24 saatte yapılacaklar, bankaya itiraz, hesaba bloke, suç duyurusu, hesap sahibine karşı alacak davası ve zamanaşımı süreleri.</p><span class="oc-devam">Okuyun →</span></a>
+      <a href="/makale/sosyal-medya-hesabim-calindi-ne-yapmaliyim.html" class="oc-kart"><span class="oc-kat">Ceza Hukuku</span><h3 class="oc-baslik">Sosyal Medya Hesabım Çalındı: Ne Yapmalıyım? (2026)</h3><p class="oc-ozet">Instagram veya sosyal medya hesabınız çalındıysa: hesaba başkasının girdiğini anlama, hesabı geri alma, delil toplama, TCK 243-244 cezaları ve suç…</p><span class="oc-devam">Okuyun →</span></a>
+      <a href="/makale/emekli-maasina-haciz-konulur-mu.html" class="oc-kart"><span class="oc-kat">İcra Hukuku</span><h3 class="oc-baslik">Emekli Maaşına Haciz Konulur mu? Bloke ve Muvafakat (2026)</h3><p class="oc-ozet">Emekli maaşına haciz konulabilir mi? 5510 sayılı Kanun m.93, nafaka ve SGK borcu istisnası, banka blokesi, muvafakat şartı ve haczin kaldırılması.</p><span class="oc-devam">Okuyun →</span></a>
+      <a href="/makale/e-haciz-nedir-nasil-kaldirilir.html" class="oc-kart"><span class="oc-kat">İcra Hukuku</span><h3 class="oc-baslik">E-Haciz Nedir, Nasıl Kaldırılır? Banka Hesabı Haczi (2026)</h3><p class="oc-ozet">Banka hesabınıza e-haciz mi geldi? Vergi dairesi ve SGK e-haczi, ödeme emrine 15 günlük itiraz, maaş ve emekli aylığı koruması, tecil ve haczin…</p><span class="oc-devam">Okuyun →</span></a>
+      <a href="/makale/izinsiz-ses-kaydi-almak-suc-mu.html" class="oc-kart"><span class="oc-kat">Ceza Hukuku</span><h3 class="oc-baslik">İzinsiz Ses Kaydı Almak Suç mu? Delil Olur mu? (2026)</h3><p class="oc-ozet">Gizli ses kaydı almak suç mu? TCK 133 cezaları, konuşmaya katılan kişinin kaydı, ani gelişen olaylarda kayıt istisnası, boşanma ve iş davalarında…</p><span class="oc-devam">Okuyun →</span></a>
+      <a href="/makale/sgk-kidem-tazminati-yazisi-15-yil-3600-gun.html" class="oc-kart"><span class="oc-kat">İş Hukuku</span><h3 class="oc-baslik">SGK Kıdem Tazminatı Yazısı: 15 Yıl 3600 Gün Şartları (2026)</h3><p class="oc-ozet">15 yıl 3600 gün, 7000 gün veya 4600-5400 gün şartıyla SGK&#x27;dan kıdem tazminatına esas yazı alıp istifa ederek tazminat almak mümkün. Şartlar, başvuru…</p><span class="oc-devam">Okuyun →</span></a>
+      </div>
+      <div class="oc-alt"><a href="/makaleler.html" class="oc-tumu">Tüm rehberler →</a></div>
     </div>
-</section>
+  </section>
+<!--ONE-CIKAN-SON-->
   <section id="uzmanlik">
     <div class="uzmanlik-header reveal">
       <p class="section-eyebrow">Çalışma Alanları</p>
       <h2 class="section-title">Hangi alanlarda <em>yardımcı olabilirim?</em></h2>
     </div>
     <div class="uzmanlik-grid">
-      <div class="uzmanlik-kart reveal">
+      <a class="uzmanlik-kart reveal" href="/beylikduzu-ceza-avukati.html">
         <div class="kart-numara">01</div>
         <h3 class="kart-baslik">Ceza Hukuku</h3>
-        <p class="kart-alt">Bilişim Suçları</p>
-        <p class="kart-metin">Ceza davalarında güçlü savunma, soruşturma aşamasından temyize kadar kapsamlı hukuki temsil. Bilişim suçları ve siber hukuk konularında hukuki destek.</p>
-      </div>
-      <div class="uzmanlik-kart reveal">
+        <p class="kart-alt">Soruşturma · Kovuşturma · Kanun Yolları</p>
+        <p class="kart-metin">Gözaltı ve ifade aşamasından istinaf ve temyize kadar ceza dosyalarında müdafilik ve katılan vekilliği.</p>
+        <span class="kart-ok">İncele →</span>
+      </a>
+      <a class="uzmanlik-kart reveal" href="/tck-158-hukuki-destek.html">
         <div class="kart-numara">02</div>
+        <h3 class="kart-baslik">Bilişim ve Dolandırıcılık</h3>
+        <p class="kart-alt">TCK 158 · Hesap Kullandırma · MASAK</p>
+        <p class="kart-metin">IBAN ve hesap kullandırma soruşturmaları, nitelikli dolandırıcılık, bilişim suçları ve hesap blokeleri.</p>
+        <span class="kart-ok">İncele →</span>
+      </a>
+      <a class="uzmanlik-kart reveal" href="/beylikduzu-bosanma-avukati.html">
+        <div class="kart-numara">03</div>
         <h3 class="kart-baslik">Aile Hukuku</h3>
         <p class="kart-alt">Boşanma · Velayet · Nafaka</p>
-        <p class="kart-metin">Boşanma davaları, velayet anlaşmazlıkları ve nafaka süreçlerinde hassas ve çözüm odaklı hukuki destek.</p>
-      </div>
-      <div class="uzmanlik-kart reveal">
-        <div class="kart-numara">03</div>
-        <h3 class="kart-baslik">İş Hukuku</h3>
-        <p class="kart-alt">İşçi · İşveren · Sözleşme</p>
-        <p class="kart-metin">İşçi ve işveren uyuşmazlıkları, iş sözleşmeleri, kıdem ve ihbar tazminatı davalarında etkin hukuki temsil.</p>
-      </div>
-      <div class="uzmanlik-kart reveal">
+        <p class="kart-metin">Anlaşmalı ve çekişmeli boşanma, velayet, nafaka ve mal paylaşımı davalarında hukuki destek.</p>
+        <span class="kart-ok">İncele →</span>
+      </a>
+      <a class="uzmanlik-kart reveal" href="/beylikduzu-is-avukati.html">
         <div class="kart-numara">04</div>
-        <h3 class="kart-baslik">Miras Hukuku</h3>
-        <p class="kart-alt">Miras · Vasiyetname · Taksim</p>
-        <p class="kart-metin">Miras paylaşımı, vasiyetname düzenlenmesi ve iptali, mirasçılık belgesi alınması ile miras davalarında kapsamlı hukuki danışmanlık.</p>
-      </div>
-      <div class="uzmanlik-kart reveal">
+        <h3 class="kart-baslik">İş Hukuku</h3>
+        <p class="kart-alt">Kıdem · İhbar · İşe İade</p>
+        <p class="kart-metin">Kıdem ve ihbar tazminatı, işe iade, fazla mesai, SGK çıkış kodu ve iş kazası uyuşmazlıkları.</p>
+        <span class="kart-ok">İncele →</span>
+      </a>
+      <a class="uzmanlik-kart reveal" href="/arama-sonuclari.html?ara=miras">
         <div class="kart-numara">05</div>
+        <h3 class="kart-baslik">Miras Hukuku</h3>
+        <p class="kart-alt">Miras · Tenkis · Tapu İptali</p>
+        <p class="kart-metin">Mirasın reddi, saklı pay ve tenkis, muris muvazaası ve tapu iptali davaları.</p>
+        <span class="kart-ok">İncele →</span>
+      </a>
+      <a class="uzmanlik-kart reveal" href="/arama-sonuclari.html?ara=tazminat">
+        <div class="kart-numara">06</div>
         <h3 class="kart-baslik">Tazminat Davaları</h3>
-        <p class="kart-alt">Maddi · Manevi · Destekten Yoksun</p>
-        <p class="kart-metin">Trafik kazaları, iş kazaları ve haksız fiilden doğan maddi ve manevi tazminat davalarında haklarınızın etkin biçimde takibi.</p>
-      </div>
+        <p class="kart-alt">Trafik Kazası · Sigorta · Manevi</p>
+        <p class="kart-metin">Trafik ve iş kazalarından doğan maddi ve manevi tazminat, sigorta şirketine başvuru ve dava süreçleri.</p>
+        <span class="kart-ok">İncele →</span>
+      </a>
     </div>
   </section>
   <section id="seo-icerik" style="background:#F5EFE0;">
@@ -1062,8 +1107,8 @@
       alınması hak kayıplarının önlenmesi açısından büyük önem taşımaktadır.
     </p>
 
-    <p style="line-height:1.9;margin-top:1.5rem;"><strong>Hizmet bölgelerimiz:</strong> <a href="/beylikduzu-avukat.html" style="color:var(--bordo)">Beylikdüzü avukat</a> · <a href="/beylikduzu-bosanma-avukati.html" style="color:var(--bordo)">Beylikdüzü boşanma avukatı</a> · <a href="/beylikduzu-ceza-avukati.html" style="color:var(--bordo)">Beylikdüzü ceza avukatı</a> · <a href="/beylikduzu-is-avukati.html" style="color:var(--bordo)">Beylikdüzü iş avukatı</a> · <a href="/tck-158-hukuki-destek.html" style="color:var(--bordo)">TCK 158 hukuki destek</a> · <a href="/esenyurt-avukat.html" style="color:var(--bordo)">Esenyurt avukat</a> · <a href="/buyukcekmece-avukat.html" style="color:var(--bordo)">Büyükçekmece avukat</a> · <a href="/avcilar-avukat.html" style="color:var(--bordo)">Avcılar avukat</a> · <a href="/bakirkoy-avukat.html" style="color:var(--bordo)">Bakırköy avukat</a> · <a href="/bahcelievler-avukat.html" style="color:var(--bordo)">Bahçelievler avukat</a> · <a href="/bayrampasa-avukat.html" style="color:var(--bordo)">Bayrampaşa avukat</a> · <a href="/sisli-avukat.html" style="color:var(--bordo)">Şişli avukat</a> · <a href="/kadikoy-avukat.html" style="color:var(--bordo)">Kadıköy avukat</a> · <a href="/uskudar-avukat.html" style="color:var(--bordo)">Üsküdar avukat</a> · <a href="/maltepe-avukat.html" style="color:var(--bordo)">Maltepe avukat</a> · <a href="/avrupa-yakasi-avukat.html" style="color:var(--bordo)">Avrupa Yakası</a> · <a href="/anadolu-yakasi-avukat.html" style="color:var(--bordo)">Anadolu Yakası</a> · <a href="/istanbul-avukat.html" style="color:var(--bordo)">İstanbul avukat</a></p>
-    <p style="line-height:1.9;margin-top:1rem;"><strong>Çok okunan rehberler:</strong> <a href="/makale/papara-hesabi-kullandirdim-ceza-alir-miyim.html" style="color:var(--bordo)">Papara kullanmak suç mu?</a> · <a href="/makale/hesap-kiralama-sucu-ve-cezasi.html" style="color:var(--bordo)">Hesap kiralama cezası</a> · <a href="/makale/masak-incelemesi-nedir-2026.html" style="color:var(--bordo)">MASAK incelemesi</a> · <a href="/makale/2026-af-cikacak-mi-12-yargi-paketi-gercekler.html" style="color:var(--bordo)">Af çıkacak mı 2026?</a> · <a href="/makale/nafaka-odememek-hapis-cezasi-2026.html" style="color:var(--bordo)">Tazyik hapsi</a> · <a href="/makale/kasten-yaralama-sucu-savunma.html" style="color:var(--bordo)">Kavga cezası</a></p>
+    <div class="bolge-blok"><strong>Hizmet bölgelerimiz:</strong><div class="bolge-cipler"><a href="/beylikduzu-avukat.html">Beylikdüzü avukat</a><a href="/beylikduzu-bosanma-avukati.html">Beylikdüzü boşanma avukatı</a><a href="/beylikduzu-ceza-avukati.html">Beylikdüzü ceza avukatı</a><a href="/beylikduzu-is-avukati.html">Beylikdüzü iş avukatı</a><a href="/tck-158-hukuki-destek.html">TCK 158 hukuki destek</a><a href="/esenyurt-avukat.html">Esenyurt avukat</a><a href="/buyukcekmece-avukat.html">Büyükçekmece avukat</a><a href="/avcilar-avukat.html">Avcılar avukat</a><a href="/bakirkoy-avukat.html">Bakırköy avukat</a><a href="/bahcelievler-avukat.html">Bahçelievler avukat</a><a href="/bayrampasa-avukat.html">Bayrampaşa avukat</a><a href="/sisli-avukat.html">Şişli avukat</a><a href="/kadikoy-avukat.html">Kadıköy avukat</a><a href="/uskudar-avukat.html">Üsküdar avukat</a><a href="/maltepe-avukat.html">Maltepe avukat</a><a href="/avrupa-yakasi-avukat.html">Avrupa Yakası</a><a href="/anadolu-yakasi-avukat.html">Anadolu Yakası</a><a href="/istanbul-avukat.html">İstanbul avukat</a></div></div>
+    <div class="bolge-blok"><strong>Çok okunan rehberler:</strong><div class="bolge-cipler"><a href="/makale/papara-hesabi-kullandirdim-ceza-alir-miyim.html">Papara kullanmak suç mu?</a><a href="/makale/hesap-kiralama-sucu-ve-cezasi.html">Hesap kiralama cezası</a><a href="/makale/masak-incelemesi-nedir-2026.html">MASAK incelemesi</a><a href="/makale/2026-af-cikacak-mi-12-yargi-paketi-gercekler.html">Af çıkacak mı 2026?</a><a href="/makale/nafaka-odememek-hapis-cezasi-2026.html">Tazyik hapsi</a><a href="/makale/kasten-yaralama-sucu-savunma.html">Kavga cezası</a></div></div>
 
   </div>
 </section>
@@ -1222,36 +1267,11 @@
     function menuKapat() { document.getElementById('mobilMenu').classList.remove('acik'); }
   </script>
 
-  <!-- MAKALE ÖNİZLEMELER -->
-  <script>
-    async function onizlemeYukle() {
-      try {
-        var res = await fetch('makaleler.json?t=' + Date.now());
-        var makaleler = await res.json();
-        var liste = document.getElementById('onizlemeListesi');
-        makaleler.slice(0, 4).forEach(function(m, i) {
-          var a = document.createElement('a');
-          a.href = '/makale/' + m.id + '.html';
-          a.className = 'on-makale';
-          a.innerHTML = '<div class="on-makale-numara">0' + (i+1) + '</div>' +
-            '<div class="on-makale-icerik">' +
-              '<span class="on-makale-kategori">' + m.kategori + '</span>' +
-              '<div class="on-makale-baslik">' + m.baslik + '</div>' +
-              '<div class="on-makale-ozet">' + m.ozet + '</div>' +
-            '</div>' +
-            '<div class="on-makale-ok">→</div>';
-          liste.appendChild(a);
-        });
-      } catch(e) {}
-    }
-    onizlemeYukle();
-  </script>
-
   <!-- TICKER -->
   <script>
     async function tickerYukle() {
       try {
-        var res = await fetch('makaleler.json?t=' + Date.now());
+        var res = await fetch('/makale-ozet.json');
         var makaleler = await res.json();
         var ic = document.getElementById('makaleTickerIc');
         if (!ic) return;
@@ -1406,31 +1426,6 @@
       },900);
     }
   </script>
-  <script>
-fetch('makaleler.json')
-  .then(response => response.json())
-  .then(data => {
-
-    const liste = document.getElementById('son-makaleler-listesi');
-
-    if (!liste) return;
-
-    const sonMakaleler = data.slice(0,5);
-
-    sonMakaleler.forEach(m => {
-
-      liste.innerHTML += `
-        <a href="/makale/${m.id}.html" class="son-makale-kart">
-          <h3 class="son-makale-baslik">${m.baslik}</h3>
-          <div class="son-makale-alt">${m.kategori} • Güncel Makale</div>
-        </a>
-      `;
-
-    });
-
-  })
-  .catch(error => console.error('Makaleler yüklenemedi:', error));
-</script>
   <script src="/asistan.js" defer></script>
 </body>
 </html>
