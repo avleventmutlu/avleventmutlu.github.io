@@ -15,7 +15,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ceza Hukuku, MASAK ve IBAN Soruşturmaları | Av. Levent Mutlu</title>
-  <meta name="description" content="Ceza hukuku, MASAK incelemeleri, IBAN kullandırma soruşturmaları, yasa dışı bahis dosyaları, dolandırıcılık suçları, aile hukuku, iş hukuku ve miras hukuku alanlarında güncel hukuki makaleler.">
+  <meta name="description" content="Ceza hukuku, IBAN kullandırma, MASAK, dolandırıcılık, boşanma, iş, icra ve miras hukukunda güncel ve anlaşılır hukuki rehberler (2026).">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://avleventmutlu.com.tr/makaleler.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -204,6 +204,8 @@ padding-right: 1rem;
     <button class="filtre-btn" onclick="filtrele('Ceza Hukuku', this)">Ceza Hukuku</button>
     <button class="filtre-btn" onclick="filtrele('Aile Hukuku', this)">Aile Hukuku</button>
     <button class="filtre-btn" onclick="filtrele('İş Hukuku', this)">İş Hukuku</button>
+    <button class="filtre-btn" onclick="filtrele('İcra Hukuku', this)">İcra Hukuku</button>
+    <button class="filtre-btn" onclick="filtrele('Miras Hukuku', this)">Miras Hukuku</button>
     <div class="arama-kutu">
       <input class="arama-input" id="aramaInput" type="text" placeholder="Makale ara..." oninput="aramaYap(this.value)">
       <span class="arama-ikon">🔍</span>
@@ -357,39 +359,52 @@ padding-right: 1rem;
     function chatAc() { document.getElementById('chatPencere').classList.add('acik'); }
     function chatKapat() { document.getElementById('chatPencere').classList.remove('acik'); }
 
-    var tumMakaleler = [];
+    // Kartlar sayfada hazır gelir; tam makale verisi (içerikle birlikte) yalnızca arama yapılınca indirilir.
+    var tumMakaleler = null;
     var aramaZamanlayici;
+    var ilkListe = null;
+    var aktifKategori = 'tumu';
 
-    async function makaleleriYukle() {
-      try {
-        var res = await fetch('makaleler.json');
-        tumMakaleler = await res.json();
-        var urlParams = new URLSearchParams(window.location.search);
-        var araParam = urlParams.get('ara');
-        if (araParam) {
-          document.getElementById('aramaInput').value = araParam;
-          aramaYap(araParam);
-        } else {
-          goster(tumMakaleler);
-        }
-      } catch(e) {
-        document.querySelector('.makaleler-listesi').innerHTML = '<p class="bos-mesaj">Makaleler yuklenemedi.</p>';
-      }
+    function veriYukle() {
+      if (tumMakaleler) return Promise.resolve(tumMakaleler);
+      return fetch('/makaleler.json').then(function(r) { return r.json(); })
+        .then(function(v) { tumMakaleler = v; return v; });
     }
+
+    function kategoriUyar(kat, secili) {
+      return secili === 'tumu' || kat === secili || (secili === 'Ceza Hukuku' && kat.indexOf('Ceza') > -1);
+    }
+
+    function statikGoster() {
+      var liste = document.querySelector('.makaleler-listesi');
+      if (ilkListe !== null && liste.innerHTML !== ilkListe) liste.innerHTML = ilkListe;
+      var gorunen = 0;
+      liste.querySelectorAll('.makale-kart').forEach(function(k) {
+        var kat = (k.querySelector('.makale-kategori') || {}).textContent || '';
+        var goster = kategoriUyar(kat.trim(), aktifKategori);
+        k.style.display = goster ? '' : 'none';
+        if (goster) gorunen++;
+      });
+      var bos = document.getElementById('bosKategori');
+      if (bos) bos.remove();
+      if (!gorunen) liste.insertAdjacentHTML('beforeend', '<p class="bos-mesaj" id="bosKategori">Bu kategoride henüz makale bulunmuyor.</p>');
+    }
+
+    function esc(t) { return String(t || '').replace(/[&<>"]/g, function(c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
 
     function goster(makaleler) {
       var liste = document.querySelector('.makaleler-listesi');
       if (!makaleler.length) {
-        liste.innerHTML = '<p class="bos-mesaj">Bu kategoride henuz makale bulunmuyor.</p>';
+        liste.innerHTML = '<p class="bos-mesaj">Aramanızla eşleşen makale bulunamadı.</p>';
         return;
       }
       liste.innerHTML = makaleler.map(function(m) {
-        return '<div class="makale-kart" onclick="window.location=\'/makale/' + m.id + '.html\'">' +
-          '<div class="makale-tarih-col">' + m.tarih + '</div>' +
+        return '<div class="makale-kart">' +
+          '<div class="makale-tarih-col">' + esc(m.tarih) + '</div>' +
           '<div class="makale-icerik">' +
-            '<span class="makale-kategori">' + m.kategori + '</span>' +
-            '<a class="makale-baslik" href="/makale/' + m.id + '.html">' + m.baslik + '</a>' +
-            '<p class="makale-ozet">' + m.ozet + '</p>' +
+            '<span class="makale-kategori">' + esc(m.kategori) + '</span>' +
+            '<a class="makale-baslik" href="/makale/' + m.id + '.html">' + esc(m.baslik) + '</a>' +
+            '<p class="makale-ozet">' + esc(m.ozet) + '</p>' +
             '<a class="makale-devam" href="/makale/' + m.id + '.html">Devamını Oku →</a>' +
           '</div>' +
         '</div>';
@@ -399,25 +414,40 @@ padding-right: 1rem;
     function filtrele(kategori, btn) {
       document.querySelectorAll('.filtre-btn').forEach(function(b) { b.classList.remove('aktif'); });
       btn.classList.add('aktif');
-      if (kategori === 'tumu') goster(tumMakaleler);
-      else goster(tumMakaleler.filter(function(m) { return m.kategori === kategori; }));
+      aktifKategori = kategori;
+      var kelime = document.getElementById('aramaInput').value;
+      if (kelime.trim()) aramaYap(kelime); else statikGoster();
     }
 
     function aramaYap(kelime) {
       clearTimeout(aramaZamanlayici);
-      if (!kelime.trim()) { goster(tumMakaleler); return; }
-      var k = kelime.toLowerCase();
-      var sonuc = tumMakaleler.filter(function(m) {
-        return (m.baslik||'').toLowerCase().includes(k) ||
-               (m.ozet||'').toLowerCase().includes(k) ||
-               (m.kategori||'').toLowerCase().includes(k) ||
-               (m.icerik||'').toLowerCase().includes(k);
+      if (!kelime.trim()) { statikGoster(); return; }
+      var k = kelime.toLocaleLowerCase('tr');
+      veriYukle().then(function(veri) {
+        if (document.getElementById('aramaInput').value !== kelime) return;
+        goster(veri.filter(function(m) {
+          return kategoriUyar(m.kategori || '', aktifKategori) && (
+                 (m.baslik||'').toLocaleLowerCase('tr').includes(k) ||
+                 (m.ozet||'').toLocaleLowerCase('tr').includes(k) ||
+                 (m.kategori||'').toLocaleLowerCase('tr').includes(k) ||
+                 (m.icerik||'').toLocaleLowerCase('tr').includes(k));
+        }));
+      }).catch(function() {
+        document.querySelector('.makaleler-listesi').innerHTML = '<p class="bos-mesaj">Arama şu anda yapılamadı, lütfen sayfayı yenileyin.</p>';
       });
-      goster(sonuc);
       aramaZamanlayici = setTimeout(function() {
         var img = new Image();
         img.src = "https://script.google.com/macros/s/AKfycbwxLk2mG7mIRbSOxrA62yukb5gmHuihFWTPRN7BSZ6d6F_aYuUX53ScKErtdgK5N8pLKQ/exec?mesaj=" + encodeURIComponent("MAKALE ARAMA: " + kelime);
       }, 500);
+    }
+
+    function makaleleriYukle() {
+      ilkListe = document.querySelector('.makaleler-listesi').innerHTML;
+      var araParam = new URLSearchParams(window.location.search).get('ara');
+      if (araParam) {
+        document.getElementById('aramaInput').value = araParam;
+        aramaYap(araParam);
+      }
     }
 
     var db = [
