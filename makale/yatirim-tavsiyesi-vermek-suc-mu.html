@@ -338,6 +338,28 @@
     .guncelleme-kutu a { color:#6b1a1a; font-weight:600; }
     .breadcrumb { font-size:0.7rem; letter-spacing:0.05em; color:rgba(245,239,224,0.5); margin-bottom:1rem; }
     .breadcrumb a { color:rgba(245,239,224,0.6); text-decoration:none; }
+    #okuma-bar { position:fixed; top:0; left:0; height:3px; width:0; background:#b8943f; z-index:10000; transition:width .1s linear; }
+    .toc { margin:0 0 2.2rem; padding:1.1rem 1.4rem; border:1px solid rgba(184,148,63,.55); background:rgba(255,255,255,.35); font-family:'Cormorant Garamond',Georgia,serif; }
+    .toc summary { cursor:pointer; font-size:1.05rem; letter-spacing:.12em; text-transform:uppercase; color:#6b1a1a; font-weight:600; }
+    .toc ol { margin:.8rem 0 0 1.3rem; padding:0; columns:2; column-gap:2rem; }
+    .toc li { margin:0; padding:.2rem 0; font-size:1.05rem; line-height:1.4; break-inside:avoid; }
+    .toc a { color:#4a1010; text-decoration:none; border-bottom:1px dotted rgba(107,26,26,.35); }
+    .toc a:hover { color:#6b1a1a; border-bottom-color:#6b1a1a; }
+    .makale-govde .icerik h2 { scroll-margin-top:90px; }
+    .kaynakca { margin:2.5rem 0 1rem; padding:1.4rem 1.5rem; border-top:1px solid rgba(184,148,63,.55); font-size:.95rem; line-height:1.7; color:#4a1010; }
+    .kaynakca h3 { font-family:'Cormorant Garamond',serif; font-size:1.3rem; letter-spacing:.1em; text-transform:uppercase; color:#6b1a1a; margin:0 0 .8rem; }
+    .kaynakca ul { margin:0 0 .9rem 1.2rem; }
+    .kaynakca li { margin:.2rem 0; }
+    .kaynakca a { color:#6b1a1a; }
+    .paylas { font-size:.9rem; color:#5c3d2e; margin:.5rem 0 0; text-align:right; }
+    .paylas a { color:#6b1a1a; font-weight:600; text-decoration:none; }
+    .yazar-kutu { display:flex; gap:1.3rem; align-items:flex-start; margin-top:3.5rem; padding:1.8rem; background:#F5EFE0; border-left:4px solid #B8943F; }
+    .yazar-kutu img { width:88px; height:88px; border-radius:50%; object-fit:cover; border:2px solid #b8943f; flex-shrink:0; }
+    .yazar-kutu h3 { font-family:'Cormorant Garamond',serif; font-size:1.6rem; color:#4A1010; margin:0 0 .5rem; }
+    .yazar-kutu p { line-height:1.75; color:#5C3D2E; margin:0 0 .4rem; }
+    .yazar-kutu .yazar-alt { font-size:.85rem; color:#7a5a45; }
+    .yazar-kutu a { color:#6B1A1A; }
+    @media(max-width:768px){ .toc ol{columns:1} .yazar-kutu{flex-direction:column; align-items:center; text-align:center} }
   </style>
   <meta property="article:published_time" content="2026-09-29">
   <meta property="article:section" content="Ceza Hukuku">
@@ -376,6 +398,7 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
 <style id="nav-fix">.nav-links a,.nav-logo{white-space:nowrap}.nav-links{margin-left:2rem}@media (max-width:1420px){.nav-links{gap:1.6rem!important}}@media (max-width:1279px){.nav-links{display:none!important}.hamburger{display:flex!important}}</style>
 </head>
 <body>
+<div id="okuma-bar"></div>
 
   <nav>
     <a href="/index.html" class="nav-logo">Av. <span>Levent Mutlu</span></a>
@@ -414,7 +437,7 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
         <div class="breadcrumb"><a href="/">Ana Sayfa</a> › <a href="/makaleler.html">Makaleler</a> › Ceza Hukuku</div>
         <div class="makale-kategori-tag">Ceza Hukuku</div>
         <h1 class="makale-baslik-buyuk">Yatırım Tavsiyesi Vermek Suç mu? Telegram ve Instagram Sinyal Grupları, SPK İzni (2026)</h1>
-        <p class="makale-meta"><a href="/av-levent-mutlu.html" rel="author" style="color:inherit">Av. Levent Mutlu</a> · <time datetime="2026-09-29">29 Eylül 2026</time></p>
+        <p class="makale-meta"><a href="/av-levent-mutlu.html" rel="author" style="color:inherit">Av. Levent Mutlu</a> · <time datetime="2026-09-29">29 Eylül 2026</time> · 3 dk okuma</p>
       </div>
     </div>
   </div>
@@ -422,24 +445,28 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
   <article class="makale-govde" id="makale-govde">
     <div class="ozet">Telegram, Instagram veya YouTube&#x27;da hisse, forex ve kripto önerisi vermek suç mu? SPK izni, 6362 sayılı Kanun m.107 ve 109 cezaları, ücretli VIP gruplar ve “YTD” ibaresinin etkisi.</div>
     <div class="on-kutu" style="margin:0 0 2rem;padding:1rem 1.2rem;background:#FDFAF5;border:1px solid rgba(184,148,63,.55);border-left:4px solid #6B1A1A;font-size:.95rem;line-height:1.7;color:#4a1010">Hakkınızda soruşturma başlatıldıysa veya ifadeye çağrıldıysanız, ifade vermeden önce bir avukattan hukuki destek almanız önerilir. Bilgi ve randevu için: <a href="tel:+905459594845" style="color:#6B1A1A;font-weight:600">0545 959 48 45</a> · <a href="https://wa.me/905459594845" style="color:#6B1A1A;font-weight:600">WhatsApp</a></div>
+<details class="toc" open><summary>İçindekiler</summary><ol><li><a href="#yatirim-danismanligi-nedir">Yatırım Danışmanlığı Nedir?</a></li><li><a href="#izinsiz-sermaye-piyasasi-faaliyeti-m-109">İzinsiz Sermaye Piyasası Faaliyeti: m.109</a></li><li><a href="#yaniltici-bilgi-ile-piyasa-dolandiriciligi-m-107-2">Yanıltıcı Bilgi ile Piyasa Dolandırıcılığı: m.107/2</a></li><li><a href="#spk-nin-sinyal-gruplarina-iliskin-uyarilari">SPK&#x27;nın Sinyal Gruplarına İlişkin Uyarıları</a></li><li><a href="#forex-ve-kripto-onerileri">Forex ve Kripto Önerileri</a></li><li><a href="#yatirim-tavsiyesi-degildir-yazmak-yeterli-mi">“Yatırım Tavsiyesi Değildir” Yazmak Yeterli mi?</a></li><li><a href="#sinyal-grubunda-zarar-ettiyseniz">Sinyal Grubunda Zarar Ettiyseniz</a></li></ol></details>
     <div class="icerik">
 <p>Sosyal medyada “bu hisse uçacak”, “VIP grubumuza katılın, sinyalleri kaçırmayın” gibi paylaşımlar giderek yaygınlaşıyor. Telegram ve WhatsApp&#x27;taki ücretli sinyal grupları, Instagram ve YouTube&#x27;daki borsa, forex ve kripto yorumcuları sermaye piyasası mevzuatı açısından ne zaman suç işlemiş olur? Bu yazıda 6362 sayılı Sermaye Piyasası Kanunu ve SPK düzenlemeleri çerçevesinde temel çizgileri özetliyoruz.</p>
-<h2>Yatırım Danışmanlığı Nedir?</h2>
+<h2 id="yatirim-danismanligi-nedir">Yatırım Danışmanlığı Nedir?</h2>
 <p>SPK&#x27;nın Yatırım Hizmetleri ve Faaliyetleri ile Yan Hizmetlere İlişkin Esaslar Tebliği&#x27;ne (III-37.1) göre yatırım danışmanlığı, sermaye piyasası araçlarına ilişkin olarak belli bir kişiye veya mali durumları, risk ve getiri tercihleri benzer nitelikteki bir gruba yönelik olarak yönlendirici nitelikte yorum ve tavsiyelerde bulunulması faaliyetidir. Aynı maddeye göre genel yatırım tavsiyeleri ile finansal bilgi sunulması bu kapsamda değildir. Yatırım danışmanlığı bir yatırım hizmeti olup ancak SPK&#x27;dan izin almış kuruluşlar tarafından yürütülebilir.</p>
-<h2>İzinsiz Sermaye Piyasası Faaliyeti: m.109</h2>
+<h2 id="izinsiz-sermaye-piyasasi-faaliyeti-m-109">İzinsiz Sermaye Piyasası Faaliyeti: m.109</h2>
 <p>6362 sayılı Kanun&#x27;un 109. maddesinin ikinci fıkrasına göre sermaye piyasasında izinsiz olarak faaliyette bulunanlar iki yıldan beş yıla kadar hapis ve beş bin günden on bin güne kadar adli para cezası ile cezalandırılır. Ücret karşılığında, düzenli olarak ve belirli bir üye grubuna yönelik “al-sat” sinyali verilen yapılar, yatırım danışmanlığının tanımına yaklaştığı için bu madde bakımından risk taşır. SPK, izinsiz faaliyet tespit ettiği durumlarda Cumhuriyet başsavcılıklarına suç duyurusunda bulunduğunu ve ilgili internet siteleri ile sosyal medya hesaplarına erişim engeli getirilmesi yoluna gittiğini duyurmaktadır.</p>
-<h2>Yanıltıcı Bilgi ile Piyasa Dolandırıcılığı: m.107/2</h2>
+<h2 id="yaniltici-bilgi-ile-piyasa-dolandiriciligi-m-107-2">Yanıltıcı Bilgi ile Piyasa Dolandırıcılığı: m.107/2</h2>
 <p>Kanun&#x27;un 107. maddesinin ikinci fıkrasına göre sermaye piyasası araçlarının fiyatlarını, değerlerini veya yatırımcıların kararlarını etkilemek amacıyla yalan, yanlış veya yanıltıcı bilgi veren, söylenti çıkaran, haber veren, yorum yapan veya rapor hazırlayan ya da bunları yayan ve bu suretle menfaat sağlayanlar üç yıldan beş yıla kadar hapis ve beş bin güne kadar adli para cezası ile cezalandırılır. Örneğin önceden alınmış bir hissenin sosyal medyada abartılı yorumlarla pompalanıp yükselişte satılması bu kapsamda değerlendirilebilir. Fiyat üzerinde yanıltıcı izlenim yaratmak amacıyla koordineli alım satım yapılması ise 107. maddenin birinci fıkrasındaki işlem bazlı piyasa dolandırıcılığını oluşturabilir.</p>
-<h2>SPK&#x27;nın Sinyal Gruplarına İlişkin Uyarıları</h2>
+<h2 id="spk-nin-sinyal-gruplarina-iliskin-uyarilari">SPK&#x27;nın Sinyal Gruplarına İlişkin Uyarıları</h2>
 <p>SPK, 4 Haziran 2020 tarihli basın açıklamasında sosyal medya ile WhatsApp, Telegram gibi iletişim sistemlerinde oluşturulan ve yatırım danışmanlığı izni bulunmayan kişilerce yönetilen üyelik bazlı gruplara karşı yatırımcıları uyarmıştır. 2023 yılında da sosyal medya üzerinden hisse pazarlanmasına ilişkin benzer bir duyuru yapılmıştır. SPK&#x27;nın geçmişte bir Telegram grubunda koordineli hareket ettiği değerlendirilen kişiler hakkında işlem yasağı kararları verdiği de basına yansımıştır.</p>
-<h2>Forex ve Kripto Önerileri</h2>
+<h2 id="forex-ve-kripto-onerileri">Forex ve Kripto Önerileri</h2>
 <p>SPK&#x27;ya göre kaldıraçlı alım satım işlemleri yalnızca Kurulca yetkilendirilen kuruluşlar aracılığıyla yapılabilir; yurt dışındaki izinsiz forex sitelerine yönlendirme yapan yapılar izinsiz faaliyet kapsamında değerlendirilebilir ve bu sitelere erişim engeli getirilmektedir. Kripto varlıklar bakımından ise 2024 yılında 7518 sayılı Kanun ile 6362 sayılı Kanun&#x27;a eklenen 109/A maddesi, izin almaksızın kripto varlık hizmet sağlayıcı olarak faaliyet yürüten kişiler için üç yıldan beş yıla kadar hapis ve beş bin günden on bin güne kadar adli para cezası öngörmektedir. Aynı değişiklikle kripto varlıklara yönelik yatırım danışmanlığının usul ve esaslarını belirleme yetkisi de SPK&#x27;ya verilmiştir.</p>
-<h2>“Yatırım Tavsiyesi Değildir” Yazmak Yeterli mi?</h2>
+<h2 id="yatirim-tavsiyesi-degildir-yazmak-yeterli-mi">“Yatırım Tavsiyesi Değildir” Yazmak Yeterli mi?</h2>
 <p>“YTD” veya “yatırım tavsiyesi değildir” ibaresinin hukuki etkisine ilişkin açık bir kanun hükmü bulunmamaktadır. Bizim değerlendirmemize göre bu ibare tek başına faaliyetin niteliğini değiştirmez; asıl bakılacak olan, içeriğin belirli bir gruba yönelik yönlendirici tavsiye niteliğinde olup olmadığı, karşılığında ücret veya başka bir menfaat alınıp alınmadığı ve faaliyetin düzenli olarak yürütülüp yürütülmediğidir. Genel piyasa yorumu, eğitim içeriği veya kamuya açık finansal verilerin aktarılması ile belirli hisseler için ücretli ve düzenli “al-sat” sinyali vermek aynı şekilde değerlendirilmez.</p>
-<h2>Sinyal Grubunda Zarar Ettiyseniz</h2>
+<h2 id="sinyal-grubunda-zarar-ettiyseniz">Sinyal Grubunda Zarar Ettiyseniz</h2>
 <p>Ücretli bir sinyal grubunun yönlendirmesiyle zarar ettiyseniz, ödeme dekontlarını, grup yazışmalarını ve paylaşımların ekran görüntülerini saklayın. SPK&#x27;ya şikâyette bulunabilir, Cumhuriyet başsavcılığına suç duyurusunda bulunabilirsiniz. Yatırım fonları ve aracı kurumlar kaynaklı kayıplarda izlenebilecek yollar için <a href="/makale/fon-magdurlari-ne-yapmali-tasfiye-sikayet-tazminat-2026.html">“Fon Mağdurları Ne Yapmalı?” rehberimize</a> bakabilirsiniz.</p>
 <p>Bu yazı genel bilgilendirme amaçlıdır ve yatırım tavsiyesi içermez; somut durumunuz için bir avukata danışmanız önerilir.</p>
     </div>
+<section class="kaynakca"><h3>Kaynakça ve mevzuat</h3><ul><li><a href="https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6362&amp;MevzuatTur=1&amp;MevzuatTertip=5" target="_blank" rel="noopener">6362 sayılı Sermaye Piyasası Kanunu</a></li></ul><p>Mevzuat metinleri <a href="https://www.mevzuat.gov.tr/" target="_blank" rel="noopener">mevzuat.gov.tr</a> üzerinden güncel hâliyle incelenebilir. Bu yazı en son <strong>29 Eylül 2026</strong> tarihinde yürürlükteki mevzuata göre gözden geçirilmiştir. Kanun değişiklikleri ve yargı kararları sonucu etkileyebileceğinden, somut durumunuz için bir avukata danışmanız önerilir.</p></section>
+<div class="paylas">Paylaş: <a href="https://wa.me/?text=Yat%C4%B1r%C4%B1m%20Tavsiyesi%20Vermek%20Su%C3%A7%20mu%3F%20Telegram%20ve%20Instagram%20Sinyal%20Gruplar%C4%B1%2C%20SPK%20%C4%B0zni%20%282026%29%20https%3A//avleventmutlu.com.tr/makale/yatirim-tavsiyesi-vermek-suc-mu.html" target="_blank" rel="noopener">WhatsApp</a> · <a href="#" onclick="navigator.clipboard&&navigator.clipboard.writeText(location.href);this.textContent='Bağlantı kopyalandı';return false">Bağlantıyı kopyala</a></div>
+
     <div class="ilgili">
       <h3>İlgili Makaleler</h3>
 <a href="/beylikduzu-ceza-avukati.html">Beylikdüzü ceza avukatı: gözaltı, ifade, tutuklama</a>
@@ -449,9 +476,13 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
 <a href="/makale/instagramdan-hakaret-eden-kisi-nasil-bulunur.html">Instagram&#x27;dan Hakaret Eden Sahte Hesap Nasıl Bulunur? Şikâyet ve Failin Tespiti (2026)</a>
 <a href="/makale/hakaret-sucu-sosyal-medya-2026.html">Sosyal Medyada Hakaret Suçu 2026: WhatsApp, Instagram ve X&#x27;te Hukuki Riskler</a>
     </div>
-    <div style="margin-top:4rem;padding:2rem;background:#F5EFE0;border-left:4px solid #B8943F;">
-      <h3 style="font-family:'Cormorant Garamond',serif;font-size:2rem;color:#4A1010;margin-bottom:1rem;">Yazar Hakkında</h3>
-      <p style="line-height:1.9;color:#5C3D2E;">Bu makale, İstanbul Barosu'na kayıtlı Av. Levent Mutlu tarafından hazırlanmıştır. Av. Levent Mutlu; ceza hukuku, bilişim suçları, aile hukuku, iş hukuku ve icra hukuku alanlarında Beylikdüzü'ndeki bürosunda avukatlık hizmeti vermektedir. <a href="/av-levent-mutlu.html" style="color:#6B1A1A">Av. Levent Mutlu hakkında →</a></p>
+    <div class="yazar-kutu">
+      <img src="/foto.jpg" alt="Av. Levent Mutlu" width="88" height="88" loading="lazy">
+      <div>
+        <h3>Yazar: Av. Levent Mutlu</h3>
+        <p>İstanbul Barosu'na kayıtlı avukat. Ceza hukuku, bilişim suçları, aile hukuku, iş hukuku ve icra hukuku alanlarında Beylikdüzü'ndeki bürosunda avukatlık hizmeti vermektedir.</p>
+        <p class="yazar-alt">Yayın: 29 Eylül 2026 · Son gözden geçirme: 29 Eylül 2026 · <a href="/av-levent-mutlu.html">Hakkında →</a></p>
+      </div>
     </div>
     <div class="iletisim-kutu">
       <p>Bu konuda hukuki destek almak ister misiniz?</p>
@@ -511,80 +542,6 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
   
 
   <!-- CHAT BOT (mevcut kod aynen korunuyor) -->
-  <script>
-    var db = [
-      {k:["istinaf","bam","bolge adliye"],c:"Istinaf, ilk derece mahkemesi kararlarinin Bolge Adliye Mahkemesinde yeniden incelenmesidir. Karara 2 hafta icinde itiraz edilebilir.",r:true},
-      {k:["temyiz","yargitay","bozma"],c:"Temyiz, istinaf kararlarinin Yargitay tarafindan hukuki denetiminin yapilmasidir. Suresi karar tebliginden itibaren 2 haftadir.",r:true},
-      {k:["tutukluluk","tutuklu","tahliye","adli kontrol"],c:"Tutukluluk, kovusturma oncesinde sahsin ozgurlugunun kisitlanmasidir. CMK 109'a gore adli kontrol alternatifi vardir.",r:true},
-      {k:["beraat","mahkumiyet","ceza erteleme","hapis"],c:"Beraat, sanik hakkinda suc ispatlanamadigi icin verilen serbest birakma kararidir.",r:true},
-      {k:["uzlasma","uzlastirma"],c:"Uzlastirma, taraflarin bir uzlastirmaci araciligiyla anlasmasidir.",r:true},
-      {k:["ifade","sorgu","ifade ver"],c:"Ifade oncesinde mutlaka avukattan destek alin; ilk ifadede yapilan hatalar telafi edilemez.",r:true},
-      {k:["mal rejimi","edinilmis mal","mal paylasimi"],c:"Evlilik birligi icinde edinilen mallar kural olarak esit paylasilir.",r:true},
-      {k:["nafaka","yoksulluk nafakasi"],c:"Nafaka turleri: tedbir, istirak, yoksulluk. Yargitay 2026 emsal karariyla mali guc kriteri netlesti.",r:true},
-      {k:["kidem","ihbar","kidem tazminati"],c:"Kidem tazminati her tam yil icin 30 gunluk brut ucret uzerinden hesaplanir.",r:true},
-      {k:["ise iade"],c:"30'dan fazla isci calistiran isyerlerinde ise iade davasi 30 is gunu icinde acilmalidir.",r:true},
-      {k:["tenkis","sakli pay"],c:"Tenkis davasi, sakli paylarin ihlal edildigi durumlarda acilir.",r:true},
-      {k:["miras reddi"],c:"Mirascilar olum tarihinden itibaren 3 ay icinde mirasi reddedebilir.",r:true},
-      {k:["icra","haciz"],c:"Icra takibinde itiraz suresi tebligden itibaren 7 veya 15 gundur.",r:true},
-      {k:["tck","banka hesabi","iban","dolandiricilik"],c:"Banka hesabi kullandirma davasinda Yargitay'a gore IBAN sahipligi tek basina suc delili degildir.",r:true},
-      {k:["bosanma","velayet"],c:"Bosanma davasi anlasmali 1-3 ay, cekismeli 1-3 yil surebilir.",r:true},
-      {k:["kira","kira artisi","ev sahibi"],c:"Nisan 2026 yasal kira artis tavani %32,82'dir. Mayis orani 4 Mayis'ta aciklanacak.",r:true},
-      {k:["trafik cezasi"],c:"Trafik cezasina tebligden itibaren 15 gun icinde Sulh Ceza Hakimligi'ne itiraz edilebilir.",r:true},
-      {k:["adres","ofis","beylikduzu",],c:"Ofisimiz Istanbul Beylikduzu'ndedir. Gorusme icin randevu aliniz.",r:false},
-      {k:["telefon","whatsapp","ara"],c:"0545 959 48 45 numarali hattan veya WhatsApp uzerinden ulasabilirsiniz.",r:false},
-      {k:["ucret","fiyat"],c:"Ucretlerimiz dava turune gore belirlenmektedir. Ilk gorusmede net bilgi sunulur.",r:true},
-      {k:["avukat","levent","ismet"],c:"Av. Levent Mutlu ve ortagi Av. Ismet Mutlu olarak Beylikduzu'nde hizmet veriyoruz.",r:true}
-    ];
-
-    function normalize(s){return s.toLocaleLowerCase('tr').replace(/ç/g,'c').replace(/ğ/g,'g').replace(/ı/g,'i').replace(/ö/g,'o').replace(/ş/g,'s').replace(/ü/g,'u');}
-    function cevapBul(s){
-      s=normalize(s);
-      for(var i=0;i<db.length;i++){
-        for(var j=0;j<db[i].k.length;j++){
-          if(s.indexOf(db[i].k[j])>-1) return db[i];
-        }
-      }
-      return {c:"Bu konuda kesin bilgi verebilmek icin davanizin detaylarini incelememiz gerekir. Buromuzla goruserek risksiz bir degerlendirme yapabilirsiniz.",r:true};
-    }
-
-    function mesajGonder(){
-      var input=document.getElementById("chatInput");
-      var mesaj=input.value.trim();
-      if(!mesaj) return;
-      input.value="";
-      var m=document.getElementById("chatMesajlar");
-      var kd=document.createElement("div");
-      kd.className="chat-mesaj kullanici";
-      kd.textContent=mesaj;
-      m.appendChild(kd);
-      var yd=document.createElement("div");
-      yd.className="chat-yaziyor";
-      yd.innerHTML="<span></span><span></span><span></span>";
-      m.appendChild(yd);
-      m.scrollTop=m.scrollHeight;
-      var img = new Image();
-      img.src = "https://script.google.com/macros/s/AKfycbwxLk2mG7mIRbSOxrA62yukb5gmHuihFWTPRN7BSZ6d6F_aYuUX53ScKErtdgK5N8pLKQ/exec?mesaj=" + encodeURIComponent(mesaj);
-
-      setTimeout(function(){
-        yd.remove();
-        var sonuc=cevapBul(mesaj);
-        var bd=document.createElement("div");
-        bd.className="chat-mesaj bot";
-        bd.textContent=sonuc.c;
-        if(sonuc.r){
-          var br=document.createElement("br");
-          var a=document.createElement("a");
-          a.href="tel:+905459594845";
-          a.className="chat-randevu";
-          a.textContent="Randevu Al";
-          bd.appendChild(br);
-          bd.appendChild(a);
-        }
-        m.appendChild(bd);
-        m.scrollTop=m.scrollHeight;
-      },900);
-    }
-  </script>
 
   <script>
     function soruGonder(e) {
@@ -601,5 +558,6 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
     }
   </script>
   <script src="/asistan.js" defer></script>
+<script>(function(){var b=document.getElementById("okuma-bar"),a=document.getElementById("makale-govde");if(!b||!a)return;function u(){var r=a.getBoundingClientRect(),t=a.offsetHeight-innerHeight,p=t>0?Math.min(1,Math.max(0,-r.top/t)):1;b.style.width=(p*100)+"%"}addEventListener("scroll",u,{passive:true});u()})();</script>
 </body>
 </html>

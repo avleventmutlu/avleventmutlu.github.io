@@ -338,6 +338,28 @@
     .guncelleme-kutu a { color:#6b1a1a; font-weight:600; }
     .breadcrumb { font-size:0.7rem; letter-spacing:0.05em; color:rgba(245,239,224,0.5); margin-bottom:1rem; }
     .breadcrumb a { color:rgba(245,239,224,0.6); text-decoration:none; }
+    #okuma-bar { position:fixed; top:0; left:0; height:3px; width:0; background:#b8943f; z-index:10000; transition:width .1s linear; }
+    .toc { margin:0 0 2.2rem; padding:1.1rem 1.4rem; border:1px solid rgba(184,148,63,.55); background:rgba(255,255,255,.35); font-family:'Cormorant Garamond',Georgia,serif; }
+    .toc summary { cursor:pointer; font-size:1.05rem; letter-spacing:.12em; text-transform:uppercase; color:#6b1a1a; font-weight:600; }
+    .toc ol { margin:.8rem 0 0 1.3rem; padding:0; columns:2; column-gap:2rem; }
+    .toc li { margin:0; padding:.2rem 0; font-size:1.05rem; line-height:1.4; break-inside:avoid; }
+    .toc a { color:#4a1010; text-decoration:none; border-bottom:1px dotted rgba(107,26,26,.35); }
+    .toc a:hover { color:#6b1a1a; border-bottom-color:#6b1a1a; }
+    .makale-govde .icerik h2 { scroll-margin-top:90px; }
+    .kaynakca { margin:2.5rem 0 1rem; padding:1.4rem 1.5rem; border-top:1px solid rgba(184,148,63,.55); font-size:.95rem; line-height:1.7; color:#4a1010; }
+    .kaynakca h3 { font-family:'Cormorant Garamond',serif; font-size:1.3rem; letter-spacing:.1em; text-transform:uppercase; color:#6b1a1a; margin:0 0 .8rem; }
+    .kaynakca ul { margin:0 0 .9rem 1.2rem; }
+    .kaynakca li { margin:.2rem 0; }
+    .kaynakca a { color:#6b1a1a; }
+    .paylas { font-size:.9rem; color:#5c3d2e; margin:.5rem 0 0; text-align:right; }
+    .paylas a { color:#6b1a1a; font-weight:600; text-decoration:none; }
+    .yazar-kutu { display:flex; gap:1.3rem; align-items:flex-start; margin-top:3.5rem; padding:1.8rem; background:#F5EFE0; border-left:4px solid #B8943F; }
+    .yazar-kutu img { width:88px; height:88px; border-radius:50%; object-fit:cover; border:2px solid #b8943f; flex-shrink:0; }
+    .yazar-kutu h3 { font-family:'Cormorant Garamond',serif; font-size:1.6rem; color:#4A1010; margin:0 0 .5rem; }
+    .yazar-kutu p { line-height:1.75; color:#5C3D2E; margin:0 0 .4rem; }
+    .yazar-kutu .yazar-alt { font-size:.85rem; color:#7a5a45; }
+    .yazar-kutu a { color:#6B1A1A; }
+    @media(max-width:768px){ .toc ol{columns:1} .yazar-kutu{flex-direction:column; align-items:center; text-align:center} }
   </style>
   <meta property="article:published_time" content="2026-09-30">
   <meta property="article:section" content="Ceza Hukuku">
@@ -376,6 +398,7 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
 <style id="nav-fix">.nav-links a,.nav-logo{white-space:nowrap}.nav-links{margin-left:2rem}@media (max-width:1420px){.nav-links{gap:1.6rem!important}}@media (max-width:1279px){.nav-links{display:none!important}.hamburger{display:flex!important}}</style>
 </head>
 <body>
+<div id="okuma-bar"></div>
 
   <nav>
     <a href="/index.html" class="nav-logo">Av. <span>Levent Mutlu</span></a>
@@ -414,7 +437,7 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
         <div class="breadcrumb"><a href="/">Ana Sayfa</a> › <a href="/makaleler.html">Makaleler</a> › Ceza Hukuku</div>
         <div class="makale-kategori-tag">Ceza Hukuku</div>
         <h1 class="makale-baslik-buyuk">WhatsApp Hesabım Çalındı, Rehberimden Para İstendi: Ne Yapmalıyım? (2026)</h1>
-        <p class="makale-meta"><a href="/av-levent-mutlu.html" rel="author" style="color:inherit">Av. Levent Mutlu</a> · <time datetime="2026-09-30">30 Eylül 2026</time></p>
+        <p class="makale-meta"><a href="/av-levent-mutlu.html" rel="author" style="color:inherit">Av. Levent Mutlu</a> · <time datetime="2026-09-30">30 Eylül 2026</time> · 3 dk okuma</p>
       </div>
     </div>
   </div>
@@ -422,24 +445,28 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
   <article class="makale-govde" id="makale-govde">
     <div class="ozet">WhatsApp hesabınız ele geçirilip rehberinizdekilerden para mı istendi? Hesabı geri alma, arkadaşlarınızı uyarma, para gönderenlerin hakları, suç duyurusu ve hesap sahibinin sorumluluğu.</div>
     <div class="on-kutu" style="margin:0 0 2rem;padding:1rem 1.2rem;background:#FDFAF5;border:1px solid rgba(184,148,63,.55);border-left:4px solid #6B1A1A;font-size:.95rem;line-height:1.7;color:#4a1010">Hakkınızda soruşturma başlatıldıysa veya ifadeye çağrıldıysanız, ifade vermeden önce bir avukattan hukuki destek almanız önerilir. Bilgi ve randevu için: <a href="tel:+905459594845" style="color:#6B1A1A;font-weight:600">0545 959 48 45</a> · <a href="https://wa.me/905459594845" style="color:#6B1A1A;font-weight:600">WhatsApp</a></div>
+<details class="toc" open><summary>İçindekiler</summary><ol><li><a href="#hesap-nasil-ele-geciriliyor">Hesap Nasıl Ele Geçiriliyor?</a></li><li><a href="#hesabiniz-ele-gecirildiyse-ilk-yapilacaklar">Hesabınız Ele Geçirildiyse İlk Yapılacaklar</a></li><li><a href="#suc-duyurusu-neden-onemli">Suç Duyurusu Neden Önemli?</a></li><li><a href="#arkadasiniz-para-gonderdiyse">Arkadaşınız Para Gönderdiyse</a></li><li><a href="#hangi-suclar-olusur">Hangi Suçlar Oluşur?</a></li><li><a href="#parayi-alan-hesabin-sahibi">Parayı Alan Hesabın Sahibi</a></li><li><a href="#kendinizi-nasil-korursunuz">Kendinizi Nasıl Korursunuz?</a></li></ol></details>
     <div class="icerik">
 <p>“Acil bir durum var, akşama geri göndereceğim, şu IBAN&#x27;a biraz para atar mısın?” Bu mesaj bir arkadaşınızın WhatsApp hesabından geliyorsa, büyük ihtimalle hesap ele geçirilmiştir. Son yıllarda en sık rastlanan dolandırıcılık yöntemlerinden biri, doğrulama kodunu ele geçirerek bir kişinin WhatsApp hesabına girmek ve rehberdeki kişilerden onun adıyla borç istemektir. Bu yazıda hesabı ele geçirilen kişinin, para gönderen arkadaşlarının ve paranın gönderildiği hesap sahibinin durumunu ele alıyoruz.</p>
-<h2>Hesap Nasıl Ele Geçiriliyor?</h2>
+<h2 id="hesap-nasil-ele-geciriliyor">Hesap Nasıl Ele Geçiriliyor?</h2>
 <p>Dolandırıcılar genellikle WhatsApp&#x27;ın telefonunuza gönderdiği altı haneli doğrulama kodunu size söyletmeye çalışır. “Yanlışlıkla sana kod gönderdim, iletir misin?”, “kargo teslimatı için kodu okuyun” veya bir yarışma bahanesi en sık kullanılan senaryolardır. Kod paylaşıldığı anda hesap başka bir cihaza taşınır ve sizin telefonunuzdaki oturum kapanır. Bazı durumlarda sesli mesaj kutusunun şifresinin tahmin edilmesi veya zararlı bir bağlantı aracılığıyla da hesaba erişilebilmektedir.</p>
-<h2>Hesabınız Ele Geçirildiyse İlk Yapılacaklar</h2>
+<h2 id="hesabiniz-ele-gecirildiyse-ilk-yapilacaklar">Hesabınız Ele Geçirildiyse İlk Yapılacaklar</h2>
 <p>WhatsApp&#x27;ı kendi telefonunuza yeniden kurarak numaranızla doğrulama yapın; bu işlem hesabı diğer cihazdan çıkarır. Dolandırıcı hesaba iki adımlı doğrulama eklediyse WhatsApp yardım merkezindeki hesap kurtarma adımlarını izleyin. Aynı anda başka bir telefondan, SMS&#x27;le veya sosyal medya üzerinden yakınlarınızı hesabınızın çalındığı konusunda uyarın. Hesabı geri aldıktan sonra iki adımlı doğrulamayı kendiniz etkinleştirin ve bağlı cihazlar listesini kontrol edin. Dolandırıcının gönderdiği mesajların ve istediği IBAN&#x27;ların ekran görüntülerini arkadaşlarınızdan toplayın.</p>
-<h2>Suç Duyurusu Neden Önemli?</h2>
+<h2 id="suc-duyurusu-neden-onemli">Suç Duyurusu Neden Önemli?</h2>
 <p>Hesabı ele geçirilen kişi, dolandırıcılık eyleminin faili değil mağdurudur. Ancak kendi adınıza başkalarından para istendiği için ileride sizin de ifadeye çağrılmanız mümkündür. Bu nedenle hesabın ele geçirildiğini fark eder etmez Cumhuriyet başsavcılığına veya kolluğa suç duyurusunda bulunmanız, olayın tarihini kayıt altına alır ve sizin adınızın bu dolandırıcılıktan ayrılmasını kolaylaştırır. Suç duyurusuna ekran görüntülerini, arkadaşlarınızın beyanlarını ve dolandırıcının verdiği IBAN bilgilerini ekleyin.</p>
-<h2>Arkadaşınız Para Gönderdiyse</h2>
+<h2 id="arkadasiniz-para-gonderdiyse">Arkadaşınız Para Gönderdiyse</h2>
 <p>Para gönderen kişi dolandırıcılığın doğrudan mağdurudur. Bankasını derhal arayarak işlemi bildirmeli, dekontu ve yazışmaları saklamalı ve ayrıca suç duyurusunda bulunmalıdır. Ceza Muhakemesi Kanunu&#x27;nun 128. maddesi, dolandırıcılık suçlarında suçtan elde edildiğine dair kuvvetli şüphe bulunan hâllerde banka hesaplarına el konulmasına imkân verdiğinden, suç duyurusunda paranın gönderildiği hesabın belirtilmesi ve el konulmasının talep edilmesi önemlidir. Ne kadar erken hareket edilirse paranın hesapta bulunma ihtimali o kadar yüksektir.</p>
-<h2>Hangi Suçlar Oluşur?</h2>
+<h2 id="hangi-suclar-olusur">Hangi Suçlar Oluşur?</h2>
 <p>Bu yöntemde birden fazla suç birlikte gündeme gelir. Başkasına ait hesaba izinsiz girilmesi TCK 243 kapsamında bilişim sistemine girme suçunu oluşturabilir. Hesaptaki rehber ve yazışmaların ele geçirilmesi kişisel verilerin hukuka aykırı olarak ele geçirilmesi (TCK 136) açısından değerlendirilebilir. Bu şekilde başkalarını kandırarak para alınması ise bilişim sistemlerinin ve bankaların araç olarak kullanılması suretiyle işlenen nitelikli dolandırıcılık (TCK 158/1-f) suçudur; bu suçta hapis cezasının alt sınırı dört yıldır.</p>
-<h2>Parayı Alan Hesabın Sahibi</h2>
+<h2 id="parayi-alan-hesabin-sahibi">Parayı Alan Hesabın Sahibi</h2>
 <p>Dolandırıcılar parayı çoğu zaman kendi hesaplarına değil, “iş” veya “kolay kazanç” vaadiyle IBAN&#x27;ı alınan kişilerin hesaplarına aldırır. Bu kişiler de soruşturmada şüpheli olarak yer alır. Hesabınıza tanımadığınız bir kişiden para geldiyse ve sizden bu parayı başka bir hesaba aktarmanız isteniyorsa, bunu yapmadan önce bankanıza ve kolluğa bildirimde bulunun. Hesap kullandırma iddiasıyla karşı karşıyaysanız <a href="/tck-158-hukuki-destek.html">TCK 158 hukuki destek sayfamıza</a> göz atabilirsiniz.</p>
-<h2>Kendinizi Nasıl Korursunuz?</h2>
+<h2 id="kendinizi-nasil-korursunuz">Kendinizi Nasıl Korursunuz?</h2>
 <p>WhatsApp doğrulama kodunuzu hiç kimseyle, yakınınız olduğunu söyleyen kişilerle bile paylaşmayın. İki adımlı doğrulamayı açık tutun. Bir yakınınızdan beklenmedik bir para talebi geldiğinde, göndermeden önce kişiyi mutlaka telefonla sesli olarak arayın. Kamu kurumu veya avukatlık bürosu görünümündeki sahte mesajlar için <a href="/makale/ifade-sureniz-dolmustur-sms-dolandiricilik.html">“İfade Süreniz Dolmuştur SMS&#x27;i Sahte mi?” yazımıza</a> da bakabilirsiniz.</p>
 <p>Bu yazı genel bilgilendirme amaçlıdır; somut durumunuz için bir avukata danışmanız önerilir.</p>
     </div>
+<section class="kaynakca"><h3>Kaynakça ve mevzuat</h3><ul><li><a href="https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&amp;MevzuatTur=1&amp;MevzuatTertip=5" target="_blank" rel="noopener">5237 sayılı Türk Ceza Kanunu</a></li><li><a href="https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5271&amp;MevzuatTur=1&amp;MevzuatTertip=5" target="_blank" rel="noopener">5271 sayılı Ceza Muhakemesi Kanunu</a></li></ul><p>Mevzuat metinleri <a href="https://www.mevzuat.gov.tr/" target="_blank" rel="noopener">mevzuat.gov.tr</a> üzerinden güncel hâliyle incelenebilir. Bu yazı en son <strong>30 Eylül 2026</strong> tarihinde yürürlükteki mevzuata göre gözden geçirilmiştir. Kanun değişiklikleri ve yargı kararları sonucu etkileyebileceğinden, somut durumunuz için bir avukata danışmanız önerilir.</p></section>
+<div class="paylas">Paylaş: <a href="https://wa.me/?text=WhatsApp%20Hesab%C4%B1m%20%C3%87al%C4%B1nd%C4%B1%2C%20Rehberimden%20Para%20%C4%B0stendi%3A%20Ne%20Yapmal%C4%B1y%C4%B1m%3F%20%282026%29%20https%3A//avleventmutlu.com.tr/makale/whatsapp-hesabi-calindi-rehberden-para-istendi.html" target="_blank" rel="noopener">WhatsApp</a> · <a href="#" onclick="navigator.clipboard&&navigator.clipboard.writeText(location.href);this.textContent='Bağlantı kopyalandı';return false">Bağlantıyı kopyala</a></div>
+
     <div class="ilgili">
       <h3>İlgili Makaleler</h3>
 <a href="/beylikduzu-ceza-avukati.html">Beylikdüzü ceza avukatı: gözaltı, ifade, tutuklama</a>
@@ -450,9 +477,13 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
 <a href="/makale/sahibinden-dolandiricilik-ne-yapmali.html">Sahibinden&#x27;de Dolandırıldım, Ne Yapmalıyım? İlan Dolandırıcılığı ve Paranın Geri Alınması (2026)</a>
 <a href="/makale/kredi-karti-dolandiriciligi-para-geri-alinir-mi.html">Kredi Kartı Dolandırıcılığı: Para Geri Alınır mı, Banka Sorumlu mu? (2026)</a>
     </div>
-    <div style="margin-top:4rem;padding:2rem;background:#F5EFE0;border-left:4px solid #B8943F;">
-      <h3 style="font-family:'Cormorant Garamond',serif;font-size:2rem;color:#4A1010;margin-bottom:1rem;">Yazar Hakkında</h3>
-      <p style="line-height:1.9;color:#5C3D2E;">Bu makale, İstanbul Barosu'na kayıtlı Av. Levent Mutlu tarafından hazırlanmıştır. Av. Levent Mutlu; ceza hukuku, bilişim suçları, aile hukuku, iş hukuku ve icra hukuku alanlarında Beylikdüzü'ndeki bürosunda avukatlık hizmeti vermektedir. <a href="/av-levent-mutlu.html" style="color:#6B1A1A">Av. Levent Mutlu hakkında →</a></p>
+    <div class="yazar-kutu">
+      <img src="/foto.jpg" alt="Av. Levent Mutlu" width="88" height="88" loading="lazy">
+      <div>
+        <h3>Yazar: Av. Levent Mutlu</h3>
+        <p>İstanbul Barosu'na kayıtlı avukat. Ceza hukuku, bilişim suçları, aile hukuku, iş hukuku ve icra hukuku alanlarında Beylikdüzü'ndeki bürosunda avukatlık hizmeti vermektedir.</p>
+        <p class="yazar-alt">Yayın: 30 Eylül 2026 · Son gözden geçirme: 30 Eylül 2026 · <a href="/av-levent-mutlu.html">Hakkında →</a></p>
+      </div>
     </div>
     <div class="iletisim-kutu">
       <p>Bu konuda hukuki destek almak ister misiniz?</p>
@@ -512,80 +543,6 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
   
 
   <!-- CHAT BOT (mevcut kod aynen korunuyor) -->
-  <script>
-    var db = [
-      {k:["istinaf","bam","bolge adliye"],c:"Istinaf, ilk derece mahkemesi kararlarinin Bolge Adliye Mahkemesinde yeniden incelenmesidir. Karara 2 hafta icinde itiraz edilebilir.",r:true},
-      {k:["temyiz","yargitay","bozma"],c:"Temyiz, istinaf kararlarinin Yargitay tarafindan hukuki denetiminin yapilmasidir. Suresi karar tebliginden itibaren 2 haftadir.",r:true},
-      {k:["tutukluluk","tutuklu","tahliye","adli kontrol"],c:"Tutukluluk, kovusturma oncesinde sahsin ozgurlugunun kisitlanmasidir. CMK 109'a gore adli kontrol alternatifi vardir.",r:true},
-      {k:["beraat","mahkumiyet","ceza erteleme","hapis"],c:"Beraat, sanik hakkinda suc ispatlanamadigi icin verilen serbest birakma kararidir.",r:true},
-      {k:["uzlasma","uzlastirma"],c:"Uzlastirma, taraflarin bir uzlastirmaci araciligiyla anlasmasidir.",r:true},
-      {k:["ifade","sorgu","ifade ver"],c:"Ifade oncesinde mutlaka avukattan destek alin; ilk ifadede yapilan hatalar telafi edilemez.",r:true},
-      {k:["mal rejimi","edinilmis mal","mal paylasimi"],c:"Evlilik birligi icinde edinilen mallar kural olarak esit paylasilir.",r:true},
-      {k:["nafaka","yoksulluk nafakasi"],c:"Nafaka turleri: tedbir, istirak, yoksulluk. Yargitay 2026 emsal karariyla mali guc kriteri netlesti.",r:true},
-      {k:["kidem","ihbar","kidem tazminati"],c:"Kidem tazminati her tam yil icin 30 gunluk brut ucret uzerinden hesaplanir.",r:true},
-      {k:["ise iade"],c:"30'dan fazla isci calistiran isyerlerinde ise iade davasi 30 is gunu icinde acilmalidir.",r:true},
-      {k:["tenkis","sakli pay"],c:"Tenkis davasi, sakli paylarin ihlal edildigi durumlarda acilir.",r:true},
-      {k:["miras reddi"],c:"Mirascilar olum tarihinden itibaren 3 ay icinde mirasi reddedebilir.",r:true},
-      {k:["icra","haciz"],c:"Icra takibinde itiraz suresi tebligden itibaren 7 veya 15 gundur.",r:true},
-      {k:["tck","banka hesabi","iban","dolandiricilik"],c:"Banka hesabi kullandirma davasinda Yargitay'a gore IBAN sahipligi tek basina suc delili degildir.",r:true},
-      {k:["bosanma","velayet"],c:"Bosanma davasi anlasmali 1-3 ay, cekismeli 1-3 yil surebilir.",r:true},
-      {k:["kira","kira artisi","ev sahibi"],c:"Nisan 2026 yasal kira artis tavani %32,82'dir. Mayis orani 4 Mayis'ta aciklanacak.",r:true},
-      {k:["trafik cezasi"],c:"Trafik cezasina tebligden itibaren 15 gun icinde Sulh Ceza Hakimligi'ne itiraz edilebilir.",r:true},
-      {k:["adres","ofis","beylikduzu",],c:"Ofisimiz Istanbul Beylikduzu'ndedir. Gorusme icin randevu aliniz.",r:false},
-      {k:["telefon","whatsapp","ara"],c:"0545 959 48 45 numarali hattan veya WhatsApp uzerinden ulasabilirsiniz.",r:false},
-      {k:["ucret","fiyat"],c:"Ucretlerimiz dava turune gore belirlenmektedir. Ilk gorusmede net bilgi sunulur.",r:true},
-      {k:["avukat","levent","ismet"],c:"Av. Levent Mutlu ve ortagi Av. Ismet Mutlu olarak Beylikduzu'nde hizmet veriyoruz.",r:true}
-    ];
-
-    function normalize(s){return s.toLocaleLowerCase('tr').replace(/ç/g,'c').replace(/ğ/g,'g').replace(/ı/g,'i').replace(/ö/g,'o').replace(/ş/g,'s').replace(/ü/g,'u');}
-    function cevapBul(s){
-      s=normalize(s);
-      for(var i=0;i<db.length;i++){
-        for(var j=0;j<db[i].k.length;j++){
-          if(s.indexOf(db[i].k[j])>-1) return db[i];
-        }
-      }
-      return {c:"Bu konuda kesin bilgi verebilmek icin davanizin detaylarini incelememiz gerekir. Buromuzla goruserek risksiz bir degerlendirme yapabilirsiniz.",r:true};
-    }
-
-    function mesajGonder(){
-      var input=document.getElementById("chatInput");
-      var mesaj=input.value.trim();
-      if(!mesaj) return;
-      input.value="";
-      var m=document.getElementById("chatMesajlar");
-      var kd=document.createElement("div");
-      kd.className="chat-mesaj kullanici";
-      kd.textContent=mesaj;
-      m.appendChild(kd);
-      var yd=document.createElement("div");
-      yd.className="chat-yaziyor";
-      yd.innerHTML="<span></span><span></span><span></span>";
-      m.appendChild(yd);
-      m.scrollTop=m.scrollHeight;
-      var img = new Image();
-      img.src = "https://script.google.com/macros/s/AKfycbwxLk2mG7mIRbSOxrA62yukb5gmHuihFWTPRN7BSZ6d6F_aYuUX53ScKErtdgK5N8pLKQ/exec?mesaj=" + encodeURIComponent(mesaj);
-
-      setTimeout(function(){
-        yd.remove();
-        var sonuc=cevapBul(mesaj);
-        var bd=document.createElement("div");
-        bd.className="chat-mesaj bot";
-        bd.textContent=sonuc.c;
-        if(sonuc.r){
-          var br=document.createElement("br");
-          var a=document.createElement("a");
-          a.href="tel:+905459594845";
-          a.className="chat-randevu";
-          a.textContent="Randevu Al";
-          bd.appendChild(br);
-          bd.appendChild(a);
-        }
-        m.appendChild(bd);
-        m.scrollTop=m.scrollHeight;
-      },900);
-    }
-  </script>
 
   <script>
     function soruGonder(e) {
@@ -602,5 +559,6 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
     }
   </script>
   <script src="/asistan.js" defer></script>
+<script>(function(){var b=document.getElementById("okuma-bar"),a=document.getElementById("makale-govde");if(!b||!a)return;function u(){var r=a.getBoundingClientRect(),t=a.offsetHeight-innerHeight,p=t>0?Math.min(1,Math.max(0,-r.top/t)):1;b.style.width=(p*100)+"%"}addEventListener("scroll",u,{passive:true});u()})();</script>
 </body>
 </html>
