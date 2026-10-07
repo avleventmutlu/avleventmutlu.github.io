@@ -338,6 +338,28 @@
     .guncelleme-kutu a { color:#6b1a1a; font-weight:600; }
     .breadcrumb { font-size:0.7rem; letter-spacing:0.05em; color:rgba(245,239,224,0.5); margin-bottom:1rem; }
     .breadcrumb a { color:rgba(245,239,224,0.6); text-decoration:none; }
+    #okuma-bar { position:fixed; top:0; left:0; height:3px; width:0; background:#b8943f; z-index:10000; transition:width .1s linear; }
+    .toc { margin:0 0 2.2rem; padding:1.1rem 1.4rem; border:1px solid rgba(184,148,63,.55); background:rgba(255,255,255,.35); font-family:'Cormorant Garamond',Georgia,serif; }
+    .toc summary { cursor:pointer; font-size:1.05rem; letter-spacing:.12em; text-transform:uppercase; color:#6b1a1a; font-weight:600; }
+    .toc ol { margin:.8rem 0 0 1.3rem; padding:0; columns:2; column-gap:2rem; }
+    .toc li { margin:0; padding:.2rem 0; font-size:1.05rem; line-height:1.4; break-inside:avoid; }
+    .toc a { color:#4a1010; text-decoration:none; border-bottom:1px dotted rgba(107,26,26,.35); }
+    .toc a:hover { color:#6b1a1a; border-bottom-color:#6b1a1a; }
+    .makale-govde .icerik h2 { scroll-margin-top:90px; }
+    .kaynakca { margin:2.5rem 0 1rem; padding:1.4rem 1.5rem; border-top:1px solid rgba(184,148,63,.55); font-size:.95rem; line-height:1.7; color:#4a1010; }
+    .kaynakca h3 { font-family:'Cormorant Garamond',serif; font-size:1.3rem; letter-spacing:.1em; text-transform:uppercase; color:#6b1a1a; margin:0 0 .8rem; }
+    .kaynakca ul { margin:0 0 .9rem 1.2rem; }
+    .kaynakca li { margin:.2rem 0; }
+    .kaynakca a { color:#6b1a1a; }
+    .paylas { font-size:.9rem; color:#5c3d2e; margin:.5rem 0 0; text-align:right; }
+    .paylas a { color:#6b1a1a; font-weight:600; text-decoration:none; }
+    .yazar-kutu { display:flex; gap:1.3rem; align-items:flex-start; margin-top:3.5rem; padding:1.8rem; background:#F5EFE0; border-left:4px solid #B8943F; }
+    .yazar-kutu img { width:88px; height:88px; border-radius:50%; object-fit:cover; border:2px solid #b8943f; flex-shrink:0; }
+    .yazar-kutu h3 { font-family:'Cormorant Garamond',serif; font-size:1.6rem; color:#4A1010; margin:0 0 .5rem; }
+    .yazar-kutu p { line-height:1.75; color:#5C3D2E; margin:0 0 .4rem; }
+    .yazar-kutu .yazar-alt { font-size:.85rem; color:#7a5a45; }
+    .yazar-kutu a { color:#6B1A1A; }
+    @media(max-width:768px){ .toc ol{columns:1} .yazar-kutu{flex-direction:column; align-items:center; text-align:center} }
   </style>
   <meta property="article:published_time" content="2026-10-01">
   <meta property="article:section" content="İş Hukuku">
@@ -376,6 +398,7 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
 <style id="nav-fix">.nav-links a,.nav-logo{white-space:nowrap}.nav-links{margin-left:2rem}@media (max-width:1420px){.nav-links{gap:1.6rem!important}}@media (max-width:1279px){.nav-links{display:none!important}.hamburger{display:flex!important}}</style>
 </head>
 <body>
+<div id="okuma-bar"></div>
 
   <nav>
     <a href="/index.html" class="nav-logo">Av. <span>Levent Mutlu</span></a>
@@ -414,19 +437,20 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
         <div class="breadcrumb"><a href="/">Ana Sayfa</a> › <a href="/makaleler.html">Makaleler</a> › İş Hukuku</div>
         <div class="makale-kategori-tag">İş Hukuku</div>
         <h1 class="makale-baslik-buyuk">SGK Çıkış Kodu Yanlış Yazıldıysa Ne Yapmalı? Kod Listesi ve Kod 42-50 (2026)</h1>
-        <p class="makale-meta"><a href="/av-levent-mutlu.html" rel="author" style="color:inherit">Av. Levent Mutlu</a> · <time datetime="2026-10-01">1 Ekim 2026</time> · Güncellendi: <time datetime="2026-10-01">1 Ekim 2026</time></p>
+        <p class="makale-meta"><a href="/av-levent-mutlu.html" rel="author" style="color:inherit">Av. Levent Mutlu</a> · <time datetime="2026-10-01">1 Ekim 2026</time> · 3 dk okuma</p>
       </div>
     </div>
   </div>
 
   <article class="makale-govde" id="makale-govde">
     <div class="ozet">İşten ayrılırken SGK&#x27;ya bildirilen çıkış kodu, işsizlik maaşı ve tazminat haklarını doğrudan etkiler. Kod 29 kaldırıldı, yerine Kod 42-50 geldi. Hangi kod ne anlama gelir, yanlış yazılırsa ne yapılır?</div>
+<details class="toc" open><summary>İçindekiler</summary><ol><li><a href="#cikis-kodu-neden-bu-kadar-onemli">Çıkış Kodu Neden Bu Kadar Önemli?</a></li><li><a href="#sik-karsilasilan-kodlar">Sık Karşılaşılan Kodlar</a></li><li><a href="#kod-29-kaldirildi-yerine-kod-42-50">Kod 29 Kaldırıldı: Yerine Kod 42-50</a></li><li><a href="#kod-haksiz-yazilirsa-ne-olur">Kod Haksız Yazılırsa Ne Olur?</a></li><li><a href="#ne-yapmalisiniz">Ne Yapmalısınız?</a></li></ol></details>
     <div class="icerik">
 <div class="guncelleme-kutu"><strong>GÜNCELLEME (1 Ekim 2026):</strong> Bu yazı, 1 Nisan 2021&#x27;de yürürlüğe giren SGK düzenlemesine göre güncellenmiştir. Eski Kod 29 artık kullanılmamakta, yerine 42 ile 50 arasındaki kodlar uygulanmaktadır. Ayrıca bazı kodların anlamları düzeltilmiştir.</div>
 <p>İşten ayrılırken SGK&#x27;ya bildirilen çıkış kodu, pek çok çalışanın farkında olmadan hak kaybına uğradığı kritik bir ayrıntıdır. Kod, işverenin iş sözleşmesinin nasıl sona erdiğini SGK&#x27;ya bildirdiği rakamdır ve özellikle işsizlik ödeneği başvurusunda doğrudan dikkate alınır.</p>
-<h2>Çıkış Kodu Neden Bu Kadar Önemli?</h2>
+<h2 id="cikis-kodu-neden-bu-kadar-onemli">Çıkış Kodu Neden Bu Kadar Önemli?</h2>
 <p>İŞKUR, işsizlik ödeneği başvurusunda işten ayrılış nedenini SGK&#x27;ya bildirilen koda göre değerlendirir. Kendi isteğiyle ayrılma veya işçinin kusuruna dayanan bir kod yazılmışsa işsizlik ödeneği bağlanmaz. Kıdem ve ihbar tazminatı ise kodla değil, fesihle ilgili gerçek durumla belirlenir; ancak yanlış kod, işverenin mahkemede savunmasına dayanak yapılabileceği için yine de önemlidir.</p>
-<h2>Sık Karşılaşılan Kodlar</h2>
+<h2 id="sik-karsilasilan-kodlar">Sık Karşılaşılan Kodlar</h2>
 <p>Kod 03: belirsiz süreli iş sözleşmesinin işçi tarafından feshi (istifa). Kural olarak kıdem tazminatı ve işsizlik ödeneği doğurmaz.</p>
 <p>Kod 04: belirsiz süreli iş sözleşmesinin işveren tarafından haklı sebep bildirilmeden feshi. Şartları varsa kıdem, ihbar tazminatı ve işsizlik ödeneği gündeme gelir.</p>
 <p>Kod 05: belirli süreli iş sözleşmesinin sona ermesi.</p>
@@ -437,7 +461,7 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
 <p>Kod 22: diğer nedenler.</p>
 <p>Kod 23, 24 ve 25: işçinin zorunlu nedenle, sağlık nedeniyle veya işverenin ahlak ve iyiniyet kurallarına aykırı davranışı nedeniyle haklı feshi. Bu kodlarda işçi kıdem tazminatına hak kazanabilir.</p>
 <p>Kod 27 ve 28: işverenin zorunlu nedenler, tutukluluk veya sağlık nedeniyle feshi.</p>
-<h2>Kod 29 Kaldırıldı: Yerine Kod 42-50</h2>
+<h2 id="kod-29-kaldirildi-yerine-kod-42-50">Kod 29 Kaldırıldı: Yerine Kod 42-50</h2>
 <p>Eskiden işverenin, işçinin ahlak ve iyiniyet kurallarına aykırı davranışı nedeniyle yaptığı fesihlerde tek bir kod (Kod 29) kullanılıyordu. SGK&#x27;nın 2021/9 sayılı Genelgesiyle 1 Nisan 2021&#x27;den itibaren bu kod kaldırıldı ve İş Kanunu&#x27;nun 25. maddesinin (II) numaralı bendindeki her bir hâl için ayrı kod getirildi:</p>
 <p>Kod 42: işçinin sözleşme yapılırken gerekli vasıf veya şartlar konusunda işvereni yanıltması.</p>
 <p>Kod 43: işçinin işverene veya aile üyelerine şeref ve namusa dokunacak söz veya davranışı, asılsız ihbar ve isnadı.</p>
@@ -449,12 +473,15 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
 <p>Kod 49: işçinin yapmakla ödevli olduğu görevleri kendisine hatırlatıldığı hâlde yapmamakta ısrar etmesi.</p>
 <p>Kod 50: işçinin iş güvenliğini tehlikeye düşürmesi, işyerine ait eşya ve malzemeye 30 günlük ücretiyle ödeyemeyeceği ölçüde zarar vermesi.</p>
 <p>Bu kodlardan biriyle çıkış yapılması, işçinin kıdem ve ihbar tazminatı ile işsizlik ödeneğinden yararlanamaması sonucunu doğurur. Bu nedenle kodun somut olaya uymaması hâlinde itiraz edilmesi büyük önem taşır.</p>
-<h2>Kod Haksız Yazılırsa Ne Olur?</h2>
+<h2 id="kod-haksiz-yazilirsa-ne-olur">Kod Haksız Yazılırsa Ne Olur?</h2>
 <p>Haklı fesih iddiasını ispat yükü işverendedir. İşveren, 42-50 arasındaki kodlardan biriyle bildirdiği fesih sebebini somut delillerle ispat edemezse mahkeme feshi haksız kabul eder ve şartları varsa kıdem ve ihbar tazminatına hükmeder. Ayrıca işverenin haklı fesih hakkını, fesih sebebini öğrendiği günden itibaren altı iş günü ve her hâlde fiilin gerçekleşmesinden itibaren bir yıl içinde kullanması gerekir; bu süreler geçtikten sonra yapılan fesih haklı fesih sayılmaz.</p>
-<h2>Ne Yapmalısınız?</h2>
+<h2 id="ne-yapmalisiniz">Ne Yapmalısınız?</h2>
 <p>e-Devlet üzerinden SGK tescil ve hizmet dökümünüze bakarak çıkış kodunuzu kontrol edin. Kod gerçeği yansıtmıyorsa önce işverene yazılı olarak başvurup düzeltme isteyin. İşveren düzeltmezse işçi alacakları ve kıdem-ihbar tazminatı için <a href="/makale/arabuluculuk-zorunlu-davalar-2026.html">zorunlu arabuluculuğa</a> başvurulur; anlaşma sağlanamazsa iş mahkemesinde dava açılabilir. İş sözleşmeniz feshedildiyse ve <a href="/makale/ise-iade-davasi-nedir.html">işe iade şartlarını</a> taşıyorsanız, fesih bildiriminin tebliğinden itibaren bir ay içinde arabulucuya başvurmanız gerektiğini unutmayın.</p>
 <p>Bu yazı genel bilgilendirme amaçlıdır; somut durumunuz için bir avukata danışmanız önerilir.</p>
     </div>
+<section class="kaynakca"><h3>Kaynakça ve mevzuat</h3><ul><li><a href="https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&amp;MevzuatTur=1&amp;MevzuatTertip=5" target="_blank" rel="noopener">4857 sayılı İş Kanunu</a></li></ul><p>Mevzuat metinleri <a href="https://www.mevzuat.gov.tr/" target="_blank" rel="noopener">mevzuat.gov.tr</a> üzerinden güncel hâliyle incelenebilir. Bu yazı en son <strong>1 Ekim 2026</strong> tarihinde yürürlükteki mevzuata göre gözden geçirilmiştir. Kanun değişiklikleri ve yargı kararları sonucu etkileyebileceğinden, somut durumunuz için bir avukata danışmanız önerilir.</p></section>
+<div class="paylas">Paylaş: <a href="https://wa.me/?text=SGK%20%C3%87%C4%B1k%C4%B1%C5%9F%20Kodu%20Yanl%C4%B1%C5%9F%20Yaz%C4%B1ld%C4%B1ysa%20Ne%20Yapmal%C4%B1%3F%20Kod%20Listesi%20ve%20Kod%2042-50%20%282026%29%20https%3A//avleventmutlu.com.tr/makale/sgk-cikis-kodu-yanlis-yazildi-2026.html" target="_blank" rel="noopener">WhatsApp</a> · <a href="#" onclick="navigator.clipboard&&navigator.clipboard.writeText(location.href);this.textContent='Bağlantı kopyalandı';return false">Bağlantıyı kopyala</a></div>
+
     <div class="ilgili">
       <h3>İlgili Makaleler</h3>
 <a href="/beylikduzu-is-avukati.html">Beylikdüzü iş avukatı: kıdem, ihbar, işe iade</a>
@@ -464,9 +491,13 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
 <a href="/makale/ihbar-tazminati-haklari-2026-rehber.html">İhbar Tazminatı Hakları: Kim Alır, Nasıl Hesaplanır? 2026 Detaylı Rehber</a>
 <a href="/makale/hakli-nedenle-fesih-isci-hakli-istifa-2026.html">Haklı Nedenle İstifa Eden İşçi Kıdem Tazminatı Alabilir: 2026&#x27;da Yargıtay&#x27;ın Kabul Ettiği Gerekçeler</a>
     </div>
-    <div style="margin-top:4rem;padding:2rem;background:#F5EFE0;border-left:4px solid #B8943F;">
-      <h3 style="font-family:'Cormorant Garamond',serif;font-size:2rem;color:#4A1010;margin-bottom:1rem;">Yazar Hakkında</h3>
-      <p style="line-height:1.9;color:#5C3D2E;">Bu makale, İstanbul Barosu'na kayıtlı Av. Levent Mutlu tarafından hazırlanmıştır. Av. Levent Mutlu; ceza hukuku, bilişim suçları, aile hukuku, iş hukuku ve icra hukuku alanlarında Beylikdüzü'ndeki bürosunda avukatlık hizmeti vermektedir. <a href="/av-levent-mutlu.html" style="color:#6B1A1A">Av. Levent Mutlu hakkında →</a></p>
+    <div class="yazar-kutu">
+      <img src="/foto.jpg" alt="Av. Levent Mutlu" width="88" height="88" loading="lazy">
+      <div>
+        <h3>Yazar: Av. Levent Mutlu</h3>
+        <p>İstanbul Barosu'na kayıtlı avukat. Ceza hukuku, bilişim suçları, aile hukuku, iş hukuku ve icra hukuku alanlarında Beylikdüzü'ndeki bürosunda avukatlık hizmeti vermektedir.</p>
+        <p class="yazar-alt">Yayın: 1 Ekim 2026 · Son gözden geçirme: 1 Ekim 2026 · <a href="/av-levent-mutlu.html">Hakkında →</a></p>
+      </div>
     </div>
     <div class="iletisim-kutu">
       <p>Bu konuda hukuki destek almak ister misiniz?</p>
@@ -526,80 +557,6 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
   
 
   <!-- CHAT BOT (mevcut kod aynen korunuyor) -->
-  <script>
-    var db = [
-      {k:["istinaf","bam","bolge adliye"],c:"Istinaf, ilk derece mahkemesi kararlarinin Bolge Adliye Mahkemesinde yeniden incelenmesidir. Karara 2 hafta icinde itiraz edilebilir.",r:true},
-      {k:["temyiz","yargitay","bozma"],c:"Temyiz, istinaf kararlarinin Yargitay tarafindan hukuki denetiminin yapilmasidir. Suresi karar tebliginden itibaren 2 haftadir.",r:true},
-      {k:["tutukluluk","tutuklu","tahliye","adli kontrol"],c:"Tutukluluk, kovusturma oncesinde sahsin ozgurlugunun kisitlanmasidir. CMK 109'a gore adli kontrol alternatifi vardir.",r:true},
-      {k:["beraat","mahkumiyet","ceza erteleme","hapis"],c:"Beraat, sanik hakkinda suc ispatlanamadigi icin verilen serbest birakma kararidir.",r:true},
-      {k:["uzlasma","uzlastirma"],c:"Uzlastirma, taraflarin bir uzlastirmaci araciligiyla anlasmasidir.",r:true},
-      {k:["ifade","sorgu","ifade ver"],c:"Ifade oncesinde mutlaka avukattan destek alin; ilk ifadede yapilan hatalar telafi edilemez.",r:true},
-      {k:["mal rejimi","edinilmis mal","mal paylasimi"],c:"Evlilik birligi icinde edinilen mallar kural olarak esit paylasilir.",r:true},
-      {k:["nafaka","yoksulluk nafakasi"],c:"Nafaka turleri: tedbir, istirak, yoksulluk. Yargitay 2026 emsal karariyla mali guc kriteri netlesti.",r:true},
-      {k:["kidem","ihbar","kidem tazminati"],c:"Kidem tazminati her tam yil icin 30 gunluk brut ucret uzerinden hesaplanir.",r:true},
-      {k:["ise iade"],c:"30'dan fazla isci calistiran isyerlerinde ise iade davasi 30 is gunu icinde acilmalidir.",r:true},
-      {k:["tenkis","sakli pay"],c:"Tenkis davasi, sakli paylarin ihlal edildigi durumlarda acilir.",r:true},
-      {k:["miras reddi"],c:"Mirascilar olum tarihinden itibaren 3 ay icinde mirasi reddedebilir.",r:true},
-      {k:["icra","haciz"],c:"Icra takibinde itiraz suresi tebligden itibaren 7 veya 15 gundur.",r:true},
-      {k:["tck","banka hesabi","iban","dolandiricilik"],c:"Banka hesabi kullandirma davasinda Yargitay'a gore IBAN sahipligi tek basina suc delili degildir.",r:true},
-      {k:["bosanma","velayet"],c:"Bosanma davasi anlasmali 1-3 ay, cekismeli 1-3 yil surebilir.",r:true},
-      {k:["kira","kira artisi","ev sahibi"],c:"Nisan 2026 yasal kira artis tavani %32,82'dir. Mayis orani 4 Mayis'ta aciklanacak.",r:true},
-      {k:["trafik cezasi"],c:"Trafik cezasina tebligden itibaren 15 gun icinde Sulh Ceza Hakimligi'ne itiraz edilebilir.",r:true},
-      {k:["adres","ofis","beylikduzu",],c:"Ofisimiz Istanbul Beylikduzu'ndedir. Gorusme icin randevu aliniz.",r:false},
-      {k:["telefon","whatsapp","ara"],c:"0545 959 48 45 numarali hattan veya WhatsApp uzerinden ulasabilirsiniz.",r:false},
-      {k:["ucret","fiyat"],c:"Ucretlerimiz dava turune gore belirlenmektedir. Ilk gorusmede net bilgi sunulur.",r:true},
-      {k:["avukat","levent","ismet"],c:"Av. Levent Mutlu ve ortagi Av. Ismet Mutlu olarak Beylikduzu'nde hizmet veriyoruz.",r:true}
-    ];
-
-    function normalize(s){return s.toLocaleLowerCase('tr').replace(/ç/g,'c').replace(/ğ/g,'g').replace(/ı/g,'i').replace(/ö/g,'o').replace(/ş/g,'s').replace(/ü/g,'u');}
-    function cevapBul(s){
-      s=normalize(s);
-      for(var i=0;i<db.length;i++){
-        for(var j=0;j<db[i].k.length;j++){
-          if(s.indexOf(db[i].k[j])>-1) return db[i];
-        }
-      }
-      return {c:"Bu konuda kesin bilgi verebilmek icin davanizin detaylarini incelememiz gerekir. Buromuzla goruserek risksiz bir degerlendirme yapabilirsiniz.",r:true};
-    }
-
-    function mesajGonder(){
-      var input=document.getElementById("chatInput");
-      var mesaj=input.value.trim();
-      if(!mesaj) return;
-      input.value="";
-      var m=document.getElementById("chatMesajlar");
-      var kd=document.createElement("div");
-      kd.className="chat-mesaj kullanici";
-      kd.textContent=mesaj;
-      m.appendChild(kd);
-      var yd=document.createElement("div");
-      yd.className="chat-yaziyor";
-      yd.innerHTML="<span></span><span></span><span></span>";
-      m.appendChild(yd);
-      m.scrollTop=m.scrollHeight;
-      var img = new Image();
-      img.src = "https://script.google.com/macros/s/AKfycbwxLk2mG7mIRbSOxrA62yukb5gmHuihFWTPRN7BSZ6d6F_aYuUX53ScKErtdgK5N8pLKQ/exec?mesaj=" + encodeURIComponent(mesaj);
-
-      setTimeout(function(){
-        yd.remove();
-        var sonuc=cevapBul(mesaj);
-        var bd=document.createElement("div");
-        bd.className="chat-mesaj bot";
-        bd.textContent=sonuc.c;
-        if(sonuc.r){
-          var br=document.createElement("br");
-          var a=document.createElement("a");
-          a.href="tel:+905459594845";
-          a.className="chat-randevu";
-          a.textContent="Randevu Al";
-          bd.appendChild(br);
-          bd.appendChild(a);
-        }
-        m.appendChild(bd);
-        m.scrollTop=m.scrollHeight;
-      },900);
-    }
-  </script>
 
   <script>
     function soruGonder(e) {
@@ -616,5 +573,6 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
     }
   </script>
   <script src="/asistan.js" defer></script>
+<script>(function(){var b=document.getElementById("okuma-bar"),a=document.getElementById("makale-govde");if(!b||!a)return;function u(){var r=a.getBoundingClientRect(),t=a.offsetHeight-innerHeight,p=t>0?Math.min(1,Math.max(0,-r.top/t)):1;b.style.width=(p*100)+"%"}addEventListener("scroll",u,{passive:true});u()})();</script>
 </body>
 </html>
