@@ -329,8 +329,9 @@
   function olc(e) {
     var a = e.target.closest && e.target.closest('a[href^="tel:"], a[href*="wa.me/"]');
     if (!a || typeof window.gtag !== 'function') return;
+    if (a.href.indexOf('wa.me/?') > -1) return; // paylaşım bağlantısı, iletişim değil
     var yontem = a.href.indexOf('tel:') === 0 ? 'telefon' : 'whatsapp';
-    var konum = a.getAttribute('data-konum') || (a.classList.contains('whatsapp-btn') ? 'yuzen_buton' : (a.closest('.on-kutu') ? 'ust_kutu' : (a.closest('.iletisim-kutu') ? 'alt_kutu' : (a.closest('.chat-pencere') ? 'asistan' : 'sayfa_ici'))));
+    var konum = a.getAttribute('data-konum') || (a.classList.contains('whatsapp-btn') ? 'yuzen_buton' : (a.closest('.on-kutu') ? 'ust_kutu' : a.closest('.orta-kutu') ? 'orta_kutu' : (a.closest('.iletisim-kutu') ? 'alt_kutu' : (a.closest('.chat-pencere') ? 'asistan' : 'sayfa_ici'))));
     window.gtag('event', 'iletisim_tiklama', { yontem: yontem, konum: konum, sayfa: location.pathname });
     window.gtag('event', 'generate_lead', { method: yontem });
   }
