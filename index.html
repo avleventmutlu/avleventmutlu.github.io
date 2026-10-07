@@ -920,6 +920,8 @@
 }
 </script>
 <style id="nav-fix">.nav-links a,.nav-logo{white-space:nowrap}.nav-links{margin-left:2rem}@media (max-width:1420px){.nav-links{gap:1.6rem!important}}@media (max-width:1279px){.nav-links{display:none!important}.hamburger{display:flex!important}}</style>
+
+<style id="kontrast">.breadcrumb,.breadcrumb a{color:rgba(245,239,224,.82)!important}.makale-meta,.makale-meta a,.makale-meta time{color:rgba(245,239,224,.82)!important}.footer-logo{color:rgba(245,239,224,.88)!important}.footer-hukuk,.footer-hukuk a{color:rgba(245,239,224,.78)!important}.footer-sosyal,.footer-sosyal a{color:rgba(245,239,224,.85)!important}.iletisim-not{color:rgba(245,239,224,.82)!important}.oc-kat{color:#7a5a1e!important}</style>
 </head>
 <body>
 
@@ -986,7 +988,7 @@
   <section id="hakkimda">
     <div class="hakkimda-grid">
       <div class="hakkimda-sol reveal">
-        <div class="avatar-placeholder"><img src="foto.jpg" alt="Av. Levent Mutlu"></div>
+        <div class="avatar-placeholder"><img src="foto.jpg" alt="Av. Levent Mutlu" fetchpriority="high" decoding="async"></div>
       </div>
       <div class="hakkimda-sag reveal">
         <p class="section-eyebrow">Hakkımda</p>
@@ -1181,28 +1183,29 @@
       <form class="iletisim-form" id="iletisimForm" onsubmit="formGonder(event)">
         <div class="form-row">
           <div class="form-grup">
-            <label>Adınız Soyadınız</label>
+            <label for="formAd">Adınız Soyadınız</label>
             <input type="text" id="formAd" placeholder="Ad Soyad" required>
           </div>
           <div class="form-grup">
-            <label>Telefon</label>
+            <label for="formTel">Telefon</label>
             <input type="tel" id="formTel" placeholder="05XX XXX XX XX" required>
           </div>
         </div>
         <div class="form-grup">
-          <label>Hukuki Konu</label>
-          <select id="formKonu" required>
+          <label for="formKonu">Hukuki Konu</label>
+          <select id="formKonu" required aria-label="Hukuki konu">
             <option value="">Seçiniz...</option>
             <option>Ceza Hukuku</option>
             <option>Aile Hukuku / Boşanma</option>
             <option>İş Hukuku</option>
+            <option>İcra Hukuku</option>
             <option>Miras Hukuku</option>
             <option>Tazminat Davası</option>
             <option>Diğer</option>
           </select>
         </div>
         <div class="form-grup">
-          <label>Davanızı Kısaca Anlatın</label>
+          <label for="formMesaj">Davanızı Kısaca Anlatın</label>
           <textarea id="formMesaj" rows="4" placeholder="Durumunuzu kısaca açıklayın, size en kısa sürede dönüş yapalım..."></textarea>
         </div>
         <button type="submit" class="form-gonder-btn">Değerlendirme İçin Bize Ulaşın →</button>

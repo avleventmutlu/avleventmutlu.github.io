@@ -149,6 +149,9 @@ Bu sitedeki içerikler genel bilgilendirme amaçlıdır ve hukuki danışmanlık
 - [Kıdem ve İhbar Tazminatı Hesaplama 2026](https://avleventmutlu.com.tr/araclar/kidem-ihbar-hesaplama.html): 2026 kıdem ve ihbar tazminatı hesaplama aracı. Güncel kıdem tavanı (73.729,87 TL), ihbar süreleri, brüt ve net tutarlar. Ücretsiz ve anında hesaplayın.
 - [Kira Artış Hesaplama Eylül 2026](https://avleventmutlu.com.tr/araclar/kira-artis-hesaplama.html): Eylül 2026 yasal kira artış oranı %31,79. Mevcut kiranızı girin, yasal azami yeni kirayı anında hesaplayın. TÜFE 12 aylık ortalama oranları tablosu.
 - [Yasal Süre Hesaplama](https://avleventmutlu.com.tr/araclar/sure-hesaplama.html): İstinaf, temyiz, itiraz ve icra süreleri için son günü hesaplayın. Resmi tatiller, hafta sonu, arife ve adli tatil (HMK 104, CMK 331) otomatik dikkate alınır.
+- [Şikâyet Süresi ve Zamanaşımı Hesaplama](https://avleventmutlu.com.tr/araclar/sikayet-zamanasimi-hesaplama.html): Şikâyete bağlı suçlarda 6 aylık şikâyet süresi ve TCK 66 dava zamanaşımı hesaplama aracı.
+- [Ödeme Emrine İtiraz Süresi Hesaplama](https://avleventmutlu.com.tr/araclar/odeme-emri-itiraz-suresi.html): İlamsız (7 gün), kambiyo (5 gün) ve kira takiplerinde itiraz için son gün; e-Tebligat ve resmi tatiller dahil.
+- [İşe İade Süresi Hesaplama](https://avleventmutlu.com.tr/araclar/ise-iade-suresi-hesaplama.html): Fesihten itibaren arabulucuya başvuru (1 ay) ve son tutanaktan itibaren dava (2 hafta) son günleri.
 
 ## Güncel Haberler
 
