@@ -338,6 +338,35 @@
     .guncelleme-kutu a { color:#6b1a1a; font-weight:600; }
     .breadcrumb { font-size:0.7rem; letter-spacing:0.05em; color:rgba(245,239,224,0.5); margin-bottom:1rem; }
     .breadcrumb a { color:rgba(245,239,224,0.6); text-decoration:none; }
+    #okuma-bar { position:fixed; top:0; left:0; height:3px; width:0; background:#b8943f; z-index:10000; transition:width .1s linear; }
+    .toc { margin:0 0 2.2rem; padding:1.1rem 1.4rem; border:1px solid rgba(184,148,63,.55); background:rgba(255,255,255,.35); font-family:'Cormorant Garamond',Georgia,serif; }
+    .toc summary { cursor:pointer; font-size:1.05rem; letter-spacing:.12em; text-transform:uppercase; color:#6b1a1a; font-weight:600; }
+    .toc ol { margin:.8rem 0 0 1.3rem; padding:0; columns:2; column-gap:2rem; }
+    .toc li { margin:0; padding:.2rem 0; font-size:1.05rem; line-height:1.4; break-inside:avoid; }
+    .toc a { color:#4a1010; text-decoration:none; border-bottom:1px dotted rgba(107,26,26,.35); }
+    .toc a:hover { color:#6b1a1a; border-bottom-color:#6b1a1a; }
+    .makale-govde .icerik h2 { scroll-margin-top:90px; }
+    .kaynakca { margin:2.5rem 0 1rem; padding:1.4rem 1.5rem; border-top:1px solid rgba(184,148,63,.55); font-size:.95rem; line-height:1.7; color:#4a1010; }
+    .kaynakca h3 { font-family:'Cormorant Garamond',serif; font-size:1.3rem; letter-spacing:.1em; text-transform:uppercase; color:#6b1a1a; margin:0 0 .8rem; }
+    .kaynakca ul { margin:0 0 .9rem 1.2rem; }
+    .kaynakca li { margin:.2rem 0; }
+    .kaynakca a { color:#6b1a1a; }
+    .paylas { font-size:.9rem; color:#5c3d2e; margin:.5rem 0 0; text-align:right; }
+    .paylas a { color:#6b1a1a; font-weight:600; text-decoration:none; }
+    .yazar-kutu { display:flex; gap:1.3rem; align-items:flex-start; margin-top:3.5rem; padding:1.8rem; background:#F5EFE0; border-left:4px solid #B8943F; }
+    .yazar-kutu img { width:88px; height:88px; border-radius:50%; object-fit:cover; border:2px solid #b8943f; flex-shrink:0; }
+    .yazar-kutu h3 { font-family:'Cormorant Garamond',serif; font-size:1.6rem; color:#4A1010; margin:0 0 .5rem; }
+    .yazar-kutu p { line-height:1.75; color:#5C3D2E; margin:0 0 .4rem; }
+    .yazar-kutu .yazar-alt { font-size:.85rem; color:#7a5a45; }
+    .yazar-kutu a { color:#6B1A1A; }
+    .orta-kutu { margin:2.2rem 0; padding:1.3rem 1.5rem; background:#4A1010; color:#F5EFE0; border-left:4px solid #B8943F; font-family:Montserrat,sans-serif; }
+    .makale-govde .icerik .orta-kutu p { font-family:Montserrat,sans-serif!important; font-size:.95rem!important; color:#F5EFE0!important; text-indent:0; text-align:left; margin:0 0 .6rem!important; line-height:1.6!important; }
+    .makale-govde .icerik .orta-kutu p:first-letter { float:none; font-size:inherit; padding:0; color:inherit; }
+    .makale-govde .icerik .orta-kutu .ok-baslik { font-family:'Cormorant Garamond',serif!important; font-size:1.35rem!important; font-weight:600; color:#E8D7A8!important; }
+    .orta-kutu .ok-dugme { display:flex; gap:.7rem; flex-wrap:wrap; margin:.9rem 0 0!important; }
+    .orta-kutu .ok-dugme a { display:inline-block; padding:.65rem 1.1rem; background:#B8943F; color:#2a0a0a!important; font-weight:600; text-decoration:none!important; font-size:.9rem; }
+    .orta-kutu .ok-dugme a + a { background:#1E7A45; color:#fff!important; }
+    @media(max-width:768px){ .toc ol{columns:1} .yazar-kutu{flex-direction:column; align-items:center; text-align:center} }
   
     .haber-kapak { width:100%; max-height:420px; object-fit:cover; display:block; margin-bottom:2.5rem; }
     .haber-kaynak-satir { font-size:0.75rem; color:var(--metin-acik); margin-top:2.5rem; padding-top:1rem; border-top:1px solid var(--krem-koyu); }
@@ -377,7 +406,6 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
 </style>
 
 <style id="nav-fix">.nav-links a,.nav-logo{white-space:nowrap}.nav-links{margin-left:2rem}@media (max-width:1420px){.nav-links{gap:1.6rem!important}}@media (max-width:1279px){.nav-links{display:none!important}.hamburger{display:flex!important}}</style>
-
 <style id="kontrast">.breadcrumb,.breadcrumb a{color:rgba(245,239,224,.82)!important}.makale-meta,.makale-meta a,.makale-meta time{color:rgba(245,239,224,.82)!important}.footer-logo{color:rgba(245,239,224,.88)!important}.footer-hukuk,.footer-hukuk a{color:rgba(245,239,224,.78)!important}.footer-sosyal,.footer-sosyal a{color:rgba(245,239,224,.85)!important}.iletisim-not{color:rgba(245,239,224,.82)!important}.oc-kat{color:#7a5a1e!important}</style>
 </head>
 <body>
