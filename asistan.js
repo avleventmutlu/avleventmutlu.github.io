@@ -1,3 +1,10 @@
+/* Mobil menü: bazı şablonlarda menuAc tanımlı değildi */
+if (typeof window.menuAc !== 'function') {
+  window.menuAc = function () { var m = document.getElementById('mobilMenu'); if (m) m.classList.toggle('acik'); };
+}
+if (typeof window.menuKapat !== 'function') {
+  window.menuKapat = function () { var m = document.getElementById('mobilMenu'); if (m) m.classList.remove('acik'); };
+}
 /* Av. Levent Mutlu – Hukuki Asistan (kural tabanlı, ücretsiz)
    Tüm sayfalarda ortak kullanılır: <script src="/asistan.js" defer></script>
    Cevapları güncellemek için yalnızca aşağıdaki BILGI listesini düzenleyin. */
@@ -320,12 +327,13 @@
     st.textContent = '#iletisim-cubuk{display:none}' +
       '@media(max-width:768px){#iletisim-cubuk{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:997;box-shadow:0 -2px 12px rgba(0,0,0,.18);padding-bottom:env(safe-area-inset-bottom);background:#6B1A1A}' +
       '#iletisim-cubuk a{flex:1;display:flex;align-items:center;justify-content:center;gap:.4rem;padding:.9rem .5rem;font-family:Montserrat,sans-serif;font-size:.85rem;font-weight:600;letter-spacing:.04em;text-decoration:none;color:#F5EFE0}' +
-      '#iletisim-cubuk a+a{background:#1E7A45}' +
-      'body{padding-bottom:58px}.whatsapp-btn{display:none!important}}';
+      '#iletisim-cubuk a.wa{background:#1E7A45}#iletisim-cubuk a.sor{background:#4A1010;color:#E8C97A}' +
+      'body{padding-bottom:58px}.whatsapp-btn{display:none!important}.chat-btn{display:none!important}.chat-pencere{bottom:72px!important;left:12px!important;right:12px!important;width:auto!important;max-height:calc(100vh - 140px)!important}}';
     document.head.appendChild(st);
     var d = document.createElement('div');
     d.id = 'iletisim-cubuk';
-    d.innerHTML = '<a href="' + TEL + '" data-konum="mobil_cubuk">📞 Ara</a><a href="' + WA + '" data-konum="mobil_cubuk" target="_blank" rel="noopener">💬 WhatsApp</a>';
+    d.innerHTML = '<a href="' + TEL + '" data-konum="mobil_cubuk">📞 Ara</a><a class="wa" href="' + WA + '" data-konum="mobil_cubuk" target="_blank" rel="noopener">💬 WhatsApp</a>' +
+      (typeof window.chatAc === 'function' ? '<a class="sor" href="#" onclick="event.preventDefault();window.chatAc()">⚖ Soru Sor</a>' : '');
     document.body.appendChild(d);
   }
   function olc(e) {
