@@ -1,0 +1,796 @@
+# Av. Levent Mutlu — Hukuki Rehberler: Kısa Cevaplar
+
+> Bu dosya, avleventmutlu.com.tr'deki hukuki rehberlerin soru ve kısa cevaplarını tek yerde toplar. Her cevabın ayrıntısı ve kaynakları bağlantıdaki sayfadadır. İçerikler genel bilgilendirme amaçlıdır ve hukuki danışmanlık yerine geçmez. Alıntılarda ilgili sayfanın bağlantısının kaynak olarak gösterilmesi rica olunur.
+
+Son güncelleme: 2026-11-04
+
+
+## Bakaya Kalmanın Cezası 2026: Para Cezası, Hapis ve Bedelli
+Kaynak: https://avleventmutlu.com.tr/makale/bakaya-kalmanin-cezasi-2026.html (son kontrol: 2026-11-04)
+
+Geçerli bir mazereti olmadan sevk edildiği birliğe katılmayan kişi bakaya sayılır ve kendisine bakayalıkta geçen her gün için idari para cezası verilir (7179 sayılı Kanun m.24). 2026 yılı için bu tutar, kendiliğinden gelenler için günlük yaklaşık 58 TL, yakalananlar için günlük yaklaşık 116 TL'dir. İdari para cezası kesinleştiği hâlde bakayalık devam ederse Askeri Ceza Kanunu'nun 63. maddesine göre hapis cezası gündeme gelir. Bakaya kalanlar, her gecikme ayı için ek bedel ödeyerek bedelli askerlikten yararlanabilir.
+
+## Ses Kaydı Boşanmada Delil Olur mu? Gizli Kayıt ve Cezası (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/ses-kaydi-bosanmada-delil-olur-mu.html (son kontrol: 2026-11-04)
+
+Kural olarak hayır. Hukuk Muhakemeleri Kanunu'nun 189/2. maddesine göre hukuka aykırı olarak elde edilen deliller mahkemece dikkate alınamaz ve eşin rızası olmadan alınan gizli ses kayıtları çoğu zaman bu kapsamdadır. Yargı kararlarında dar bir istisna kabul edilir: ani gelişen bir hakaret, tehdit veya şiddet anında, başka türlü delil elde etme imkânı yokken alınan sınırlı bir kayıt delil olarak değerlendirilebilir. Buna karşılık eve gizli dinleme cihazı yerleştirmek veya telefona casus yazılım kurmak gibi planlı kayıtlar hukuka aykırı sayılır ve TCK 133 uyarınca suç oluşturabilir.
+
+## Drone Uçurmak Yasak mı? İzin, Kayıt ve Cezası (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/drone-ucurmak-yasak-mi-izin-ceza.html (son kontrol: 2026-11-04)
+
+Drone uçurmak yasak değildir; ancak kayıt, pilot lisansı ve izinli alan kurallarına bağlıdır. 30 Temmuz 2026'da yürürlüğe giren yeni İHA talimatıyla uçuş yetkisi pilot lisans düzeyine göre belirlenmeye başlandı: amatör görüş hattı içi uçuşlar için P0, ticari görüş hattı içi uçuşlar için P1, görüş hattı ötesi ve yüksek riskli operasyonlar için P2. Havalimanı çevresi, askeri bölgeler ve izin verilmeyen alanlarda uçmak yüksek idari para cezası gerektirir. Komşunun evini veya bir kişiyi izinsiz drone ile görüntülemek ise özel hayatın gizliliğini ihlal suçu oluşturabilir.
+
+## Silahla Fotoğraf Paylaşmak Suç mu? Ruhsatsız Silah Cezası (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/silahla-fotograf-paylasmak-suc-mu.html (son kontrol: 2026-11-04)
+
+Ruhsatlı bir silahla fotoğraf paylaşmak tek başına suç değildir. Ancak fotoğraftaki silah ruhsatsızsa paylaşım, 6136 sayılı Kanun'un 13. maddesindeki ruhsatsız silah taşıma veya bulundurma suçunun delili olur; bu suçun cezası 30 Kasım 2024'ten sonra işlenen fiillerde 2 yıldan 4 yıla kadar hapistir. Paylaşım belirli bir kişiye gözdağı vermek amacıyla yapılırsa silahla tehdit (TCK 106/2: 2-5 yıl), toplumda korku yaratmak amacıyla yapılırsa halk arasında korku ve panik yaratma suçu (TCK 213) gündeme gelir.
+
+## “İcra Dosyanız Var” Mesajı Gerçek mi? Sahte İcra SMS'i (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/icra-dosyaniz-var-mesaji-gercek-mi.html (son kontrol: 2026-11-04)
+
+Gerçek bir icra takibi size SMS veya WhatsApp ile değil, icra dairesinin gönderdiği ödeme emrinin tebliğiyle bildirilir; bu tebliğ PTT aracılığıyla ya da e-Tebligat adresiniz varsa elektronik olarak yapılır. Hakkınızda icra dosyası olup olmadığını yalnızca e-Devlet'teki "İcra Dosyası Sorgulama" hizmetinden veya UYAP Vatandaş Portal'dan kontrol edin. Mesajdaki linke tıklamayın ve mesajda verilen hesaba para göndermeyin. Adalet Bakanlığı da UYAP Vatandaş ve e-Devlet dışındaki kanallardan gelen bildirimlerin dikkate alınmaması yönünde uyarı yapmıştır.
+
+## Kiracı Kirayı Ödemiyor, Evden Çıkmıyor: Ne Yapmalıyım? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/kiraci-kirayi-odemiyor-evden-cikmiyor-ne-yapmaliyim.html (son kontrol: 2026-11-04)
+
+Ev sahibi, kirayı ödemeyen kiracıya karşı tahliye talepli ilamsız icra takibi başlatabilir. Kiracıya konutlarda 30 günlük ödeme süresi verilir; bu sürede ödeme yapılmazsa icra mahkemesinden tahliye kararı istenir. Bu icra yolu için önce arabulucuya gitmek gerekmez. Alternatif olarak en az 30 gün süreli yazılı ihtarla fesih ve tahliye davası açılabilir; bir kira yılında iki haklı ihtar gönderilmişse de dava açılabilir. Ev sahibinin kilidi değiştirerek, eşyaları çıkararak veya elektrik-suyu keserek kendisi tahliye yapması hukuka aykırıdır ve suç oluşturabilir.
+
+## İşveren Kamerayla İşçiyi İzleyebilir mi? İşyerinde Kamera (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/isveren-kamerayla-isciyi-izleyebilir-mi.html (son kontrol: 2026-11-04)
+
+Evet, ancak sınırlı olarak. İşveren, güvenlik ve iş sağlığı-güvenliği gibi önceden belirlenmiş ve dar bir amaçla, işçileri bilgilendirmek şartıyla işyerinde kamera kullanabilir; bunun için kural olarak işçinin açık rızası gerekmez. KVKK'nın 2026 tarihli duyurusuna göre tuvalet, soyunma odası, mescit ve dinlenme alanlarına kamera konulamaz; kameranın performans, verimlilik veya mesai takibi için kullanılması meşru amaç sayılmaz. Sesli kamera ise son derece müdahaleci kabul edilir ve ancak zorunluluk açıkça ortaya konursa kullanılabilir.
+
+## Tebligat Almamak Suç mu? Tebligatı Almazsam Ne Olur? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/tebligat-almamak-suc-mu-tebligati-almazsam-ne-olur.html (son kontrol: 2026-11-04)
+
+Tebligatı almamak veya imzalamayı reddetmek suç değildir; ancak tebligatın yapılmasını da engellemez. Muhatap adreste bulunmazsa veya almayı reddederse evrak muhtara bırakılır, kapıya ihbarname yapıştırılır ve yapıştırma tarihi tebliğ tarihi sayılır (Tebligat Kanunu m.21). Bu tarihten itibaren itiraz ve cevap süreleri işlemeye başlar; evrakı muhtarlıktan geç almak süreyi uzatmaz. e-Tebligat adresi olanlarda tebligat, iletinin adrese ulaştığı günü izleyen 5. günün sonunda yapılmış sayılır.
+
+## Levent Mutlu Hukuk Bürosu Adına Arandınız mı? Dolandırıcılık Uyarısı
+Kaynak: https://avleventmutlu.com.tr/makale/av-levent-mutlu-adina-yapilan-aramalar-dolandiricilik-uyarisi.html (son kontrol: 2026-11-02)
+
+Av. Levent Mutlu adına sizinle iletişime geçildiyse ve bu iletişimden şüphe ediyorsanız, hiçbir ödeme yapmadan ve bilgi vermeden önce resmî numaramız olan 0545 959 48 45'i arayarak doğrulayın. Bu site (avleventmutlu.com.tr) yalnızca Av. Levent Mutlu'ya aittir; benzer adlı diğer hukuk bürolarıyla bir bağlantısı yoktur. Savcılıklar ve mahkemeler telefonla para istemez; gerçek icra ve mahkeme dosyalarınızı e-Devlet ve UYAP Vatandaş Portal üzerinden kendiniz kontrol edebilirsiniz.
+
+## Komşu Saat Kaça Kadar Gürültü Yapabilir? Şikâyet ve Ceza (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/komsu-saat-kaca-kadar-gurultu-yapabilir.html (son kontrol: 2026-11-01)
+
+Kanunda komşular için "şu saatten sonra sessiz olunmalı" diye belirlenmiş bir saat yoktur. Kabahatler Kanunu'nun 36. maddesi, başkalarının huzur ve sükûnunu bozacak şekilde gürültüye neden olmayı günün her saatinde yasaklar; gece saatleri yalnızca ihlalin daha kolay kabul edilmesini sağlar. Gürültü anında 155 polis veya 156 jandarma aranabilir ve 2026 yılında gerçek kişiye 1.764 TL idari para cezası verilir. Sürekli gürültüde Kat Mülkiyeti Kanunu kapsamında sulh hukuk mahkemesine başvurulabilir; sırf rahatsız etmek amacıyla ısrarla yapılan gürültü ise TCK 123'teki huzur bozma suçunu oluşturabilir.
+
+## Mahkemeye Gitmezsem Ne Olur? Duruşma, İfade ve Tanıklık (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/mahkemeye-gitmezsem-ne-olur.html (son kontrol: 2026-11-01)
+
+Ceza davasında sanık olmadan kural olarak duruşma yapılmaz; geçerli mazereti olmadan gelmeyen sanık zorla getirilir, gerekirse hakkında yakalama emri çıkarılır. İfadeye çağrıldığı hâlde gitmeyen şüpheli de zorla getirilebilir. Mazeretsiz gelmeyen tanık zorla getirilir ve gelmemesinin yol açtığı giderleri öder; kanuni sebep olmadan tanıklıktan kaçınana disiplin hapsi verilebilir. Hukuk davasında iki taraf da gelmezse dosya işlemden kaldırılır ve üç ay içinde yenilenmezse dava açılmamış sayılır.
+
+## İlk Suçta Hapis Cezası Var mı? İlk Suçtan Ceza Alır mıyım? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/ilk-sucta-hapis-cezasi-var-mi.html (son kontrol: 2026-11-01)
+
+Türk hukukunda "ilk suç affı" veya ilk suçta otomatik olarak ceza verilmemesi diye bir kural yoktur; suç sabit olursa ilk suçta da ceza verilir. Ancak sabıkası olmayan kişiler için hapse girmeyi önleyen birçok kurum vardır: uzlaştırma, hükmün açıklanmasının geri bırakılması (HAGB), hapis cezasının ertelenmesi ve kısa süreli hapis cezasının adli para cezasına çevrilmesi. Bunlar çoğunlukla 2 yıl veya daha az hapis cezalarında uygulanır. Ceza 2 yılı aşıyorsa veya suç ağırsa, ilk suç olsa bile cezaevine girme ihtimali vardır.
+
+## Kamera Kaydı Paylaşmak Suç mu? İşyerinde Sesli Kamera (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/kamera-kaydi-paylasmak-suc-mu-isyerinde-sesli-kamera.html (son kontrol: 2026-11-01)
+
+Güvenlik kamerası kaydı tutmak tek başına suç değildir. Bir suçun görüntüsünü savcılığa veya kolluğa delil olarak vermek de hukuka uygundur. Ancak başkalarının görüntülerini sosyal medyada paylaşmak, kişisel verileri hukuka aykırı yayma (TCK 136: 2-4 yıl) veya özel hayata ilişkin görüntüleri ifşa (TCK 134/2: 2-5 yıl) suçlarını oluşturabilir. İşyerinde sesli kamera, KVKK'ya göre son derece müdahaleci bir yöntemdir ve ancak ölçülülük testini geçerse kullanılabilir; gizli ses kaydı TCK 133 riski taşır. Bir suçun delili olan kaydı gerçeğin ortaya çıkmasını engellemek amacıyla silmek ise TCK 281 uyarınca suçtur.
+
+## Borç Alıp Ödememek Suç mu? Borçtan Hapis Cezası Var mı? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/borc-alip-odememek-suc-mu-borctan-hapis-var-mi.html (son kontrol: 2026-11-01)
+
+Hayır, borcunu ödeyememek tek başına suç değildir ve borç nedeniyle hapse girilmez. Anayasa'nın 38. maddesi, hiç kimsenin yalnızca sözleşmeden doğan bir yükümlülüğü yerine getirememesi nedeniyle özgürlüğünden alıkonulamayacağını açıkça düzenler. Senet, kredi kartı veya kredi borcunun sonucu icra takibi ve hacizdir. Ancak borç baştan geri ödeme niyeti olmadan hileyle alındıysa dolandırıcılık oluşabilir. Nafaka ödememe, icrada verilen ödeme taahhüdünü ihlal ve karşılıksız çek ise ayrı yaptırımlara tabidir.
+
+## Arabaya Takip Cihazı Takmak, Eşini Takip Etmek Suç mu? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/arabaya-takip-cihazi-takmak-esini-takip-etmek-suc-mu.html (son kontrol: 2026-11-01)
+
+Evet, çoğu durumda suçtur. Bir kişinin rızası olmadan aracına takip cihazı takmak veya telefonuna takip uygulaması kurmak; özel hayatın gizliliğini ihlal (TCK 134: 1-3 yıl), kişisel verilerin hukuka aykırı kaydedilmesi (TCK 135: 1-3 yıl) ve telefona izinsiz yazılım yükleniyorsa bilişim suçları (TCK 243-244) kapsamında değerlendirilir. Konum bilgisi kişiyi takip etmek için kullanılırsa ısrarlı takip (TCK 123/A) da oluşabilir. Evli olmak bu konuda bir izin vermez. Bu yolla elde edilen bilgiler boşanma davasında hukuka aykırı delil sayılabilir.
+
+## Birine Sürekli Mesaj Atmak Suç mu? Israrlı Takip Cezası (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/birine-surekli-mesaj-atmak-suc-mu.html (son kontrol: 2026-11-01)
+
+Tek bir mesaj, içinde hakaret veya tehdit yoksa kural olarak suç değildir. Ancak sırf huzurunu bozmak amacıyla birine ısrarla mesaj atmak veya telefon etmek TCK 123 uyarınca 3 aydan 1 yıla kadar hapis gerektirir. Mesajlar kişide ciddi huzursuzluk veya güvenlik korkusu yaratıyorsa TCK 123/A'daki ısrarlı takip suçu oluşur ve cezası 6 aydan 2 yıla kadar hapistir. Boşanılan eşe karşı veya uzaklaştırma kararına rağmen işlenirse ceza 1 yıldan 3 yıla çıkar. Mesajda hakaret veya tehdit varsa tek mesaj bile suç oluşturabilir.
+
+## Polis Kıyafeti Giymek, Rozet Taşımak Suç mu? Cezası (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/polis-kiyafeti-rozeti-tasimak-suc-mu.html (son kontrol: 2026-11-01)
+
+Polis kıyafeti giymek veya replika rozet bulundurmak tek başına suç değildir. Suç, resmî kıyafetin yetkisiz olarak, alenen ve başkalarını yanıltacak şekilde giyilmesiyle oluşur (TCK 264: 3 aydan 1 yıla kadar hapis). Kendini polis gibi gösterip görev yapmaya kalkışmak TCK 262, sahte polis kimliği düzenlemek veya kullanmak TCK 204 kapsamındadır. "Polisim" diyerek para veya menfaat sağlamak ise nitelikli dolandırıcılıktır (TCK 158/1-l) ve cezanın alt sınırı 4 yıl hapistir.
+
+## Araca Multimedya ve CarPlay Yasak mı? Telefon Tutucu, Subwoofer Cezası (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/araca-multimedya-carplay-telefon-tutucu-yasak-mi.html (son kontrol: 2026-10-27)
+
+Hayır, araca multimedya ekran veya CarPlay ve Android Auto gibi sistemler takmak tek başına yasak değildir. 3 Temmuz 2026'da yürürlüğe giren değişiklikle yasaklanan; araç hareket hâlindeyken sürücünün görebileceği ve kullanabileceği ekranda video veya televizyon yayını izlenmesi, sürücünün yol görüşünü kapatan aksesuarlar ve üretici dışında eklenen fazla ses ekipmanıdır. Navigasyon, park yardımı, kamera ve araç ayarları için ekran kullanmak serbesttir.
+
+## Trafik Cezası Ödenmezse Ne Olur? Hapis, Haciz ve Gecikme (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/trafik-cezasi-odenmezse-ne-olur.html (son kontrol: 2026-10-27)
+
+Ödenmeyen trafik cezası hapis cezasına dönüşmez. Ancak ödeme süresi geçince ceza her ay yüzde beş oranında artar (toplam tutar cezanın iki katını geçemez) ve borç vergi dairesince 6183 sayılı Kanun'a göre takip edilir. Bu aşamada banka hesabınıza, maaşınıza veya aracınıza haciz konulabilir; vadesi geçmiş cezası bulunan araç için muayene de sorun yaratabilir.
+
+## Pitbull Beslemek Yasak mı? Yasaklı Köpek Irkları ve Cezası (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/pitbull-beslemek-yasak-mi-yasakli-kopek-irklari.html (son kontrol: 2026-10-27)
+
+Evet. 5199 sayılı Hayvanları Koruma Kanunu'na göre Tarım ve Orman Bakanlığı'nın tehlikeli olarak belirlediği ırkları sahiplenmek, üretmek, satmak, hediye etmek, sahiplendirmek ve ilan vermek 2021'den beri yasaktır. Listede Pitbull Terrier, Japanese Tosa, Dogo Argentino, Fila Brasileiro, American Staffordshire Terrier ve American Bully ile bunların kırmaları bulunur. Yasaktan önce sahiplenilip süresinde kısırlaştırılarak kayıt altına alınan köpekler ise ağızlık, tasma ve kayıt belgesiyle beslenmeye devam edebilir.
+
+## Sokak Hayvanı Beslemek Yasak mı? Sitede Besleme ve Cezası (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/sokak-hayvani-beslemek-yasak-mi.html (son kontrol: 2026-10-27)
+
+Türkiye genelinde sokak hayvanlarını beslemeyi yasaklayan bir kanun hükmü yoktur. Ancak il hayvanları koruma kurulları, hastane, okul, park ve çocuk oyun alanları gibi belirli yerlerde kontrolsüz beslemeyi sınırlayan kararlar alabilmektedir. Site ve apartmanlarda yönetim, beslemenin yerini ve saatini düzenleyebilir; kanunda yönetime kendiliğinden para cezası kesme yetkisi tanınmamıştır. Sokak hayvanını kasten öldürmek veya zehirlemek ise hapis cezası gerektiren bir suçtur.
+
+## Balkonda Mangal Yasak mı? Halı Silkelemek ve Gürültü Cezası (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/balkonda-mangal-hali-silkelemek-komsu-cezasi.html (son kontrol: 2026-10-27)
+
+Balkonda mangal yapmayı Türkiye genelinde yasaklayan bir kanun yoktur; ancak yönetim planı veya kat malikleri kurulu kararıyla yasaklanabilir ve dumanıyla komşuları rahatsız etmek Kat Mülkiyeti Kanunu'na aykırıdır. Balkondan halı silkelemek belediye zabıta kurallarıyla yasaklanmıştır ve idari para cezası gerektirebilir. Gürültü için "saat 23'ten önce serbest" diye bir kural yoktur; başkalarının huzurunu bozan gürültü her saatte Kabahatler Kanunu'na göre cezalandırılabilir.
+
+## Otel Kayıtları GBT'de Çıkar mı? Kimler Görebilir, Boşanmada İstenir mi?
+Kaynak: https://avleventmutlu.com.tr/makale/otel-kayitlari-gbt-de-cikar-mi.html (son kontrol: 2026-10-27)
+
+Oteller, 1774 sayılı Kimlik Bildirme Kanunu gereği konaklayanların bilgilerini elektronik olarak kolluğa bildirir. Ancak yolda yapılan GBT (Genel Bilgi Toplama) sorgusunda otel konaklamalarınızın görüneceğini öngören yayımlanmış bir düzenleme yoktur; kolluk bu kayıtlara ayrı bir sistem üzerinden ulaşabilir. Otel bu bilgileri eşinize, ailenize veya özel dedektife veremez. Boşanma davasında ise mahkeme gerekli görürse otel kayıtlarının gönderilmesini isteyebilir.
+
+## Havai Fişek Atmak Yasak mı? İzin ve Cezası, Havaya Ateş (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/havai-fisek-atmak-yasak-mi-cezasi.html (son kontrol: 2026-10-27)
+
+Havai fişek kullanımı tamamen yasak değildir; ancak yer ve zaman bildirilerek mülki amirden, yani kaymakamlık veya valilikten izin alınması gerekir. İzinsiz kullanım veya valilik yasağına aykırılık, 2026 yılı için 3.705 TL idari para cezası gerektirebilir. Havai fişeğin insanların arasına atılması veya havaya silahla ateş açılması ise genel güvenliğin kasten tehlikeye sokulması suçunu oluşturur ve 2025 sonundaki değişiklikle bir yıldan beş yıla kadar hapis cezası gerektirir.
+
+## İcra Sicile İşler mi? Adli Sicil, Kredi Notu ve Memuriyete Etkisi
+Kaynak: https://avleventmutlu.com.tr/makale/icra-sicile-isler-mi.html (son kontrol: 2026-10-27)
+
+Hayır, icra takibi adli sicile (sabıka kaydına) işlemez; çünkü adli sicile yalnızca kesinleşmiş ceza mahkûmiyetleri kaydedilir. Nafaka ödememe gibi hâllerde verilen tazyik ve disiplin hapsi de adli sicile işlenmez. Ancak bankalara ve finans kuruluşlarına olan borçlar, karşılıksız çek ve protestolu senet kayıtları Risk Merkezi'ne bildirilir ve kredi notunuzu düşürür. Mal kaçırma gibi icra suçlarından mahkûmiyet ise adli sicile işlenir.
+
+## Adıma Şirket Açılmış, Ne Yapmalıyım? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/adima-sirket-acilmis-ne-yapmaliyim.html (son kontrol: 2026-11-04)
+
+Önce e-Devlet'teki Ticaret Bakanlığı hizmetinden veya MERSİS Mobil'deki “Ticari Hayatım” bölümünden adınıza kayıtlı şirket olup olmadığını kontrol edin ve “Ortak / Yetkili Olunmasına Yönelik Kısıtlama İşlemleri” ile T.C. kimlik numaranıza kısıtlama koyun. Bilginiz dışında şirket kurulduysa Cumhuriyet başsavcılığına suç duyurusunda bulunmanız, ticaret sicili müdürlüğüne ve vergi dairesine yazılı başvuru yapmanız gerekir. Şirketin vergi ve SGK borçları nedeniyle size ödeme emri gelebileceğinden süresinde itiraz önemlidir; Vergi Usul Kanunu'na göre sahte belge düzenlemek üç yıldan sekiz yıla kadar hapis cezası gerektirir.
+
+## Kimlik Bilgilerim Çalındı, Ne Yapmalıyım? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/kimlik-bilgilerim-calindi-ne-yapmaliyim.html (son kontrol: 2026-10-27)
+
+Kimlik kartınız kaybolduysa veya çalındıysa önce e-Devlet, Alo 199 veya nüfus müdürlüğü üzerinden kayıp bildiriminde bulunun. Ardından e-Devlet'ten adınıza açılmış telefon hatlarını, şirket ortaklıklarını, kredi ve banka kayıtlarını kontrol edin; tanımadığınız bir işlem varsa ilgili kuruma başvurup savcılığa suç duyurusunda bulunun. e-Devlet şifrenizi değiştirmek ve kimlik fotokopinizi kimlere verdiğinizi not etmek de olası zararı sınırlar.
+
+## Adıma Sahte Reçete Yazılmış veya İlaç Alınmış: Ne Yapmalı?
+Kaynak: https://avleventmutlu.com.tr/makale/adima-sahte-recete-yazilmis-ilac-alinmis.html (son kontrol: 2026-11-04)
+
+Adınıza yazılan reçeteleri e-Devlet'te SGK'nın “4A/4B/4C İlaç Kullanım Süresi Sorgulama” hizmetinden veya e-Nabız'dan kontrol edebilirsiniz. Bilginiz dışında kayıt varsa ekran görüntülerini alıp ALO 170 ya da il müdürlüğü aracılığıyla SGK'ya, ayrıca sağlık tesisine ve İl Sağlık Müdürlüğü'ne yazılı başvuru yapmanız ve Cumhuriyet başsavcılığına suç duyurusunda bulunmanız önerilir. Olaya göre resmî belgede sahtecilik, kamu kurumları zararına nitelikli dolandırıcılık ve kişisel verilere ilişkin suçlar gündeme gelebilir; sahte kayıtların düzeltilmesini de yazılı olarak talep etmek gerekir.
+
+## İşçi veya Memur Ne Kadar Ceza Alırsa İşten Atılır?
+Kaynak: https://avleventmutlu.com.tr/makale/isci-memur-ceza-alirsa-isten-atilir-mi.html (son kontrol: 2026-10-29)
+
+İşçi için kısa süreli gözaltı veya tutukluluk tek başına işten çıkarma sebebi değildir; devamsızlık kıdeme göre 2, 4, 6 veya 8 haftalık bildirim süresini aşarsa işveren haklı nedenle feshedebilir, ancak kıdem tazminatı hakkı korunur. Memur için ise kasten işlenen bir suçtan 1 yıl veya daha fazla hapis cezası ya da kanunda sayılan katalog suçlardan mahkûmiyet memuriyeti sona erdirir.
+
+## İhtarnameyi Almazsam veya Cevap Vermezsem Ne Olur?
+Kaynak: https://avleventmutlu.com.tr/makale/ihtarnameyi-almazsam-cevap-vermezsem-ne-olur.html (son kontrol: 2026-11-04)
+
+Hayır, ihtarnameyi teslim almamak onu tebliğ edilmemiş hâle getirmez; Tebligat Kanunu’na göre evrak muhtara veya kolluğa bırakılır, kapıya ihbarname yapıştırılır ve bu tarih tebliğ tarihi sayılır. İhtarnameye cevap verme yükümlülüğü yoktur ve susmak kural olarak kabul sayılmaz. Ancak borç ihtarında tebliğle birlikte temerrüt doğar ve gecikme faizi işler; kira ihtarnamesinde verilen en az 30 günlük sürede ödeme yapılmazsa kiraya veren tahliye davası açabilir.
+
+## Başkasına Kredi Çektim, Ödemiyor: Ne Yapmalıyım?
+Kaynak: https://avleventmutlu.com.tr/makale/baskasina-kredi-cektim-odemiyor-ne-yapmaliyim.html (son kontrol: 2026-11-04)
+
+Kredi sözleşmesinin tarafı siz olduğunuz için banka taksitleri sizden ister; parayı alan kişiden ise genellikle ödünç ilişkisine dayanarak alacağınızı talep edebilirsiniz. Geri ödeme günü belirlenmemişse borçlunun ilk talepten itibaren altı haftalık süresi vardır; ardından ilamsız icra takibi başlatılabilir, borçlu yedi gün içinde itiraz ederse bir yıl içinde itirazın iptali davası açılabilir. Alacak kural olarak on yıllık zamanaşımına tabidir; en kritik konu, paranın ödünç verildiğinin yazışmalar ve açıklamalı havale gibi delillerle ispatıdır.
+
+## Haberim Olmadan Hakkımda Dava Açılır mı? Tebligat ve İtiraz
+Kaynak: https://avleventmutlu.com.tr/makale/haberim-olmadan-dava-acilir-mi.html (son kontrol: 2026-11-04)
+
+Evet; usulüne uygun tebligat yapılmışsa hukuk davası yokluğunuzda görülebilir ve savunmanız alınmadan karar verilebilir. Bilinen adreste tebligat yapılamazsa MERNİS adresine tebligat yapılır ve orada oturmasanız da geçerli sayılır; ilanen tebligat son ilandan yedi gün sonra yapılmış sayılır. Usulsüz tebligatta öğrenme tarihi tebliğ tarihi kabul edilir ve icra takiplerinde öğrenmeden itibaren yedi gün içinde icra mahkemesine şikâyet gerekir. Ceza davalarında ise sorgusu yapılmayan sanık hakkında yokluğunda mahkûmiyet kararı verilemez.
+
+## Şikâyetçi Olmak Sicile İşler mi? Şikâyet Edilmezse Ne Olur?
+Kaynak: https://avleventmutlu.com.tr/makale/sikayetci-olmak-sicile-isler-mi.html (son kontrol: 2026-10-27)
+
+Hayır. Şikâyetçi, müşteki veya mağdur olarak bir dosyada yer almanız adli sicilinize işlenmez; adli sicile yalnızca kesinleşmiş mahkûmiyet kararları kaydedilir. Şikâyetçi olmamanın sonucu ise suça göre değişir: Basit yaralama, hakaret ve basit tehdit gibi şikâyete bağlı suçlarda şikâyet olmazsa dava açılmaz; nitelikli dolandırıcılık veya silahla tehdit gibi re'sen soruşturulan suçlarda ise şikâyetçi olmasanız da soruşturma devam eder.
+
+## Karakola İmza Atmayı Unuttum, Ne Olur? İmza İhlali (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/karakola-imza-atmayi-unuttum-ne-olur.html (son kontrol: 2026-11-04)
+
+Sonuç, imzanın hangi sebeple atıldığına bağlıdır. Adli kontrolde yükümlülüğü isteyerek yerine getirmeyen kişi hakkında hâkimin takdirine bağlı olarak tutuklama kararı verilebilir; geçerli bir mazeretin belgelenmesi bu riski azaltır. Denetimli serbestlikte her ihlalde yazılı uyarı yapılır; bir yıl içinde mazeretsiz ve kasıtlı üç ihlal ısrar sayılır ve açık ceza infaz kurumuna iadeye yol açabilir. İmzanın kaçırıldığı fark edildiğinde aynı gün ya da ertesi gün ilgili birime başvurulup mazeret belgeleri sunulmalıdır.
+
+## Tahliye Kararı Çıkınca Cezaevinden Ne Zaman Çıkılır?
+Kaynak: https://avleventmutlu.com.tr/makale/tahliye-karari-cikinca-cezaevinden-ne-zaman-cikilir.html (son kontrol: 2026-10-27)
+
+Tahliye kararı cezaevine UYAP üzerinden tahliye müzekkeresiyle bildirilir; cezaevi kararı mahkemeyle teyit edip kimlik kontrolünü yaptıktan sonra kişiyi serbest bırakır. Kanunda belirli bir saat yoktur; uygulamada duruşmada verilen tahliyelerde kişi genellikle aynı gün, birkaç saat içinde çıkar. Başka bir dosyadan tutuklu veya hükümlüyse çıkmaz; hakkında yakalama kararı varsa tahliye anında yakalanabilir.
+
+## Cezaevinde Nikâh Nasıl Kıyılır? Tutukluyla Evlenmek (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/cezaevinde-nikah-nasil-kiyilir.html (son kontrol: 2026-11-04)
+
+Evet; Evlendirme Yönetmeliği'ne göre tutuklu veya hükümlü için nikâh, Cumhuriyet savcılığının izniyle ceza infaz kurumunda kıyılabilir ve evlendirme memuru kuruma gelir. Başvuru belediye evlendirme memurluğuna yapılır; evlenme beyannamesi, sağlık raporu, son altı ay içinde çekilmiş fotoğraflar ve kimlik belgeleri istenir. Bir yıl veya daha uzun süreli hapis cezası kesinleşmiş ve bu nedenle kısıtlanmış hükümlü için vasinin izni de gerekir; tutuklular için bu izin aranmaz.
+
+## Kefil Olunan Kişi Vefat Ederse Borç Ne Olur? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/kefil-olunan-kisi-vefat-ederse-borc-ne-olur.html (son kontrol: 2026-11-04)
+
+Asıl borçlunun vefatı borcu sona erdirmez; borç mirasçılara geçer ve kefilin sorumluluğu devam eder. Mirasçılar mirası reddetse bile alacaklı kefile başvurabilir; kredide hayat sigortası varsa kalan borç sigorta şirketince ödenir. Kefilin vefatı da kefaleti sona erdirmez, kefalet borcu mirasçılara geçer. Mirasçılar, ölümü ve mirasçı olduklarını öğrendikleri tarihten itibaren 3 ay içinde mirası reddederek bu borçtan kurtulabilir ya da resmî defter tutularak kabul yoluyla sorumluluklarını sınırlayabilir.
+
+## Düğün Konvoyu Yasak mı? Konvoy Cezası 2026
+Kaynak: https://avleventmutlu.com.tr/makale/dugun-konvoyu-yasak-mi-cezasi.html (son kontrol: 2026-10-29)
+
+Düğün konvoyu yapmak tek başına yasak değildir; yasak olan, araçları trafiği engelleyecek şekilde durdurmak ve yolu kapatmaktır. 7574 sayılı Kanun'la (2026) bunun cezası her sürücü için 90.000 TL idari para cezası, 60 gün ehliyet geri alma ve 60 gün trafikten men olarak belirlendi; otoyol, köprü, viyadük veya tünelde iki katına çıkar. Havaya ateş açmak ise TCK 170 uyarınca 1-5 yıl hapis gerektirir.
+
+## Başkasının Öğrenci Kartını Kullanmak: İstanbulkart Cezası
+Kaynak: https://avleventmutlu.com.tr/makale/baskasinin-ogrenci-kartini-kullanmak-istanbulkart-cezasi.html (son kontrol: 2026-10-27)
+
+Başkasına ait öğrenci veya indirimli İstanbulkart'ı kullanmak, İstanbul Büyükşehir Belediyesi'nin Ulaşımda İstanbulkart Yönetmeliği'ne göre kartın kullanıma kapatılması sonucunu doğurur. Kart sahibi yeniden indirimli kart alabilmek için “usulsüz kullanılan kartın yenilenme bedeli”ni ödemek zorunda kalır. Bu durum kural olarak bir hapis cezası gerektiren suç olarak değil, kart kullanım kurallarının ihlali olarak ele alınır.
+
+## Tutuksuz Yargılanan Tutuklanır mı? Ceza Alırsa Ne Olur?
+Kaynak: https://avleventmutlu.com.tr/makale/tutuksuz-yargilanan-tutuklanir-mi.html (son kontrol: 2026-11-04)
+
+Evet, tutuksuz yargılanan sanık, kaçma veya delil karartma şüphesi gibi tutuklama nedenleri ortaya çıkarsa ya da adli kontrol yükümlülüklerine uymazsa sonradan veya hükümle birlikte tutuklanabilir; üst sınırı iki yılı geçmeyen suçlarda ise tutuklama yapılamaz. Tutuklanmayan sanık hapis cezası alsa bile hüküm kesinleşmeden cezaevine girmez. Kesinleşmeden sonra kural olarak çağrı kâğıdı tebliğ edilir ve on gün içinde teslim olunması istenir.
+
+## Hapis Cezası Olan Askere Gider mi? Hükümlü ve Askerlik
+Kaynak: https://avleventmutlu.com.tr/makale/hapis-cezasi-olan-askere-gider-mi.html (son kontrol: 2026-10-27)
+
+Tutuklu veya hükümlü olan kişinin askerlik işlemleri 7179 sayılı Askeralma Kanunu'na göre ertelenir ve bu süre boyunca yoklama kaçağı veya bakaya sayılmaz. Ancak cezaevinde geçen süre askerlikten sayılmaz ve hapis cezası askerlikten muafiyet sebebi değildir; tahliye olan yükümlü, durumuna göre ilk celp ve sevk döneminde askere sevk edilir.
+
+## Eski Kiracının İkametgâhını Sildirme: Adresten Kişi Silme
+Kaynak: https://avleventmutlu.com.tr/makale/ev-sahibi-eski-kiracinin-ikametgahini-sildirebilir-mi.html (son kontrol: 2026-10-27)
+
+Ev sahibi, eski kiracının adres kaydını e-Devlet üzerinden tek başına silemez. Adres değişikliğini bildirmek kiracının kendi yükümlülüğüdür; kiracı yeni adresini beyan ettiğinde eski kayıt kendiliğinden düşer. Kiracı bunu yapmıyorsa ev sahibi ilçe nüfus müdürlüğüne yazılı başvuruda bulunabilir; mülki amirin talimatıyla yapılan kolluk araştırmasında kişinin o adreste oturmadığı anlaşılırsa adres kaydı düzeltilir.
+
+## Hasta, Hamile veya Yaşlı Biri Hapis Yatar mı? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/hasta-hamile-yasli-hapis-yatar-mi.html (son kontrol: 2026-11-04)
+
+Bazı durumlarda cezaevine girilmeyebilir; ancak bu imkânlar kendiliğinden uygulanmaz, şartların belgelenmesi gerekir. 5275 sayılı Kanun'un 16. maddesine göre infaz hükümlünün hayatı için kesin tehlike oluşturuyorsa iyileşinceye kadar ertelenir; bunun için sağlık kurulu raporu ve Adli Tıp Kurumu onayı aranır. Gebe kadınların ve doğumdan itibaren bir yıl altı ay geçmemiş kadınların cezasının infazı ertelenir. Kanunun 110. maddesine göre 65 yaşını bitirmiş kişilerin toplam üç yıla, 80 yaşını bitirmiş kişilerin toplam altı yıla kadar hapis cezası konutta infaz edilebilir.
+
+## Elektroşok Cihazı ve Biber Gazı Taşımak Suç mu? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/elektrosok-biber-gazi-tasimak-suc-mu.html (son kontrol: 2026-10-29)
+
+Kural olarak hayır. Elektroşok cihazı ve biber gazı 6136 sayılı Kanun'un 4. maddesindeki yasak aletler arasında açıkça sayılmaz; kişisel korunma için taşınması tek başına suç oluşturmaz. Ancak saldırı amacıyla taşımak 3 aya kadar hapis veya adli para cezası, toplantı ve gösteri yürüyüşüne bu tür gaz veya aletlerle katılmak ise 2911 sayılı Kanun uyarınca 2 yıl 6 aydan 4 yıla kadar hapis gerektirir.
+
+## Kavga Anında Video Çekmek Suç mu? Kaydetmek ve Paylaşmak
+Kaynak: https://avleventmutlu.com.tr/makale/kavga-aninda-video-cekmek-suc-mu.html (son kontrol: 2026-11-04)
+
+Kural olarak, size yönelen bir saldırıyı, hakareti veya tehdidi ani gelişen olay sırasında delil elde etmek amacıyla kaydetmek suç oluşturmaz ve kayıt delil olarak kullanılabilir; Yargıtay Ceza Genel Kurulu 2012/5-1270 E., 2013/248 K. sayılı kararıyla bu yaklaşımı benimsemiştir. Ancak kaydı sosyal medyada veya WhatsApp gruplarında paylaşmak TCK 134 kapsamında ifşa suçu oluşturabilir ve iki yıldan beş yıla kadar hapis cezası gerektirebilir. Kaydın orijinal hâliyle kolluğa veya savcılığa teslim edilmesi önerilir.
+
+## Ruhsatsız Silah Cezası e-Devlet'te Görünür mü? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/ruhsatsiz-silah-cezasi-e-devlette-gorunur-mu.html (son kontrol: 2026-11-04)
+
+Dosyanın aşamasına göre değişir: savcılık aşamasındaki soruşturmalar genellikle e-Devlet’te görünmez, iddianame mahkemeye gönderildiğinde ise dosya “Dava Dosyası Sorgulama” ekranında görünür. Kesinleşmiş mahkûmiyet adli sicil kaydına işlenir; HAGB kararı ise e-Devlet’ten alınan adli sicil belgesinde görünmez. 6136 sayılı Kanun m. 13’e göre ruhsatsız silah taşıma veya bulundurmanın cezası, 30 Kasım 2024’ten sonra işlenen fiillerde 2 yıldan 4 yıla kadar hapis ve 100 ile 500 gün arası adli para cezasıdır.
+
+## Aidat Borcunu Panoya Asmak Suç mu? KVKK 2026 İlke Kararı
+Kaynak: https://avleventmutlu.com.tr/makale/aidat-borcunu-panoya-asmak-suc-mu.html (son kontrol: 2026-11-04)
+
+Aidat borçlularının ad, daire numarası ve borç tutarını panoya asmak, KVKK'nın 31.03.2026 tarihli Resmî Gazete'de yayımlanan 2026/348 sayılı ilke kararına göre hukuka aykırıdır; kişisel verileri hukuka aykırı yaymak ayrıca TCK 136'da iki yıldan dört yıla kadar hapis gerektiren suç olarak düzenlenmiştir, ancak bu konuda yerleşik bir Yargıtay uygulaması yoktur. Kurul uygulamanın KVKK 5. ve 12. maddelerine aykırı olduğunu belirtmiştir; 2026 için veri güvenliği ihlalinde idari para cezasının alt sınırı 256.357 TL'dir. Borçlunun yönetime yaptığı başvuru en geç otuz gün içinde sonuçlandırılmalıdır.
+
+## Yakınım Gözaltına Alındı, Ne Yapmalıyım? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/yakinim-gozaltina-alindi-ne-yapmaliyim.html (son kontrol: 2026-11-04)
+
+Önce kişinin hangi birimde tutulduğu ve hangi suçtan işlem yapıldığı öğrenilmeli, avukatın ifadeden önce devreye girmesi sağlanmalıdır. Gözaltı süresi yakalamadan itibaren 24 saati geçemez; toplu suçlarda savcı bu süreyi her defasında bir günü geçmemek üzere üç gün uzatabilir (CMK 91). Gözaltındaki kişi müdafiyle vekâletname aranmaksızın her zaman görüşebilir (CMK 154). Eş ve yakın hısımlar da gözaltına karşı sulh ceza hâkimliğine başvurabilir; hâkim en geç 24 saat içinde karar verir.
+
+## Yakınım Tutuklandı: Cezaevinde İlk Günler (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/yakinim-tutuklandi-cezaevinde-ilk-gunler.html (son kontrol: 2026-11-04)
+
+Tutuklanan kişinin hangi ceza infaz kurumunda olduğu kararı veren hâkimlikten, savcılıktan veya avukat aracılığıyla öğrenilebilir. Tutukluyu eşi, üçüncü dereceye kadar kan ve kayın hısımları ve bildireceği en fazla üç kişi ziyaret edebilir (5275 s. K. m. 83); ziyaretçilerin listede yer alması gerekir. Avukat, vekâletname aranmaksızın her zaman görüşebilir (CMK 154). Tutuklama kararına tefhim veya tebliğden itibaren 7 gün içinde itiraz edilebilir (CMK 268).
+
+## Yurt Dışı Çıkış Yasağım Var mı? Sorgulama ve Kaldırma
+Kaynak: https://avleventmutlu.com.tr/makale/yurt-disi-cikis-yasagim-var-mi-nasil-ogrenirim.html (son kontrol: 2026-11-04)
+
+Yurt dışı çıkış yasağı, Anayasa’nın 23. maddesi uyarınca ceza soruşturması veya kovuşturması sebebiyle hâkim kararıyla, çoğunlukla adli kontrol tedbiri olarak konulur (CMK 109/3-a); vergi, kredi kartı veya icra borcu tek başına yasak sebebi değildir. e-Devlet sorgusu her kısıtlamayı yansıtmayabileceğinden, kesin bilgi için il emniyet müdürlüğünün pasaport birimine başvurulabilir veya dosyadaki adli kontrol kararı kontrol ettirilebilir. Yasağın kaldırılması kararı veren sulh ceza hâkimliğinden veya mahkemeden istenebilir.
+
+## Bahis Cezası Nasıl Gelir, e-Devlette Görünür mü? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/bahis-cezasi-nasil-gelir-e-devlette-gorunur-mu.html (son kontrol: 2026-11-04)
+
+Yasa dışı bahsi kendi parasıyla oynamak hapis gerektiren bir suç değil, idari para cezası gerektiren bir kabahattir (7258 s. K. m. 5); ceza mahallin en büyük mülki amiri tarafından verilir ve adresinize veya elektronik tebligat adresinize tebliğ edilir. Ceza kesinleşip tahsil için vergi dairesine bildirildikten sonra e-Devlet'teki borç sorgulama ekranlarında görülebilir, ancak adli sicile işlenmez. Karara tebliğden itibaren 15 gün içinde sulh ceza hakimliğine itiraz edilebilir (Kabahatler K. m. 27); aynı sürede peşin ödemede cezanın dörtte üçü ödenir.
+
+## Banka veya Papara Hesabım Kapatıldı, Ne Yapmalıyım?
+Kaynak: https://avleventmutlu.com.tr/makale/banka-veya-papara-hesabim-kapatildi-ne-yapmaliyim.html (son kontrol: 2026-11-04)
+
+Hesabın kapatılması bir ceza veya mahkeme kararı değil, çoğu zaman bankanın ya da ödeme kuruluşunun risk değerlendirmesine dayanan bir sözleşme feshidir ve tek başına ceza gerektirmez. Hesapta yasal bir bloke veya haciz yoksa bakiye size iade edilmelidir; iadeyi yazılı olarak isteyin, sonuç alamazsanız bankalar için Türkiye Bankalar Birliği Müşteri Şikâyetleri Hakem Heyeti'ne veya tutarına göre tüketici hakem heyetine başvurabilirsiniz. Kapatma, gizli tutulan bir MASAK şüpheli işlem bildirimine işaret edebileceğinden hesap hareketlerinizin kaynağını gösteren belgeleri saklamanız önerilir.
+
+## Babam Vefat Etti, Ne Yapmalıyım? Mirasçılar İçin Kontrol Listesi
+Kaynak: https://avleventmutlu.com.tr/makale/babam-vefat-etti-ne-yapmaliyim-miras-kontrol-listesi.html (son kontrol: 2026-11-04)
+
+Vefatın ardından önce noterden veya sulh hukuk mahkemesinden mirasçılık belgesi alınmalı, ardından mirasbırakanın malvarlığı ve borçları araştırılmalıdır. Borçlar fazlaysa miras, vefatın öğrenilmesinden itibaren üç ay içinde sulh hukuk mahkemesine beyanla reddedilebilir (TMK m. 606); bu sürede mirası kabul anlamına gelebilecek davranışlardan kaçınılmalıdır. Vefat Türkiye'de gerçekleşmişse veraset ve intikal vergisi beyannamesi dört ay içinde verilmeli; banka hesapları, SGK ölüm aylığı ve tapu intikali için de başvurular yapılmalıdır.
+
+## Hakkımda Şikâyet Var mı, Nasıl Öğrenirim? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/hakkimda-sikayet-var-mi-nasil-ogrenirim.html (son kontrol: 2026-10-29)
+
+Savcılık aşamasındaki dosyalar (soruşturma veya hazırlık dosyaları) uygulamada e-Devlet ve UYAP Vatandaş Portal üzerinden vatandaşlar tarafından görüntülenemez. Hakkınızda bir şikâyet olsa bile, iddianame düzenlenip mahkemece kabul edilene kadar dosya bu ekranlarda genellikle görünmez. Dosyanın varlığını çoğu kişi ilk kez ifadeye çağrıldığında öğrenir.
+
+## e-Devlette Görünür mü? İfade, Takipsizlik, Dava ve Haciz
+Kaynak: https://avleventmutlu.com.tr/makale/e-devlette-gorunur-mu-ifade-uzlastirma-takipsizlik-dava.html (son kontrol: 2026-11-04)
+
+Her işlem e-Devlet'te görünmez: savcılık aşamasındaki ifade çağrısı, uzlaştırma ve takipsizlik kararı genellikle dosya olarak listelenmez, yalnızca elektronik tebligat yapıldıysa tebligat ekranında görülebilir. İddianame kabul edildikten sonra ceza davası, açıldığında boşanma davası ve icra takipleri e-Devlet ile UYAP Vatandaş Portal'da görünür. Elektronik tebligat, belgenin ulaştığı günü izleyen beşinci günün sonunda yapılmış sayılır (Tebligat K. m. 7/a); takipsizlik kararına itiraz süresi tebliğden itibaren 15 gündür (CMK m. 173).
+
+## Savcılığa Şikâyet Ettim, Şimdi Ne Olacak? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/savciliga-sikayet-ettim-simdi-ne-olur.html (son kontrol: 2026-11-04)
+
+Şikâyet kayda alınıp soruşturma numarası verilir; ardından şikâyetçi ifadesi alınır, deliller toplanır, şüpheli dinlenir ve suç kapsamdaysa dosya uzlaştırmaya gönderilir (CMK 253). Savcı sonunda kovuşturmaya yer olmadığı kararı, kamu davasının ertelenmesi veya iddianame yollarından birini seçer. Takipsizlik kararına tebliğden itibaren 15 gün içinde sulh ceza hâkimliğine itiraz edilebilir (CMK 173). Kanunda soruşturmanın bitirilmesi için genel bir süre yoktur.
+
+## Papara ve Banka Hesabı İfadesinde Ne Sorulur? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/hesap-kullandirma-ifadesinde-ne-sorulur.html (son kontrol: 2026-11-04)
+
+Hesap kullandırma ifadesinde genellikle hesabın ne zaman ve hangi amaçla açıldığı, kartın ve internet bankacılığı şifresinin kimde olduğu, gelen paranın kime aktarıldığı, komisyon alınıp alınmadığı ve hesabı isteyen kişiyle nasıl tanışıldığı sorulur. Savcılık, bankadan gelen IP ve cihaz kayıtlarını beyanınızla karşılaştırır. Susma hakkınız vardır ve aleyhinize yorumlanamaz; ifadeye avukatla gidilebilir. En sık suçlama TCK 158/1-f'deki nitelikli dolandırıcılıktır ve mahkûmiyet için hesabın suçta kullanılacağının bilindiği ispatlanmalıdır.
+
+## "Ceza Dosyanız Var" Diye Aradılar: Dolandırıcılık mı?
+Kaynak: https://avleventmutlu.com.tr/makale/avukat-savci-aradi-ceza-dosyaniz-var-dolandiricilik-mi.html (son kontrol: 2026-11-04)
+
+Telefonla “ceza dosyanız var” denilerek bir şahıs hesabına para istenmesi dolandırıcılık işaretidir; savcılık, mahkeme, kolluk veya uzlaştırmacı telefonda para göndermenizi istemez. Önödeme gibi gerçek bir ödeme yükümlülüğü yazılı olarak bildirilir ve ödeme Hazine adına yapılır (TCK m. 75). Arayanın verdiği numara yerine kurumun resmî numarasını kendiniz bularak doğrulayın, dava ve icra dosyalarınızı e-Devlet veya UYAP Vatandaş Portal'dan kontrol edin; para gönderdiyseniz bankaları hemen arayıp suç duyurusunda bulunun.
+
+## Hakaret Sayılan ve Sayılmayan Sözler (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/hakaret-sayilan-ve-sayilmayan-sozler.html (son kontrol: 2026-11-04)
+
+Bir sözün hakaret olup olmadığı, sözün kendisi kadar söylendiği bağlama göre belirlenir; TCK 125'e göre kişinin onur, şeref ve saygınlığına sövme veya somut isnatla saldırmak hakarettir ve cezası üç aydan iki yıla kadar hapis veya adli para cezasıdır. “Şerefsiz”, “namussuz”, “ahlaksız” gibi ifadeler uygulamada çoğunlukla hakaret sayılırken, tartışma sırasında davranışı eleştiren “terbiyesiz”, “saygısız”, “densiz” gibi sözler birçok Yargıtay kararında hakaret sayılmamıştır. Kesin sonuç somut olaya göre belirlenir.
+
+## VPN Kullanmak Suç mu? Cezası Var mı? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/vpn-kullanmak-suc-mu.html (son kontrol: 2026-10-29)
+
+Hayır. Türk mevzuatında bireylerin VPN kullanmasını yasaklayan veya buna ceza öngören bir hüküm bulunmamaktadır. VPN, şirketlerin uzaktan çalışma ağlarında, bankacılıkta ve kişisel gizlilik amacıyla yaygın olarak kullanılan meşru bir teknolojidir.
+
+## e-Devlet Şifresi Vermek veya İstemek Suç mu? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/e-devlet-sifresi-vermek-istemek-suc-mu.html (son kontrol: 2026-11-04)
+
+Birinden e-Devlet şifresini istemek veya şifreyi bir yakınına vermek tek başına suç değildir; ancak şifreyle yapılan işlemlerin hukuki sonuçları kural olarak hesap sahibine bağlanır. Başkasının hesabına izinsiz girmek TCK 243'teki bilişim sistemine girme, hesaptaki kişisel verileri almak TCK 136'daki verileri hukuka aykırı ele geçirme suçunu oluşturabilir; şifreyle menfaat sağlanmışsa nitelikli dolandırıcılık gündeme gelir. İşe alımda şifre yerine e-Devlet'ten alınan barkodlu belgeyi vermek yeterlidir.
+
+## Avukat Tutmadan Dava Açılır mı? (2026 Rehberi)
+Kaynak: https://avleventmutlu.com.tr/makale/avukat-tutmadan-dava-acilir-mi.html (son kontrol: 2026-11-04)
+
+Evet, Türk hukukunda hukuk davalarında avukatla temsil zorunluluğu yoktur; dava dilekçesi adliyedeki tevzi bürosuna veya e-Devlet ve UYAP Vatandaş Portal üzerinden verilebilir. Anlaşmalı boşanma (TMK m. 166/3) ve basit bir alacak için icra takibi avukatsız yapılabilecek işlerdendir. Ceza soruşturmasında şüpheli çocuksa, kendini savunamayacak derecede malulse veya alt sınırı beş yıldan fazla hapis gerektiren bir suç söz konusuysa baro tarafından ücretsiz müdafi görevlendirilir (CMK m. 150); davayı kaybeden taraf ise karşı tarafın yargılama giderlerini ve vekâlet ücretini ödemeye mahkûm edilebilir.
+
+## İşten Çıkarıldım, İstifa Dilekçesi İstiyorlar (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/isten-cikarildim-istifa-dilekcesi-istiyorlar.html (son kontrol: 2026-11-04)
+
+Hayır, işten çıkarıldığınız hâlde size uzatılan istifa dilekçesini imzalamak zorunda değilsiniz; sözleşmeyi sona erdirmek isteyen işveren fesih bildirimini kendisi yazılı olarak yapmalıdır. İstifa eden işçi kural olarak kıdem ve ihbar tazminatı alamaz, işsizlik ödeneğinden yararlanamaz ve işe iade davası açamaz. Fesih günü imzalatılan ibraname de TBK m. 420’ye göre fesihten en az bir ay sonra düzenlenmedikçe geçerli değildir. İşveren ayrılışı 10 gün içinde SGK’ya bildirmekle yükümlüdür.
+
+## Ev Sahibi "Kendim Oturacağım" Diye Çıkarabilir mi? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/ev-sahibi-kendim-oturacagim-diye-cikarabilir-mi.html (son kontrol: 2026-10-29)
+
+Hayır. Konut kiralarında ev sahibi, sadece "ihtiyacım var" demekle kiracıyı çıkaramaz. İhtiyacın gerçek, samimi ve zorunlu olması, bunun mahkemede ispat edilmesi ve davanın kanunda öngörülen süreler içinde açılması gerekir. Kiracı kendiliğinden çıkmadıkça, tahliye ancak mahkeme kararıyla mümkündür.
+
+## Dolandırıldım, Paramı Nasıl Geri Alırım? (2026 Rehberi)
+Kaynak: https://avleventmutlu.com.tr/makale/dolandirildim-parami-nasil-geri-alirim.html (son kontrol: 2026-11-04)
+
+Paranın geri alınması; nasıl gönderildiğine, ne kadar hızlı hareket edildiğine ve paranın gittiği hesabın kime ait olduğuna bağlıdır. İlk adımlar bankayı arayıp işlemi bildirmek, delilleri saklamak ve suç duyurusunda IBAN, tutar ve işlem saatini yazarak hesaba el konulmasını talep etmektir; kalıcı el koyma için sulh ceza hâkimliği kararı gerekir. Hesap sahibine karşı haksız fiil veya sebepsiz zenginleşmeye dayanarak alacak davası açılabilir ya da icra takibi başlatılabilir; bu taleplerde kural olarak iki ve on yıllık zamanaşımı süreleri uygulanır.
+
+## Sosyal Medya Hesabım Çalındı: Ne Yapmalıyım? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/sosyal-medya-hesabim-calindi-ne-yapmaliyim.html (son kontrol: 2026-10-29)
+
+Hesabınıza hâlâ girebiliyorsanız şifrenizi ve bağlı e-posta şifrenizi hemen değiştirin, tanımadığınız oturumları kapatın ve iki adımlı doğrulamayı açın; erişiminiz kesildiyse platformun “hesabım ele geçirildi” kurtarma adımlarını kullanın. Bildirim e-postalarını ve mesajların ekran görüntülerini saklayıp Cumhuriyet başsavcılığına suç duyurusunda bulunabilirsiniz. Hesaba izinsiz girmek TCK 243 uyarınca suçtur; hesap üzerinden arkadaşlarınızdan para istenmişse nitelikli dolandırıcılık da gündeme gelir.
+
+## Emekli Maaşına Haciz Konulur mu? Bloke ve Muvafakat (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/emekli-maasina-haciz-konulur-mu.html (son kontrol: 2026-11-04)
+
+Kural olarak hayır; 5510 sayılı Kanun'un 93. maddesine göre emekli aylığı haczedilemez ve başkasına devredilemez. İstisnalar nafaka borçları ile SGK'nın kendi alacaklarıdır; ayrıca borçlunun icra takibi başladıktan sonra verdiği muvafakatle haciz mümkün olur, kredi veya kart sözleşmesine önceden konulan genel muvafakat bu sonucu doğurmaz. Haciz konulduysa icra mahkemesine haczedilmezlik şikâyetiyle başvurulabilir; haczin öğrenilmesinden itibaren yedi günlük şikâyet süresine dikkat edilmelidir.
+
+## E-Haciz Nedir, Nasıl Kaldırılır? Banka Hesabı Haczi (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/e-haciz-nedir-nasil-kaldirilir.html (son kontrol: 2026-10-29)
+
+E-haciz; vergi dairesi, SGK veya belediye gibi kurumların 6183 sayılı Kanun m.79 uyarınca banka hesabına elektronik ortamda koyduğu hacizdir. En kesin kaldırma yolu borcun ödenmesidir; tek seferde ödenemiyorsa m.48 uyarınca tecil ve taksitlendirme (72 aya kadar) istenebilir. Borç yoksa veya zamanaşımına uğradıysa ödeme emrine tebliğden itibaren 15 gün içinde vergi itiraz komisyonuna itiraz edilmelidir.
+
+## İzinsiz Ses Kaydı Almak Suç mu? Delil Olur mu? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/izinsiz-ses-kaydi-almak-suc-mu.html (son kontrol: 2026-11-04)
+
+Evet, izinsiz ses kaydı kural olarak suçtur: TCK 133’e göre katılmadığınız aleni olmayan bir konuşmayı kaydetmek 2 yıldan 5 yıla kadar, katıldığınız konuşmayı diğerlerinin rızası olmadan kaydetmek 6 aydan 2 yıla kadar hapis veya adli para cezası gerektirir. Yargıtay, kişinin kendisine karşı işlenen bir suçu başka türlü ispat imkânı bulunmayan ani bir olay sırasında kaydetmesini hukuka uygun kabul eder ve bu kayıt delil olarak kullanılabilir. Önceden planlanan kayıtlar ve kaydın paylaşılması ise ayrı risk taşır.
+
+## SGK Kıdem Tazminatı Yazısı: 15 Yıl 3600 Gün Şartları (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/sgk-kidem-tazminati-yazisi-15-yil-3600-gun.html (son kontrol: 2026-10-27)
+
+Emeklilik için yaş dışındaki sigortalılık süresi ve prim günü şartlarını dolduran işçi, SGK'dan alacağı kıdem tazminatı yazısına dayanarak istifa ederse kıdem tazminatı alabilir. 8 Eylül 1999'dan önce sigortalı olanlar için şart 15 yıl ve 3600 gündür; sonra sigortalı olanlarda gün sayısı giriş tarihine göre artar. En önemli kural sıralamadır: Önce yazıyı alın, sonra bu yazıya dayandığınızı belirterek istifa edin. İhbar tazminatı ve işsizlik ödeneği bu yolla alınamaz.
+
+## Fotoğraflarla Şantaj Yapılıyor: Ne Yapmalı? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/fotograflarla-santaj-ne-yapmali.html (son kontrol: 2026-11-04)
+
+Para göndermeyin; mesajları, kullanıcı adlarını ve ödeme istenen hesap bilgilerini ekran görüntüsüyle kaydedip Cumhuriyet başsavcılığına veya kolluğa suç duyurusunda bulunun. Özel görüntülerin yayılacağı tehdidiyle menfaat istenmesi TCK 107/2 kapsamında şantajdır ve bir yıldan üç yıla kadar hapis gerektirir; görüntülerin hukuka aykırı ifşası TCK 134/2'ye göre iki yıldan beş yıla kadar hapisle cezalandırılır. 5651 sayılı Kanun'un 9/A maddesi uyarınca içeriğin URL'si belirtilerek erişim engeli istenebilir; erişim sağlayıcılar talebi en geç dört saat içinde yerine getirir.
+
+## Savcılığa Şikâyet Edilen Kişiye Ne Olur? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/savciliga-sikayet-edilen-kisiye-ne-olur.html (son kontrol: 2026-11-04)
+
+Şikâyet edilen her kişi yargılanmaz; şikâyet yalnızca savcının CMK 160 uyarınca işin gerçeğini araştırdığı soruşturmayı başlatır. İfade sırasında susma ve müdafi yardımından yararlanma hakkı vardır (CMK 147). Soruşturma; kovuşturmaya yer olmadığı kararı (CMK 172), uzlaştırma veya önödeme, kamu davasının beş yıl ertelenmesi (CMK 171) ya da iddianame (CMK 170) ile sonuçlanabilir. Kovuşturmaya yer olmadığı kararı adli sicil kaydı oluşturmaz.
+
+## SGK İfadeye Davet Nedir? Gitmezsem Ne Olur?
+Kaynak: https://avleventmutlu.com.tr/makale/sgk-ifadeye-davet-nedir-gitmezsem-ne-olur.html (son kontrol: 2026-10-26)
+
+SGK'nın ifadeye davet yazısı bir mahkeme veya savcılık çağrısı değildir; SGK denetim ve kontrol görevlilerinin bir incelemede bilgi almak için yaptığı çağrıdır. Ancak 5510 sayılı Kanun'un 59. maddesine göre bu davete uymak kanuni bir yükümlülüktür; gitmezseniz inceleme sizin beyanınız alınmadan, eldeki belgelere göre ve çoğu zaman aleyhinize sonuçlandırılır.
+
+## Sahibinden Dolandırıcılığı: Ne Yapmalı? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/sahibinden-dolandiricilik-ne-yapmali.html (son kontrol: 2026-10-21)
+
+Dolandırıldığınızı fark eder etmez bankanızı arayıp işlemi bildirin, ilanın ve tüm yazışmaların ekran görüntülerini alın ve savcılığa suç duyurusunda bulunun. Suç duyurusunda paranın gönderildiği IBAN'ı açıkça belirtmeniz önemlidir; hızlı hareket edilirse CMK 128 uyarınca bu hesaba el konulması mümkün olabilir.
+
+## WhatsApp Hesabım Çalındı, Para İstendi: Ne Yapmalı?
+Kaynak: https://avleventmutlu.com.tr/makale/whatsapp-hesabi-calindi-rehberden-para-istendi.html (son kontrol: 2026-10-21)
+
+WhatsApp hesabınız ele geçirildiyse uygulamayı hemen kendi telefonunuza yeniden kurup numaranızla doğrulayın, yakınlarınızı başka bir kanaldan uyarın ve savcılığa suç duyurusunda bulunun. Arkadaşınız para gönderdiyse bankasını derhal arayıp işlemi bildirmeli ve o da suç duyurusu yapmalıdır; hızlı hareket edilirse paranın gönderildiği hesaba el konulması mümkün olabilir.
+
+## İfade Süreniz Dolmuştur SMS'i Sahte mi?
+Kaynak: https://avleventmutlu.com.tr/makale/ifade-sureniz-dolmustur-sms-dolandiricilik.html (son kontrol: 2026-11-04)
+
+“İfade süreniz dolmuştur” gibi SMS’ler dolandırıcılık şüphesi taşır; ceza muhakemesinde dolduğunda ödeme yapılarak kapatılabilen bir “ifade süresi” yoktur. CMK 145’e göre ifadesi alınacak kişi davetiyeyle çağrılır ve hiçbir gerçek ifade çağrısında para, kart bilgisi veya şifre istenmez. Gerçek e-tebligat SMS bağlantısıyla değil, e-Devlet’teki “e-Tebligat” hizmetinde veya UETS’te görüntülenir. Mesajdaki numarayı aramadan ve bağlantıya tıklamadan e-Devlet veya UYAP Vatandaş Portal üzerinden kontrol yapılabilir.
+
+## Kredi Kartı Dolandırıcılığı: Para Geri Alınır mı?
+Kaynak: https://avleventmutlu.com.tr/makale/kredi-karti-dolandiriciligi-para-geri-alinir-mi.html (son kontrol: 2026-10-29)
+
+Çoğu durumda evet, ancak hız çok önemlidir. Kartı hemen kapattırıp bankaya bildirin; 5464 sayılı Kanun m.12'ye göre bildirimden önceki 24 saatteki hukuka aykırı kullanımdan sorumluluğunuz 150 TL ile sınırlıdır (ağır ihmal veya kast varsa bu sınır uygulanmaz). İşleme son ödeme tarihinden itibaren 10 gün içinde yazılı itiraz edin; banka 20 gün içinde cevap vermek zorundadır. Sonuç alınamazsa tüketici hakem heyeti, tüketici mahkemesi ve suç duyurusu yolları açıktır.
+
+## Panel Kullanmak Suç mu? Cezası 2-4 Yıl Hapis (TCK 136)
+Kaynak: https://avleventmutlu.com.tr/makale/panel-kullanmak-suc-mu.html (son kontrol: 2026-10-26)
+
+Evet. Panel üzerinden başkasının T.C. kimlik, adres veya telefon bilgilerini sorgulamak, kişisel verileri hukuka aykırı olarak ele geçirme suçu (TCK 136) kapsamında iki yıldan dört yıla kadar hapis cezası gerektirebilir. Bu suçun soruşturulması şikâyete bağlı değildir ve uzlaştırma kapsamında da değildir.
+
+## Polisi Kameraya Almak Suç mu? Danıştay Kararı
+Kaynak: https://avleventmutlu.com.tr/makale/polisi-kameraya-almak-suc-mu.html (son kontrol: 2026-10-21)
+
+Kamuya açık alanda görev yapan polisi kayda almayı genel olarak yasaklayan bir kanun hükmü yoktur; bu yöndeki 2021 tarihli EGM genelgesi Danıştay tarafından iptal edilmiştir. Ancak kayıt sırasında polisin görevini cebir veya tehditle engellemek ya da özel hayata ilişkin görüntüleri yaymak ayrı suçlar oluşturabilir.
+
+## Yatırım Tavsiyesi Vermek Suç mu? VIP Sinyal Grupları
+Kaynak: https://avleventmutlu.com.tr/makale/yatirim-tavsiyesi-vermek-suc-mu.html (son kontrol: 2026-10-29)
+
+Genel piyasa yorumu yapmak suç değildir. Ancak ücret karşılığında, düzenli ve belirli bir gruba yönelik al-sat sinyali vermek SPK izni gerektiren yatırım danışmanlığına girebilir; izinsiz faaliyet 6362 sayılı Kanun m.109/2 uyarınca 2-5 yıl hapis ve adli para cezası gerektirir. Fiyatı etkileyip menfaat sağlamak için yanıltıcı bilgi yaymak ise m.107/2 uyarınca 3-5 yıl hapistir. “Yatırım tavsiyesi değildir” yazmak tek başına sorumluluğu kaldırmaz.
+
+## Uyuşturucu Testi Pozitif Çıkarsa Ne Olur? (TCK 191)
+Kaynak: https://avleventmutlu.com.tr/makale/uyusturucu-testi-pozitif-cikarsa-ne-olur.html (son kontrol: 2026-10-21)
+
+Uyuşturucu kullanmak TCK 191'e göre suçtur ve iki yıldan beş yıla kadar hapis cezası öngörülür. Ancak bu suçtan ilk kez soruşturma geçiren kişi hakkında doğrudan dava açılmaz; beş yıl süreyle kamu davasının açılmasının ertelenmesine karar verilir ve en az bir yıl denetimli serbestlik uygulanır. Bu süre içinde test pozitif çıkarsa kamu davası açılır.
+
+## Başkasının Arabasını Kullanmak Cezası 2026: Suç mu?
+Kaynak: https://avleventmutlu.com.tr/makale/arabayi-baskasina-vermek-suc-mu.html (son kontrol: 2026-10-21)
+
+Geçerli ehliyeti olan birine izin vererek aracınızı kullandırmak veya onun izniyle aracını kullanmak suç değildir. Ehliyetsiz birine araç verilirse 2026 itibarıyla hem sürücüye hem de izin veren araç sahibine 40.000'er TL idari para cezası uygulanır. Aracı sahibinin izni olmadan kullanmak ise kullanma hırsızlığı olarak değerlendirilebilir.
+
+## Özel Ders Vermek Suç mu? Öğretmen ve Memur Cezası (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/ozel-ders-veren-ogretmen-ceza-alir-mi.html (son kontrol: 2026-10-27)
+
+Özel ders vermek Türk Ceza Kanunu'na göre suç değildir; hapis cezası gerektirmez. Görevdeki öğretmen için sonucu aylıktan kesme disiplin cezası, diğer memurlar için kazanç getirici faaliyet yasağı nedeniyle disiplin cezasıdır. Kamu görevlisi olmayan kişiler için ise asıl önemli olan izinsiz kurum işletmemek ve gelirin vergisel yükümlülükleridir.
+
+## 5549 Sayılı Kanun 15. Madde: Başkası Hesabına İşlem Yapmanın Cezası (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/5549-sayili-kanun-15-madde-baskasi-hesabina-islem.html (son kontrol: 2026-11-04)
+
+5549 sayılı Kanun'un 15. maddesine göre, yükümlüler nezdinde kimlik tespitini gerektiren bir işlemi kendi adına fakat başkası hesabına yapan kişi, kimin hesabına hareket ettiğini işlemden önce yazılı olarak bildirmezse altı aydan bir yıla kadar hapis veya beş bin güne kadar adli para cezasıyla cezalandırılır. Suç kasten işlenir, şikâyete bağlı değildir ve uzlaştırma kapsamında sayılmamıştır. Bu yaptırım, nitelikli dolandırıcılıkta (TCK 158) öngörülen dört yıldan on yıla kadar hapis cezasına göre çok daha hafiftir.
+
+## Velayet Davası Ne Kadar Sürer? Geçici Velayet ve Süreyi Etkileyen Etkenler (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/velayet-davasi-ne-kadar-surer-2026.html (son kontrol: 2026-10-29)
+
+Anlaşmalı boşanmada velayet, eşlerin protokolde uzlaşması halinde genellikle tek duruşmada karara bağlanır. Çekişmeli boşanmada veya ayrı açılan velayet davalarında ise ilk derece mahkemesindeki süreç çoğu dosyada birkaç aydan bir yılı aşan sürelere uzanabilir. Karar istinaf ve temyize taşınırsa kesinleşme süresi ayrıca uzar. Bu süreler kanunda belirlenmiş değildir; uygulamadaki ortalamalardır ve her mahkemede farklılık gösterebilir.
+
+## Fon Mağdurları Ne Yapmalı? Tasfiye, Şikâyet ve Tazminat Rehberi (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/fon-magdurlari-ne-yapmali-tasfiye-sikayet-tazminat-2026.html (son kontrol: 2026-11-04)
+
+Fon mağdurlarının önünde tasfiye, ceza soruşturması ve tazminat olmak üzere birbirinden ayrı ilerleyen üç yol vardır. Tasfiyede fon varlıkları paraya çevrilir ve fonun borçları ödendikten sonra pay sahiplerine payları oranında dağıtılır; güncel süreçte tasfiye süresi 6 ay olarak belirlenmiştir. Zarar görenler İstanbul Cumhuriyet Başsavcılığı'na şikâyette bulunabilir; eksik bilgilendirme varsa portföy yönetim şirketi veya fonu satan banka ya da aracı kuruma karşı tazminat davası değerlendirilebilir. İade talimatının tarih ve saatini gösteren belgeler saklanmalıdır.
+
+## İşe İade Davası Nedir? Şartları, Süresi ve İşçinin Hakları (2026 Rehberi)
+Kaynak: https://avleventmutlu.com.tr/makale/ise-iade-davasi-nedir.html (son kontrol: 2026-11-04)
+
+İşe iade davası, geçerli bir sebep olmadan iş sözleşmesi feshedilen işçinin işine dönmeyi veya buna bağlı tazminatları talep ettiği davadır. İş Kanunu m. 18’e göre işyerinde en az 30 işçi çalışması, en az 6 aylık kıdem ve belirsiz süreli sözleşme gerekir. Fesih bildiriminden itibaren 1 ay içinde arabulucuya başvurulmalı, anlaşma olmazsa son tutanaktan itibaren 2 hafta içinde dava açılmalıdır. İşçi işe başlatılmazsa 4 ila 8 aylık ücret tutarında iş güvencesi tazminatı ödenir.
+
+## Nafaka Nasıl Hesaplanır? Nafaka Türleri, Şartları ve Güncel Uygulamalar (2026 Rehberi)
+Kaynak: https://avleventmutlu.com.tr/makale/nafaka-nasil-hesaplanir.html (son kontrol: 2026-11-04)
+
+Nafaka için kanunda bir formül veya sabit oran yoktur; mahkeme nafakanın türüne göre her dosyada ayrı değerlendirme yapar. Yoksulluk nafakasında talep eden eşin geliri, evlilik süresi, yaşı, sağlığı, kusur durumu ve yükümlünün mali gücü; iştirak nafakasında çocuğun yaşı, eğitim ve sağlık ihtiyaçları ile her iki ebeveynin ekonomik durumu dikkate alınır. Gelirler sosyal ve ekonomik durum araştırması, bordro, SGK ve banka kayıtlarıyla tespit edilir; istem hâlinde yıllık artış genellikle TÜFE’ye bağlanır.
+
+## Çekişmeli Boşanma Davası Ne Kadar Sürer? Süreç, Aşamalar ve Merak Edilenler (2026 Rehberi)
+Kaynak: https://avleventmutlu.com.tr/makale/cekismeli-bosanma-davasi-ne-kadar-surer.html (son kontrol: 2026-11-04)
+
+Kanunda çekişmeli boşanma davası için belirli bir süre öngörülmemiştir; süre büyük ölçüde mahkemenin iş yüküne, delillerin niteliğine ve kanun yolu aşamalarına bağlıdır. Dava yazılı yargılama usulüne tabidir ve dilekçeler, ön inceleme, tahkikat ve sözlü yargılama aşamalarından geçer. Karara karşı tebliğden itibaren iki hafta içinde istinafa, bölge adliye mahkemesi kararına karşı da iki hafta içinde temyize başvurulabilir. Evlilik en az bir yıl sürmüşse ve taraflar anlaşırsa dava anlaşmalı boşanmaya dönüştürülebilir.
+
+## Telegram Yazışmaları Delil Sayılır mı? Ekran Görüntüsü, Silinen Mesaj (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/telegram-yazismalari-delil-sayilir-mi.html (son kontrol: 2026-10-29)
+
+Evet, Telegram yazışmaları hem ceza soruşturmalarında hem hukuk davalarında delil olarak kullanılabilir; ancak ekran görüntüsü tek başına çoğu zaman kesin delil sayılmaz ve diğer delillerle birlikte değerlendirilir. Mesajların hukuka uygun yolla elde edilmiş olması gerekir; başkasının telefonuna izinsiz girilerek alınan yazışmalar delil olarak kullanılamayabilir ve ayrıca suç oluşturabilir. Silinen mesajların bulunup bulunamayacağı ise cihaz üzerinde yapılacak teknik incelemeye bağlıdır.
+
+## Hakaret Suçu Uzlaşmaya Tabi mi? Önödeme (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/hakaret-sucu-uzlasmaya-tabi-mi.html (son kontrol: 2026-10-21)
+
+Hayır. Hakaret suçu bugün uzlaştırma kapsamında değildir; bunun yerine önödeme kapsamına alınmıştır. Savcılığın bildirdiği tutar soruşturma giderleriyle birlikte on gün içinde ödenirse dava açılmaz. Kamu görevlisine görevinden dolayı hakaret ise önödeme kapsamı dışındadır.
+
+## WhatsApp ve Telegram Mesajları Delil Olur mu? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/whatsapp-mesajlari-delil-olur-mu.html (son kontrol: 2026-11-04)
+
+Evet, WhatsApp ve Telegram mesajları hukuka uygun elde edilmişse delil olarak kullanılabilir; kendi telefonunuza gelen yazışmaları ve sesli mesajları sunmanız kural olarak hukuka uygundur. Ekran görüntüleri kolay değiştirilebildiğinden itiraz hâlinde tek başına yeterli görülmeyebilir; telefon incelemesi veya bilirkişi raporu gerekebilir. Şifre kırarak, casus yazılımla veya hesaplara izinsiz girerek elde edilen mesajlar hukuka aykırıdır ve hükme esas alınamaz.
+
+## HAGB Sicile İşler mi? Sabıka Kaydında Görünür mü?
+Kaynak: https://avleventmutlu.com.tr/makale/hagb-sicile-isler-mi.html (son kontrol: 2026-11-04)
+
+Hayır; HAGB kararı adli sicil kaydına işlenmez, CMK 231'e göre bunlara mahsus ayrı bir sisteme kaydedilir ve e-Devlet'ten alınan adli sicil belgesinde görünmez. Bu kayıtlar yalnızca bir soruşturma veya kovuşturmayla bağlantılı olarak Cumhuriyet savcısı, hâkim veya mahkeme tarafından istendiğinde kullanılabilir. Beş yıllık denetim süresi sorunsuz tamamlanırsa dava düşer; denetim süresinde kasten yeni suç işlenip hüküm açıklanırsa, kesinleşen mahkûmiyet adli sicile işlenir.
+
+## HAGB Nedir? Şartları ve 2026 Değişiklikleri
+Kaynak: https://avleventmutlu.com.tr/makale/hagb-nedir.html (son kontrol: 2026-11-04)
+
+HAGB (hükmün açıklanmasının geri bırakılması), CMK 231'de düzenlenen ve mahkemenin kurduğu mahkûmiyet hükmünün sanık hakkında hukuki sonuç doğurmamasını sağlayan kurumdur; beraat değildir. Hükmolunan cezanın iki yıl veya daha az süreli hapis ya da adli para cezası olması, sanığın daha önce kasıtlı bir suçtan mahkûm olmaması ve zararın giderilmesi gibi şartlar aranır. Sanık beş yıllık denetim süresine tabi tutulur; bu süre kasten yeni suç işlenmeden ve yükümlülüklere uyularak geçerse dava düşer.
+
+## Banka Hesabına Bloke Konulursa Ne Yapılır? (2026 Güncel Rehber)
+Kaynak: https://avleventmutlu.com.tr/makale/banka-hesabina-bloke-konulursa-ne-yapilir.html (son kontrol: 2026-11-04)
+
+Banka hesabına bloke konulduğunda önce blokenin dayanağı ve hangi kurum tarafından uygulandığı (icra haczi, vergi veya SGK e-haczi, MASAK, savcılık ya da mahkeme kararı) öğrenilmelidir; çünkü itiraz yolları buna göre değişir. Bloke tek başına suçlu olduğunuz anlamına gelmez. Maaş hesabında nafaka alacakları dışında maaşın en fazla dörtte biri haczedilebilir; aşan kesinti için öğrenmeden itibaren yedi gün içinde icra mahkemesine şikâyet yoluna gidilebilir.
+
+## Şüpheli İşlem Bildirimi (ŞİB) Nedir? Bankalar Neden Bildirim Yapar? (2026 Rehberi)
+Kaynak: https://avleventmutlu.com.tr/makale/supheli-islem-bildirimi-sib-nedir.html (son kontrol: 2026-11-04)
+
+Şüpheli İşlem Bildirimi (ŞİB), bankaların ve bazı finans kuruluşlarının şüpheli gördükleri işlemleri mevzuat kapsamında yetkili kurumlara bildirmesidir; amaç suç gelirlerinin aklanmasını ve yasa dışı finansal faaliyetleri önlemektir. Kısa sürede yüksek tutarlı para hareketleri veya çok sayıda farklı kişiden para gelmesi bildirime yol açabilir. ŞİB kişinin suçlu olduğu anlamına gelmez ve her bildirim soruşturmaya dönüşmez. 5549 sayılı Kanun’a göre bildirimin yapıldığı taraflara açıklanamaz.
+
+## Hesabıma Dolandırıcılık Parası Geldi, Ne Yapmalıyım? (2026 Güncel Rehber)
+Kaynak: https://avleventmutlu.com.tr/makale/hesabima-dolandiricilik-parasi-geldi-ne-yapmaliyim.html (son kontrol: 2026-11-04)
+
+Hesabınıza dolandırıcılık mağduruna ait para gelmesi tek başına suçlu olduğunuz anlamına gelmez; ancak soruşturma açılmasına ve ifadeye çağrılmanıza neden olabilir. Savcılık; paranın kaynağını bilip bilmediğinizi, hesabı neden kullandırdığınızı, komisyon alıp almadığınızı, yazışmaları, telefon incelemesini ve MASAK raporlarını birlikte değerlendirir. İfade çağrısı aldığınızda önce hangi transferlerin ve hangi suçlamanın soruşturma konusu olduğunu öğrenmek önemlidir; dosya içeriği bilinmeden yapılan açıklamalar aleyhe sonuç doğurabilir.
+
+## Papara Kullanmak Suç mu? Bahis ve Binomo Cezası 2026
+Kaynak: https://avleventmutlu.com.tr/makale/papara-hesabi-kullandirdim-ceza-alir-miyim.html (son kontrol: 2026-11-04)
+
+Hayır, Papara’yı kendi adınıza ve kendi işlemleriniz için kullanmak suç değildir; sorun hesabın başkasına kullandırılması, kiralanması veya hesaptan suç gelirlerinin geçmesiyle başlar. Hesap kiralama dosyalarında en sık suçlama TCK 158/1-f kapsamında nitelikli dolandırıcılıktır ve cezası 4 yıldan 10 yıla kadar hapis ile adli para cezasıdır; katkı yalnızca hesap veya kart bilgisini vermekle sınırlıysa TCK 158’in 4. fıkrası uyarınca ceza yarı oranında indirilir. Mahkûmiyet için suça bilerek ve isteyerek katılımın ispatı gerekir.
+
+## Yasadışı Bahis İçin Hesap Kullandırmanın Cezası Nedir? (2026 Kapsamlı Rehber)
+Kaynak: https://avleventmutlu.com.tr/makale/yasadisi-bahis-icin-hesap-kullandirmanin-cezasi-kapsamli-rehber.html (son kontrol: 2026-11-04)
+
+Yasa dışı bahis için hesap kullandırmak, kendiliğinden ceza verileceği anlamına gelmez; ceza hukukunda temel ilke kişisel sorumluluktur ve yalnızca hesabın kullanılmış olması mahkûmiyet için yeterli değildir. Soruşturma makamları kişinin bahis faaliyetinden haberdar olup olmadığını, para transferlerinin niteliğini ve elde edilen menfaati birlikte değerlendirir. Banka ve elektronik para kayıtları, MASAK raporları ve WhatsApp ile Telegram yazışmaları başlıca delillerdir. Komisyon alınmaması veya tek seferlik kullanım tek başına sorumluluğu ortadan kaldırmaz.
+
+## IBAN Kullandırdım Ceza Alır Mıyım? 2026 Güncel ve Kapsamlı Rehber
+Kaynak: https://avleventmutlu.com.tr/makale/iban-kullandirdim-ceza-alir-miyim-kapsamli-rehber.html (son kontrol: 2026-11-04)
+
+Yalnızca IBAN veya banka hesabını kullandırmış olmak kendiliğinden ceza alınacağı anlamına gelmez; Türk Ceza Kanunu’nda “IBAN kullandırma suçu” adıyla ayrı bir suç bulunmamaktadır. Ancak hesap dolandırıcılık, 7258 sayılı Kanun kapsamındaki yasa dışı bahis veya suç gelirlerinin aklanması gibi faaliyetlerde kullanıldıysa hesap sahibi de soruşturma kapsamına alınabilir. Savcılık; paranın kaynağının bilinip bilinmediğini, komisyon alınıp alınmadığını, yazışmaları ve MASAK raporlarını birlikte değerlendirir.
+
+## Instagram'da Hakaret Eden Sahte Hesap Nasıl Bulunur?
+Kaynak: https://avleventmutlu.com.tr/makale/instagramdan-hakaret-eden-kisi-nasil-bulunur.html (son kontrol: 2026-10-29)
+
+Evet, sahte hesap kullanmak failin bulunamayacağı anlamına gelmez. Önce ekran görüntüsü, kullanıcı adı, profil bağlantısı ve tarih-saat bilgisini kaydedin; ardından Cumhuriyet başsavcılığına şikâyette bulunun. Savcılık platformdan e-posta, telefon ve IP kayıtlarını isteyebilir; IP üzerinden internet servis sağlayıcısından abone bilgisine ulaşılabilir. Hakaret şikâyete bağlıdır ve şikâyet, fiil ile failin öğrenilmesinden itibaren 6 ay içinde yapılmalıdır.
+
+## Kripto Para Dolandırıcılığına Uğradım, Ne Yapmalıyım? (2026 Rehberi)
+Kaynak: https://avleventmutlu.com.tr/makale/kripto-para-dolandiriciligina-ugradim-ne-yapmaliyim.html (son kontrol: 2026-11-04)
+
+Kripto para dolandırıcılığına uğrayan kişi önce yeni ödeme yapmayı durdurmalı; yazışmaları, dekontları, cüzdan adreslerini, işlem kodlarını (hash) ve site bağlantılarını kaydetmelidir. Para Türkiye’deki bir banka veya kripto borsası üzerinden gönderildiyse ilgili kuruma hemen bildirim yapılmalı ve Cumhuriyet başsavcılığına suç duyurusunda bulunulmalıdır; bu eylemler genellikle nitelikli dolandırıcılık kapsamında değerlendirilir. Varlıklar Türkiye’deki bir hizmet sağlayıcıya ulaştıysa erken başvuruyla tedbir uygulanması mümkün olabilir. Ücret karşılığı parayı geri getirmeyi vaat edenlere karşı dikkatli olunmalıdır.
+
+## Telefonuma El Konuldu, Nasıl Geri Alabilirim?
+Kaynak: https://avleventmutlu.com.tr/makale/telefonuma-el-konuldu-nasil-geri-alabilirim-rehber.html (son kontrol: 2026-10-29)
+
+El konulan telefon, imajı (yedeği) alınıp inceleme tamamlandıktan sonra, cihazın kendisi suç aleti veya müsadere konusu değilse gecikmeksizin iade edilmelidir (CMK 134). İade için soruşturma aşamasında dosyanın bulunduğu Cumhuriyet başsavcılığına, kovuşturma aşamasında mahkemeye dilekçe verilir; ret kararına karşı kanun yoluna başvurulabilir.
+
+## MASAK İncelemesi Nedir, Ne Kadar Sürer? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/masak-incelemesi-nedir-2026.html (son kontrol: 2026-10-27)
+
+MASAK incelemesi, bankaların şüpheli işlem bildirimi gibi nedenlerle hesap hareketlerinin incelenmesidir ve tek başına suçlu olduğunuz anlamına gelmez. Kanunda sabit bir süresi yoktur; birkaç aydan çok daha uzun sürebilir. MASAK inceleme başlattığını kişiye ayrıca bildirmez; çoğu kişi bunu hesap kısıtlaması, bankanın bilgi talebi veya savcılıktan gelen ifade çağrısıyla öğrenir.
+
+## IBAN Kullandırdım Ceza Alır Mıyım? (2026 Güncel Rehber)
+Kaynak: https://avleventmutlu.com.tr/makale/iban-kullandirdim-ceza-alir-miyim-2026-rehber.html (son kontrol: 2026-11-04)
+
+Her durumda değil; IBAN kullandırmak TCK'da ayrı bir suç olarak düzenlenmemiştir ve hesaba para gelmesi tek başına kişinin suçlu olduğu anlamına gelmez. Ancak hesap dolandırıcılık, yasa dışı bahis veya suç gelirlerini aklama gibi bir faaliyette kullanıldıysa hesap sahibi soruşturmaya dahil edilebilir; kastı, bilgisi, elde ettiği menfaat ve olaydaki rolü birlikte değerlendirilir. 12. Yargı Paketi ile TCK 158'e eklenen dördüncü fıkraya göre katkısı yalnızca hesap bilgisini veya kartını vermekle sınırlı olanın cezası yarı oranında indirilir.
+
+## Hesap Kiralama Nedir? Cezası ve 12. Yargı Paketi İndirimi (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/hesap-kiralama-sucu-ve-cezasi.html (son kontrol: 2026-11-04)
+
+Hesap kiralama, banka hesabını, kartını veya Papara gibi elektronik para hesabını ücret ya da komisyon karşılığında başkasının kullanımına bırakmaktır; TCK'da ayrı bir suç olarak düzenlenmemiştir. Hesabın kullanıldığı faaliyete göre TCK 158/1-f'deki nitelikli dolandırıcılık (dört yıldan on yıla kadar hapis), 7258 sayılı Kanun kapsamında yasa dışı bahse aracılık veya TCK 282'deki aklama suçlamaları gündeme gelir. 12. Yargı Paketi ile TCK 158'e eklenen 4. fıkraya göre katkısı yalnızca hesap veya kart vermekle sınırlı olanın cezası yarı oranında indirilir; mahkûmiyet için kastın ispatı gerekir.
+
+## Atlamalı Temyiz Yasalaştı mı? 2026 Son Durum
+Kaynak: https://avleventmutlu.com.tr/makale/atlamali-temyiz-modeli-12-yargi-paketi-2026.html (son kontrol: 2026-11-04)
+
+Hayır, atlamalı temyiz modeli 31 Temmuz 2026'da yayımlanan 12. Yargı Paketi'nde (7589 sayılı Kanun) yer almamış ve Ekim 2026 itibarıyla yasalaşmamıştır. Bugün ilk derece mahkemesi kararlarına karşı kural olarak bölge adliye mahkemesine istinaf, kanundaki parasal ve ceza sınırlarını aşan dosyalarda ise Yargıtay'a temyiz yoluna gidilir. Kanun yolu süreleri kısadır ve kural olarak kararın tefhimi veya tebliğiyle başlar; süre kaçırılırsa karar kesinleşir.
+
+## Çocukların Cezai Sorumluluğu ve 2026 Değişiklikleri
+Kaynak: https://avleventmutlu.com.tr/makale/cocuk-suca-surukleme-yeni-cezalar-2026.html (son kontrol: 2026-11-04)
+
+Suçun çocuklarla birlikte işlenmesi veya çocukların suça azmettirilmesi, TCK'nın genel hükümleri ve örgüt suçlarına ilişkin hükümler çerçevesinde zaten ağırlaştırıcı sonuç doğurur; çocuklara ilişkin yeni değişiklikler 7593 sayılı Kanun ile yapılmıştır. Bu Kanunla TCK 31'de, suç tarihinde 12-15 ve 15-18 yaş grubundaki çocuklara ağır suçlarda verilecek cezaların sınırları yükseltilmiştir. 12 yaşın altındaki çocukların cezai sorumluluğu yoktur; ceza sorumluluğu şahsi olduğundan aile bireyleri çocuğun işlediği suç nedeniyle cezalandırılamaz.
+
+## CMK 109 Adli Kontrol Nedir? Tedbirler, Süresi ve Kaldırılması (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/tutukluluga-alternatif-tedbirler-cmk-109-rehber-2026.html (son kontrol: 2026-11-04)
+
+Adli kontrol, CMK 109’a göre tutuklama nedenlerinin bulunduğu hâllerde tutuklama yerine uygulanabilen ve özgürlüğü daha az kısıtlayan bir koruma tedbiridir; yurt dışına çıkış yasağı, imza yükümlülüğü ve konutu terk etmeme gibi yükümlülükleri içerir. CMK 110/A’ya göre süresi ağır ceza mahkemesinin görevine girmeyen işlerde en çok iki yıl, girenlerde en çok üç yıldır. Karara yedi gün içinde itiraz edilebilir; yükümlülüklere uyulmazsa tutuklama kararı verilebilir.
+
+## 5 Yıllık Kira Sözleşmesinde Kira Tespit Davası: Ne Zaman ve Nasıl Açılır?
+Kaynak: https://avleventmutlu.com.tr/makale/kira-tespit-davasi-5-yil-sarti-2026-rehber.html (son kontrol: 2026-11-04)
+
+Beş yıldan uzun süreli veya beş yıldan sonra yenilenen kira sözleşmelerinde, TBK m. 344’ün son fıkrası uyarınca yeni kira bedeli hâkim tarafından emsal kiralar, kiralananın durumu ve hakkaniyet dikkate alınarak belirlenebilir; bu bedel TÜFE sınırının üzerinde olabilir. Dava, zorunlu arabuluculuk sonrasında sulh hukuk mahkemesinde açılır ve kiracı da açabilir. TBK m. 345’e göre dava yeni dönemden en geç 30 gün önce açılır veya bu sürede yazılı bildirim yapılırsa, belirlenen bedel yeni dönemin başından geçerli olur.
+
+## Yoksulluk Nafakası Hangi Durumda Ödenmez? 2026 Yargıtay Emsal Kararı
+Kaynak: https://avleventmutlu.com.tr/makale/yoksulluk-nafakasi-emsal-yargitay-2026.html (son kontrol: 2026-11-04)
+
+TMK 175’e göre yoksulluk nafakası diğer tarafın mali gücü oranında istenebileceğinden, çalışma gücü ve geliri bulunmayan eş nafaka ödemekle yükümlü tutulamaz. Basına yansıyan Nisan 2026 tarihli bir Yargıtay 2. Hukuk Dairesi kararında, engelli ve hiçbir geliri olmayan davalı aleyhine hükmedilen nafaka bozuldu. Mahkemeler ödeyecek tarafın geliri, mal varlığı, sağlık durumu ve çalışma gücünü de somut olarak araştırmalıdır. Mali durumu önemli ölçüde değişen kişi nafakanın kaldırılmasını isteyebilir.
+
+## 12. Yargı Paketi Hesap Kullandırma İndirimi: TCK 158/4
+Kaynak: https://avleventmutlu.com.tr/makale/12-yargi-paketi-iban-tck-145-rehber-2026.html (son kontrol: 2026-11-04)
+
+12. Yargı Paketi (7589 sayılı Kanun) ile 31 Temmuz 2026'dan itibaren TCK 158'e eklenen dördüncü fıkraya göre, dolandırıcılığa katkısı yalnızca hesabını, kartını veya hesap bilgilerini başkasına vermekle sınırlı kalan kişinin cezası yarı oranında indirilir. Mağdurla iletişime geçen, parayı çeken veya başka hesaplara aktaran kişiler bu indirimden yararlanamaz. Geçiş hükmüne göre istinaf veya temyizdeki dosyalar ilk derece mahkemesine gönderilir; infazdaki hükümlüler ihtardan itibaren altı ay içinde zararı tamamen giderirse etkin pişmanlıktan yararlanabilir.
+
+## Trafik Kazasında Tazminat Zamanaşımı: 2 Yıl mı, 10 Yıl mı? 2026 Rehberi
+Kaynak: https://avleventmutlu.com.tr/makale/trafik-kazasi-tazminat-zamanasimi-2026.html (son kontrol: 2026-11-04)
+
+Karayolları Trafik Kanunu’nun 109. maddesine göre maddi zarar talepleri, zararın ve tazminat yükümlüsünün öğrenilmesinden itibaren 2 yıl ve her hâlde kaza gününden itibaren 10 yıl içinde zamanaşımına uğrar. Kaza aynı zamanda suç oluşturuyorsa daha uzun olan ceza zamanaşımı uygulanır; bu süre taksirle yaralamada 8 yıl, taksirle ölüme sebep olmada 15 yıldır. Bu durumda tazminat davası da aynı süre içinde açılabilir.
+
+## İhbar Tazminatı Hakları: Kim Alır, Nasıl Hesaplanır? 2026 Detaylı Rehber
+Kaynak: https://avleventmutlu.com.tr/makale/ihbar-tazminati-haklari-2026-rehber.html (son kontrol: 2026-11-04)
+
+İhbar tazminatını, belirsiz süreli iş sözleşmesi bildirim süresine uyulmadan ve haklı neden olmaksızın feshedilen işçi alır; istifa eden işçi alamaz. İş Kanunu m. 17’ye göre bildirim süreleri kıdeme göre 2, 4, 6 veya 8 haftadır. Tazminat, giydirilmiş son brüt ücret üzerinden bildirim süresine denk gelen gün sayısıyla hesaplanır; örneğin 3 yıldan fazla çalışan için 56 günlük ücret ödenir. Zamanaşımı 5 yıldır ve dava öncesinde arabuluculuğa başvurmak zorunludur.
+
+## İfade Vermeden Önce Bilinmesi Gereken 10 Kritik Nokta: Susma Hakkı ve Avukat Talebi
+Kaynak: https://avleventmutlu.com.tr/makale/ifade-vermeden-once-bilinmesi-gerekenler-2026.html (son kontrol: 2026-11-04)
+
+İfade vermeden önce bilinmesi gereken temel haklar susma hakkı, avukat talep etme hakkı ve hakkınızdaki isnadı öğrenme hakkıdır. Anayasa m. 38 ve CMK 147 uyarınca şüpheli kendisini ve yakınlarını suçlayıcı beyanda bulunmaya zorlanamaz, susmak aleyhe yorumlanamaz. CMK 149 avukat yardımını güvenceye alır; avukatı olmayan kişiye baro tarafından ücretsiz avukat görevlendirilir. İfade tutanağı okunmadan imzalanmamalıdır; tutuklama kararına karşı 7 gün içinde itiraz edilebilir.
+
+## Anlaşmalı Boşanma Protokolü Nasıl Hazırlanır? 2026 Güncel Rehber ve Örnek Maddeler
+Kaynak: https://avleventmutlu.com.tr/makale/anlasmali-bosanma-protokolu-2026-rehberi.html (son kontrol: 2026-11-04)
+
+Anlaşmalı boşanma protokolü, eşlerin boşanmanın mali ve kişisel sonuçlarında mutabık kaldığı yazılı anlaşmadır; TMK 166/3 uyarınca en az bir yıl süren evliliklerde hâkim tarafından onaylanarak karara eklenir. Protokolde kimlik bilgileri, boşanma iradesi, maddi ve manevi tazminat (TMK 174), yoksulluk nafakası (TMK 175), iştirak nafakası (TMK 182), velayet, kişisel ilişki düzeni ve mal paylaşımı açıkça yer almalıdır. Protokolde düzenlenmeyen konular sonradan ayrı davalara konu olabilir; çocuğun hakkı olan iştirak nafakasından ise feragat edilemez.
+
+## Haklı Nedenle İstifa Eden İşçi Kıdem Tazminatı Alabilir: 2026'da Yargıtay'ın Kabul Ettiği Gerekçeler
+Kaynak: https://avleventmutlu.com.tr/makale/hakli-nedenle-fesih-isci-hakli-istifa-2026.html (son kontrol: 2026-11-04)
+
+Evet; kendi isteğiyle istifa eden işçi kural olarak kıdem tazminatı alamaz, ancak 4857 sayılı İş Kanunu'nun 24. maddesindeki haklı nedenlerle sözleşmeyi fesheden işçi kıdem tazminatına hak kazanır. Ücretin ödenmemesi, mobbing, rıza alınmadan çalışma koşullarının esaslı biçimde değiştirilmesi ve iş güvenliği önlemlerinin alınmaması Yargıtay'ın kabul ettiği gerekçeler arasındadır. Ahlak ve iyi niyet kurallarına aykırılıkta fesih hakkı altı iş günü ve her hâlde bir yıl içinde kullanılmalıdır; haklı fesihte ihbar tazminatı istenemez.
+
+## Saklı Paylı Mirasçının Hakları: Tenkis Davası Ne Zaman Açılır, Nasıl Kazanılır?
+Kaynak: https://avleventmutlu.com.tr/makale/saklipay-mirasta-tenkis-davasi-2026.html (son kontrol: 2026-11-04)
+
+Tenkis davası, saklı payı vasiyet veya sağlığında yapılan kazandırmalarla ihlal edilen mirasçının, payına isabet eden kısmın iadesini istemek için açtığı davadır (TMK 560 vd.). Saklı paylı mirasçılar altsoy, anne-baba ve sağ kalan eştir; kardeşler saklı paylı değildir. TMK 571’e göre dava, ihlalin ve kazandırmaların öğrenilmesinden itibaren bir yıl içinde ve her hâlde vasiyetin ya da mirasın açılmasından itibaren on yıl içinde açılmalıdır; bu süreler hak düşürücüdür.
+
+## GSS Borcu Birikmiş mi? 2026'da Yapılandırma ve Silme Yolları
+Kaynak: https://avleventmutlu.com.tr/makale/gss-borcu-yapilandirma-2026.html (son kontrol: 2026-10-27)
+
+GSS borcu genellikle gelir testi yaptırılmadığı için en yüksek basamaktan tahakkuk ettiğinde veya hatalı tescil nedeniyle oluşur. Kişi başına düşen aylık gelir asgari ücretin üçte birinden azsa gelir testiyle primler devlet tarafından ödenir; hatalı tescilde SGK'ya itiraz edilerek borcun iptali istenebilir. Diğer borçlar taksitlendirilebilir; gecikme zammı ise idarenin takdiriyle değil, ancak kanunla çıkarılan yapılandırma düzenlemeleriyle silinebilir.
+
+## Ayıplı Mal Satın Aldınız: İade, Değişim, Tazminat Hakkınız Nedir?
+Kaynak: https://avleventmutlu.com.tr/makale/ayipli-urun-tuketici-haklari-2026.html (son kontrol: 2026-11-04)
+
+Ayıplı mal satın alan tüketici, 6502 sayılı Kanun'a göre sözleşmeden dönme, bedelden indirim, ücretsiz onarım veya ayıpsız misliyle değiştirme seçimlik haklarından birini kullanabilir ve zararının tazminini isteyebilir. Onarım veya değişim en geç otuz iş günü içinde yapılmalıdır; teslimden itibaren altı ay içinde ortaya çıkan ayıpların teslimde var olduğu kabul edilir. Zamanaşımı teslimden itibaren iki yıldır; 2026 için 186.000 TL'nin altındaki uyuşmazlıklarda tüketici hakem heyetine başvurmak zorunludur.
+
+## İnternet Dolandırıcılığı, Kart Kopyalama ve Phishing: 2026 Hukuki Rehber
+Kaynak: https://avleventmutlu.com.tr/makale/bilisim-sucu-internet-dolandiricilik-2026.html (son kontrol: 2026-11-04)
+
+Oltalama (phishing), kart bilgisi çalınması ve sahte sitelerle yapılan internet dolandırıcılığı, bilişim sistemleri veya bankaların araç olarak kullanılması nedeniyle TCK 158 kapsamında nitelikli dolandırıcılıktır ve hapis cezasının alt sınırı dört yıldır. Olaya göre kartın rızası dışında kullanılması TCK 245, kişisel verilerin ele geçirilmesi TCK 136, sisteme izinsiz girilmesi TCK 243 kapsamında ayrıca değerlendirilir. Mağdur bankasını arayıp kartı kapatmalı, işlemlere itiraz etmeli, delilleri saklamalı ve suç duyurusunda bulunmalıdır; 5464 sayılı Kanun kapsamında bankaya itiraz yolu vardır.
+
+## Kira Sözleşmesi İmzalamadan Önce Bilmeniz Gereken 10 Madde
+Kaynak: https://avleventmutlu.com.tr/makale/ev-kira-sozlesmesi-bilmeniz-gerekenler-2026.html (son kontrol: 2026-11-04)
+
+Konut kira sözleşmesi imzalamadan önce kanunun kiracıyı koruyan emredici kurallarını bilmek gerekir; bunlara aykırı hükümler kiracı aleyhine uygulanamaz. Yenilenen dönemlerde kira artışı önceki kira yılının on iki aylık TÜFE ortalamasındaki değişimi geçemez, depozito üç aylık kirayı aşamaz ve kiracı olağan kullanımdan doğan yıpranmadan sorumlu değildir. Tahliye taahhüdünün geçerli olması için kiralananın tesliminden sonra verilmesi gerekir; kiracı süre bitiminden en az on beş gün önce bildirimde bulunmazsa sözleşme bir yıl uzar.
+
+## Tutukluluğa İtiraz ve Haksız Tutukluluk Tazminatı (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/tutukluluk-sartlari-itiraz-2026.html (son kontrol: 2026-11-04)
+
+CMK 100’e göre tutuklama için kuvvetli suç şüphesi ile kaçma veya delil karartma şüphesi gibi bir tutuklama nedeni bulunmalı ve tedbir ölçülü olmalıdır; üst sınırı iki yılı geçmeyen suçlarda kural olarak tutuklama yapılamaz. Tutuklama kararına öğrenmeden itibaren yedi gün içinde itiraz edilebilir. CMK 141’e göre haksız tutuklanan kişi, kesinleşmenin tebliğinden itibaren üç ay ve her hâlde kesinleşmeden itibaren bir yıl içinde ağır ceza mahkemesinden tazminat isteyebilir.
+
+## Tazyik Hapsi Nedir? Nafaka Ödemeyene 3 Aya Kadar Hapis ve Kaldırılması (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/nafaka-odememek-hapis-cezasi-2026.html (son kontrol: 2026-11-04)
+
+Tazyik hapsi, mahkemece hükmedilen nafakayı ödemeyen borçluyu ödemeye zorlamak için uygulanan bir hapis türüdür. İİK m. 344’e göre alacaklının şikâyeti üzerine icra (ceza) mahkemesince 3 aya kadar tazyik hapsine karar verilir; şikâyet ödememenin öğrenilmesinden itibaren 3 ay, her hâlde 1 yıl içinde yapılmalıdır. Borçlu nafakayı öderse hemen tahliye edilir ve tazyik hapsi adli sicile işlenmez. Ödeme gücü azalan borçlu nafakanın azaltılması veya kaldırılması davası açabilir.
+
+## Boşanmada Mal Paylaşımı: Ev, Araba, Birikim Nasıl Bölünür? 2026 Rehberi
+Kaynak: https://avleventmutlu.com.tr/makale/bosanmada-mal-paylasimi-2026.html (son kontrol: 2026-11-04)
+
+1 Ocak 2002'den itibaren, başka bir rejim seçilmemişse edinilmiş mallara katılma rejimi uygulanır ve her eş, diğer eşin edinilmiş mallarından borçlar düşüldükten sonra kalan artık değerin yarısı üzerinde hak sahibidir. Evlilik öncesi mallar, miras ve bağışla edinilenler gibi kişisel mallar paylaşıma dahil edilmez; paylaşım kural olarak malın aynen bölünmesiyle değil, para alacağı olarak hesaplanır. Yargıtay uygulamasına göre katılma alacağı ve değer artış payı talepleri, boşanmanın kesinleşmesinden itibaren on yıllık zamanaşımına tabidir.
+
+## SGK Çıkış Kodu Yanlış Yazıldıysa Ne Yapılır? Kod 42-50 (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/sgk-cikis-kodu-yanlis-yazildi-2026.html (son kontrol: 2026-10-27)
+
+İşten çıkış kodu, işsizlik ödeneği başvurusunda doğrudan dikkate alınır; istifa (Kod 03) veya işçinin kusuruna dayanan kodlar (Kod 42-50) yazılırsa işsizlik ödeneği bağlanmaz. Kıdem ve ihbar tazminatı ise koda göre değil, fesihle ilgili gerçek duruma göre belirlenir. Kod haksız yazıldıysa işverenden düzeltme istenmeli, sonuç alınamazsa arabulucuya ve mahkemeye başvurulmalıdır. Eski Kod 29, 1 Nisan 2021'den beri kullanılmamaktadır.
+
+## 2026'da Hangi Davalarda Arabulucuya Gitmek Zorundasınız?
+Kaynak: https://avleventmutlu.com.tr/makale/arabuluculuk-zorunlu-davalar-2026.html (son kontrol: 2026-11-04)
+
+2026'da iş uyuşmazlıkları, konusu para alacağı veya tazminat olan ticari davalar, parasal sınırın üzerindeki tüketici uyuşmazlıkları ile tahliye hariç kira, ortaklığın giderilmesi, kat mülkiyeti ve komşu hukukundan doğan uyuşmazlıklarda dava açmadan önce arabulucuya başvurmak zorunludur; aksi hâlde dava usulden reddedilir. İş kazası ve meslek hastalığı tazminat davaları kapsam dışıdır; işe iadede başvuru fesih bildiriminin tebliğinden itibaren bir ay içinde yapılmalıdır. Ekim 2026 itibarıyla boşanma davalarında zorunlu arabuluculuk bulunmamaktadır.
+
+## Çocuğa Şiddet veya İstismarı İhbar Etme Rehberi: Yasal Yükümlülük ve Süreçler
+Kaynak: https://avleventmutlu.com.tr/makale/cocuk-istismari-sikayet-sureci-2026.html (son kontrol: 2026-11-04)
+
+Çocuğa şiddet veya istismar şüphesinde Cumhuriyet başsavcılığına, polise veya jandarmaya başvurulabilir; yakın tehlikede 112, ihbar ve danışma için ALO 183 aranabilir. TCK 278'e göre işlenmekte olan bir suçu bildirmemek cezalandırılır ve mağdur 15 yaşını bitirmemişse ceza artırılır; görevi sırasında öğrendiğini bildirmeyen kamu görevlileri TCK 279'a, sağlık mesleği mensupları TCK 280'e göre sorumludur. Aile içi şiddette 6284 sayılı Kanun kapsamında koruyucu tedbir istenebilir.
+
+## Şirket Konkordatoya Girdi: İşçinin Hakları Ne Olur?
+Kaynak: https://avleventmutlu.com.tr/makale/konkordato-iscinin-haklari-2026.html (son kontrol: 2026-11-04)
+
+Şirketin konkordatoya girmesi işçinin haklarını ortadan kaldırmaz ve işverene ücret ödememe hakkı vermez. İcra ve İflas Kanunu’na göre işçilerin belirli süre içinde muaccel olmuş ücret alacakları ile kıdem ve ihbar tazminatları birinci sırada imtiyazlıdır; tasdik edilen konkordato bu alacakları kural olarak bağlamaz. Ücret ödenmezse işçi sözleşmeyi haklı nedenle feshedip kıdem tazminatı isteyebilir; ödenmeyen son üç aylık ücret de Ücret Garanti Fonu’ndan kanuni sınırlar içinde karşılanabilir.
+
+## Boşanmada Aldatma Nasıl İspat Edilir? Deliller (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/bosanmada-aldatma-delil-2026.html (son kontrol: 2026-11-04)
+
+Boşanmada aldatma; tanık beyanları, eşin kendi gönderdiği mesajlar, sosyal medya paylaşımları, otel kayıtları, banka hareketleri ve fotoğraflar gibi hukuka uygun delillerle ispat edilebilir. TMK 161'deki zina sebebiyle dava, öğrenmeden itibaren altı ay ve her hâlde zinadan itibaren beş yıl içinde açılmalıdır; cinsel ilişki ispatlanamazsa evlilik birliğinin temelinden sarsılması sebebine dayanılabilir. Şifre kırma, casus yazılım veya gizli kamera ile elde edilen deliller hukuka aykırıdır, hükme esas alınmaz ve ayrıca suç oluşturabilir.
+
+## Boşanmada Arabuluculuk Zorunlu mu? 2026 Son Durum
+Kaynak: https://avleventmutlu.com.tr/makale/cekismeli-bosanma-arabuluculuk-2026.html (son kontrol: 2026-11-04)
+
+Hayır, Ekim 2026 itibarıyla boşanma davalarında dava şartı olarak zorunlu arabuluculuk bulunmamaktadır; çekişmeli boşanma davası doğrudan aile mahkemesinde açılır. Konu 12. Yargı Paketi (7589 sayılı Kanun) hazırlanırken gündeme gelmiş ancak yürürlüğe giren metinde yer almamış, düzenlemenin 13. Yargı Paketi kapsamında Meclis gündemine gelmesi beklenmektedir. Bugün mal paylaşımı gibi mali konularda taraflar isterlerse ihtiyari arabulucuya başvurabilir; boşanmanın kendisi ve velayet ise arabuluculuğa elverişli değildir.
+
+## Trafik Cezasına İtiraz: 15 Gün ve İndirimli Ödeme (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/trafik-cezasina-itiraz-2026.html (son kontrol: 2026-11-04)
+
+Trafik cezasına, Kabahatler Kanunu uyarınca kararın tebliğ veya öğrenme tarihinden itibaren 15 gün içinde, cezayı veren idarenin bulunduğu yerdeki sulh ceza hâkimliğine dilekçeyle itiraz edilir; süre kaçırılırsa ceza kesinleşir. Dilekçeye tutanak veya tebligat örneği ve destekleyici belgeler eklenmelidir. Ceza 15 gün içinde ödenirse yüzde 25 indirim uygulanır ve peşin ödeme itiraz hakkını ortadan kaldırmaz. İtiraz kabul edilirse ödenen tutarın iadesi istenebilir.
+
+## Çocuk Nafakası Nasıl Belirlenir ve Artırılır? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/cocuk-nafakasi-arttirilmasi-2026.html (son kontrol: 2026-11-04)
+
+İştirak nafakası, TMK 182 uyarınca velayet kendisine verilmeyen ebeveynin çocuğun bakım ve eğitim giderlerine gücü oranında katılmasıdır; kanunda sabit bir oran yoktur. Mahkeme çocuğun yaşını, eğitim ve sağlık ihtiyaçlarını, alışık olduğu yaşam düzeyini ve tarafların gelirini birlikte değerlendirir. Kararda yıllık artış hükmü varsa (çoğu zaman TÜİK'in TÜFE oranına bağlı) artırılmış tutar ayrıca dava açmadan icra takibiyle istenebilir; böyle bir hüküm yoksa veya çocuğun ihtiyaçları önemli ölçüde değiştiyse nafaka artırım davası açılabilir.
+
+## Sosyal Medyada Hakaret Suçu 2026: WhatsApp, Instagram ve X'te Hukuki Riskler
+Kaynak: https://avleventmutlu.com.tr/makale/hakaret-sucu-sosyal-medya-2026.html (son kontrol: 2026-11-04)
+
+Evet, sosyal medyada yazılan ifadelerle de hakaret suçu oluşabilir; TCK 125'e göre ceza üç aydan iki yıla kadar hapis veya adli para cezasıdır. Herkese açık paylaşım veya yorumla yapılan hakaret alenen işlenmiş sayılır ve ceza altıda bir oranında artırılır; yalnızca mağdura gönderilen özel mesajda aleniyet yoktur. Temel hâl şikâyete bağlıdır ve şikâyet, fiil ile failin öğrenilmesinden itibaren altı ay içinde yapılmalıdır; suç uzlaştırma kapsamında değildir, temel hâlinde önödeme uygulanabilir.
+
+## İş Kazası Geçirdim, Haklarım Neler? 2026 Kapsamlı Rehber
+Kaynak: https://avleventmutlu.com.tr/makale/is-kazasi-haklari-isci-2026.html (son kontrol: 2026-11-04)
+
+İş kazası geçiren işçi hem SGK’dan hem de kusuru varsa işverenden tazminat talep edebilir. İşveren kazayı üç iş günü içinde SGK’ya bildirmekle yükümlüdür; SGK geçici iş göremezlik ödeneği, meslekte kazanma gücü en az yüzde 10 azalmışsa sürekli iş göremezlik geliri, ölüm hâlinde ise hak sahiplerine gelir bağlar. İşverene karşı maddi ve manevi tazminat davası arabuluculuğa gitmeden doğrudan iş mahkemesinde açılabilir; Yargıtay uygulamasına göre zamanaşımı 10 yıldır.
+
+## Süresiz Nafaka Kalktı mı? AYM Kararı ve Son Durum (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/suresiz-nafaka-kalkacak-mi-2026.html (son kontrol: 2026-11-04)
+
+Hayır, yoksulluk nafakası kaldırılmadı; Anayasa Mahkemesi 4 Haziran 2026 tarihli kararıyla TMK 175’teki “süresiz olarak” ibaresini iptal etti. İptal, gerekçeli kararın Resmî Gazete’de yayımlanmasından dokuz ay sonra yürürlüğe girecek. Daha önce hükmedilmiş nafakalar kendiliğinden sona ermez; kaldırılması veya azaltılması için dava açılması gerekir. Yeni yasal düzenleme henüz kanunlaşmamıştır.
+
+## İşyeri Kapandı: Kıdem, İhbar ve İşsizlik Maaşı (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/isyeri-kapatma-isci-haklari-2026.html (son kontrol: 2026-11-04)
+
+İşyerinin kapanması nedeniyle sözleşmesi işverence sona erdirilen işçi, en az bir yıl çalışmışsa kıdem tazminatına, bildirim süresine uyulmamışsa ihbar tazminatına hak kazanır; ödenmemiş ücret, fazla çalışma ve yıllık izin ücretleri de istenebilir. Son 120 gün sürekli çalışmış ve son üç yılda en az 600 gün prim ödemiş işçi, 30 gün içinde İŞKUR’a başvurarak işsizlik ödeneği alabilir. Kıdem, ihbar ve ücret alacakları 5 yıllık zamanaşımına tabidir.
+
+## Velayet Değişikliği Davası Ne Kadar Sürer? Şartları ve Süreç (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/velayet-degisikligi-nasil-yapilir-2026.html (son kontrol: 2026-11-04)
+
+Velayet değişikliği davasının süresi mahkemenin iş yüküne, rapor alınma süresine ve kanun yolu aşamalarına göre değişir; ilk derece yargılaması çoğu zaman birkaç ay ile bir yıl arasında sürer. Dava, TMK 183 uyarınca koşulların önemli ölçüde değişmesi ve çocuğun üstün yararının yeni bir düzenleme gerektirmesi hâlinde aile mahkemesinde açılır. Mahkeme genellikle sosyal inceleme raporu alır ve idrak çağındaki çocuğu dinler. Velayet sahibinin yeniden evlenmesi tek başına yeterli değildir.
+
+## Trafik Kazasında Tazminat Hakkı: Sigorta Ödemezse Ne Yapmalısınız?
+Kaynak: https://avleventmutlu.com.tr/makale/trafik-kazasi-tazminat-nasil-alinir-2026.html (son kontrol: 2026-11-04)
+
+Trafik kazası mağdurları araç hasarı ve değer kaybı, tedavi giderleri, geçici ve sürekli iş göremezlik tazminatı ile ölüm hâlinde destekten yoksun kalma tazminatı talep edebilir. Dava veya tahkimden önce kusurlu aracın zorunlu trafik sigortası şirketine yazılı başvuru zorunludur; şirket 15 gün içinde cevap vermez veya teklif talebi karşılamazsa dava açılabilir ya da Sigorta Tahkim Komisyonu’na gidilebilir. Kusurlu araç sigortasızsa veya tespit edilemiyorsa bedensel zararlar için Güvence Hesabı’na başvurulabilir.
+
+## Miras Payını Almak İçin Tapu İptali Davası: Kimler Açabilir, Süreç Nasıl İşler?
+Kaynak: https://avleventmutlu.com.tr/makale/miras-tapu-iptali-davasi-2026.html (son kontrol: 2026-11-04)
+
+Miras bırakan, mirasçılarını mirastan yoksun bırakmak amacıyla bağışladığı taşınmazı tapuda satış gibi göstermişse (muris muvazaası), mirastan yoksun bırakılan her mirasçı saklı paylı olup olmadığına bakılmaksızın tapu iptali ve tescil davası açabilir. Dava miras bırakanın ölümünden sonra açılır, muvazaa tanık dahil her türlü delille ispat edilebilir ve kural olarak zamanaşımına tabi değildir. Devir gerçek bir bağışsa tenkis davası gündeme gelir; bu dava öğrenmeden itibaren 1 yıl, her hâlde 10 yıl içinde açılmalıdır.
+
+## Hangi Şirketler Avukat Tutmak Zorunda? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/sirket-avukat-tutma-zorunlulugu-2026.html (son kontrol: 2026-11-04)
+
+Avukatlık Kanunu’nun 35. maddesine göre, esas sermayesi TTK’daki asgari anonim şirket sermayesinin beş katı veya daha fazla olan anonim şirketler ile üye sayısı yüz veya daha fazla olan yapı kooperatifleri sözleşmeli avukat bulundurmak zorundadır. Asgari sermaye 250.000 TL olarak uygulandığından sınır 1.250.000 TL’dir. Limited şirketler bu zorunluluk kapsamında değildir. Uymayanlara her ay için asgari ücretin iki aylık brüt tutarı kadar idari para cezası verilir.
+
+## Boşanmada En Sık Yapılan 7 Hata: Haklarınızı Kaybetmeyin
+Kaynak: https://avleventmutlu.com.tr/makale/bosanmada-en-sik-yapilan-hatalar.html (son kontrol: 2026-11-04)
+
+Boşanmada en sık yapılan hatalar arasında ortak konutu haklı sebep olmadan terk etmek, sosyal medyada paylaşım yapmak, protokolü ve nafaka feragatini düşünmeden imzalamak, malvarlığını eksik değerlendirmek, delilleri hukuka aykırı yollarla toplamak, çocuğu uyuşmazlığın tarafı yapmak ve süreleri kaçırmak yer alır. Anlaşmalı boşanmada yoksulluk nafakasından feragat edilirse ileride bu nafaka talep edilemez. Şiddet veya ciddi tehdit karşısında evden ayrılmak ise haklı sebeptir; bu durumda 6284 sayılı Kanun kapsamında koruma kararı istenebilir.
+
+## Kıdem Tazminatı 2026: Hesaplama Nasıl Yapılır, Kimler Alabilir?
+Kaynak: https://avleventmutlu.com.tr/makale/kidem-tazminati-hesaplama-2026.html (son kontrol: 2026-11-04)
+
+Kıdem tazminatı, her tam çalışma yılı için 30 günlük giydirilmiş brüt ücret üzerinden hesaplanır; bir yıldan artan süreler oranlanır ve yalnızca damga vergisi kesilir. Aynı işverene bağlı en az bir yıl çalışmış ve sözleşmesi işverenin haklı sebep olmaksızın feshi, işçinin haklı feshi, askerlik, emeklilik veya kadın işçinin evlilikten itibaren bir yıl içinde ayrılması gibi kanuni nedenlerle sona eren işçi bu tazminatı alabilir. 1 Temmuz – 31 Aralık 2026 dönemi için yıllık tavan 73.729,87 TL’dir.
+
+## Mirasın Reddi Nasıl Yapılır? 3 Ay Süre ve Hükmen Ret (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/miras-reddi-nasil-yapilir-2026.html (son kontrol: 2026-11-04)
+
+Mirasın reddi, miras bırakanın son yerleşim yerindeki sulh hukuk mahkemesine sözlü veya yazılı, kayıtsız şartsız beyanla yapılır; notere yapılan beyan kanuni ret yolu değildir. TMK m. 606’ya göre süre 3 aydır ve yasal mirasçılar için kural olarak ölümün öğrenildiği tarihten başlar; süresinde reddetmeyen mirasçı mirası kabul etmiş sayılır. Süre kaçırılsa bile, ölüm tarihinde terekenin borca batık olduğu açıkça belliyse miras hükmen reddedilmiş sayılır ve bu durum dava veya icra takibinde ileri sürülebilir.
+
+## Banka Hesabı Kullandırma Suçunda Beraat Nasıl Sağlanır? Yargıtay Kararları Işığında Savunma Stratejisi
+Kaynak: https://avleventmutlu.com.tr/makale/banka-hesabi-kullandirma-beraat-savunmasi.html (son kontrol: 2026-11-04)
+
+Banka hesabı kullandırma dosyalarında beraat, TCK 158 kapsamındaki dolandırıcılık kastının somut delillerle ispat edilemediğinin ortaya konmasına dayanır; Yargıtay'a göre IBAN sahibi olmak veya hesabı kullandırmak tek başına suç kastını göstermez. Yargıtay 11. Ceza Dairesi'nin 04.06.2024 tarihli 2021/16966 E., 2024/7470 K. sayılı kararında, güven ilişkisiyle hesabını kullandıran ve paradan pay almayan sanık hakkındaki mahkûmiyet bozulmuştur. Mağdurla iletişim kurulmamış olması, paradan menfaat sağlanmaması ve asıl fail hakkında şikâyette bulunulması kastın yokluğunu destekleyen olgulardır; şüpheden sanık yararlanır.
+
+## Telefonda Savcıyım Diyen Dolandırıcılar: Ne Yapmalı?
+Kaynak: https://avleventmutlu.com.tr/makale/sahte-savci-telefon-dolandiricilik.html (son kontrol: 2026-11-04)
+
+Gerçek bir savcı veya emniyet görevlisi telefonla arayarak para transferi istemez, hesap bilgisi talep etmez ve “kimseye söyleme” demez. Dolandırıcılar genellikle kimliğin terör örgütüyle ilişkili suçlarda kullanıldığını ya da hesapların bloke edileceğini söyleyerek paranın bir hesaba aktarılmasını veya altın alınmasını ister. Böyle bir aramada telefon kapatılıp 155 veya 156 aranmalıdır. Para gönderildiyse banka derhal aranmalı, kayıtlar saklanmalı ve savcılığa suç duyurusunda bulunulmalıdır.
+
+## Sosyal Medyada Hakaret ve Tehdit: Ekran Görüntüsü Delil Midir?
+Kaynak: https://avleventmutlu.com.tr/makale/sosyal-medya-hakaret-tehdit-sucu.html (son kontrol: 2026-11-04)
+
+Ekran görüntüsü soruşturmanın başlatılması için önemlidir; ancak değiştirilebilir olduğundan tek başına yeterli görülmeyebilir. Telefonu incelemeye sunmak, bağlantı ve kullanıcı adını kaydetmek, gerekirse noter tespiti yaptırmak delil değerini artırır. Hakaret (TCK 125) şikâyete bağlıdır ve şikâyet süresi fiil ile failin öğrenilmesinden itibaren altı aydır. Hayata veya vücut dokunulmazlığına yönelik tehdit (TCK 106) ise şikâyete bağlı değildir ve altı aydan iki yıla kadar hapis cezası gerektirir.
+
+## Anlaşmalı Boşanmada Yapılan 5 Kritik Hata
+Kaynak: https://avleventmutlu.com.tr/makale/anlasmali-bosanma-dikkat-edilmesi-gerekenler.html (son kontrol: 2026-11-04)
+
+Anlaşmalı boşanmada en sık yapılan hatalar; nafakadan düşünmeden feragat etmek, mal paylaşımını eksik düzenlemek, velayet ve kişisel ilişki düzenini muğlak bırakmak, çocuğun soyadı ve önemli kararlardaki yetkiyi düzenlememek ve protokolü hukuki denetimden geçirmeden imzalamaktır. Yoksulluk nafakasından feragat edilirse bu hak bir daha talep edilemez. Protokolde yer almayan banka hesapları, emeklilik birikimleri veya şirket hisseleri gibi varlıklar ise ileride dava konusu olabilir.
+
+## İş Yerinde Mobbing: İspat ve İşçinin Hakları (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/mobbing-is-yerinde-psikolojik-baski.html (son kontrol: 2026-11-04)
+
+Mobbing; işveren, yönetici veya iş arkadaşlarınca belirli bir süre sistematik ve kasıtlı biçimde uygulanan, çalışanı yıldırmayı veya işten uzaklaştırmayı amaçlayan psikolojik baskıdır; tek seferlik bir tartışma genellikle mobbing sayılmaz. TBK m. 417 işvereni işçiyi psikolojik tacize karşı korumakla yükümlü kılar. Mobbinge uğrayan işçi İş Kanunu m. 24 uyarınca sözleşmeyi haklı nedenle feshedip en az bir yıllık kıdemi varsa kıdem tazminatı, ayrıca manevi tazminat isteyebilir. İspatta yazışmalar, tanık beyanları ve sağlık raporları önemlidir.
+
+## Banka Hesabı Kullandırma Cezası: TCK 158 ve 5549 m.15
+Kaynak: https://avleventmutlu.com.tr/makale/tck-158-banka-hesabi-kullandirma.html (son kontrol: 2026-11-04)
+
+5549 sayılı Kanun’un 15. maddesi, yükümlü kuruluşlar nezdinde kimlik tespiti gerektiren işlemlerde başkası hesabına işlem yapan kişinin bunu önceden yazılı olarak bildirmemesini suç olarak düzenler. Suçun oluşması için bildirimin yapılmamış olması yeterlidir; hesabın suç amacıyla kullanıldığının veya menfaat karşılığı verildiğinin ispatı gerekmez. Suç kasten işlenebilir ve olası kast yeterlidir; somut olayda TCK 30/4 kapsamındaki haksızlık yanılgısı da değerlendirilmelidir.
+
+## Bilişim Suçlarında Dijital Delil ve Telefon İncelemesi (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/bilisim-suclari-delil.html (son kontrol: 2026-11-04)
+
+Bilişim suçlarında yazışmalar, IP kayıtları, banka işlem kayıtları ve cihaz verileri gibi dijital deliller belirleyicidir. CMK 134'e göre telefon veya bilgisayarda arama ve kopyalama için somut delillere dayanan kuvvetli şüphe ve başka surette delil elde etme imkânının olmaması gerekir; karar kural olarak hâkimce verilir, gecikmesinde sakınca olan hâllerde savcının kararı yirmi dört saat içinde hâkim onayına sunulur. Alınan yedeğin bir kopyası şüpheliye veya müdafiine verilir; hukuka aykırı yöntemlerle elde edilen deliller hükme esas alınamaz.
+
+## Dolandırıcılık Suçu ve Cezası (TCK 157-158) 2026
+Kaynak: https://avleventmutlu.com.tr/makale/dolandiricilik-sucu-turkiye.html (son kontrol: 2026-11-04)
+
+Basit dolandırıcılık TCK 157'de düzenlenir ve bir yıldan beş yıla kadar hapis ile beş bin güne kadar adli para cezası gerektirir; bu hâl uzlaştırma kapsamındadır. Bilişim sistemleri veya bankaların araç olarak kullanılması ya da failin kendini kamu görevlisi veya banka çalışanı olarak tanıtması gibi TCK 158'deki nitelikli hâllerde ceza üç yıldan on yıla kadar hapistir, bazı hâllerde alt sınır dört yıldır. Nitelikli dolandırıcılık uzlaştırma kapsamında değildir ve şikâyete bağlı değildir; TCK 168'e göre zararın kovuşturmadan önce tamamen giderilmesi cezayı üçte ikiye kadar indirir.
+
+## Vasiyetname Yazmak İstiyorum: Geçerli Olması İçin Ne Gerekir?
+Kaynak: https://avleventmutlu.com.tr/makale/vasiyetname-nasil-yapilir.html (son kontrol: 2026-11-04)
+
+Vasiyetnamenin geçerli olması için Türk Medeni Kanunu’nda öngörülen üç şekilden birine uyulmalıdır. Resmi vasiyetname noter huzurunda iki tanıkla düzenlenir; el yazılı vasiyetname baştan sona vasiyetçinin el yazısıyla yazılmalı, tarih içermeli ve imzalanmalıdır; sözlü vasiyetname ise yalnızca olağanüstü durumlarda iki tanık huzurunda yapılabilir. Bilgisayar kullanımı, eksik tarih veya imza el yazılı vasiyetnameyi geçersiz kılar. Vasiyetname mirasçıların saklı paylarını da ihlal edemez.
+
+## Sigorta Şirketi Ödeme Yapmıyorsa Ne Yapılır? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/trafik-kazasi-sigorta-odeme-yapmiyorsa.html (son kontrol: 2026-11-04)
+
+Önce sigorta şirketine yazılı başvuru yapılmalıdır; Karayolları Trafik Kanunu’nun 97. maddesine göre bu başvuru dava veya tahkimden önce zorunludur. Şirket 15 gün içinde yazılı cevap vermezse ya da cevap talebi karşılamazsa asliye ticaret mahkemesinde dava açılabilir veya Sigorta Tahkim Komisyonu’na başvurulabilir. Manevi tazminat trafik sigortası kapsamında değildir; sürücüden ve işletenden istenir. Maddi zarar talepleri iki yıl ve her hâlde kazadan itibaren on yıl içinde zamanaşımına uğrar.
+
+## Hırsızlık Suçu ve Cezası (TCK 141-142) 2026
+Kaynak: https://avleventmutlu.com.tr/makale/hirsizlik-sucu-ceza-savunma.html (son kontrol: 2026-11-04)
+
+Basit hırsızlık TCK 141'de düzenlenir ve bir yıldan üç yıla kadar hapis cezası gerektirir; bu hâl uzlaştırma kapsamındadır. TCK 142'deki nitelikli hâllerde ceza, eşyanın niteliğine ve işleniş biçimine göre üç yıldan yedi yıla veya beş yıldan on yıla kadar hapistir ve uzlaştırma uygulanmaz; suç gece vakti işlenirse ceza TCK 143'e göre yarı oranında artırılır. TCK 168'e göre zarar kovuşturma başlamadan önce tamamen giderilirse ceza üçte ikiye kadar, hükümden önce giderilirse yarıya kadar indirilir.
+
+## Sigortasız Çalıştırıldım: Hizmet Tespit Davası (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/sgk-bildirimsiz-calisma-haklari.html (son kontrol: 2026-11-04)
+
+SGK’ya bildirilmeden veya eksik bildirilerek çalıştırılan işçi, çalışma sürelerini iş mahkemesinde hizmet tespiti davasıyla tespit ettirebilir. 5510 sayılı Kanun’un 86. maddesine göre dava, hizmetin geçtiği yılın sonundan itibaren beş yıl içinde açılmalıdır ve bu süre hak düşürücüdür. Dava işverene karşı açılır, SGK davaya dahil edilir. Ödenmeyen ücret ve tazminat alacakları için önce arabulucuya başvurmak zorunludur; bu alacaklar beş yıllık zamanaşımına tabidir.
+
+## Kasten Yaralama ve Kavga Cezası: Kavgadan Hapis Yatılır mı? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/kasten-yaralama-sucu-savunma.html (son kontrol: 2026-11-04)
+
+Her kavga dosyası hapisle sonuçlanmaz. TCK 86’ya göre kasten yaralamanın temel cezası 1 yıl 6 aydan 3 yıla kadar hapistir; basit tıbbi müdahaleyle giderilebilen yaralanmada şikâyet üzerine 6 aydan 1 yıl 6 aya kadar hapis veya adli para cezası verilir ve bu hâller uzlaştırma kapsamındadır. 2 yıl veya daha az hapis cezalarında hükmün açıklanmasının geri bırakılması ya da erteleme gündeme gelebilir. Silahla, yakınlara karşı veya ağır sonuç doğuran yaralamalarda ise hapis riski belirgin biçimde artar.
+
+## Boşanmada Velayet Kime Verilir? Ortak Velayet (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/bosanma-velayet.html (son kontrol: 2026-11-04)
+
+Boşanmada velayet hiçbir ebeveyne öncelikli olarak tanınmaz; mahkeme çocuğun üstün yararını esas alarak çocuğun yaşı, o güne kadar kim tarafından bakıldığı, ebeveynlerin yaşam koşulları ve tutumları gibi unsurları birlikte değerlendirir. Ekonomik güç tek başına belirleyici değildir; mahkemeler çoğunlukla sosyal inceleme raporu alır ve idrak çağındaki çocuğu dinler. Yargıtay, tarafların anlaşması ve çocuğun yararına uygun olması hâlinde ortak velayete hükmedilebileceğini kabul eder; velayeti almayan ebeveynin çocukla kişisel ilişki kurma hakkı vardır.
