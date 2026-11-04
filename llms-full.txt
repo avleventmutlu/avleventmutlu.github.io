@@ -500,11 +500,6 @@ Kaynak: https://avleventmutlu.com.tr/makale/yasadisi-bahis-icin-hesap-kullandirm
 
 Yasa dışı bahis için hesap kullandırmak, kendiliğinden ceza verileceği anlamına gelmez; ceza hukukunda temel ilke kişisel sorumluluktur ve yalnızca hesabın kullanılmış olması mahkûmiyet için yeterli değildir. Soruşturma makamları kişinin bahis faaliyetinden haberdar olup olmadığını, para transferlerinin niteliğini ve elde edilen menfaati birlikte değerlendirir. Banka ve elektronik para kayıtları, MASAK raporları ve WhatsApp ile Telegram yazışmaları başlıca delillerdir. Komisyon alınmaması veya tek seferlik kullanım tek başına sorumluluğu ortadan kaldırmaz.
 
-## IBAN Kullandırdım Ceza Alır Mıyım? 2026 Güncel ve Kapsamlı Rehber
-Kaynak: https://avleventmutlu.com.tr/makale/iban-kullandirdim-ceza-alir-miyim-kapsamli-rehber.html (son kontrol: 2026-11-04)
-
-Yalnızca IBAN veya banka hesabını kullandırmış olmak kendiliğinden ceza alınacağı anlamına gelmez; Türk Ceza Kanunu’nda “IBAN kullandırma suçu” adıyla ayrı bir suç bulunmamaktadır. Ancak hesap dolandırıcılık, 7258 sayılı Kanun kapsamındaki yasa dışı bahis veya suç gelirlerinin aklanması gibi faaliyetlerde kullanıldıysa hesap sahibi de soruşturma kapsamına alınabilir. Savcılık; paranın kaynağının bilinip bilinmediğini, komisyon alınıp alınmadığını, yazışmaları ve MASAK raporlarını birlikte değerlendirir.
-
 ## Instagram'da Hakaret Eden Sahte Hesap Nasıl Bulunur?
 Kaynak: https://avleventmutlu.com.tr/makale/instagramdan-hakaret-eden-kisi-nasil-bulunur.html (son kontrol: 2026-10-29)
 
@@ -710,7 +705,7 @@ Kaynak: https://avleventmutlu.com.tr/makale/sirket-avukat-tutma-zorunlulugu-2026
 
 Avukatlık Kanunu’nun 35. maddesine göre, esas sermayesi TTK’daki asgari anonim şirket sermayesinin beş katı veya daha fazla olan anonim şirketler ile üye sayısı yüz veya daha fazla olan yapı kooperatifleri sözleşmeli avukat bulundurmak zorundadır. Asgari sermaye 250.000 TL olarak uygulandığından sınır 1.250.000 TL’dir. Limited şirketler bu zorunluluk kapsamında değildir. Uymayanlara her ay için asgari ücretin iki aylık brüt tutarı kadar idari para cezası verilir.
 
-## Boşanmada En Sık Yapılan 7 Hata: Haklarınızı Kaybetmeyin
+## Boşanmada En Sık Yapılan 8 Hata: Haklarınızı Kaybetmeyin
 Kaynak: https://avleventmutlu.com.tr/makale/bosanmada-en-sik-yapilan-hatalar.html (son kontrol: 2026-11-04)
 
 Boşanmada en sık yapılan hatalar arasında ortak konutu haklı sebep olmadan terk etmek, sosyal medyada paylaşım yapmak, protokolü ve nafaka feragatini düşünmeden imzalamak, malvarlığını eksik değerlendirmek, delilleri hukuka aykırı yollarla toplamak, çocuğu uyuşmazlığın tarafı yapmak ve süreleri kaçırmak yer alır. Anlaşmalı boşanmada yoksulluk nafakasından feragat edilirse ileride bu nafaka talep edilemez. Şiddet veya ciddi tehdit karşısında evden ayrılmak ise haklı sebeptir; bu durumda 6284 sayılı Kanun kapsamında koruma kararı istenebilir.
