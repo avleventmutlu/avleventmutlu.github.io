@@ -2,8 +2,59 @@
 
 > Bu dosya, avleventmutlu.com.tr'deki hukuki rehberlerin soru ve kısa cevaplarını tek yerde toplar. Her cevabın ayrıntısı ve kaynakları bağlantıdaki sayfadadır. İçerikler genel bilgilendirme amaçlıdır ve hukuki danışmanlık yerine geçmez. Alıntılarda ilgili sayfanın bağlantısının kaynak olarak gösterilmesi rica olunur.
 
-Son güncelleme: 2026-11-04
+Son güncelleme: 2026-11-07
 
+
+
+## HTS Kaydı (Telefon Görüşme ve Baz Kayıtları) Celbi Talep Dilekçesi Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/hts-kaydi-talep-dilekce.html (son kontrol: 2026-11-07)
+
+HTS kaydı; bir telefon hattının hangi numaralarla, ne zaman ve ne kadar görüştüğünü ve hangi baz istasyonundan sinyal verdiğini gösteren kayıttır. Ceza dosyasında bu kayıtların getirtilmesi için savcılığa veya mahkemeye dilekçe verilir; kayıtların operatörden istenmesine hâkim karar verir (CMK 135). Şüpheli, sanık, müşteki ve katılan lehlerine olan delillerin toplanmasını isteyebilir (CMK 147, 160, 206). Kayıtlar sınırlı süre saklandığından talep gecikmeden yapılmalıdır. Nereye verilir: Soruşturma aşamasında dosyanın bulunduğu Cumhuriyet Başsavcılığına, kovuşturma (dava) aşamasında davanın görüldüğü ceza mahkemesine verilir. UYAP üzerinden gönderilebilir veya duruşmada sözlü olarak talep edilebilir. Süre: Kanunda özel bir süre yoktur. Ancak operatörler trafik verilerini sınırlı bir süre sakladığı için talebin olaydan sonra mümkün olan en kısa sürede yapılması gerekir.
+
+## Haczedilmezlik Şikâyeti Dilekçesi (İİK 82 ve 83) Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/haczedilmezlik-sikayeti-dilekce.html (son kontrol: 2026-11-07)
+
+Haczedilmezlik şikâyeti, kanunen haczedilemeyen bir mal veya gelire haciz konulduğunda borçlunun icra hukuk mahkemesine başvurmasıdır. İİK 82 ev eşyası, meslek araçları, haline münasip ev gibi değerleri; İİK 83 ise maaşın borçlu ve ailesinin geçimi için gerekli kısmını korur. Emekli maaşı da kural olarak haczedilemez (5510 m. 93). Şikâyet, kural olarak haczin öğrenilmesinden itibaren 7 gün içinde yapılmalıdır. Nereye verilir: Haczi uygulayan icra dairesinin bulunduğu yerdeki icra hukuk mahkemesine verilir. Dilekçe UYAP üzerinden veya adliyedeki ön büro aracılığıyla sunulabilir. Süre: Şikâyet kural olarak haczin öğrenilmesinden itibaren 7 gün içinde yapılmalıdır (İİK 16). Haciz sırasında hazır bulunan borçlu için süre haciz tarihinden başlar.
+
+## Menfi Tespit Davası Dilekçesi (Borçlu Olmadığının Tespiti, İİK 72) Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/menfi-tespit-davasi-dilekce.html (son kontrol: 2026-11-07)
+
+Menfi tespit davası, hakkınızda iddia edilen bir borcun gerçekte bulunmadığının mahkemece tespit edilmesi için açılır (İİK 72). Takipten önce de sonra da açılabilir. Takipten sonra açılan davada borçlu, alacağın yüzde 15'inden az olmamak üzere teminat göstererek icra veznesine giren paranın alacaklıya ödenmemesi için ihtiyati tedbir isteyebilir. Dava borçlu lehine sonuçlanır ve takibin haksız ve kötü niyetli olduğu anlaşılırsa alacaklı, alacağın yüzde 20'sinden az olmamak üzere tazminata mahkûm edilebilir. Borç ödendikten sonra ise bir yıl içinde istirdat davası açılmalıdır. Nereye verilir: Kural olarak davalının yerleşim yeri veya takibin yapıldığı yer mahkemesine açılır. Görevli mahkeme uyuşmazlığın niteliğine göre asliye hukuk, asliye ticaret veya tüketici mahkemesidir. Süre: Takipten önce veya takip sırasında, para ödenmeden önce her zaman açılabilir. Borç ödendikten sonra açılacak dava istirdat davasıdır ve ödemeden itibaren bir yıl içinde açılmalıdır (İİK 72/7).
+
+## Instagram Sahte Hesap Şikâyet Dilekçesi (Adıma Açılan Hesap) Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/instagram-sahte-hesap-sikayet.html (son kontrol: 2026-11-07)
+
+Adınıza sahte sosyal medya hesabı açılması tek başına ayrı bir suç olarak düzenlenmemiştir; ancak fotoğraflarınızın ve kişisel bilgilerinizin izinsiz kullanılması TCK 136 (verileri hukuka aykırı olarak yayma), hesap üzerinden yapılan paylaşımlar ise hakaret (TCK 125), şantaj veya dolandırıcılık suçlarını oluşturabilir. Savcılığa suç duyurusunda bulunurken hesabın kullanıcı adı, bağlantısı ve ekran görüntüleri mutlaka eklenmelidir. Hesabın kapatılması için platforma bildirim yapılabilir ve sulh ceza hâkimliğinden içeriğin çıkarılması istenebilir (5651 m. 9). Nereye verilir: Yerleşim yerinizdeki veya suçun işlendiği yerdeki Cumhuriyet Başsavcılığına verilir. Dilekçe adliyedeki suç bürosuna, e-Devlet üzerinden veya kolluk birimlerine (polis, jandarma siber birimleri) de verilebilir. Süre: Hakaret gibi şikâyete bağlı suçlarda fiil ve failin öğrenilmesinden itibaren 6 ay içinde şikâyet edilmelidir (TCK 73). Kişisel verilerin yayılması gibi re'sen soruşturulan suçlarda bu süre aranmaz; ancak delillerin kaybolmaması için gecikmemek gerekir.
+
+## Instagram ve Sosyal Medyada Hakaret Şikâyet Dilekçesi Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/instagram-hakaret-suc-duyurusu.html (son kontrol: 2026-11-07)
+
+Sosyal medyada yazılan ifadelerle de hakaret suçu oluşur; TCK 125'e göre cezası üç aydan iki yıla kadar hapis veya adli para cezasıdır. Herkese açık paylaşım veya yorumla yapılan hakaret alenen işlenmiş sayılır ve ceza altıda bir oranında artırılır. Şikâyet, fiil ve failin öğrenilmesinden itibaren 6 ay içinde yapılmalıdır. Dilekçeye paylaşımın bağlantısı, kullanıcı adı ve tarihli ekran görüntüleri eklenmelidir. Nereye verilir: Yerleşim yerinizdeki veya suçun işlendiği yerdeki Cumhuriyet Başsavcılığına verilir. Dilekçe adliyedeki suç bürosuna, e-Devlet üzerinden veya polis ve jandarma birimlerine de verilebilir. Süre: Hakaret suçu şikâyete bağlıdır; şikâyet, fiil ve failin öğrenildiği tarihten itibaren 6 ay içinde yapılmalıdır (TCK 73). Kamu görevlisine görevinden dolayı yapılan hakaret şikâyete bağlı değildir.
+
+## Yakalama Kararının Kaldırılması Talep Dilekçesi Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/yakalama-karari-kaldirma-dilekce.html (son kontrol: 2026-11-07)
+
+Yakalama kararı, genellikle adresinde bulunamayan, çağrıya rağmen gelmeyen veya duruşmaya katılmayan şüpheli ya da sanık hakkında verilir (CMK 98, 248). Kararın amacı kişinin ifadesinin alınması veya duruşmaya getirilmesidir. Uygulamada en etkili yol, kişinin müdafiiyle birlikte kararı veren savcılığa veya mahkemeye giderek ifade vermesidir; ifade alındıktan sonra yakalama kararı kaldırılır. Bu dilekçeyle adres bildirilerek ve ifadeye hazır olunduğu belirtilerek kaldırma talep edilir. Nereye verilir: Yakalama kararını veren mercie verilir: soruşturma aşamasında kararı veren sulh ceza hâkimliği veya dosyanın bulunduğu Cumhuriyet Başsavcılığı, kovuşturma aşamasında davanın görüldüğü mahkeme. UYAP üzerinden müdafi aracılığıyla da sunulabilir. Süre: Kaldırma talebi için kanunda süre yoktur; her zaman yapılabilir. Yakalama emrine itiraz edilecekse itiraz, kararın öğrenilmesinden itibaren 7 gün içinde yapılmalıdır (CMK 268).
+
+## Suçtan Kaynaklanan Malvarlığı Değerlerini Aklama (TCK 282) Savunma Dilekçesi Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/kara-para-aklama-savunma-dilekce.html (son kontrol: 2026-11-07)
+
+TCK 282'ye göre, alt sınırı altı ay veya daha fazla hapis cezasını gerektiren bir suçtan kaynaklanan malvarlığı değerlerini yurt dışına çıkaran veya gayrimeşru kaynağını gizlemek amacıyla çeşitli işlemlere tabi tutan kişi üç yıldan yedi yıla kadar hapis ve yirmi bin güne kadar adli para cezasıyla cezalandırılır. Suçun oluşması için paranın suçtan kaynaklandığının bilinmesi gerekir. Savunmada öncül suçun somut olarak ortaya konulup konulmadığı, paranın kaynağının ve kişinin bilgi ve kastının bulunup bulunmadığı belirleyicidir. Nereye verilir: Soruşturma aşamasında dosyanın bulunduğu Cumhuriyet Başsavcılığına, kovuşturma aşamasında davanın görüldüğü ağır ceza veya asliye ceza mahkemesine verilir. İfade sırasında veya sonrasında UYAP üzerinden sunulabilir. Süre: Kanunda özel bir süre yoktur. Savunma dilekçesinin ifade öncesinde veya ifadeden sonra, soruşturma tamamlanmadan sunulması etkilidir.
+
+## MASAK İncelemesi ve Şüpheli İşlem Nedeniyle Savunma Dilekçesi Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/masak-inceleme-savunma-dilekce.html (son kontrol: 2026-11-07)
+
+MASAK, bankalardan gelen şüpheli işlem bildirimlerini inceleyen bir idari birimdir; ceza soruşturması yapmaz ve ifade almaz. MASAK raporu savcılığa gönderildiğinde soruşturma başlar. Bu aşamada hesaba gelen ve giden paraların kimden, ne amaçla geldiği belgeyle açıklanmalıdır. MASAK'ın 2026 rehberine göre risk göstergeleri tek başına cezai sorumluluk doğurmaz; ceza soruşturmasında kişinin bilgi ve iradesi ayrıca değerlendirilir. Nereye verilir: MASAK ifade almaz; ceza soruşturmasını Cumhuriyet Başsavcılığı yürütür. Dilekçe dosyanın bulunduğu Cumhuriyet Başsavcılığına, kovuşturma aşamasında ise davanın görüldüğü mahkemeye verilir. Süre: Kanunda özel bir süre yoktur. Savunma dilekçesinin ifade sırasında veya soruşturma tamamlanmadan sunulması etkilidir.
+
+## Banka Hesabı Kiralama (IBAN Kullandırma) İddiasına Karşı Savunma Dilekçesi Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/hesap-kiralama-savunma-dilekce.html (son kontrol: 2026-11-07)
+
+Hesabını başkasına kullandırdığı iddia edilen kişiler genellikle nitelikli dolandırıcılığa yardım (TCK 158) veya yasa dışı bahis suçlamalarıyla karşılaşır. Yargıtay uygulamasına göre yalnızca hesap sahibi olmak mahkûmiyet için yeterli değildir; kişinin hesabının suçta kullanılacağını bildiği ispatlanmalıdır. 7589 sayılı Kanun'la TCK 158'e eklenen 4. fıkraya göre katkının yalnızca hesabın veya hesap bilgilerinin verilmesinden ibaret olması hâlinde ceza yarı oranında indirilir. Savunma öncelikle kastın yokluğu üzerine kurulmalıdır. Nereye verilir: Soruşturma aşamasında dosyanın bulunduğu Cumhuriyet Başsavcılığına, kovuşturma aşamasında davanın görüldüğü asliye ceza veya ağır ceza mahkemesine verilir. Süre: Kanunda özel bir süre yoktur. Savunmanın ifade öncesinde hazırlanması ve ifade sırasında veya sonrasında, soruşturma tamamlanmadan sunulması önerilir.
+
+## Maaş Haczinin Kaldırılması Talep Dilekçesi Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/maas-haczi-kaldirma-dilekce.html (son kontrol: 2026-11-07)
+
+Borç tamamen ödendiğinde veya takip sona erdiğinde maaş haczinin kaldırılması için icra dairesine dilekçe verilir; icra müdürlüğü işverene haczin kaldırıldığını bildiren müzekkere yazar. İİK 83'e göre maaşın dörtte birinden fazlası kural olarak kesilemez; emekli maaşı ise nafaka dışında ve haciz tarihinden sonra verilmiş açık muvafakat olmadıkça haczedilemez (5510 m. 93). Bu durumlarda icra hukuk mahkemesine 7 gün içinde şikâyet yoluna gidilir. Nereye verilir: Borç ödendiyse veya takip sona erdiyse dosyanın bulunduğu icra dairesine (icra müdürlüğüne) talep dilekçesi verilir. Haczin hukuka aykırı olduğu iddia ediliyorsa (ör. emekli maaşı, dörtte birin üzerinde kesinti) icra hukuk mahkemesine şikâyet yoluna gidilir. Süre: Borcun bitmesi nedeniyle haczin kaldırılması için süre yoktur. İcra müdürlüğü işlemine veya haczedilmezliğe karşı şikâyet ise kural olarak öğrenmeden itibaren 7 gün içinde yapılmalıdır (İİK 16).
 
 ## Bakaya Kalmanın Cezası 2026: Para Cezası, Hapis ve Bedelli
 Kaynak: https://avleventmutlu.com.tr/makale/bakaya-kalmanin-cezasi-2026.html (son kontrol: 2026-11-04)
