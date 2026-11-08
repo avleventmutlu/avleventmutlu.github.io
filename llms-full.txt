@@ -2,12 +2,48 @@
 
 > Bu dosya, avleventmutlu.com.tr'deki hukuki rehberlerin soru ve kısa cevaplarını tek yerde toplar. Her cevabın ayrıntısı ve kaynakları bağlantıdaki sayfadadır. İçerikler genel bilgilendirme amaçlıdır ve hukuki danışmanlık yerine geçmez. Alıntılarda ilgili sayfanın bağlantısının kaynak olarak gösterilmesi rica olunur.
 
-Son güncelleme: 2026-11-07
+Son güncelleme: 2026-11-08
 
 
 
 
 
+
+
+## Savcılık İfadeye Kaç Gün İçinde Çağırır? Şikâyetten Sonra Süreç
+Kaynak: https://avleventmutlu.com.tr/makale/savcilik-ifadeye-kac-gun-icinde-cagirir.html (son kontrol: 2026-11-08)
+
+Savcılığın şüpheliyi ifadeye çağırması için kanunda belirlenmiş bir gün sınırı yoktur. Uygulamada çağrı, dosyanın niteliğine ve iş yüküne göre birkaç gün ile birkaç ay arasında değişir; bazı dosyalarda ise şüpheli hiç çağrılmadan takipsizlik kararı verilir. Çağrı genellikle çağrı belgesiyle, kolluk aracılığıyla telefonla veya e-Tebligatla yapılır. Çağrıya rağmen gelinmezse zorla getirme kararı verilebilir (CMK 145-146). Savcılığın süresi, suçun dava zamanaşımı dolana kadar devam eder.
+
+## Jandarma İfadeye Neden Çağırır? Jandarma Aradı, Ne Yapmalıyım?
+Kaynak: https://avleventmutlu.com.tr/makale/jandarma-ifadeye-neden-cagirir.html (son kontrol: 2026-11-08)
+
+Jandarma, kendi görev bölgesinde (genellikle il ve ilçe belediye sınırları dışında kalan yerlerde) adli kolluk olarak Cumhuriyet savcısı adına çalışır. Hakkınızda bir şikâyet yapıldıysa, bir olaya tanık olduysanız veya savcı ifadenizin alınmasını jandarmaya yazdıysa sizi ifadeye çağırır. Çağrı sizi suçlu yapmaz; ancak şüpheli olarak çağrıldıysanız susma ve avukat isteme hakkınız vardır. Çağrıya uyulmazsa savcının talimatıyla zorla getirme gündeme gelebilir.
+
+## Polis İfadeye Çağırdı, Gitmezsem Ne Olur? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/polis-ifadeye-cagirdi-gitmezsem-ne-olur.html (son kontrol: 2026-11-08)
+
+Polisin telefonla yaptığı davete uymamak tek başına suç değildir. Ancak ifadeniz alınamazsa savcı çağrı belgesi gönderir; çağrı belgesine rağmen gelmeyen kişi hakkında zorla getirme kararı verilebilir (CMK 145-146). Gitmemek, dosyanın sizin beyanınız alınmadan sonuçlanması riskini de taşır. Şüpheli olarak çağrıldıysanız susma ve avukat isteme hakkınız vardır; kural olarak ifadeden sonra serbest bırakılırsınız.
+
+## İşsizlik Maaşı Geri Ödenir mi? İŞKUR Geri İstedi (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/issizlik-maasi-geri-odenir-mi-iskur-geri-istedi.html (son kontrol: 2026-11-08)
+
+Usulüne uygun alınan işsizlik maaşı geri ödenmez. Ancak ödenek alırken bir işte çalışmaya başlamak, emekli aylığı almak veya hak kazanma şartlarını taşımadığı sonradan anlaşılmak gibi sigortalının kusurundan kaynaklanan fazla ödemeler, yasal faiziyle birlikte geri alınır (4447 m. 50). İŞKUR işlemine karşı tebliğden itibaren 15 gün içinde itiraz edilebilir (4447 m. 54); itiraz yoluna gitmek dava açma hakkını ortadan kaldırmaz.
+
+## Sahte Sigortalılık Cezası: Emeklilik İptal Edilir mi? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/sahte-sigortalilik-cezasi-emeklilik-iptali.html (son kontrol: 2026-11-08)
+
+Fiilen çalışılmadığı hâlde yapılan sigorta bildirimi “sahte sigortalılık” olarak değerlendirilir. SGK bu süreleri iptal eder; emeklilik bu sürelere dayanıyorsa aylık kesilir. Kasıtlı veya kusurlu davranıştan kaynaklanan yersiz ödemeler, tespit tarihinden geriye doğru en fazla on yıl için ödeme tarihlerinden itibaren kanuni faiziyle geri istenir (5510 m. 96). Olay ayrıca kamu kurumunun araç olarak kullanılması suretiyle nitelikli dolandırıcılık suçu (TCK 158/1-e) kapsamında soruşturulabilir. İptal işlemine karşı Kuruma başvurulup iş mahkemesinde dava açılabilir.
+
+## SGK Tespit Tutanağına İtiraz ve İdari Para Cezası (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/sgk-tespit-tutanagina-itiraz-kayit-disi-isci-cezasi.html (son kontrol: 2026-11-08)
+
+SGK denetim elemanlarının düzenlediği tutanaklar aksi ispat edilene kadar geçerlidir (5510 m. 59). Tutanağa dayanılarak verilen idari para cezasına tebliğden itibaren 15 gün içinde Kuruma itiraz edilebilir ve itiraz takibi durdurur. Kurum itirazı reddederse karar tebliğinden itibaren 30 gün içinde idare mahkemesine başvurulabilir (5510 m. 102). İtiraz etmeden 15 gün içinde ödenen idari para cezası dörtte üç oranında tahsil edilir. Prim farkı ve sigortalılık tespitine ilişkin uyuşmazlıklar ise Kuruma başvurunun ardından iş mahkemesinde görülür.
+
+## Emekli Maaşı Kesildi, Ne Yapmalıyım? Nedenleri ve İtiraz (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/emekli-maasi-kesildi-ne-yapmaliyim.html (son kontrol: 2026-11-08)
+
+Emekli aylığı kesildiğinde önce nedenini öğrenmek gerekir; bunun için e-Devlet'teki SGK hizmetlerine bakılabilir veya aylığı bağlayan SGK müdürlüğüne yazılı başvurulabilir. En sık nedenler; emeklilikten sonra sigortalı bir işte çalışmaya başlamak, ölüm aylığı alan kız çocuğunun evlenmesi, boşandığı eşiyle fiilen birlikte yaşadığının tespit edilmesi ve yersiz ödeme tespitidir. Kesilme işlemine karşı önce SGK'ya başvurulur; 60 gün içinde cevap verilmezse talep reddedilmiş sayılır ve iş mahkemesinde dava açılabilir (7036 m. 4).
 
 ## Çocukla Kişisel İlişki Kurulması (Görüşme Hakkı) Dava Dilekçesi Örneği
 Kaynak: https://avleventmutlu.com.tr/dilekce/kisisel-iliski-kurulmasi-dilekce.html (son kontrol: 2026-11-07)
