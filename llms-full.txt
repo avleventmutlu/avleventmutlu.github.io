@@ -2,13 +2,85 @@
 
 > Bu dosya, avleventmutlu.com.tr'deki hukuki rehberlerin soru ve kısa cevaplarını tek yerde toplar. Her cevabın ayrıntısı ve kaynakları bağlantıdaki sayfadadır. İçerikler genel bilgilendirme amaçlıdır ve hukuki danışmanlık yerine geçmez. Alıntılarda ilgili sayfanın bağlantısının kaynak olarak gösterilmesi rica olunur.
 
-Son güncelleme: 2026-11-08
+Son güncelleme: 2026-11-13
 
 
 
 
 
 
+
+
+
+## İddianame Geldi, Ne Olur? Mahkeme Ne Zaman? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/iddianame-geldi-ne-olur-mahkeme-ne-zaman.html (son kontrol: 2026-11-13)
+
+İddianame, savcının hakkınızda dava açılması için mahkemeye gönderdiği belgedir. Mahkeme iddianameyi en geç 15 gün içinde inceler; eksik görürse savcılığa iade eder, iade etmezse iddianame kabul edilmiş sayılır ve kamu davası açılmış olur (CMK 174-175). Ardından duruşma günü belirlenir ve iddianame çağrı kâğıdıyla size tebliğ edilir; tebliğ ile duruşma arasında en az bir hafta bulunmalıdır (CMK 176). Üst sınırı iki yıl veya daha az hapis gerektiren suçlarda mahkeme basit yargılama usulünü uygularsa, iki hafta içinde yazılı savunma vermeniz istenir (CMK 251).
+
+## İnfaz Çağrı Kâğıdı Geldi, Ne Yapmalıyım? Cezaevine Giriş (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/infaz-cagri-kagidi-geldi-cezam-kesinlesti.html (son kontrol: 2026-11-13)
+
+Hapis cezası kesinleşen ve serbest olan hükümlüye savcılık çağrı kâğıdı gönderir. Hükümlü, çağrı kâğıdının tebliğinden itibaren on gün içinde gelmezse, kaçarsa veya kaçacağına dair şüphe uyandırırsa yakalama emri çıkarılır (5275 m. 19). Kasten işlenen suçlarda üç yıldan, taksirle işlenen suçlarda beş yıldan fazla hapis cezalarında çağrı kâğıdı gönderilmeden doğrudan yakalama emri çıkarılır. Kasten işlenen suçlarda üç yıl, taksirle işlenen suçlarda beş yıl veya daha az süreli hapis cezalarında, çağrı üzerine gelen hükümlünün istemiyle infaz her defasında bir yılı geçmemek üzere en fazla iki kez ertelenebilir (5275 m. 17).
+
+## Uzlaştırmacı Aradı, Ne Yapmalıyım? Uzlaşma Süreci (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/uzlastirmaci-aradi-ne-yapmaliyim.html (son kontrol: 2026-11-13)
+
+Uzlaştırmacı, savcılığın dosyayı uzlaştırma bürosuna göndermesi üzerine taraflara uzlaşma teklifinde bulunan kişidir. Teklif yapıldıktan sonra yedi gün içinde kararınızı bildirmezseniz teklifi reddetmiş sayılırsınız (CMK 253/4). Uzlaşma sağlanır ve şüpheli edimini tek seferde yerine getirirse kovuşturmaya yer olmadığı kararı verilir; edim taksitli veya ileri tarihliyse kamu davasının açılması ertelenir. Uzlaştırma görüşmelerinde yapılan açıklamalar hiçbir soruşturma, kovuşturma veya davada delil olarak kullanılamaz (CMK 253/20). Uzlaşma gerçekleşirse uzlaştırmacı ücreti Hazine tarafından karşılanır.
+
+## Adli Para Cezası Ödenmezse Ne Olur? Hapse Çevrilir mi? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/adli-para-cezasi-odenmezse-ne-olur.html (son kontrol: 2026-11-13)
+
+Adli para cezası kesinleşince savcılık hükümlüye ödeme emri gönderir ve ceza otuz gün içinde ödenmelidir (5275 m. 106). Süresinde ödenmezse savcının kararıyla ödenmeyen kısma karşılık gelen gün sayısı hapse çevrilir ve hükümlü, iki saat çalışma bir gün sayılmak üzere kamuya yararlı bir işte çalıştırılır. Bu çalışmaya uyulmazsa kalan süre açık ceza infaz kurumunda çektirilir. Hükümde taksit yoksa, cezanın üçte birini bir ay içinde ödeyen hükümlü kalanı birer ay arayla iki eşit taksitte ödeyebilir. Çocuklara verilen adli para cezası hapse çevrilemez.
+
+## Denetimli Serbestlik İhlali: Ne Olur, Cezaevine Dönülür mü? (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/denetimli-serbestlik-ihlal-edilirse-ne-olur.html (son kontrol: 2026-11-13)
+
+Denetimli serbestlik tedbiriyle cezasını dışarıda çeken hükümlü; cezaevinden ayrıldıktan sonra beş gün içinde denetimli serbestlik müdürlüğüne başvurmazsa ya da belirlenen yükümlülüklere ve programa uymamakta ısrar ederse, müdürlüğün talebiyle infaz hâkimi koşullu salıverilme tarihine kadar kalan cezanın açık ceza infaz kurumunda çektirilmesine karar verir (5275 m. 105/A). Tek bir aksaklık kural olarak doğrudan iade sonucunu doğurmaz; kanun “uymamakta ısrar” arar. Başvuru süresinin bitiminden itibaren iki gün geçmesine rağmen başvurmayan veya iade kararına rağmen iki gün içinde teslim olmayan hükümlü hakkında ayrıca firar hükümleri uygulanır.
+
+## Gözaltı Süresi Ne Kadar? 24 Saat ve Uzatma (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/gozalti-suresi-ne-kadar.html (son kontrol: 2026-11-13)
+
+Gözaltı süresi, yakalama yerine en yakın hâkim veya mahkemeye gönderilme için zorunlu süre hariç, yakalama anından itibaren yirmi dört saati geçemez; bu yol süresi de on iki saatten fazla olamaz (CMK 91/1). Toplu olarak işlenen suçlarda savcı, her defasında bir günü geçmemek üzere gözaltı süresinin üç gün süreyle uzatılmasına yazılı emir verebilir (CMK 91/3). Süre sonunda kişi ya serbest bırakılır ya da tutuklama veya adli kontrol istemiyle sulh ceza hâkimliğine sevk edilir. Gözaltı kararına ve uzatmaya karşı sulh ceza hâkimliğine başvurulabilir.
+
+## Yargıtay: Kalp Emojisi Tek Başına Kusur Değil, Gizli Ortam Kaydı Hukuka Aykırı Delil
+Kaynak: https://avleventmutlu.com.tr/haber/yargitay-emoji-bosanma-ortam-dinlemesi-karari-2026.html (haber, 13 Kasım 2026)
+
+Haberlere göre Yargıtay 2. Hukuk Dairesi, kadının tanıdığı kişilere kalp emojisi göndermesinin tek başına güven sarsıcı davranış sayılamayacağına, kocanın gizlice yaptığı ses kayıtlarının ise “ortam dinlemesi” niteliğinde hukuka aykırı delil olduğuna karar verdi. Kocanın eşine baskı ve aşağılayıcı sözleri ağır kusur sayıldı; kadını ağır kusurlu bulan istinaf kararı oy birliğiyle bozuldu.
+
+## Yargıtay: Evin İhtiyaçları Karşılanmayınca Markete Borç Yapan Kadın Kusurlu Sayılamaz
+Kaynak: https://avleventmutlu.com.tr/haber/yargitay-evin-ihtiyaclari-borc-yapan-es-kusursuz-2026.html (haber, 13 Kasım 2026)
+
+Haberlere göre Yargıtay 2. Hukuk Dairesi, evin ihtiyaçlarını karşılamadığı sabit olan kocayı ağır kusurlu bularak, bu nedenle markete ve tuhafiye dükkânına borç yapan kadının kusurlu sayılamayacağına karar verdi. Kadının ortak çocuğun yanına gidip dönmemesi de, erkek terk nedenine dayalı dava açmadığı için kusur kabul edilmedi. Kadın lehine artırılan nafaka ve tazminat onandı.
+
+## Yargıtay: Vadesi Belirlenmeyen Borç İçin İlk İstemden Altı Hafta Geçmeden İcra Takibi Yapılamaz
+Kaynak: https://avleventmutlu.com.tr/haber/yargitay-borc-iadesi-alti-hafta-kurali-2026.html (haber, 13 Kasım 2026)
+
+Arkadaşınıza ödünç para verdiyseniz ve geri ödeme günü kararlaştırmadıysanız, Türk Borçlar Kanunu'na göre borçlu paranızı ilk isteminizden itibaren altı hafta içinde geri vermekle yükümlüdür (TBK 392). Haberlere göre Yargıtay 3. Hukuk Dairesi, bu talebin WhatsApp gibi taraflarca kabul edilen yazışmalarla da ispatlanabileceğini ve ilk talepten altı hafta sonra başlatılan takibin geçerli olduğunu belirterek davayı reddeden istinaf kararını bozdu.
+
+## 2027 Asgari Ücret Görüşmeleri Aralıkta Başlıyor: Asgari Ücrete Bağlı Haklar ve Cezalar
+Kaynak: https://avleventmutlu.com.tr/haber/asgari-ucret-2027-gorusmeleri-aralikta-hukuki-etkileri.html (haber, 13 Kasım 2026)
+
+Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, 3 Kasım 2026'da 2027 asgari ücret görüşmelerinin aralık ayında yapılacağını açıkladı. 2026 yılında net asgari ücret 28.075,50 TL, brüt asgari ücret 33.030 TL. Asgari Ücret Tespit Komisyonu'nun ilk toplantı tarihi henüz açıklanmadı; yeni ücretin yıl sonuna doğru belli olması bekleniyor. Basında yer alan zam oranları resmî değil, tahmindir.
+
+## İnfazın Ertelenmesi Talep Dilekçesi (5275 m. 17) Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/infazin-ertelenmesi-talep-dilekcesi.html (son kontrol: 2026-11-13)
+
+Kasten işlenen suçlarda üç yıl, taksirle işlenen suçlarda beş yıl veya daha az süreli hapis cezalarının infazı, çağrı üzerine gelen hükümlünün istemi üzerine Cumhuriyet başsavcılığınca ertelenebilir. Erteleme her defasında bir yılı geçemez ve en fazla iki kez uygulanabilir; güvence veya başka bir şarta bağlanabilir (5275 m. 17). Terör, örgüt ve cinsel dokunulmazlığa karşı suçlardan mahkûm olanlar ile mükerrirler bu imkândan yararlanamaz. Erteleme süresinde kasten işlenen bir suçtan dava açılırsa erteleme kaldırılır. Nereye verilir: Hükmün infazını yürüten Cumhuriyet Başsavcılığına (infaz bürosuna) verilir. Kanuna göre erteleme, çağrı üzerine gelen hükümlünün istemiyle yapılır; bu nedenle çağrı kâğıdındaki süre içinde başvurulmalıdır. Süre: Çağrı kâğıdının tebliğinden itibaren on gün içinde başvurulmalıdır; bu süre içinde gelinmezse yakalama emri çıkarılır (5275 m. 19).
+
+## Adli Para Cezasının Taksitlendirilmesi Talep Dilekçesi Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/adli-para-cezasi-taksitlendirme-dilekce.html (son kontrol: 2026-11-13)
+
+Hükümde adli para cezası taksite bağlanmamışsa, bir aylık süre içinde cezanın üçte birini ödeyen hükümlünün isteği üzerine kalan kısmın birer ay arayla iki eşit taksitte ödenmesine izin verilir; ilk taksit süresinde ödenmezse ikinci taksit izni hükümsüz kalır (5275 m. 106/6). Mahkeme hükümde iki yılı ve yirmi dört taksiti geçmemek üzere taksit de belirleyebilir (TCK 52). Ödenmeyen adli para cezası önce kamuya yararlı işte çalıştırmaya, buna uyulmazsa hapse çevrilir. Nereye verilir: Ödeme emrini gönderen Cumhuriyet Başsavcılığına (infaz bürosuna) verilir. Mahkeme hükümde taksit belirlemişse ayrıca dilekçe gerekmez; taksitler hükme göre ödenir. Süre: Hükümde taksit yoksa, ödeme emrinin tebliğinden itibaren bir aylık süre içinde cezanın üçte biri ödenmeli ve kalan kısım için taksit istenmelidir (5275 m. 106/6).
+
+## Cezaevi Nakil Talep Dilekçesi (Aileye Yakın Cezaevine Nakil) Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/cezaevi-nakil-talep-dilekcesi.html (son kontrol: 2026-11-13)
+
+Hükümlü ve tutuklular; ailelerine yakın olmak, sağlık veya eğitim gibi gerekçelerle başka bir ceza infaz kurumuna nakil talep edebilir. Dilekçe, bulunulan ceza infaz kurumu müdürlüğüne verilir ve müdürlük aracılığıyla nakle yetkili mercie iletilir; tutuklularda ayrıca yargı merciinin uygun görüşü aranır. Nakil talebinin kabulü; kurumların kapasitesine, güvenlik değerlendirmesine ve kişinin disiplin durumuna bağlıdır. Ailenin ikamet belgesi ve sağlık raporu gibi belgeler talebi güçlendirir. Nereye verilir: Hükümlü veya tutuklunun bulunduğu ceza infaz kurumu müdürlüğüne verilir; müdürlük talebi görüşüyle birlikte nakil işlemlerine yetkili mercie (Adalet Bakanlığı Ceza ve Tevkifevleri Genel Müdürlüğü) iletir. Tutuklularda, dosyanın bulunduğu savcılık veya mahkemenin görüşü de alınır. Süre: Kanunda özel bir süre yoktur; talep her zaman yapılabilir. Reddedilen talep, durum değiştiğinde yeniden yapılabilir.
+
+## Duruşma Gününün Öne Alınması Talep Dilekçesi Örneği
+Kaynak: https://avleventmutlu.com.tr/dilekce/durusma-gununun-one-alinmasi-dilekcesi.html (son kontrol: 2026-11-13)
+
+Duruşma gününün öne alınması için kanunda özel bir usul yoktur; duruşma takvimini belirlemek mahkemenin takdirindedir. Bu nedenle talep, mahkemenin iş yükü karşısında neden öncelik gerektirdiğini gösteren somut ve belgelenmiş gerekçelere dayanmalıdır: tutukluluk, ağır hastalık, yakın tarihte yurt dışına çıkış zorunluluğu, çocuğun üstün yararı veya nafaka gibi acil ihtiyaçlar en sık kabul gören gerekçelerdir. Mahkeme talebi kabul etmek zorunda değildir. Nereye verilir: Davanın görüldüğü mahkemeye verilir. Dilekçe UYAP üzerinden avukat aracılığıyla veya adliyedeki ön büro ya da mahkeme kalemi aracılığıyla sunulabilir. Süre: Kanunda özel bir süre yoktur; duruşma günü belirlendikten sonra her zaman talep edilebilir. Gerekçe ne kadar erken sunulursa mahkemenin takvimde düzenleme yapma imkânı o kadar artar.
 
 ## Savcılık İfadeye Kaç Gün İçinde Çağırır? Şikâyetten Sonra Süreç
 Kaynak: https://avleventmutlu.com.tr/makale/savcilik-ifadeye-kac-gun-icinde-cagirir.html (son kontrol: 2026-11-08)
