@@ -107,8 +107,8 @@ Kaynak: https://avleventmutlu.com.tr/makale/issizlik-maasi-geri-odenir-mi-iskur-
 
 Usulüne uygun alınan işsizlik maaşı geri ödenmez. Ancak ödenek alırken bir işte çalışmaya başlamak, emekli aylığı almak veya hak kazanma şartlarını taşımadığı sonradan anlaşılmak gibi sigortalının kusurundan kaynaklanan fazla ödemeler, yasal faiziyle birlikte geri alınır (4447 m. 50). İŞKUR işlemine karşı tebliğden itibaren 15 gün içinde itiraz edilebilir (4447 m. 54); itiraz yoluna gitmek dava açma hakkını ortadan kaldırmaz.
 
-## Sahte Sigortalılık Cezası: Emeklilik İptal Edilir mi? (2026)
-Kaynak: https://avleventmutlu.com.tr/makale/sahte-sigortalilik-cezasi-emeklilik-iptali.html (son kontrol: 2026-11-08)
+## Sahte Sigortalılık Cezası: Emeklilik İptali ve Hapis Riski (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/sahte-sigortalilik-cezasi-emeklilik-iptali.html (son kontrol: 2026-11-18)
 
 Fiilen çalışılmadığı hâlde yapılan sigorta bildirimi “sahte sigortalılık” olarak değerlendirilir. SGK bu süreleri iptal eder; emeklilik bu sürelere dayanıyorsa aylık kesilir. Kasıtlı veya kusurlu davranıştan kaynaklanan yersiz ödemeler, tespit tarihinden geriye doğru en fazla on yıl için ödeme tarihlerinden itibaren kanuni faiziyle geri istenir (5510 m. 96). Olay ayrıca kamu kurumunun araç olarak kullanılması suretiyle nitelikli dolandırıcılık suçu (TCK 158/1-e) kapsamında soruşturulabilir. İptal işlemine karşı Kuruma başvurulup iş mahkemesinde dava açılabilir.
 
@@ -273,7 +273,7 @@ Kaynak: https://avleventmutlu.com.tr/makale/drone-ucurmak-yasak-mi-izin-ceza.htm
 Drone uçurmak yasak değildir; ancak kayıt, pilot lisansı ve izinli alan kurallarına bağlıdır. 30 Temmuz 2026'da yürürlüğe giren yeni İHA talimatıyla uçuş yetkisi pilot lisans düzeyine göre belirlenmeye başlandı: amatör görüş hattı içi uçuşlar için P0, ticari görüş hattı içi uçuşlar için P1, görüş hattı ötesi ve yüksek riskli operasyonlar için P2. Havalimanı çevresi, askeri bölgeler ve izin verilmeyen alanlarda uçmak yüksek idari para cezası gerektirir. Komşunun evini veya bir kişiyi izinsiz drone ile görüntülemek ise özel hayatın gizliliğini ihlal suçu oluşturabilir.
 
 ## Silahla Fotoğraf Paylaşmak Suç mu? Ruhsatsız Silah Cezası (2026)
-Kaynak: https://avleventmutlu.com.tr/makale/silahla-fotograf-paylasmak-suc-mu.html (son kontrol: 2026-11-04)
+Kaynak: https://avleventmutlu.com.tr/makale/silahla-fotograf-paylasmak-suc-mu.html (son kontrol: 2026-11-18)
 
 Ruhsatlı bir silahla fotoğraf paylaşmak tek başına suç değildir. Ancak fotoğraftaki silah ruhsatsızsa paylaşım, 6136 sayılı Kanun'un 13. maddesindeki ruhsatsız silah taşıma veya bulundurma suçunun delili olur; bu suçun cezası 30 Kasım 2024'ten sonra işlenen fiillerde 2 yıldan 4 yıla kadar hapistir. Paylaşım belirli bir kişiye gözdağı vermek amacıyla yapılırsa silahla tehdit (TCK 106/2: 2-5 yıl), toplumda korku yaratmak amacıyla yapılırsa halk arasında korku ve panik yaratma suçu (TCK 213) gündeme gelir.
 
@@ -432,8 +432,8 @@ Kaynak: https://avleventmutlu.com.tr/makale/tahliye-karari-cikinca-cezaevinden-n
 
 Tahliye kararı cezaevine UYAP üzerinden tahliye müzekkeresiyle bildirilir; cezaevi kararı mahkemeyle teyit edip kimlik kontrolünü yaptıktan sonra kişiyi serbest bırakır. Kanunda belirli bir saat yoktur; uygulamada duruşmada verilen tahliyelerde kişi genellikle aynı gün, birkaç saat içinde çıkar. Başka bir dosyadan tutuklu veya hükümlüyse çıkmaz; hakkında yakalama kararı varsa tahliye anında yakalanabilir.
 
-## Cezaevinde Nikâh Nasıl Kıyılır? Tutukluyla Evlenmek (2026)
-Kaynak: https://avleventmutlu.com.tr/makale/cezaevinde-nikah-nasil-kiyilir.html (son kontrol: 2026-11-04)
+## Cezaevinde Nikâh Nasıl Kıyılır? Şartlar, Evraklar ve Süre (2026)
+Kaynak: https://avleventmutlu.com.tr/makale/cezaevinde-nikah-nasil-kiyilir.html (son kontrol: 2026-11-18)
 
 Evet; Evlendirme Yönetmeliği'ne göre tutuklu veya hükümlü için nikâh, Cumhuriyet savcılığının izniyle ceza infaz kurumunda kıyılabilir ve evlendirme memuru kuruma gelir. Başvuru belediye evlendirme memurluğuna yapılır; evlenme beyannamesi, sağlık raporu, son altı ay içinde çekilmiş fotoğraflar ve kimlik belgeleri istenir. Bir yıl veya daha uzun süreli hapis cezası kesinleşmiş ve bu nedenle kısıtlanmış hükümlü için vasinin izni de gerekir; tutuklular için bu izin aranmaz.
 
