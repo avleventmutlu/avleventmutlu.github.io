@@ -49,7 +49,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
   <style>
     :root {
       --bordo: #6B1A1A; --bordo-koyu: #4A1010; --bordo-acik: #8B2A2A;
@@ -443,7 +445,7 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
     </div>
   </div>
 
-  <article class="makale-govde" id="makale-govde">
+  <article class="makale-govde" id="makale-govde" role="main">
     <div class="ozet">Uygulamada sık karşılaştığımız konulardaki önemli Yargıtay, Anayasa Mahkemesi ve Avrupa İnsan Hakları Mahkemesi kararlarını sade bir dille özetledik. Her kararın künyesi ve tam metnine ulaşabileceğiniz kaynak bağlantısı ilgili sayfada yer almaktadır.</div>
     <div class="emsal-filtre" id="emsalFiltre"><button class="aktif" data-k="tumu">Tümü</button><button data-k="Fon Soruşturması" id="f-fon">Fon Soruşturması</button><button data-k="TCK 158" id="f-tck-158">TCK 158 · Dolandırıcılık</button><button data-k="Fon ve Sermaye Piyasası">Fon ve Sermaye Piyasası</button><button data-k="Bilişim ve Dolandırıcılık">Bilişim ve Dolandırıcılık</button><button data-k="Ceza Usulü">Ceza Usulü</button><button data-k="Aile Hukuku">Aile Hukuku</button><button data-k="İş ve İcra Hukuku">İş ve İcra Hukuku</button></div>
     <div id="emsalListe">

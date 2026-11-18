@@ -49,7 +49,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
   <style>
     :root {
       --bordo: #6B1A1A; --bordo-koyu: #4A1010; --bordo-acik: #8B2A2A;
@@ -458,7 +460,7 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
     </div>
   </div>
 
-  <article class="makale-govde" id="makale-govde">
+  <article class="makale-govde" id="makale-govde" role="main">
     <img class="haber-kapak" src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&amp;q=80" alt="Belirsiz Alacak Davası Kaldırıldı: İşçi ve Tazminat Davalarında Yeni Kısmi Dava Dönemi" loading="lazy">
     <div class="ozet">HMK m. 107&#x27;deki belirsiz alacak davası 31 Temmuz 2026 itibarıyla kaldırıldı. Yerine bir kez talep artırımı ve zamanaşımı güvencesi sağlayan yeni kısmi dava sistemi getirildi. Eski davalar eski hükme tabi.</div>
     <div class="icerik">

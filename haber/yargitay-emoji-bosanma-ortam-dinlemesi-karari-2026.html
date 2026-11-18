@@ -49,7 +49,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
   <style>
     :root {
       --bordo: #6B1A1A; --bordo-koyu: #4A1010; --bordo-acik: #8B2A2A;
@@ -458,7 +460,7 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
     </div>
   </div>
 
-  <article class="makale-govde" id="makale-govde">
+  <article class="makale-govde" id="makale-govde" role="main">
     <img class="haber-kapak" src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&amp;q=80" alt="Yargıtay: Kalp Emojisi Tek Başına Kusur Değil, Gizli Ortam Kaydı Hukuka Aykırı Delil" loading="lazy">
     <div class="ozet">Yargıtay 2. Hukuk Dairesi, tanıdık kişilere gönderilen kalp emojilerinin tek başına güven sarsıcı davranış sayılamayacağına ve eşin gizlice yaptığı ortam kaydının hukuka aykırı delil olduğuna hükmederek istinaf kararını bozdu.</div>
     <div class="icerik">
@@ -466,7 +468,7 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
 <h2 id="davada-ne-oldu">Davada Ne Oldu?</h2>
 <p>Haberlere göre Elazığ&#x27;da görülen boşanma davasında yerel mahkeme tarafları eşit kusurlu buldu. İstinaf incelemesini yapan Diyarbakır Bölge Adliye Mahkemesi ise kadını ağır kusurlu, erkeği az kusurlu kabul etti. Kadının temyizi üzerine dosyayı inceleyen Yargıtay 2. Hukuk Dairesi, istinaf kararını oy birliğiyle bozarak dosyayı bölge adliye mahkemesine geri gönderdi. Kararın tarihi ve esas-karar numaraları haberde yer almıyor.</p>
 <h2 id="kalp-emojisi-kusur-sayilir-mi">Kalp Emojisi Kusur Sayılır mı?</h2>
-<p>Habere yansıyan gerekçeye göre Daire, kadının tanıdığı kişilere gönderdiği kalp emojilerinin tek başına güven sarsıcı davranış olarak kabul edilemeyeceğini belirtti. Mesajlaşmaların boşanmada kusur değerlendirmesine konu olabilmesi için içeriğin, kime ve hangi bağlamda gönderildiğinin birlikte değerlendirilmesi gerekir. Sosyal medya ve WhatsApp yazışmalarının delil değeri hakkında <a href="/haber/whatsapp-bosanma-delil-2026.html">WhatsApp yazışmaları boşanmada delil</a> haberimize bakabilirsiniz.</p>
+<p>Habere yansıyan gerekçeye göre Daire, kadının tanıdığı kişilere gönderdiği kalp emojilerinin tek başına güven sarsıcı davranış olarak kabul edilemeyeceğini belirtti. Mesajlaşmaların boşanmada kusur değerlendirmesine konu olabilmesi için içeriğin, kime ve hangi bağlamda gönderildiğinin birlikte değerlendirilmesi gerekir. Sosyal medya ve WhatsApp yazışmalarının delil değeri hakkında <a href="/makale/bosanmada-aldatma-delil-2026.html">WhatsApp yazışmaları boşanmada delil</a> haberimize bakabilirsiniz.</p>
 <h2 id="esin-gizli-ses-kaydi-delil-olur-mu">Eşin Gizli Ses Kaydı Delil Olur mu?</h2>
 <p>Kararın en önemli yönlerinden biri, kocanın sunduğu ses kayıtlarının “ortam dinlemesi” niteliğinde ve hukuka aykırı yolla elde edilmiş delil sayılmasıdır. Hukuka aykırı elde edilen deliller kural olarak hükme esas alınamaz. Ses kaydının hangi durumlarda delil olabileceğini <a href="/makale/ses-kaydi-bosanmada-delil-olur-mu.html">ses kaydı boşanmada delil olur mu</a> yazımızda ayrıntılı anlattık. Gizli kayıt yapmak ayrıca ceza soruşturmasına da konu olabilir.</p>
 <h2 id="bu-karar-kimleri-ilgilendiriyor">Bu Karar Kimleri İlgilendiriyor?</h2>
@@ -477,9 +479,9 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
     <div class="ilgili">
       <h3>Diğer Haberler</h3>
 <a href="/makale/ses-kaydi-bosanmada-delil-olur-mu.html">Ses Kaydı Boşanmada Delil Olur mu?</a>
-<a href="/haber/whatsapp-bosanma-delil-2026.html">WhatsApp Yazışmaları Boşanmada Delil</a>
+<a href="/makale/bosanmada-aldatma-delil-2026.html">WhatsApp Yazışmaları Boşanmada Delil</a>
 <a href="/makale/izinsiz-ses-kaydi-almak-suc-mu.html">İzinsiz Ses Kaydı Almak Suç mu?</a>
-<a href="/haber/yargitaydan-bosanma-davalarinda-emsal-karar-2026.html">Yargıtay&#x27;dan Boşanma Davalarında Emsal Karar</a>
+<a href="/makale/whatsapp-mesajlari-delil-olur-mu.html">Yargıtay&#x27;dan Boşanma Davalarında Emsal Karar</a>
     </div>
     <div class="iletisim-kutu">
       <p>Bu gelişme dosyanızı etkiliyor mu? Hukuki destek almak için bize ulaşın.</p>
