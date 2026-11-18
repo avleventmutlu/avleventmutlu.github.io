@@ -12,6 +12,11 @@ Son güncelleme: 2026-11-13
 
 
 
+## Banka Hesabı, IBAN ve Dolandırıcılık: Durumunuza Göre Ne Yapmalı?
+Kaynak: https://avleventmutlu.com.tr/makale/banka-hesabi-iban-magduriyeti-rehberi.html (son kontrol: 2026-11-18)
+
+Hesabınız başkası tarafından kullanıldıysa hesabı durdurun, belgeleri saklayın ve ifadeye hazırlıksız gitmeyin. Dolandırıldıysanız ilk iş bankanızı arayıp işlemi bildirmek, ardından suç duyurusunda bulunmaktır. Aşağıdaki tablo durumunuza göre doğru rehbere yönlendirir.
+
 ## İddianame Geldi, Ne Olur? Mahkeme Ne Zaman? (2026)
 Kaynak: https://avleventmutlu.com.tr/makale/iddianame-geldi-ne-olur-mahkeme-ne-zaman.html (son kontrol: 2026-11-13)
 
@@ -402,7 +407,7 @@ Kaynak: https://avleventmutlu.com.tr/makale/ihtarnameyi-almazsam-cevap-vermezsem
 
 Hayır, ihtarnameyi teslim almamak onu tebliğ edilmemiş hâle getirmez; Tebligat Kanunu’na göre evrak muhtara veya kolluğa bırakılır, kapıya ihbarname yapıştırılır ve bu tarih tebliğ tarihi sayılır. İhtarnameye cevap verme yükümlülüğü yoktur ve susmak kural olarak kabul sayılmaz. Ancak borç ihtarında tebliğle birlikte temerrüt doğar ve gecikme faizi işler; kira ihtarnamesinde verilen en az 30 günlük sürede ödeme yapılmazsa kiraya veren tahliye davası açabilir.
 
-## Başkasına Kredi Çektim, Ödemiyor: Ne Yapmalıyım?
+## Başkasına Kredi Çektim, Ödemiyor: Paramı Nasıl Geri Alırım?
 Kaynak: https://avleventmutlu.com.tr/makale/baskasina-kredi-cektim-odemiyor-ne-yapmaliyim.html (son kontrol: 2026-11-04)
 
 Kredi sözleşmesinin tarafı siz olduğunuz için banka taksitleri sizden ister; parayı alan kişiden ise genellikle ödünç ilişkisine dayanarak alacağınızı talep edebilirsiniz. Geri ödeme günü belirlenmemişse borçlunun ilk talepten itibaren altı haftalık süresi vardır; ardından ilamsız icra takibi başlatılabilir, borçlu yedi gün içinde itiraz ederse bir yıl içinde itirazın iptali davası açılabilir. Alacak kural olarak on yıllık zamanaşımına tabidir; en kritik konu, paranın ödünç verildiğinin yazışmalar ve açıklamalı havale gibi delillerle ispatıdır.
@@ -537,7 +542,7 @@ Kaynak: https://avleventmutlu.com.tr/makale/hesap-kullandirma-ifadesinde-ne-soru
 
 Hesap kullandırma ifadesinde genellikle hesabın ne zaman ve hangi amaçla açıldığı, kartın ve internet bankacılığı şifresinin kimde olduğu, gelen paranın kime aktarıldığı, komisyon alınıp alınmadığı ve hesabı isteyen kişiyle nasıl tanışıldığı sorulur. Savcılık, bankadan gelen IP ve cihaz kayıtlarını beyanınızla karşılaştırır. Susma hakkınız vardır ve aleyhinize yorumlanamaz; ifadeye avukatla gidilebilir. En sık suçlama TCK 158/1-f'deki nitelikli dolandırıcılıktır ve mahkûmiyet için hesabın suçta kullanılacağının bilindiği ispatlanmalıdır.
 
-## "Ceza Dosyanız Var" Diye Aradılar: Dolandırıcılık mı?
+## Avukat Aradı “Ceza Dosyanız Var” Dedi: Gerçek mi, Dolandırıcılık mı?
 Kaynak: https://avleventmutlu.com.tr/makale/avukat-savci-aradi-ceza-dosyaniz-var-dolandiricilik-mi.html (son kontrol: 2026-11-04)
 
 Telefonla “ceza dosyanız var” denilerek bir şahıs hesabına para istenmesi dolandırıcılık işaretidir; savcılık, mahkeme, kolluk veya uzlaştırmacı telefonda para göndermenizi istemez. Önödeme gibi gerçek bir ödeme yükümlülüğü yazılı olarak bildirilir ve ödeme Hazine adına yapılır (TCK m. 75). Arayanın verdiği numara yerine kurumun resmî numarasını kendiniz bularak doğrulayın, dava ve icra dosyalarınızı e-Devlet veya UYAP Vatandaş Portal'dan kontrol edin; para gönderdiyseniz bankaları hemen arayıp suç duyurusunda bulunun.
@@ -577,7 +582,7 @@ Kaynak: https://avleventmutlu.com.tr/makale/dolandirildim-parami-nasil-geri-alir
 
 Paranın geri alınması; nasıl gönderildiğine, ne kadar hızlı hareket edildiğine ve paranın gittiği hesabın kime ait olduğuna bağlıdır. İlk adımlar bankayı arayıp işlemi bildirmek, delilleri saklamak ve suç duyurusunda IBAN, tutar ve işlem saatini yazarak hesaba el konulmasını talep etmektir; kalıcı el koyma için sulh ceza hâkimliği kararı gerekir. Hesap sahibine karşı haksız fiil veya sebepsiz zenginleşmeye dayanarak alacak davası açılabilir ya da icra takibi başlatılabilir; bu taleplerde kural olarak iki ve on yıllık zamanaşımı süreleri uygulanır.
 
-## Sosyal Medya Hesabım Çalındı: Ne Yapmalıyım? (2026)
+## Sosyal Medya Hesabım Çalındı: Geri Alma ve Suç Duyurusu (2026)
 Kaynak: https://avleventmutlu.com.tr/makale/sosyal-medya-hesabim-calindi-ne-yapmaliyim.html (son kontrol: 2026-10-29)
 
 Hesabınıza hâlâ girebiliyorsanız şifrenizi ve bağlı e-posta şifrenizi hemen değiştirin, tanımadığınız oturumları kapatın ve iki adımlı doğrulamayı açın; erişiminiz kesildiyse platformun “hesabım ele geçirildi” kurtarma adımlarını kullanın. Bildirim e-postalarını ve mesajların ekran görüntülerini saklayıp Cumhuriyet başsavcılığına suç duyurusunda bulunabilirsiniz. Hesaba izinsiz girmek TCK 243 uyarınca suçtur; hesap üzerinden arkadaşlarınızdan para istenmişse nitelikli dolandırıcılık da gündeme gelir.
@@ -627,7 +632,7 @@ Kaynak: https://avleventmutlu.com.tr/makale/whatsapp-hesabi-calindi-rehberden-pa
 
 WhatsApp hesabınız ele geçirildiyse uygulamayı hemen kendi telefonunuza yeniden kurup numaranızla doğrulayın, yakınlarınızı başka bir kanaldan uyarın ve savcılığa suç duyurusunda bulunun. Arkadaşınız para gönderdiyse bankasını derhal arayıp işlemi bildirmeli ve o da suç duyurusu yapmalıdır; hızlı hareket edilirse paranın gönderildiği hesaba el konulması mümkün olabilir.
 
-## İfade Süreniz Dolmuştur SMS'i Sahte mi?
+## “İfade Süreniz Dolmuştur” SMS'i Sahte mi? Nasıl Anlaşılır?
 Kaynak: https://avleventmutlu.com.tr/makale/ifade-sureniz-dolmustur-sms-dolandiricilik.html (son kontrol: 2026-11-04)
 
 “İfade süreniz dolmuştur” gibi SMS’ler dolandırıcılık şüphesi taşır; ceza muhakemesinde dolduğunda ödeme yapılarak kapatılabilen bir “ifade süresi” yoktur. CMK 145’e göre ifadesi alınacak kişi davetiyeyle çağrılır ve hiçbir gerçek ifade çağrısında para, kart bilgisi veya şifre istenmez. Gerçek e-tebligat SMS bağlantısıyla değil, e-Devlet’teki “e-Tebligat” hizmetinde veya UETS’te görüntülenir. Mesajdaki numarayı aramadan ve bağlantıya tıklamadan e-Devlet veya UYAP Vatandaş Portal üzerinden kontrol yapılabilir.
@@ -667,7 +672,7 @@ Kaynak: https://avleventmutlu.com.tr/makale/ozel-ders-veren-ogretmen-ceza-alir-m
 
 Özel ders vermek Türk Ceza Kanunu'na göre suç değildir; hapis cezası gerektirmez. Görevdeki öğretmen için sonucu aylıktan kesme disiplin cezası, diğer memurlar için kazanç getirici faaliyet yasağı nedeniyle disiplin cezasıdır. Kamu görevlisi olmayan kişiler için ise asıl önemli olan izinsiz kurum işletmemek ve gelirin vergisel yükümlülükleridir.
 
-## 5549 Sayılı Kanun 15. Madde: Başkası Hesabına İşlem Yapmanın Cezası (2026)
+## 5549 Sayılı Kanun 15. Madde Nedir? Cezası ve TCK 158 Farkı
 Kaynak: https://avleventmutlu.com.tr/makale/5549-sayili-kanun-15-madde-baskasi-hesabina-islem.html (son kontrol: 2026-11-04)
 
 5549 sayılı Kanun'un 15. maddesine göre, yükümlüler nezdinde kimlik tespitini gerektiren bir işlemi kendi adına fakat başkası hesabına yapan kişi, kimin hesabına hareket ettiğini işlemden önce yazılı olarak bildirmezse altı aydan bir yıla kadar hapis veya beş bin güne kadar adli para cezasıyla cezalandırılır. Suç kasten işlenir, şikâyete bağlı değildir ve uzlaştırma kapsamında sayılmamıştır. Bu yaptırım, nitelikli dolandırıcılıkta (TCK 158) öngörülen dört yıldan on yıla kadar hapis cezasına göre çok daha hafiftir.
@@ -722,7 +727,7 @@ Kaynak: https://avleventmutlu.com.tr/makale/hagb-nedir.html (son kontrol: 2026-1
 
 HAGB (hükmün açıklanmasının geri bırakılması), CMK 231'de düzenlenen ve mahkemenin kurduğu mahkûmiyet hükmünün sanık hakkında hukuki sonuç doğurmamasını sağlayan kurumdur; beraat değildir. Hükmolunan cezanın iki yıl veya daha az süreli hapis ya da adli para cezası olması, sanığın daha önce kasıtlı bir suçtan mahkûm olmaması ve zararın giderilmesi gibi şartlar aranır. Sanık beş yıllık denetim süresine tabi tutulur; bu süre kasten yeni suç işlenmeden ve yükümlülüklere uyularak geçerse dava düşer.
 
-## Banka Hesabına Bloke Konulursa Ne Yapılır? (2026 Güncel Rehber)
+## Banka Hesabıma Bloke Konuldu: Neden Olur, Nasıl Kaldırılır?
 Kaynak: https://avleventmutlu.com.tr/makale/banka-hesabina-bloke-konulursa-ne-yapilir.html (son kontrol: 2026-11-04)
 
 Banka hesabına bloke konulduğunda önce blokenin dayanağı ve hangi kurum tarafından uygulandığı (icra haczi, vergi veya SGK e-haczi, MASAK, savcılık ya da mahkeme kararı) öğrenilmelidir; çünkü itiraz yolları buna göre değişir. Bloke tek başına suçlu olduğunuz anlamına gelmez. Maaş hesabında nafaka alacakları dışında maaşın en fazla dörtte biri haczedilebilir; aşan kesinti için öğrenmeden itibaren yedi gün içinde icra mahkemesine şikâyet yoluna gidilebilir.
@@ -732,7 +737,7 @@ Kaynak: https://avleventmutlu.com.tr/makale/supheli-islem-bildirimi-sib-nedir.ht
 
 Şüpheli İşlem Bildirimi (ŞİB), bankaların ve bazı finans kuruluşlarının şüpheli gördükleri işlemleri mevzuat kapsamında yetkili kurumlara bildirmesidir; amaç suç gelirlerinin aklanmasını ve yasa dışı finansal faaliyetleri önlemektir. Kısa sürede yüksek tutarlı para hareketleri veya çok sayıda farklı kişiden para gelmesi bildirime yol açabilir. ŞİB kişinin suçlu olduğu anlamına gelmez ve her bildirim soruşturmaya dönüşmez. 5549 sayılı Kanun’a göre bildirimin yapıldığı taraflara açıklanamaz.
 
-## Hesabıma Dolandırıcılık Parası Geldi, Ne Yapmalıyım? (2026 Güncel Rehber)
+## Hesabıma Dolandırıcılık Parası Geldi: Ne Yapmalıyım? (2026)
 Kaynak: https://avleventmutlu.com.tr/makale/hesabima-dolandiricilik-parasi-geldi-ne-yapmaliyim.html (son kontrol: 2026-11-04)
 
 Hesabınıza dolandırıcılık mağduruna ait para gelmesi tek başına suçlu olduğunuz anlamına gelmez; ancak soruşturma açılmasına ve ifadeye çağrılmanıza neden olabilir. Savcılık; paranın kaynağını bilip bilmediğinizi, hesabı neden kullandırdığınızı, komisyon alıp almadığınızı, yazışmaları, telefon incelemesini ve MASAK raporlarını birlikte değerlendirir. İfade çağrısı aldığınızda önce hangi transferlerin ve hangi suçlamanın soruşturma konusu olduğunu öğrenmek önemlidir; dosya içeriği bilinmeden yapılan açıklamalar aleyhe sonuç doğurabilir.
@@ -767,7 +772,7 @@ Kaynak: https://avleventmutlu.com.tr/makale/masak-incelemesi-nedir-2026.html (so
 
 MASAK incelemesi, bankaların şüpheli işlem bildirimi gibi nedenlerle hesap hareketlerinin incelenmesidir ve tek başına suçlu olduğunuz anlamına gelmez. Kanunda sabit bir süresi yoktur; birkaç aydan çok daha uzun sürebilir. MASAK inceleme başlattığını kişiye ayrıca bildirmez; çoğu kişi bunu hesap kısıtlaması, bankanın bilgi talebi veya savcılıktan gelen ifade çağrısıyla öğrenir.
 
-## IBAN Kullandırdım Ceza Alır Mıyım? (2026 Güncel Rehber)
+## IBAN Kullandırdım, Ceza Alır mıyım? Soruşturma ve İfade (2026)
 Kaynak: https://avleventmutlu.com.tr/makale/iban-kullandirdim-ceza-alir-miyim-2026-rehber.html (son kontrol: 2026-11-04)
 
 Her durumda değil; IBAN kullandırmak TCK'da ayrı bir suç olarak düzenlenmemiştir ve hesaba para gelmesi tek başına kişinin suçlu olduğu anlamına gelmez. Ancak hesap dolandırıcılık, yasa dışı bahis veya suç gelirlerini aklama gibi bir faaliyette kullanıldıysa hesap sahibi soruşturmaya dahil edilebilir; kastı, bilgisi, elde ettiği menfaat ve olaydaki rolü birlikte değerlendirilir. 12. Yargı Paketi ile TCK 158'e eklenen dördüncü fıkraya göre katkısı yalnızca hesap bilgisini veya kartını vermekle sınırlı olanın cezası yarı oranında indirilir.
@@ -802,7 +807,7 @@ Kaynak: https://avleventmutlu.com.tr/makale/yoksulluk-nafakasi-emsal-yargitay-20
 
 TMK 175’e göre yoksulluk nafakası diğer tarafın mali gücü oranında istenebileceğinden, çalışma gücü ve geliri bulunmayan eş nafaka ödemekle yükümlü tutulamaz. Basına yansıyan Nisan 2026 tarihli bir Yargıtay 2. Hukuk Dairesi kararında, engelli ve hiçbir geliri olmayan davalı aleyhine hükmedilen nafaka bozuldu. Mahkemeler ödeyecek tarafın geliri, mal varlığı, sağlık durumu ve çalışma gücünü de somut olarak araştırmalıdır. Mali durumu önemli ölçüde değişen kişi nafakanın kaldırılmasını isteyebilir.
 
-## 12. Yargı Paketi Hesap Kullandırma İndirimi: TCK 158/4
+## TCK 158/4: Hesap Kullandıranlara Ceza İndirimi (12. Yargı Paketi)
 Kaynak: https://avleventmutlu.com.tr/makale/12-yargi-paketi-iban-tck-145-rehber-2026.html (son kontrol: 2026-11-04)
 
 12. Yargı Paketi (7589 sayılı Kanun) ile 31 Temmuz 2026'dan itibaren TCK 158'e eklenen dördüncü fıkraya göre, dolandırıcılığa katkısı yalnızca hesabını, kartını veya hesap bilgilerini başkasına vermekle sınırlı kalan kişinin cezası yarı oranında indirilir. Mağdurla iletişime geçen, parayı çeken veya başka hesaplara aktaran kişiler bu indirimden yararlanamaz. Geçiş hükmüne göre istinaf veya temyizdeki dosyalar ilk derece mahkemesine gönderilir; infazdaki hükümlüler ihtardan itibaren altı ay içinde zararı tamamen giderirse etkin pişmanlıktan yararlanabilir.
@@ -972,7 +977,7 @@ Kaynak: https://avleventmutlu.com.tr/makale/banka-hesabi-kullandirma-beraat-savu
 
 Banka hesabı kullandırma dosyalarında beraat, TCK 158 kapsamındaki dolandırıcılık kastının somut delillerle ispat edilemediğinin ortaya konmasına dayanır; Yargıtay'a göre IBAN sahibi olmak veya hesabı kullandırmak tek başına suç kastını göstermez. Yargıtay 11. Ceza Dairesi'nin 04.06.2024 tarihli 2021/16966 E., 2024/7470 K. sayılı kararında, güven ilişkisiyle hesabını kullandıran ve paradan pay almayan sanık hakkındaki mahkûmiyet bozulmuştur. Mağdurla iletişim kurulmamış olması, paradan menfaat sağlanmaması ve asıl fail hakkında şikâyette bulunulması kastın yokluğunu destekleyen olgulardır; şüpheden sanık yararlanır.
 
-## Telefonda Savcıyım Diyen Dolandırıcılar: Ne Yapmalı?
+## Telefonda “Savcıyım” Diyen Dolandırıcı: Para Gönderdiyseniz Ne Yapmalı?
 Kaynak: https://avleventmutlu.com.tr/makale/sahte-savci-telefon-dolandiricilik.html (son kontrol: 2026-11-04)
 
 Gerçek bir savcı veya emniyet görevlisi telefonla arayarak para transferi istemez, hesap bilgisi talep etmez ve “kimseye söyleme” demez. Dolandırıcılar genellikle kimliğin terör örgütüyle ilişkili suçlarda kullanıldığını ya da hesapların bloke edileceğini söyleyerek paranın bir hesaba aktarılmasını veya altın alınmasını ister. Böyle bir aramada telefon kapatılıp 155 veya 156 aranmalıdır. Para gönderildiyse banka derhal aranmalı, kayıtlar saklanmalı ve savcılığa suç duyurusunda bulunulmalıdır.
@@ -992,7 +997,7 @@ Kaynak: https://avleventmutlu.com.tr/makale/mobbing-is-yerinde-psikolojik-baski.
 
 Mobbing; işveren, yönetici veya iş arkadaşlarınca belirli bir süre sistematik ve kasıtlı biçimde uygulanan, çalışanı yıldırmayı veya işten uzaklaştırmayı amaçlayan psikolojik baskıdır; tek seferlik bir tartışma genellikle mobbing sayılmaz. TBK m. 417 işvereni işçiyi psikolojik tacize karşı korumakla yükümlü kılar. Mobbinge uğrayan işçi İş Kanunu m. 24 uyarınca sözleşmeyi haklı nedenle feshedip en az bir yıllık kıdemi varsa kıdem tazminatı, ayrıca manevi tazminat isteyebilir. İspatta yazışmalar, tanık beyanları ve sağlık raporları önemlidir.
 
-## Banka Hesabı Kullandırma Cezası: TCK 158 ve 5549 m.15
+## Banka Hesabı / IBAN Kullandırma Cezası: TCK 158 Rehberi (2026)
 Kaynak: https://avleventmutlu.com.tr/makale/tck-158-banka-hesabi-kullandirma.html (son kontrol: 2026-11-04)
 
 5549 sayılı Kanun’un 15. maddesi, yükümlü kuruluşlar nezdinde kimlik tespiti gerektiren işlemlerde başkası hesabına işlem yapan kişinin bunu önceden yazılı olarak bildirmemesini suç olarak düzenler. Suçun oluşması için bildirimin yapılmamış olması yeterlidir; hesabın suç amacıyla kullanıldığının veya menfaat karşılığı verildiğinin ispatı gerekmez. Suç kasten işlenebilir ve olası kast yeterlidir; somut olayda TCK 30/4 kapsamındaki haksızlık yanılgısı da değerlendirilmelidir.
