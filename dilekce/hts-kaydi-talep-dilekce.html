@@ -49,7 +49,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
   <style>
     :root {
       --bordo: #6B1A1A; --bordo-koyu: #4A1010; --bordo-acik: #8B2A2A;
@@ -464,7 +466,7 @@ body{background:#2a1210 radial-gradient(ellipse at top,#3b1714 0%,#240e0c 60%,#1
     </div>
   </div>
 
-  <article class="makale-govde" id="makale-govde">
+  <article class="makale-govde" id="makale-govde" role="main">
     <div class="ozet">Ceza soruşturması veya davasında, savunmanızı ya da şikâyetinizi destekleyen telefon görüşme (HTS) ve baz istasyonu kayıtlarının dosyaya getirtilmesini istemek için örnek dilekçe. Kimin isteyebileceği, kararı kimin verdiği ve neden gecikmemek gerektiği.</div>
     <div class="kisa-cevap" style="border-left:4px solid #b8860b;background:rgba(184,134,11,.08);padding:14px 18px;margin:0 0 22px;border-radius:6px"><strong>Kısa cevap:</strong> HTS kaydı; bir telefon hattının hangi numaralarla, ne zaman ve ne kadar görüştüğünü ve hangi baz istasyonundan sinyal verdiğini gösteren kayıttır. Ceza dosyasında bu kayıtların getirtilmesi için savcılığa veya mahkemeye dilekçe verilir; kayıtların operatörden istenmesine hâkim karar verir (CMK 135). Şüpheli, sanık, müşteki ve katılan lehlerine olan delillerin toplanmasını isteyebilir (CMK 147, 160, 206). Kayıtlar sınırlı süre saklandığından talep gecikmeden yapılmalıdır.</div>
     <div class="dlk-bilgi"><div><strong>Nereye verilir?</strong>Soruşturma aşamasında dosyanın bulunduğu Cumhuriyet Başsavcılığına, kovuşturma (dava) aşamasında davanın görüldüğü ceza mahkemesine verilir. UYAP üzerinden gönderilebilir veya duruşmada sözlü olarak talep edilebilir.</div><div><strong>Süre</strong>Kanunda özel bir süre yoktur. Ancak operatörler trafik verilerini sınırlı bir süre sakladığı için talebin olaydan sonra mümkün olan en kısa sürede yapılması gerekir.</div></div>

@@ -49,7 +49,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
   <style>
     :root {
       --bordo: #6B1A1A; --bordo-koyu: #4A1010; --bordo-acik: #8B2A2A;
@@ -454,7 +456,7 @@
     </div>
   </div>
 
-  <article class="makale-govde" id="makale-govde">
+  <article class="makale-govde" id="makale-govde" role="main">
     <div class="ozet">Tebliğ tarihini ve süreyi girin; resmi tatiller, hafta sonları ve adli tatil dikkate alınarak son günü hesaplayalım.</div>
     <form class="arac-form" onsubmit="event.preventDefault();hesapla();">
   <div><label for="hazir">Süre türü</label><select id="hazir"><option value="" data-s="" data-b="" data-t="">— Hazır süre seçin (isteğe bağlı) —</option><option value="ceza-istinaf" data-s="2" data-b="hafta" data-t="ceza">Ceza: İstinaf başvurusu (CMK 273)</option><option value="ceza-temyiz" data-s="2" data-b="hafta" data-t="ceza">Ceza: Temyiz başvurusu (CMK 291)</option><option value="itiraz-cmk" data-s="7" data-b="gun" data-t="ceza">Ceza: Hâkim kararına itiraz / tutuklamaya itiraz (CMK 268)</option><option value="kyok" data-s="15" data-b="gun" data-t="ceza">Ceza: Kovuşturmaya yer olmadığı kararına itiraz (CMK 173)</option><option value="trafik" data-s="15" data-b="gun" data-t="idari">İdari: Trafik cezasına itiraz (Kabahatler K. 27)</option><option value="hukuk-istinaf" data-s="2" data-b="hafta" data-t="hukuk">Hukuk: İstinaf başvurusu (HMK 345)</option><option value="hukuk-temyiz" data-s="1" data-b="ay" data-t="hukuk">Hukuk: Temyiz başvurusu (HMK 361)</option><option value="ise-iade" data-s="1" data-b="ay" data-t="hukuk">İş: İşe iade için arabulucuya başvuru</option><option value="ilamsiz" data-s="7" data-b="gun" data-t="icra">İcra: İlamsız takipte ödeme emrine itiraz (İİK 62)</option><option value="kambiyo" data-s="5" data-b="gun" data-t="icra">İcra: Kambiyo senedine dayalı takipte itiraz (İİK 168)</option><option value="miras-red" data-s="3" data-b="ay" data-t="hukuk">Miras: Mirasın reddi (TMK 606)</option></select></div>
