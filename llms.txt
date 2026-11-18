@@ -224,6 +224,7 @@ Bu sitedeki içerikler genel bilgilendirme amaçlıdır ve hukuki danışmanlık
 
 ## Hesaplama Araçları
 
+- [TCK 158/4 İndirim Hesaplama](https://avleventmutlu.com.tr/araclar/tck-158-4-indirim-hesaplama.html): Hesap kullandırma dosyalarında 12. Yargı Paketi ile gelen TCK 158/4 yarı oranında indirim, zincirleme suç artırımı ve takdiri indirimle tahmini ceza hesabı; HAGB ve erteleme için 2 yıl sınırı.
 - [İnfaz Hesaplama 2026](https://avleventmutlu.com.tr/araclar/infaz-hesaplama.html): 2026 güncel infaz (yatar) hesaplama aracı. Koşullu salıverilme oranları, denetimli serbestlik süresi ve tutukluluk mahsubuyla cezaevinde kalınacak süreyi hesaplayın.
 - [Kıdem ve İhbar Tazminatı Hesaplama 2026](https://avleventmutlu.com.tr/araclar/kidem-ihbar-hesaplama.html): 2026 kıdem ve ihbar tazminatı hesaplama aracı. Güncel kıdem tavanı (73.729,87 TL), ihbar süreleri, brüt ve net tutarlar. Ücretsiz ve anında hesaplayın.
 - [Kira Artış Hesaplama Eylül 2026](https://avleventmutlu.com.tr/araclar/kira-artis-hesaplama.html): Eylül 2026 yasal kira artış oranı %31,79. Mevcut kiranızı girin, yasal azami yeni kirayı anında hesaplayın. TÜFE 12 aylık ortalama oranları tablosu.
